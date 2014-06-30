@@ -1,7 +1,5 @@
-matthew-shaw.github.io
+GitHub User page
 ======================
-
-GitHub User Page
 
 Made with Bootstrap, Bootswatch & Font Awesome.
 
