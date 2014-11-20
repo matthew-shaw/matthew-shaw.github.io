@@ -10,8 +10,8 @@ permalink: /blog/
 <div class="list-group">
   {% for post in site.posts %}
   <a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item">
-    <h4 class="list-group-item-heading">{{ post.title }}{% if post.meta %}<small> - {{ post.meta }}</small>{% endif %}</h4>
-    <p class="list-group-item-text">{% if post.author %} by {{ post.author }}{% endif %} on {{ post.date | date: "%-d %b %Y" }}</p>
+    <h4 class="list-group-item-heading">{{ post.title }}</h4>
+    <p class="list-group-item-text">{% if post.meta %}{{ post.meta }}{% endif %}{% if post.author %} by {{ post.author }}{% endif %} on {{ post.date | date: "%-d %b %Y" }}</p>
   </a>
   {% endfor %}
 </div>
