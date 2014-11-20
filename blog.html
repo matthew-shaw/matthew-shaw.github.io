@@ -3,18 +3,17 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-<h1 class="page-heading">Posts</h1>
+<div class="page-header">
+  <h1><i class="fa fa-comment"></i> Blog</h1>
+</div>
 
-<ul class="post-list">
+<div class="list-group">
   {% for post in site.posts %}
-  <li>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-  </li>
+  <a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item">
+    <h4 class="list-group-item-heading">{{ post.title }}</h4>
+    <p class="list-group-item-text">{{ post.date | date: "%b %-d, %Y" }}</p>
+  </a>
   {% endfor %}
-</ul>
+</div>
 
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p><i class="fa fa-rss-square"></i> Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
