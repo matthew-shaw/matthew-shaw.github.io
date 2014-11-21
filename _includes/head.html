@@ -1,54 +1,52 @@
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="{{ site.author }}">
+<title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <style>
-    /* Sticky footer styles
-    -------------------------------------------------- */
-    html {
-      position: relative;
-      min-height: 100%;
-    }
-    body {
-      /* Margin bottom by footer height */
-      margin-bottom: 60px;
-    }
-    .footer {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      /* Set the fixed height of the footer here */
-      height: 60px;
-      background-color: #f5f5f5;
-    }
+<style>
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
 
 
-    /* Custom page CSS
-    -------------------------------------------------- */
-    /* Not required for template or sticky footer method. */
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
 
-    body > .container {
-      padding: 65px 15px 0;
-    }
-    .container .text-muted {
-      margin: 20px 0;
-    }
+body > .container {
+  padding: 65px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
 
-    .footer > .container {
-      padding-right: 15px;
-      padding-left: 15px;
-    }
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
-    code {
-      font-size: 80%;
-    }
-  </style>
-</head>
+code {
+  font-size: 80%;
+}
+</style>
