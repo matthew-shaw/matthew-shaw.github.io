@@ -11,3 +11,4 @@ github_username:  matthew-shaw
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: [vendor]
