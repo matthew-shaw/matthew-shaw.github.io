@@ -4,5 +4,23 @@ title: Contact
 permalink: /contact/
 nav: true
 ---
-<h3><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw"></i> Twitter</a></h3>
-<h3><a href="{{ site.github_url }}{{ site.github_username }}"><i class="fa fa-github fa-fw"></i> GitHub</a></h3>
+<div class="row">
+  <div class="col-md-3">
+    <div class="panel panel-default text-center">
+      <div class="list-group">
+        <div class="list-group-item">
+          <h3><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-lg"></i> Twitter</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="panel panel-default text-center">
+      <div class="list-group">
+        <div class="list-group-item">
+          <h3><a href="{{ site.github_url }}{{ site.github_username }}"><i class="fa fa-github fa-fw fa-lg"></i> GitHub</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
