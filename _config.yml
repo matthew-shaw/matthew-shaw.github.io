@@ -1,14 +1,18 @@
 # Site settings
 title: Matthew Shaw
-email: your-email@domain.com
 description: Matthew Shaw
 author: Matthew Shaw
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://matthew-shaw.github.io" # the base hostname & protocol for your site
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom settings
 twitter_username: mattshaw85
 github_username:  matthew-shaw
-github: "https://github.com/matthew-shaw/"
-
+github_url: https://github.com/
+github_repo: matthew-shaw.github.io
 
 # Build settings
 markdown: kramdown
