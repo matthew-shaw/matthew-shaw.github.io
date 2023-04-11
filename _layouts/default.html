@@ -11,11 +11,26 @@
   </head>
   <body>
     <main>
-      <div class="container my-4">
+      <div class="container my-3">
         <div class="row">
           {{ content }}
         </div>
       </div>
     </main>
+    <hr>
+    <footer>
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-md-8 offset-md-4">
+            <p><i class="bi bi-c-circle"></i> {{ site.time | date: '%Y' }} Matthew Shaw. All rights reserved.</p>
+            <p><i class="bi bi-twitter"></i> <a href="https://twitter.com/MattShaw85" target="blank" rel="noopener">Twitter</a></p>
+            <p><i class="bi bi-mastodon"></i> <a href="https://mastodon.me.uk/@mash" target="_blank" rel="noopener me">Mastodon</a></p>
+            <p><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/matthew-shaw" target="blank" rel="noopener">LinkedIn</a></p>
+            <p><i class="bi bi-github"></i> <a href="https://github.com/matthew-shaw" target="blank" rel="noopener">GitHub</a></p>
+            <p><i class="bi bi-medium"></i> <a href="https://medium.com/@MattShaw85" target="blank" rel="noopener">Medium</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
