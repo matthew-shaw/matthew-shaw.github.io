@@ -1,0 +1,166 @@
+experience:
+  - name: HM Land Registry
+    dates: Sep 2007 to present
+    location: Plymouth, UK
+    description: HM Land Registry safeguards land and property ownership valued at £8 trillion, enabling over £1 trillion worth of personal and commercial lending to be secured against property across England and Wales. The Land Register contains more than 26 million titles showing evidence of ownership for more than 88% of the land mass of England and Wales.
+    links:
+      - url: https://www.gov.uk/government/organisations/land-registry
+        text: Website
+    roles:
+      - name: Principal Software Engineer
+        dates: Feb 2023 to present
+        description:
+      - name: Lead Software Engineer
+        dates: Jan 2020 to Jan 2023
+        description: Technical oversight and coaching on three large projects, including line management and mentoring of senior software engineers. Assessing and ensuring that appropriate standards and methodologies have been applied correctly. Development and maintenance of common development environments, including reference implementations and shared components for Python and Flask applications. Lead regular group learning and development sessions, to mentor and coach the community in modern software development practices, methods and techniques. Engage with the community to define and clarify all roles and responsibilities, then turn ideas into practice to create a single point of reference.
+      - name: Senior Software Engineer
+        dates: May 2016 to Dec 2019
+        description: Produced software architecture designs, making use of microservice design patterns, open-source software and open standards to deliver value to users in the most time and cost-efficient way practical. Modelled software components at a conceptual, logical and physical level in UML, to aid understanding of the stack. Used logical decomposition and domain-driven design practices to break down designs for planning in complex and evolving environments. Assessed emerging technologies and created proof-of-concepts and reference implementations to make informed architecture and design decisions. Communicated technical designs to diverse stakeholders clearly and openly, highlighting the value they provide.
+      - name: Senior Software Developer
+        dates: Jun 2013 to Apr 2016
+        description: Informed software design and decision making with practical advice and by prototyping solutions. Took a leading role in team planning and refinement of user stories in an agile delivery environment, to ensure we delivered the best value for our users, in an automated and continual way. Translated user needs into technical implementations, taking an iterative approach to deliver an MVP release early, gain feedback, research and continue to deliver the next highest value feature to the user.
+      - name: Software Developer
+        dates: Sep 2007 to May 2013
+        description: Analysis, design and development following the Rational Unified Process to iteratively develop and maintain solutions to complex problems that fulfil stakeholders requirements. Including bespoke Windows desktop applications written in Delphi, geospatial data transformation and publication using FME and e-conveyancing web services for the Land Registry Portal and Business Gateway using enterprise Java and IBM WebSphere.
+  - name: Mash Software
+    dates: Nov 2014 to present
+    location: Remote
+    description: Focused on public services, open data, transparency, civil & social good.
+    links:
+      - url: https://www.mashsoftware.com
+        text: Website
+    roles:
+      - name: Owner
+        dates: Nov 2014 to present
+        description: Side project to explore ideas for digital services, software development and web design. Projects centre around using public open data to produce digital services that enhance people's experience of interacting with the government, promote transparency and make their lives easier.
+projects:
+  - name: GOV.UK Frontend Python Packages
+    dates: Jun 2020 to present
+    role: Lead Software Engineer at HM Land Registry
+    description: I am the owner and primary maintainer of the official GOV.UK Frontend packages for Python. Including a like-for-like port of the GOV.UK Design System components into Jinja templates, along with support for those within WTForms and a template/reference Flask app. These packages are used in major projects across six central government departments.
+    links:
+      - url: https://github.com/LandRegistry/govuk-frontend-jinja
+        text: Jinja macros
+      - url: https://github.com/LandRegistry/govuk-frontend-wtf
+        text: WTForms widgets
+      - url: https://github.com/LandRegistry/govuk-frontend-flask
+        text: Flask app template
+    skills:
+      - Flask
+      - GitHub
+      - GOV.UK Frontend
+      - Jinja
+      - Python
+      - WTForms
+  - name: Mash Time Tracker
+    dates: Apr 2019 to present
+    role: Owner at Mash Software
+    description: A simple, quick and easy to use time tracking service. Users can record time periods, tag them with activities and locations and track progress against a personal schedule.
+    links:
+      - url: https://time-tracker.mashsoftware.com
+        text: Website
+    skills:
+      - Bootstrap
+      - Flask
+      - GitHub
+      - Heroku
+      - Jinja
+      - PostgreSQL
+      - Python
+      - WTForms
+  - name: Digital Street
+    dates: Mar 2018 to Jul 2019
+    role: Senior Software Engineer at HM Land Registry
+    description: Assessed emerging blockchain and smart contract technologies by building an end-to-end property transaction prototype. Published recommendations on strategic technical direction and future opportunities.
+    links:
+      - url: https://hmlandregistry.blog.gov.uk/2019/05/24/could-blockchain-be-the-future-of-the-property-market
+        text: Could blockchain be the future of the property market?
+      - url: https://hmlandregistry.blog.gov.uk/2018/10/16/from-smart-contracts-to-blockchain-year-two-of-our-research
+        text: From smart contracts to blockchain - year two of our research
+    skills:
+      - Agile methodologies
+      - Blockchain
+      - Corda
+      - Microservices
+      - Non-Fungible Tokens
+      - Prototyping
+      - RESTful APIs
+      - Smart Contracts
+  - name: Find Property Information
+    dates: May 2016 to Mar 2018
+    role: Senior Software Engineer at HM Land Registry
+    description: GOV.UK service to provide simple and accessible land and property title information.
+    links:
+      - url: https://search-property-information.service.gov.uk
+        text: Search for land and property information
+    skills:
+      - Agile methodologies
+      - Database design
+      - Message brokers
+      - Microservices
+      - OpenAPI specifications
+      - RESTful APIs
+      - Software architecture patterns
+      - Test-driven development
+  - name: Property Alert
+    dates: Aug 2013 to Mar 2014
+    role: Senior Software Developer at HM Land Registry
+    description: Service to proactively alert citizens of activity on monitored land and property titles.
+    links:
+      - url: https://propertyalert.landregistry.gov.uk
+        text: Property Alert service
+    skills:
+      - Agile methodologies
+      - Java
+      - Web services
+knowledge:
+  - name: Agile Methodologies
+    level: Expert
+  - name: Continuous Delivery
+    level: Proficient
+  - name: Relational Database Design
+    level: Proficient
+  - name: Delphi
+    level: Working
+  - name: Digital Transformation
+    level: Proficient
+  - name: Domain-Driven Design
+    level: Proficient
+  - name: Flask
+    level: Proficient
+  - name: Geospatial Data
+    level: Expert
+  - name: Geospatial Information Systems
+    level: Working
+  - name: GOV.UK Frontend & Design System
+    level: Expert
+  - name: Government Service Standards
+    level: Expert
+  - name: Java
+    level: Working
+  - name: Microservice Architecture
+    level: Expert
+  - name: Open Source
+    level: Proficient
+  - name: Open Standards
+    level: Proficient
+  - name: OpenAPI Specification
+    level: Proficient
+  - name: Prototyping
+    level: Proficient
+  - name: Python
+    level: Proficient
+  - name: Responsive Web Design
+    level: Proficient
+  - name: RESTful APIs
+    level: Expert
+  - name: Software Architecture & Design Patterns
+    level: Expert
+  - name: Test-Driven Development
+    level: Proficient
+  - name: User Experience Design
+    level: Working
+  - name: Web Development
+    level: Expert
+
+
