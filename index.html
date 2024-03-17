@@ -19,11 +19,27 @@ permalink: /
             {% endfor %}
         </div>
 
-        <div id="knowledge-skills">
-            <h2>Knowledge & Skills</h2>
+        <div id="knowledge">
+            <h2>Knowledge</h2>
             <div class="card shadow my-4">
                 <ul class="list-group list-group-flush">
                     {% assign items = site.data.cv.knowledge | sort_natural: "level" %}
+                    {% for item in items %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ item.name }}
+                        <span
+                            class="badge {% if item.level == 'Expert'%}text-bg-success{% elsif item.level == 'Proficient' %}text-bg-warning{% else %}text-bg-info{% endif %} rounded-pill">{{ item.level }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div id="skills">
+            <h2>Skills</h2>
+            <div class="card shadow my-4">
+                <ul class="list-group list-group-flush">
+                    {% assign items = site.data.cv.skills | sort_natural: "level" %}
                     {% for item in items %}
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         {{ item.name }}

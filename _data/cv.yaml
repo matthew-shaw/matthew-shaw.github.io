@@ -68,6 +68,7 @@ projects:
       - PostgreSQL
       - Python
       - WTForms
+      - Docker
   - name: Digital Street
     dates: Mar 2018 to Jul 2019
     role: Senior Software Engineer at HM Land Registry
@@ -120,33 +121,34 @@ knowledge:
     level: Proficient
   - name: Relational Database Design
     level: Proficient
-  - name: Delphi
-    level: Working
   - name: Digital Transformation
     level: Proficient
   - name: Domain-Driven Design
-    level: Proficient
-  - name: Flask
     level: Proficient
   - name: Geospatial Data
     level: Expert
   - name: Geospatial Information Systems
     level: Working
-  - name: GOV.UK Frontend & Design System
-    level: Expert
   - name: Government Service Standards
-    level: Expert
-  - name: Java
-    level: Working
-  - name: Microservice Architecture
     level: Expert
   - name: Open Source
     level: Proficient
   - name: Open Standards
     level: Proficient
-  - name: OpenAPI Specification
-    level: Proficient
   - name: Prototyping
+    level: Proficient
+  - name: Software Architecture & Design Patterns
+    level: Expert
+  - name: User Experience Design
+    level: Working
+  - name: Web Development
+    level: Expert
+skills:
+  - name: Delphi
+    level: Working
+  - name: Test-Driven Development
+    level: Proficient
+  - name: Flask
     level: Proficient
   - name: Python
     level: Proficient
@@ -154,13 +156,11 @@ knowledge:
     level: Proficient
   - name: RESTful APIs
     level: Expert
-  - name: Software Architecture & Design Patterns
-    level: Expert
-  - name: Test-Driven Development
-    level: Proficient
-  - name: User Experience Design
+  - name: Java
     level: Working
-  - name: Web Development
+  - name: Microservice Architecture
     level: Expert
-
-
+  - name: GOV.UK Frontend & Design System
+    level: Expert
+  - name: OpenAPI Specification
+    level: Proficient
