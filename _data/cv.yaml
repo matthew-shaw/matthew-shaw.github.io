@@ -59,6 +59,8 @@ projects:
     links:
       - url: https://time-tracker.mashsoftware.com
         text: Website
+      - url: https://github.com/MashSoftware/time-tracker
+        text: GitHub
     skills:
       - Bootstrap
       - Flask
@@ -141,18 +143,22 @@ knowledge:
     level: Expert
   - name: User Experience Design
     level: Working
-  - name: Web Development
+  - name: Web Services
+    level: Expert
+  - name: Test-Driven Development
+    level: Proficient
+  - name: Responsive Web Design
+    level: Proficient
+  - name: Message Brokers
+    level: Working
+  - name: Software Architecture
     level: Expert
 skills:
   - name: Delphi
     level: Working
-  - name: Test-Driven Development
-    level: Proficient
   - name: Flask
     level: Proficient
   - name: Python
-    level: Proficient
-  - name: Responsive Web Design
     level: Proficient
   - name: RESTful APIs
     level: Expert
@@ -160,7 +166,21 @@ skills:
     level: Working
   - name: Microservice Architecture
     level: Expert
-  - name: GOV.UK Frontend & Design System
+  - name: GOV.UK Frontend
     level: Expert
   - name: OpenAPI Specification
+    level: Proficient
+  - name: Docker
+    level: Proficient
+  - name: Bootstrap
+    level: Proficient
+  - name: PostgreSQL
+    level: Proficient
+  - name: Heroku
+    level: Proficient
+  - name: GitHub
+    level: Proficient
+  - name: Jinja
+    level: Proficient
+  - name: WTForms
     level: Proficient
