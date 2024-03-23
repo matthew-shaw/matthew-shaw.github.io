@@ -63,6 +63,7 @@ projects:
         text: GitHub
     skills:
       - Bootstrap
+      - Docker
       - Flask
       - GitHub
       - Heroku
@@ -70,7 +71,6 @@ projects:
       - PostgreSQL
       - Python
       - WTForms
-      - Docker
   - name: Digital Street
     dates: Mar 2018 to Jul 2019
     role: Senior Software Engineer at HM Land Registry
@@ -81,7 +81,6 @@ projects:
       - url: https://hmlandregistry.blog.gov.uk/2018/10/16/from-smart-contracts-to-blockchain-year-two-of-our-research
         text: From smart contracts to blockchain - year two of our research
     skills:
-      - Agile methodologies
       - Blockchain
       - Corda
       - Microservices
@@ -97,13 +96,12 @@ projects:
       - url: https://search-property-information.service.gov.uk
         text: Search for land and property information
     skills:
-      - Agile methodologies
-      - Database design
-      - Message brokers
       - Microservices
       - OpenAPI specifications
+      - PostgreSQL
+      - RabbitMQ
       - RESTful APIs
-      - Software architecture patterns
+      - Scrum
       - Test-driven development
   - name: Property Alert
     dates: Aug 2013 to Mar 2014
@@ -113,8 +111,8 @@ projects:
       - url: https://propertyalert.landregistry.gov.uk
         text: Property Alert service
     skills:
-      - Agile methodologies
       - Java
+      - Scrum
       - Web services
 knowledge:
   - name: Agile Methodologies
@@ -153,6 +151,10 @@ knowledge:
     level: Working
   - name: Software Architecture
     level: Expert
+  - name: Database design
+    level: Proficient
+  - name: Microservices
+    level: Expert
 skills:
   - name: Delphi
     level: Working
@@ -164,8 +166,6 @@ skills:
     level: Expert
   - name: Java
     level: Working
-  - name: Microservice Architecture
-    level: Expert
   - name: GOV.UK Frontend
     level: Expert
   - name: OpenAPI Specification
@@ -184,3 +184,9 @@ skills:
     level: Proficient
   - name: WTForms
     level: Proficient
+  - name: Scrum
+    level: Proficient
+  - name: Redis
+    level: Working
+  - name: RabbitMQ
+    level: Working
