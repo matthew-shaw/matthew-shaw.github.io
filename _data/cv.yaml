@@ -155,6 +155,8 @@ knowledge:
     level: Proficient
   - name: Microservices
     level: Expert
+  - name: Static Application Security Testing
+    level: Proficient
 skills:
   - name: Delphi
     level: Working
