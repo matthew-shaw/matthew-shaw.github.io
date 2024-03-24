@@ -1,16 +1,12 @@
-<div class="card shadow my-4">
-    <h5 class="card-header">{{ experience.name }}</h5>
-    <ul class="list-group list-group-flush">
-        {% for role in experience.roles %}
-        <li class="list-group-item">
-            <h4 class="card-title">{{ role.name }}</h4>
-            <p class="card-subtitle mb-2 text-body-secondary">{{ role.dates }}</p>
-            <p class="card-subtitle mb-2 text-body-secondary">{{ role.location }}</p>
-            <p class="card-text mb-2">{{ role.description }}</p>
-            {% for link in role.links %}
-            <a href="{{ link.url }}" target="blank" rel="noopener" class="card-link">{{ link.text }}</a>
-            {% endfor %}
-        </li>
+<div class="card shadow">
+    <div class="card-body">
+        <h5 class="card-title">{{ experience.name }}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{ experience.employer }}</h6>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{ experience.dates }}</h6>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{ experience.location }}</h6>
+        <p class="card-text">{{ experience.description }}</p>
+        {% for link in experience.links %}
+        <a href="{{ link.url }}" target="blank" rel="noopener" class="card-link">{{ link.text }}</a>
         {% endfor %}
-    </ul>
+    </div>
 </div>

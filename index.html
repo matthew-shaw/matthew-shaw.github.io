@@ -21,9 +21,13 @@ permalink: /
         <hr>
         <div id="experience">
             <h2>Experience</h2>
-            {% for experience in site.data.cv.experience %}
-            {% include experience.html %}
-            {% endfor %}
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                {% for experience in site.data.cv.experience %}
+                <div class="col">
+                    {% include experience.html %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
         <hr>
         <div id="knowledge">
