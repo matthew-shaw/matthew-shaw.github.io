@@ -65,10 +65,9 @@ permalink: /
 
         <div id="education">
             <h2>Education</h2>
-            <ul>
-                <li class="my-2"><b>BSc (Hons) Computing - 2:1</b> - University of Plymouth - Sep 2003 to Jun 2006
-                </li>
-            </ul>
+            {% for education in site.data.cv.education %}
+            {% include education.html %}
+            {% endfor %}
         </div>
 
         <div id="memberships">
