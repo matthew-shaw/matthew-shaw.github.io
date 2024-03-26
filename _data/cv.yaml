@@ -209,3 +209,16 @@ education:
     links:
       - url: https://www.plymouth.ac.uk/courses/undergraduate/bsc-computer-science-software-engineering
         text: Course
+testimonials:
+  - text: I worked with Matt on the Land Registry digital exemplar. He is smart, enthusiastic and inquisitive, always keen to develop his skills and deliver the best solutions for his team. His knowledge and appetite for challenge made him a natural leader amongst peers in the organisation, whilst his humour and modest demeanour ensured he was well-liked throughout the group. It was a great pleasure working with Matt, and I hope to do so again in the future.
+    source: Simon Everest - Head of Service Performance at Cabinet Office Central Digital and Data Office
+  - text: Matt is a great agile team member, thoughtful about new technology and has a sound knowledge of GIS tech.
+    source: Richard Pope - Product Manager at Government Digital Service
+  - text: I worked with Matt on a difficult project at the Land Registry, where we began a digital transformation of the department. He was able to very quickly pick up the new technology required, and was soon working with confidence on the project. He was an enthusiastic and skilled member of the team, keen to learn and excellent at sharing his knowledge with others. He's a great developer, and good to work with. I'd love to work with him again.
+    source: Mat Wall - Technical Architect at Government Digital Service
+  - text: Matt is a great member to have as part of an agile, multidisciplinary digital team! We worked together on the Land Registry Alpha. Digital transformation is difficult, and we faced challenges at almost every step - cultural challenges, legal challenges, design challenges, not to mention the technical ones. Matt met these head on with an open and critical mind. Matt is the type of expert who is willing to engage and learn new things all the time. His desire to build the right things in the right way comes through day to day. I hope we get to work together again!
+    source: Clara Greo - Lead Service Designer at Government Digital Service
+  - text: I worked with Matt during the GDS Land Registry digital exemplar and then again during Land Registry beta projects. Matt's an incredibly nice person to work with, a very very nice guy. Extremely smart. A great developer with real passion, enthusiasm and a real willingness to learn and step outside his comfort zone. I'd love to work with this guy again!
+    source: Mat Johnson - Designer at Government Digital Service
+  - text: I worked with Matt for about a year at Land Registry, where he was a Technical Architect for the team I was on. I was continually impressed by his knowledge, insight, focus and good humour, and I really enjoyed working with him. I learnt a lot from Matt, particularly about system architecture and microservices, which isn't my core domain - but also about Python programming, which is. He's pretty handy in an escape room too!
+    source: Andy Gimblett - Senior Developer at HM Land Registry
