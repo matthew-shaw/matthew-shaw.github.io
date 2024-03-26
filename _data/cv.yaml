@@ -1,21 +1,21 @@
 experience:
   - name: Principal Software Engineer
-    employer: HM Land Registry
+    company: HM Land Registry
     dates: Feb 2023 to present
     location: Plymouth, UK
     description: I am responsible for setting development standards, documenting best practices, providing guidance, mentoring, line management and technical leadership for over 120 developers. I represent and advocate on behalf of the software development community of practice, including promoting greater cross-practice collaboration, capability building, resource planning and recruitment activities. I engage with the community to define and clarify all roles and responsibilities, and turn ideas into practice.
   - name: Lead Software Engineer
-    employer: HM Land Registry
+    company: HM Land Registry
     dates: Jan 2020 to Jan 2023
     location: Plymouth, UK
     description: Technical oversight and coaching on three large projects, including line management and mentoring of senior software engineers. Assessing and ensuring that appropriate standards and methodologies have been applied correctly. Development and maintenance of common development environments, including reference implementations and shared components for Python and Flask applications. I lead regular group learning and development sessions, to mentor and coach the community in modern software development practices, methods and techniques.
   - name: Senior Software Engineer
-    employer: HM Land Registry
+    company: HM Land Registry
     dates: May 2016 to Dec 2019
     location: Plymouth, UK
     description: Produced software architecture designs, making use of microservice design patterns, open-source software and open standards to deliver value to users in the most time and cost-efficient way practical. Modelled software components at a conceptual, logical and physical level in UML, to aid understanding of the stack. Used logical decomposition and domain-driven design practices to break down designs for planning in complex and evolving environments. Assessed emerging technologies and created proof-of-concepts and reference implementations to make informed architecture and design decisions. Communicated technical designs to diverse stakeholders clearly and openly, highlighting the value they provide.
   - name: Founder
-    employer: Mash Software
+    company: Mash Software
     dates: Nov 2014 to present
     location: Remote
     description: Side project to explore ideas for digital services, software development and web design. Projects centre around using public open data to produce digital services that enhance people's experience of interacting with the government, promote transparency and make their lives easier.
@@ -23,17 +23,18 @@ experience:
       - url: https://www.mashsoftware.com
         text: Website
   - name: Senior Software Developer
-    employer: HM Land Registry
+    company: HM Land Registry
     dates: Jun 2013 to Apr 2016
     location: Plymouth, UK
     description: Informed software design and decision making with practical advice and by prototyping solutions. Took a leading role in team planning and refinement of user stories in an agile delivery environment, to ensure we delivered the best value for our users, in an automated and continual way. Translated user needs into technical implementations, taking an iterative approach to deliver an MVP release early, gain feedback, research and continue to deliver the next highest value feature to the user.
   - name: Software Developer
-    employer: HM Land Registry
+    company: HM Land Registry
     dates: Sep 2007 to May 2013
     location: Plymouth, UK
     description: Analysis, design and development following the Rational Unified Process to iteratively develop and maintain solutions to complex problems that fulfil stakeholders requirements. Including bespoke Windows desktop applications written in Delphi, geospatial data transformation and publication using FME and e-conveyancing web services for the Land Registry Portal and Business Gateway using enterprise Java and IBM WebSphere.
 projects:
   - name: GOV.UK Frontend Python Packages
+    company: HM Land Registry
     dates: Jun 2020 to present
     description: I am the owner and primary maintainer of the official GOV.UK Frontend packages for Python. Including a like-for-like port of the GOV.UK Design System components into Jinja templates, along with support for those within WTForms and a template/reference Flask app. These packages are used in major projects across six central government departments.
     links:
@@ -51,6 +52,7 @@ projects:
       - Python
       - WTForms
   - name: Mash Time Tracker
+    company: Mash Software
     dates: Apr 2019 to present
     description: A simple, quick and easy to use time tracking service. Users can record time periods, tag them with activities and locations and track progress against a personal schedule.
     links:
@@ -67,8 +69,10 @@ projects:
       - Jinja
       - PostgreSQL
       - Python
+      - Redis
       - WTForms
   - name: Digital Street
+    company: HM Land Registry
     dates: Mar 2018 to Jul 2019
     description: Assessed emerging blockchain and smart contract technologies by building an end-to-end property transaction prototype. Published recommendations on strategic technical direction and future opportunities.
     links:
@@ -77,34 +81,44 @@ projects:
       - url: https://hmlandregistry.blog.gov.uk/2018/10/16/from-smart-contracts-to-blockchain-year-two-of-our-research
         text: From smart contracts to blockchain - year two of our research
     skills:
+      - AWS
       - Blockchain
       - Corda
+      - Kotlin
       - Microservices
       - Non-Fungible Tokens
       - Prototyping
+      - Python
       - RESTful APIs
       - Smart Contracts
   - name: Find Property Information
+    company: HM Land Registry
     dates: May 2016 to Mar 2018
     description: GOV.UK service to provide simple and accessible land and property title information.
     links:
       - url: https://search-property-information.service.gov.uk
         text: Search for land and property information
     skills:
+      - DB2
+      - Elasticsearch
+      - Flask
       - Microservices
       - OpenAPI specifications
       - PostgreSQL
+      - Python
       - RabbitMQ
       - RESTful APIs
       - Scrum
       - Test-driven development
   - name: Property Alert
+    company: HM Land Registry
     dates: Aug 2013 to Mar 2014
     description: Service to proactively alert citizens of activity on monitored land and property titles.
     links:
       - url: https://propertyalert.landregistry.gov.uk
         text: Property Alert service
     skills:
+      - DB2
       - Java
       - Scrum
       - Web services
