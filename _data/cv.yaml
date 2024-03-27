@@ -169,6 +169,10 @@ knowledge:
     level: Working
   - name: Web Accessibility
     level: Working
+  - name: Continuous Integration
+    level: Proficient
+  - name: Secure Coding
+    level: Proficient
 skills:
   - name: Delphi
     level: Working
