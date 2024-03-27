@@ -206,6 +206,10 @@ skills:
     level: Proficient
   - name: JavaScript
     level: Working
+  - name: Ruby
+    level: Working
+  - name: Jekyll
+    level: Proficient
 education:
   - dates: Sep 2003 to June 2006
     grade: "2:1"
