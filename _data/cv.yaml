@@ -204,6 +204,8 @@ skills:
     level: Working
   - name: GitLab
     level: Proficient
+  - name: JavaScript
+    level: Working
 education:
   - dates: Sep 2003 to June 2006
     grade: "2:1"
