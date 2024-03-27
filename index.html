@@ -30,7 +30,7 @@ permalink: /
             <h2>Knowledge</h2>
             <div class="card shadow my-4">
                 <ul class="list-group list-group-flush">
-                    {% assign items = site.data.cv.knowledge | sort_natural: "level" %}
+                    {% assign items = site.data.cv.knowledge | sort_natural: "name" | sort_natural: "level" %}
                     {% for item in items %}
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         {{ item.name }}
@@ -46,7 +46,7 @@ permalink: /
             <h2>Skills</h2>
             <div class="card shadow my-4">
                 <ul class="list-group list-group-flush">
-                    {% assign items = site.data.cv.skills | sort_natural: "level" %}
+                    {% assign items = site.data.cv.skills | sort_natural: "name" | sort_natural: "level" %}
                     {% for item in items %}
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         {{ item.name }}
