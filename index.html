@@ -71,9 +71,13 @@ permalink: /
         <hr>
         <div id="education">
             <h2>Education</h2>
-            {% for education in site.data.cv.education %}
-            {% include education.html %}
-            {% endfor %}
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                {% for education in site.data.cv.education %}
+                <div class="col">
+                    {% include education.html %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
         <hr>
         <div id="memberships">
