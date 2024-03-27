@@ -165,6 +165,10 @@ knowledge:
     level: Expert
   - name: Static Application Security Testing
     level: Proficient
+  - name: Behaviour-Driven Development
+    level: Working
+  - name: Web Accessibility
+    level: Working
 skills:
   - name: Delphi
     level: Working
@@ -193,8 +197,6 @@ skills:
   - name: Jinja
     level: Proficient
   - name: WTForms
-    level: Proficient
-  - name: Scrum
     level: Proficient
   - name: Redis
     level: Working
