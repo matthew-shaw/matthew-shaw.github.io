@@ -87,13 +87,13 @@ permalink: /
         <hr>
         <div id="speaking">
             <h2>Speaking</h2>
-            <ul>
-                <li class="my-2"><b>Future Sync conference</b> - <em>"Exploring the future of property transactions
-                        using blockchain technology"</em> - Plymouth, UK - Apr 2019</li>
-                <li class="my-2"><b>Stack Maps conference</b> - <em>"A page on GOV.UK for every property in the
-                        UK"</em>
-                    - London, UK - Jul 2014</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                {% for event in site.data.cv.speaking %}
+                <div class="col">
+                    {% include speaking.html %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
         <hr>
         <div id="awards">

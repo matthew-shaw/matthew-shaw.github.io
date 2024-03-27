@@ -229,6 +229,15 @@ education:
     links:
       - url: https://www.plymouth.ac.uk/courses/undergraduate/bsc-computer-science-software-engineering
         text: Course
+speaking:
+  - name: Future Sync conference
+    title: Exploring the future of property transactions using blockchain technology
+    location: Plymouth, UK
+    date: Apr 2019
+  - name: Stack Maps conference
+    title: A page on GOV.UK for every property in the UK
+    location: London, UK
+    date: Jul 2014
 testimonials:
   - text: I worked with Matt on the Land Registry digital exemplar. He is smart, enthusiastic and inquisitive, always keen to develop his skills and deliver the best solutions for his team. His knowledge and appetite for challenge made him a natural leader amongst peers in the organisation, whilst his humour and modest demeanour ensured he was well-liked throughout the group. It was a great pleasure working with Matt, and I hope to do so again in the future.
     source: <strong>Simon Everest</strong><br>Head of Service Performance at Cabinet Office Central Digital and Data Office
