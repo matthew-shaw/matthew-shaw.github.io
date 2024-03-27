@@ -91,6 +91,7 @@ projects:
       - Python
       - RESTful APIs
       - Smart Contracts
+      - GitHub
   - name: Find Property Information
     company: HM Land Registry
     dates: May 2016 to Mar 2018
@@ -110,6 +111,7 @@ projects:
       - RESTful APIs
       - Scrum
       - Test-driven development
+      - GitLab
   - name: Property Alert
     company: HM Land Registry
     dates: Aug 2013 to Mar 2014
@@ -200,6 +202,8 @@ skills:
     level: Working
   - name: RabbitMQ
     level: Working
+  - name: GitLab
+    level: Proficient
 education:
   - dates: Sep 2003 to June 2006
     grade: "2:1"
