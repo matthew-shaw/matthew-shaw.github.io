@@ -134,16 +134,13 @@ permalink: /
     <div class="col">
         <div id="awards">
             <h2>Awards</h2>
-            <h3>Won</h3>
-            <ul>
-                <li class="my-2"><b>Civil Service Award for Innovation</b> - London, UK - Nov 2014</li>
-                <li class="my-2"><b>Real IT Award for Innovation in Business</b> - London, UK - May 2014</li>
-            </ul>
-            <h3>Nominated</h3>
-            <ul>
-                <li class="my-2"><b>Real IT Award for Delivering Business Value</b> - London, UK - Jun 2013</li>
-                <li class="my-2"><b>Real IT Award for Working Smarter</b> - London, UK - Jun 2013</li>
-            </ul>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                {% for award in site.data.cv.awards %}
+                <div class="col">
+                    {% include award.html %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
         <hr>
     </div>
