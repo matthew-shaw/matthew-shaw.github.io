@@ -227,14 +227,20 @@ education:
       - url: https://www.plymouth.ac.uk/courses/undergraduate/bsc-computer-science-software-engineering
         text: Course
 memberships:
-  - title: BCS The Chartered Institute for IT
+  - title: BCS, The Chartered Institute for IT
     subtitle: Professional Member
-    date: Sep 2007 to present 
+    date: Sep 2007 to present
+    links:
+      - url: https://www.bcs.org
+        text: BCS Website
 speaking:
   - title: Future Sync conference
     description: Exploring the future of property transactions using blockchain technology
     location: Plymouth, UK
     date: Apr 2019
+    links:
+      - url: https://youtu.be/Sy4Fv4U32e8
+        text: Highlight Reel
   - title: Stack Maps conference
     description: A page on GOV.UK for every property in the UK
     location: London, UK
