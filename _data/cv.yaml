@@ -33,9 +33,9 @@ experience:
     location: Plymouth, UK
     description: Analysis, design and development following the Rational Unified Process to iteratively develop and maintain solutions to complex problems that fulfil stakeholders requirements. Including bespoke Windows desktop applications written in Delphi, geospatial data transformation and publication using FME and e-conveyancing web services for the Land Registry Portal and Business Gateway using enterprise Java and IBM WebSphere.
 projects:
-  - name: GOV.UK Frontend Python Packages
-    company: HM Land Registry
-    dates: Jun 2020 to present
+  - title: GOV.UK Frontend Python Packages
+    subtitle: HM Land Registry
+    date: Jun 2020 to present
     description: I am the owner and primary maintainer of the official GOV.UK Frontend packages for Python. Including a like-for-like port of the GOV.UK Design System components into Jinja templates, along with support for those within WTForms and a template/reference Flask app. These packages are used in major projects across six central government departments.
     links:
       - url: https://github.com/LandRegistry/govuk-frontend-jinja
@@ -51,9 +51,9 @@ projects:
       - Jinja
       - Python
       - WTForms
-  - name: Mash Time Tracker
-    company: Mash Software
-    dates: Apr 2019 to present
+  - title: Mash Time Tracker
+    subtitle: Mash Software
+    date: Apr 2019 to present
     description: A simple, quick and easy to use time tracking service. Users can record time periods, tag them with activities and locations and track progress against a personal schedule.
     links:
       - url: https://time-tracker.mashsoftware.com
@@ -71,9 +71,9 @@ projects:
       - Python
       - Redis
       - WTForms
-  - name: Digital Street
-    company: HM Land Registry
-    dates: Mar 2018 to Jul 2019
+  - title: Digital Street
+    subtitle: HM Land Registry
+    date: Mar 2018 to Jul 2019
     description: Assessed emerging blockchain and smart contract technologies by building an end-to-end property transaction prototype. Published recommendations on strategic technical direction and future opportunities.
     links:
       - url: https://hmlandregistry.blog.gov.uk/2019/05/24/could-blockchain-be-the-future-of-the-property-market
@@ -92,9 +92,9 @@ projects:
       - RESTful APIs
       - Smart Contracts
       - GitHub
-  - name: Find Property Information
-    company: HM Land Registry
-    dates: May 2016 to Mar 2018
+  - title: Find Property Information
+    subtitle: HM Land Registry
+    date: May 2016 to Mar 2018
     description: GOV.UK service to provide simple and accessible land and property title information.
     links:
       - url: https://search-property-information.service.gov.uk
@@ -112,9 +112,9 @@ projects:
       - Scrum
       - Test-driven development
       - GitLab
-  - name: Property Alert
-    company: HM Land Registry
-    dates: Aug 2013 to Mar 2014
+  - title: Property Alert
+    subtitle: HM Land Registry
+    date: Aug 2013 to Mar 2014
     description: Service to proactively alert citizens of activity on monitored land and property titles.
     links:
       - url: https://propertyalert.landregistry.gov.uk

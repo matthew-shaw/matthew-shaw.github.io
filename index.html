@@ -77,9 +77,9 @@ permalink: /
         <div id="projects">
             <h2>Projects</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for project in site.data.cv.projects %}
+                {% for item in site.data.cv.projects %}
                 <div class="col">
-                    {% include project.html %}
+                    {% include card.html %}
                 </div>
                 {% endfor %}
             </div>

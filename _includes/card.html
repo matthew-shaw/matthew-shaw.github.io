@@ -5,12 +5,50 @@
         {% if item.date %}<h6 class="card-subtitle mb-2 text-body-secondary">{{ item.date }}</h6>{% endif %}
         {% if item.location %}<h6 class="card-subtitle mb-2 text-body-secondary">{{ item.location }}</h6>{% endif %}
         {% if item.description %}<p class="card-text">{{ item.description }}</p>{% endif %}
+    </div>
+    {% if item.links or item.skills %}
+    <div class="accordion accordion-flush" id="accordionFlush{{forloop.index}}">
+        {% if item.skills %}
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse{{forloop.index}}-skills" aria-expanded="false"
+                    aria-controls="flush-collapse{{forloop.index}}-skills">
+                    Skills
+                </button>
+            </h2>
+            <div id="flush-collapse{{forloop.index}}-skills" class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    {% assign skills = item.skills | sort_natural %}
+                    {% for skill in skills %}
+                    <span class="badge rounded-pill text-bg-primary">{{ skill }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
         {% if item.links %}
-        {% for link in item.links %}
-        <a href="{{ link.url }}" target="blank" rel="noopener" class="card-link">{{ link.text }}</a>
-        {% endfor %}
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapse{{forloop.index}}-links" aria-expanded="false"
+                    aria-controls="flush-collapse{{forloop.index}}-links">
+                    Links
+                </button>
+            </h2>
+            <div id="flush-collapse{{forloop.index}}-links" class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                    {% for link in item.links %}
+                    <p><a href="{{ link.url }}" target="blank" rel="noopener" class="card-link">{{ link.text }}</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
         {% endif %}
     </div>
+    {% endif %}
     {% if item.footer %}
     <div class="card-footer">
         {{ item.footer }}
