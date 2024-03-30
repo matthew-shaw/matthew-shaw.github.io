@@ -1,35 +1,35 @@
 experience:
-  - name: Principal Software Engineer
-    company: HM Land Registry
-    dates: Feb 2023 to present
+  - title: Principal Software Engineer
+    subtitle: HM Land Registry
+    date: Feb 2023 to present
     location: Plymouth, UK
     description: I am responsible for setting development standards, documenting best practices, providing guidance, mentoring, line management and technical leadership for over 120 developers. I represent and advocate on behalf of the software development community of practice, including promoting greater cross-practice collaboration, capability building, resource planning and recruitment activities. I engage with the community to define and clarify all roles and responsibilities, and turn ideas into practice.
-  - name: Lead Software Engineer
-    company: HM Land Registry
-    dates: Jan 2020 to Jan 2023
+  - title: Lead Software Engineer
+    subtitle: HM Land Registry
+    date: Jan 2020 to Jan 2023
     location: Plymouth, UK
     description: Technical oversight and coaching on three large projects, including line management and mentoring of senior software engineers. Assessing and ensuring that appropriate standards and methodologies have been applied correctly. Development and maintenance of common development environments, including reference implementations and shared components for Python and Flask applications. I lead regular group learning and development sessions, to mentor and coach the community in modern software development practices, methods and techniques.
-  - name: Senior Software Engineer
-    company: HM Land Registry
-    dates: May 2016 to Dec 2019
+  - title: Senior Software Engineer
+    subtitle: HM Land Registry
+    date: May 2016 to Dec 2019
     location: Plymouth, UK
     description: Produced software architecture designs, making use of microservice design patterns, open-source software and open standards to deliver value to users in the most time and cost-efficient way practical. Modelled software components at a conceptual, logical and physical level in UML, to aid understanding of the stack. Used logical decomposition and domain-driven design practices to break down designs for planning in complex and evolving environments. Assessed emerging technologies and created proof-of-concepts and reference implementations to make informed architecture and design decisions. Communicated technical designs to diverse stakeholders clearly and openly, highlighting the value they provide.
-  - name: Founder
-    company: Mash Software
-    dates: Nov 2014 to present
+  - title: Founder
+    subtitle: Mash Software
+    date: Nov 2014 to present
     location: Remote
     description: Side project to explore ideas for digital services, software development and web design. Projects centre around using public open data to produce digital services that enhance people's experience of interacting with the government, promote transparency and make their lives easier.
     links:
       - url: https://www.mashsoftware.com
         text: Website
-  - name: Senior Software Developer
-    company: HM Land Registry
-    dates: Jun 2013 to Apr 2016
+  - title: Senior Software Developer
+    subtitle: HM Land Registry
+    date: Jun 2013 to Apr 2016
     location: Plymouth, UK
     description: Informed software design and decision making with practical advice and by prototyping solutions. Took a leading role in team planning and refinement of user stories in an agile delivery environment, to ensure we delivered the best value for our users, in an automated and continual way. Translated user needs into technical implementations, taking an iterative approach to deliver an MVP release early, gain feedback, research and continue to deliver the next highest value feature to the user.
-  - name: Software Developer
-    company: HM Land Registry
-    dates: Sep 2007 to May 2013
+  - title: Software Developer
+    subtitle: HM Land Registry
+    date: Sep 2007 to May 2013
     location: Plymouth, UK
     description: Analysis, design and development following the Rational Unified Process to iteratively develop and maintain solutions to complex problems that fulfil stakeholders requirements. Including bespoke Windows desktop applications written in Delphi, geospatial data transformation and publication using FME and e-conveyancing web services for the Land Registry Portal and Business Gateway using enterprise Java and IBM WebSphere.
 projects:
@@ -219,32 +219,29 @@ skills:
   - name: CSS
     level: Working
 education:
-  - dates: Sep 2003 to June 2006
-    grade: "2:1"
-    institution: University of Plymouth 
+  - date: Sep 2003 to June 2006
     location: Plymouth, UK 
-    qualification: BSc (Hons) Computing
+    subtitle: University of Plymouth 
+    title: BSc (Hons) Computing - 2:1
     links:
       - url: https://www.plymouth.ac.uk/courses/undergraduate/bsc-computer-science-software-engineering
         text: Course
 speaking:
-  - name: Future Sync conference
-    title: Exploring the future of property transactions using blockchain technology
+  - title: Future Sync conference
+    description: Exploring the future of property transactions using blockchain technology
     location: Plymouth, UK
     date: Apr 2019
-  - name: Stack Maps conference
-    title: A page on GOV.UK for every property in the UK
+  - title: Stack Maps conference
+    description: A page on GOV.UK for every property in the UK
     location: London, UK
     date: Jul 2014
 awards:
-  - name: Civil Service Award for Innovation
+  - title: Civil Service Award for Innovation
     date: Nov 2014
-    project: Property Alert
-    company: HM Land Registry
-  - name: Real IT Award for Innovation in Business
+    description: Property Alert - HM Land Registry
+  - title: Real IT Award for Innovation in Business
     date: May 2014
-    project: Property Alert
-    company: HM Land Registry
+    description: Property Alert - HM Land Registry
 testimonials:
   - text: I worked with Matt on the Land Registry digital exemplar. He is smart, enthusiastic and inquisitive, always keen to develop his skills and deliver the best solutions for his team. His knowledge and appetite for challenge made him a natural leader amongst peers in the organisation, whilst his humour and modest demeanour ensured he was well-liked throughout the group. It was a great pleasure working with Matt, and I hope to do so again in the future.
     source: <strong>Simon Everest</strong><br>Head of Service Performance at Cabinet Office Central Digital and Data Office

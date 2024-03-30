@@ -22,9 +22,9 @@ permalink: /
         <div id="experience">
             <h2>Experience</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for experience in site.data.cv.experience %}
+                {% for item in site.data.cv.experience %}
                 <div class="col">
-                    {% include experience.html %}
+                    {% include card.html %}
                 </div>
                 {% endfor %}
             </div>
@@ -92,9 +92,9 @@ permalink: /
         <div id="education">
             <h2>Education</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for education in site.data.cv.education %}
+                {% for item in site.data.cv.education %}
                 <div class="col">
-                    {% include education.html %}
+                    {% include card.html %}
                 </div>
                 {% endfor %}
             </div>
@@ -120,9 +120,9 @@ permalink: /
         <div id="speaking">
             <h2>Speaking</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for event in site.data.cv.speaking %}
+                {% for item in site.data.cv.speaking %}
                 <div class="col">
-                    {% include speaking.html %}
+                    {% include card.html %}
                 </div>
                 {% endfor %}
             </div>
@@ -135,9 +135,9 @@ permalink: /
         <div id="awards">
             <h2>Awards</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for award in site.data.cv.awards %}
+                {% for item in site.data.cv.awards %}
                 <div class="col">
-                    {% include award.html %}
+                    {% include card.html %}
                 </div>
                 {% endfor %}
             </div>
