@@ -106,11 +106,13 @@ permalink: /
     <div class="col">
         <div id="memberships">
             <h2>Memberships</h2>
-            <ul>
-                <li class="my-2"><b>Professional Member</b> - BCS The Chartered Institute for IT - Sep 2007 to
-                    present
-                </li>
-            </ul>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                {% for item in site.data.cv.memberships %}
+                <div class="col">
+                    {% include card.html %}
+                </div>
+                {% endfor %}
+            </div>
         </div>
         <hr>
     </div>

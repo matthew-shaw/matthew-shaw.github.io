@@ -226,6 +226,10 @@ education:
     links:
       - url: https://www.plymouth.ac.uk/courses/undergraduate/bsc-computer-science-software-engineering
         text: Course
+memberships:
+  - title: BCS The Chartered Institute for IT
+    subtitle: Professional Member
+    date: Sep 2007 to present 
 speaking:
   - title: Future Sync conference
     description: Exploring the future of property transactions using blockchain technology
