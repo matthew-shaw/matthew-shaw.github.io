@@ -163,15 +163,18 @@ permalink: /
     </div>
 </div>
 <div class="row">
-    <div class="col">
+    <div class="col-md-4">
         <div id="interests">
             <h2>Interests</h2>
-            <ul>
-                <li class="my-2">Drumming</li>
-                <li class="my-2">Mountain Biking</li>
-                <li class="my-2">Running</li>
-                <li class="my-2">Video Games</li>
-            </ul>
+            <div class="card shadow">
+                <ul class="list-group list-group-flush">
+                    {% for item in site.data.cv.interests %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ item }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </div>

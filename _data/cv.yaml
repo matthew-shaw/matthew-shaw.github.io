@@ -259,3 +259,8 @@ testimonials:
     footer: <strong>Mat Johnson</strong><br>Designer at Government Digital Service
   - description: <em>I worked with Matt for about a year at Land Registry, where he was a Technical Architect for the team I was on. I was continually impressed by his knowledge, insight, focus and good humour, and I really enjoyed working with him. I learnt a lot from Matt, particularly about system architecture and microservices, which isn't my core domain - but also about Python programming, which is. He's pretty handy in an escape room too!</em>
     footer: <strong>Andy Gimblett</strong><br>Senior Developer at HM Land Registry
+interests:
+  - Drumming
+  - Mountain Biking
+  - Running
+  - Video Games
