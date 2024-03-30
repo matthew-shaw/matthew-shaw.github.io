@@ -11,4 +11,9 @@
         {% endfor %}
         {% endif %}
     </div>
+    {% if item.footer %}
+    <div class="card-footer">
+        {{ item.footer }}
+    </div>
+    {% endif %}
 </div>

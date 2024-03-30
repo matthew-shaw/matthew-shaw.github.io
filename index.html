@@ -150,9 +150,9 @@ permalink: /
         <div id="testimonials">
             <h2>Testimonials</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for testimonial in site.data.cv.testimonials %}
+                {% for item in site.data.cv.testimonials %}
                 <div class="col">
-                    {% include testimonial.html %}
+                    {% include card.html %}
                 </div>
                 {% endfor %}
             </div>
