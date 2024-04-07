@@ -1,4 +1,4 @@
-<div class="card shadow">
+<div class="card shadow" id="{{ item.title | downcase | replace: ' ', '-' }}">
     <div class="card-body">
         {% if item.title %}<h5 class="card-title">{{ item.title }}</h5>{% endif %}
         {% if item.subtitle %}<h6 class="card-subtitle mb-2 text-body-secondary">{{ item.subtitle }}</h6>{% endif %}
