@@ -4,164 +4,144 @@ permalink: /
 ---
 <div class="row">
     <div class="col">
-        <div id="experience">
-            <h2>Experience</h2>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for item in site.data.cv.experience %}
-                <div class="col">
-                    {% include card.html %}
-                </div>
-                {% endfor %}
+        <h2 id="experience">Experience</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            {% for item in site.data.cv.experience %}
+            <div class="col">
+                {% include card.html %}
             </div>
+            {% endfor %}
         </div>
         <hr>
     </div>
 </div>
 <div class="row">
     <div class="col-md-6">
-        <div id="knowledge">
-            <h2>Knowledge</h2>
-            <div class="card shadow">
-                <ul class="list-group list-group-flush">
-                    {% assign items = site.data.cv.knowledge | sort_natural: "name" | sort_natural: "level" %}
-                    {% for item in items %}
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        {{ item.name }}
-                        <span
-                            class="badge {% if item.level == 'Expert'%}text-bg-success{% elsif item.level == 'Proficient' %}text-bg-warning{% else %}text-bg-info{% endif %} rounded-pill">{{
-                            item.level }}</span>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
+        <h2 id="knowledge">Knowledge</h2>
+        <div class="card shadow">
+            <ul class="list-group list-group-flush">
+                {% assign items = site.data.cv.knowledge | sort_natural: "name" | sort_natural: "level" %}
+                {% for item in items %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ item.name }}
+                    <span
+                        class="badge {% if item.level == 'Expert'%}text-bg-success{% elsif item.level == 'Proficient' %}text-bg-warning{% else %}text-bg-info{% endif %} rounded-pill">{{
+                        item.level }}</span>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
         <hr>
     </div>
     <div class="col-md-6">
-        <div id="skills">
-            <h2>Skills</h2>
-            <div class="card shadow">
-                <ul class="list-group list-group-flush">
-                    {% assign items = site.data.cv.skills | sort_natural: "name" | sort_natural: "level" %}
-                    {% for item in items %}
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        {{ item.name }}
-                        <span
-                            class="badge {% if item.level == 'Expert'%}text-bg-success{% elsif item.level == 'Proficient' %}text-bg-warning{% else %}text-bg-info{% endif %} rounded-pill">{{
-                            item.level }}</span>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-        <hr>
-    </div>
-</div>
-<div class="row">
-    <div class="col">
-        <div id="projects">
-            <h2>Projects</h2>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for item in site.data.cv.projects %}
-                <div class="col">
-                    {% include card.html %}
-                </div>
+        <h2 id="skills">Skills</h2>
+        <div class="card shadow">
+            <ul class="list-group list-group-flush">
+                {% assign items = site.data.cv.skills | sort_natural: "name" | sort_natural: "level" %}
+                {% for item in items %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ item.name }}
+                    <span
+                        class="badge {% if item.level == 'Expert'%}text-bg-success{% elsif item.level == 'Proficient' %}text-bg-warning{% else %}text-bg-info{% endif %} rounded-pill">{{
+                        item.level }}</span>
+                </li>
                 {% endfor %}
-            </div>
+            </ul>
         </div>
         <hr>
     </div>
 </div>
 <div class="row">
     <div class="col">
-        <div id="education">
-            <h2>Education</h2>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for item in site.data.cv.education %}
-                <div class="col">
-                    {% include card.html %}
-                </div>
-                {% endfor %}
+        <h2 id="projects">Projects</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            {% for item in site.data.cv.projects %}
+            <div class="col">
+                {% include card.html %}
             </div>
+            {% endfor %}
         </div>
         <hr>
     </div>
 </div>
 <div class="row">
     <div class="col">
-        <div id="memberships">
-            <h2>Memberships</h2>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for item in site.data.cv.memberships %}
-                <div class="col">
-                    {% include card.html %}
-                </div>
-                {% endfor %}
+        <h2 id="education">Education</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            {% for item in site.data.cv.education %}
+            <div class="col">
+                {% include card.html %}
             </div>
+            {% endfor %}
         </div>
         <hr>
     </div>
 </div>
 <div class="row">
     <div class="col">
-        <div id="speaking">
-            <h2>Speaking</h2>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for item in site.data.cv.speaking %}
-                <div class="col">
-                    {% include card.html %}
-                </div>
-                {% endfor %}
+        <h2 id="memberships">Memberships</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            {% for item in site.data.cv.memberships %}
+            <div class="col">
+                {% include card.html %}
             </div>
+            {% endfor %}
         </div>
         <hr>
     </div>
 </div>
 <div class="row">
     <div class="col">
-        <div id="awards">
-            <h2>Awards</h2>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for item in site.data.cv.awards %}
-                <div class="col">
-                    {% include card.html %}
-                </div>
-                {% endfor %}
+        <h2 id="speaking">Speaking</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            {% for item in site.data.cv.speaking %}
+            <div class="col">
+                {% include card.html %}
             </div>
+            {% endfor %}
         </div>
         <hr>
     </div>
 </div>
 <div class="row">
     <div class="col">
-        <div id="testimonials">
-            <h2>Testimonials</h2>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                {% for item in site.data.cv.testimonials %}
-                <div class="col">
-                    {% include card.html %}
-                </div>
-                {% endfor %}
+        <h2 id="awards">Awards</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            {% for item in site.data.cv.awards %}
+            <div class="col">
+                {% include card.html %}
             </div>
+            {% endfor %}
         </div>
         <hr>
     </div>
 </div>
 <div class="row">
     <div class="col">
-        <div id="interests">
-            <h2>Interests</h2>
-            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-                <div class="col">
-                    <div class="card shadow">
-                        <ul class="list-group list-group-flush">
-                            {% for item in site.data.cv.interests %}
-                            <li class="list-group-item d-flex justify-content-between align-items-center">
-                                {{ item }}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+        <h2 id="testimonials">Testimonials</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            {% for item in site.data.cv.testimonials %}
+            <div class="col">
+                {% include card.html %}
+            </div>
+            {% endfor %}
+        </div>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h2 id="interests">Interests</h2>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card shadow">
+                    <ul class="list-group list-group-flush">
+                        {% for item in site.data.cv.interests %}
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            {{ item }}
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>
