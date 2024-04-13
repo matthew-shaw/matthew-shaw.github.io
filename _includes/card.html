@@ -12,12 +12,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapse{{forloop.index}}-skills" aria-expanded="false"
-                    aria-controls="flush-collapse{{forloop.index}}-skills">
+                    data-bs-target="#{{ item.title | downcase | replace: ' ', '-' }}-skills" aria-expanded="false"
+                    aria-controls="{{ item.title | downcase | replace: ' ', '-' }}-skills">
                     Skills
                 </button>
             </h2>
-            <div id="flush-collapse{{forloop.index}}-skills" class="accordion-collapse collapse"
+            <div id="{{ item.title | downcase | replace: ' ', '-' }}-skills" class="accordion-collapse collapse"
                 data-bs-parent="#accordionFlush">
                 <div class="accordion-body">
                     {% assign skills = item.skills | sort_natural %}
@@ -32,12 +32,12 @@
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapse{{forloop.index}}-links" aria-expanded="false"
-                    aria-controls="flush-collapse{{forloop.index}}-links">
+                    data-bs-target="#{{ item.title | downcase | replace: ' ', '-' }}-links" aria-expanded="false"
+                    aria-controls="{{ item.title | downcase | replace: ' ', '-' }}-links">
                     Links
                 </button>
             </h2>
-            <div id="flush-collapse{{forloop.index}}-links" class="accordion-collapse collapse"
+            <div id="{{ item.title | downcase | replace: ' ', '-' }}-links" class="accordion-collapse collapse"
                 data-bs-parent="#accordionFlush">
                 <div class="accordion-body">
                     {% for link in item.links %}
