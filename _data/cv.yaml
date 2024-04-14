@@ -1,21 +1,21 @@
 experience:
   - title: Principal Software Developer
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: Feb 2023 to present
     location: Plymouth, UK
     description: I am responsible for setting development standards, documenting best practices, providing guidance, mentoring, line management and technical leadership for over 120 developers. I represent and advocate on behalf of the software development community of practice, including promoting greater cross-practice collaboration, capability building, resource planning and recruitment activities. I engage with the community to define and clarify all roles and responsibilities, and turn ideas into practice.
   - title: Lead Software Engineer
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: Jan 2020 to Jan 2023
     location: Plymouth, UK
     description: Technical oversight and coaching on three large projects, including line management and mentoring of senior software engineers. Assessing and ensuring that appropriate standards and methodologies have been applied correctly. Development and maintenance of common development environments, including reference implementations and shared components for Python and Flask applications. I lead regular group learning and development sessions, to mentor and coach the community in modern software development practices, methods and techniques.
   - title: Senior Software Engineer
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: May 2016 to Dec 2019
     location: Plymouth, UK
     description: Produced software architecture designs, making use of microservice design patterns, open-source software and open standards to deliver value to users in the most time and cost-efficient way practical. Modelled software components at a conceptual, logical and physical level in UML, to aid understanding of the stack. Used logical decomposition and domain-driven design practices to break down designs for planning in complex and evolving environments. Assessed emerging technologies and created proof-of-concepts and reference implementations to make informed architecture and design decisions. Communicated technical designs to diverse stakeholders clearly and openly, highlighting the value they provide.
   - title: Founder
-    subtitle: Mash Software
+    organisation: Mash Software
     date: Nov 2014 to present
     location: Remote
     description: Side project to explore ideas for digital services, software development and web design. Projects centre around using public open data to produce digital services that enhance people's experience of interacting with the government, promote transparency and make their lives easier.
@@ -23,18 +23,18 @@ experience:
       - url: https://www.mashsoftware.com
         text: Website
   - title: Senior Software Developer
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: Jun 2013 to Apr 2016
     location: Plymouth, UK
     description: Informed software design and decision making with practical advice and by prototyping solutions. Took a leading role in team planning and refinement of user stories in an agile delivery environment, to ensure we delivered the best value for our users, in an automated and continual way. Translated user needs into technical implementations, taking an iterative approach to deliver an MVP release early, gain feedback, research and continue to deliver the next highest value feature to the user.
   - title: Software Developer
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: Sep 2007 to May 2013
     location: Plymouth, UK
     description: Analysis, design and development following the Rational Unified Process to iteratively develop and maintain solutions to complex problems that fulfil stakeholders requirements. Including bespoke Windows desktop applications written in Delphi, geospatial data transformation and publication using FME and e-conveyancing web services for the Land Registry Portal and Business Gateway using enterprise Java and IBM WebSphere.
 projects:
   - title: GOV.UK Frontend Python Packages
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: Jun 2020 to present
     description: I am the owner and primary maintainer of the official GOV.UK Frontend packages for Python. Including a like-for-like port of the GOV.UK Design System components into Jinja templates, along with support for those within WTForms and a template/reference Flask app. These packages are used in major projects across six central government departments.
     links:
@@ -52,7 +52,7 @@ projects:
       - Python
       - WTForms
   - title: Mash Time Tracker
-    subtitle: Mash Software
+    organisation: Mash Software
     date: Apr 2019 to present
     description: A simple, quick and easy to use time tracking service. Users can record time periods, tag them with activities and locations and track progress against a personal schedule.
     links:
@@ -72,7 +72,7 @@ projects:
       - Redis
       - WTForms
   - title: Digital Street
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: Mar 2018 to Jul 2019
     description: Assessed emerging blockchain and smart contract technologies by building an end-to-end property transaction prototype. Published recommendations on strategic technical direction and future opportunities.
     links:
@@ -93,7 +93,7 @@ projects:
       - Smart Contracts
       - GitHub
   - title: Find Property Information
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: May 2016 to Mar 2018
     description: GOV.UK service to provide simple and accessible land and property title information.
     links:
@@ -113,7 +113,7 @@ projects:
       - Test-driven development
       - GitLab
   - title: Property Alert
-    subtitle: HM Land Registry
+    organisation: HM Land Registry
     date: Aug 2013 to Mar 2014
     description: Service to proactively alert citizens of activity on monitored land and property titles.
     links:
@@ -221,14 +221,14 @@ skills:
 education:
   - date: Sep 2003 to June 2006
     location: Plymouth, UK 
-    subtitle: University of Plymouth 
+    organisation: University of Plymouth 
     title: BSc (Hons) Computing - 2:1
     links:
       - url: https://www.plymouth.ac.uk/courses/undergraduate/bsc-computer-science-software-engineering
         text: Course
 memberships:
-  - title: BCS The Chartered Institute for IT
-    subtitle: Professional Member
+  - title: Professional Member
+    organisation: BCS The Chartered Institute for IT
     date: Sep 2007 to present
     links:
       - url: https://www.bcs.org
@@ -247,11 +247,13 @@ speaking:
     date: Jul 2014
 awards:
   - title: Civil Service Award for Innovation
+    organisation: HM Land Registry
     date: Nov 2014
-    description: Property Alert - HM Land Registry
+    description: Property Alert
   - title: Real IT Award for Innovation in Business
+    organisation: HM Land Registry
     date: May 2014
-    description: Property Alert - HM Land Registry
+    description: Property Alert
 testimonials:
   - description: <em>I worked with Matt on the Land Registry digital exemplar. He is smart, enthusiastic and inquisitive, always keen to develop his skills and deliver the best solutions for his team. His knowledge and appetite for challenge made him a natural leader amongst peers in the organisation, whilst his humour and modest demeanour ensured he was well-liked throughout the group. It was a great pleasure working with Matt, and I hope to do so again in the future.</em>
     footer: <strong>Simon Everest</strong><br>Head of Service Performance at Cabinet Office Central Digital and Data Office
