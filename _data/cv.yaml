@@ -220,6 +220,8 @@ skills:
     level: Proficient
   - name: CSS
     level: Working
+  - name: PostGIS
+    level: Proficient
 education:
   - date: Sep 2003 to June 2006
     location: Plymouth, UK 
