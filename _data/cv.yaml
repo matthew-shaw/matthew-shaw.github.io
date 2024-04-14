@@ -171,6 +171,8 @@ knowledge:
     level: Proficient
   - name: Secure Coding
     level: Proficient
+  - name: Progressive Web Apps
+    level: Proficient
 skills:
   - name: Delphi
     level: Working
