@@ -9,16 +9,68 @@
   {% seo %}
 </head>
 
-<body>
+<body class="bg-dark-subtle">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">{{ site.title }}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#knowledge">Knowledge</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#memberships">Memberships</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#speaking">Speaking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#awards">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#interests">Interests</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <main>
-    <div class="container my-3">
+    <div class="container-fluid px-4 py-5 text-center">
+      <h1 class="display-5 fw-bold text-white">{{ site.title }}</h1>
+      <div class="col-lg-8 mx-auto">
+        <p class="fs-5 mb-4">I am a full-stack Principal Software Developer with 16 years experience of
+          software development in central government. I have a leading role on key projects in a multi-million
+          pound digital transformation programme, delivering digital services that follow the government
+          Service Manual and Design Principles.</p>
+      </div>
+    </div>
+    <div class="container">
       {{ content }}
     </div>
   </main>
   <hr>
   <footer>
-    <div class="container my-3">
-      <div class="row">
+    <div class="container">
+      <div class="row py-3">
         <div class="col">
           <p>&copy; 2014-{{ site.time | date: '%Y' }} Matthew Shaw. All rights reserved.</p>
           <p><a class="icon-link" href="https://github.com/matthew-shaw" target="blank" rel="noopener"><svg
@@ -55,6 +107,8 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=" crossorigin="anonymous"></script>
 </body>
 
 </html>
