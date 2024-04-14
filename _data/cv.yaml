@@ -21,7 +21,7 @@ experience:
     description: Side project to explore ideas for digital services, software development and web design. Projects centre around using public open data to produce digital services that enhance people's experience of interacting with the government, promote transparency and make their lives easier.
     links:
       - url: https://www.mashsoftware.com
-        text: Website
+        text: Mash Software
   - title: Senior Software Developer
     organisation: HM Land Registry
     date: Jun 2013 to Apr 2016
@@ -57,7 +57,7 @@ projects:
     description: A simple, quick and easy to use time tracking service. Users can record time periods, tag them with activities and locations and track progress against a personal schedule.
     links:
       - url: https://time-tracker.mashsoftware.com
-        text: Website
+        text: Mash Time Tracker
       - url: https://github.com/MashSoftware/time-tracker
         text: GitHub
     skills:
@@ -118,7 +118,7 @@ projects:
     description: Service to proactively alert citizens of activity on monitored land and property titles.
     links:
       - url: https://propertyalert.landregistry.gov.uk
-        text: Property Alert service
+        text: Property Alert
     skills:
       - DB2
       - Java
