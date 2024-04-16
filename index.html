@@ -9,17 +9,13 @@ permalink: /
     </div>
 </div>
 <hr>
-<div class="row pb-2">
+<h2 id="experience">Experience</h2>
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-2">
+    {% for item in site.data.cv.experience %}
     <div class="col">
-        <h2 id="experience">Experience</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-            {% for item in site.data.cv.experience %}
-            <div class="col">
-                {% include card.html %}
-            </div>
-            {% endfor %}
-        </div>
+        {% include card.html %}
     </div>
+    {% endfor %}
 </div>
 <hr>
 <div class="row row-cols-1 row-cols-md-2 g-4 pb-2">
@@ -57,99 +53,71 @@ permalink: /
     </div>
 </div>
 <hr>
-<div class="row pb-2">
+<h2 id="projects">Projects</h2>
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-2">
+    {% for item in site.data.cv.projects %}
     <div class="col">
-        <h2 id="projects">Projects</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-            {% for item in site.data.cv.projects %}
-            <div class="col">
-                {% include card.html %}
-            </div>
-            {% endfor %}
-        </div>
+        {% include card.html %}
     </div>
+    {% endfor %}
 </div>
 <hr>
-<div class="row pb-2">
+<h2 id="education">Education</h2>
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-2">
+    {% for item in site.data.cv.education %}
     <div class="col">
-        <h2 id="education">Education</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-            {% for item in site.data.cv.education %}
-            <div class="col">
-                {% include card.html %}
-            </div>
-            {% endfor %}
-        </div>
+        {% include card.html %}
     </div>
+    {% endfor %}
 </div>
 <hr>
-<div class="row pb-2">
+<h2 id="memberships">Memberships</h2>
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-2">
+    {% for item in site.data.cv.memberships %}
     <div class="col">
-        <h2 id="memberships">Memberships</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-            {% for item in site.data.cv.memberships %}
-            <div class="col">
-                {% include card.html %}
-            </div>
-            {% endfor %}
-        </div>
+        {% include card.html %}
     </div>
+    {% endfor %}
 </div>
 <hr>
-<div class="row pb-2">
+<h2 id="speaking">Speaking</h2>
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-2">
+    {% for item in site.data.cv.speaking %}
     <div class="col">
-        <h2 id="speaking">Speaking</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-            {% for item in site.data.cv.speaking %}
-            <div class="col">
-                {% include card.html %}
-            </div>
-            {% endfor %}
-        </div>
+        {% include card.html %}
     </div>
+    {% endfor %}
 </div>
 <hr>
-<div class="row pb-2">
+<h2 id="awards">Awards</h2>
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-2">
+    {% for item in site.data.cv.awards %}
     <div class="col">
-        <h2 id="awards">Awards</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-            {% for item in site.data.cv.awards %}
-            <div class="col">
-                {% include card.html %}
-            </div>
-            {% endfor %}
-        </div>
+        {% include card.html %}
     </div>
+    {% endfor %}
 </div>
 <hr>
-<div class="row pb-2">
+<h2 id="testimonials">Testimonials</h2>
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-2">
+    {% for item in site.data.cv.testimonials %}
     <div class="col">
-        <h2 id="testimonials">Testimonials</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-            {% for item in site.data.cv.testimonials %}
-            <div class="col">
-                {% include card.html %}
-            </div>
-            {% endfor %}
-        </div>
+        {% include card.html %}
     </div>
+    {% endfor %}
 </div>
 <hr>
-<div class="row pb-2">
+<h2 id="interests">Interests</h2>
+<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 pb-2">
     <div class="col">
-        <h2 id="interests">Interests</h2>
-        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card shadow">
-                    <ul class="list-group list-group-flush">
-                        {% for item in site.data.cv.interests %}
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
-                            {{ item }}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+        <div class="card shadow">
+            <ul class="list-group list-group-flush">
+                {% for item in site.data.cv.interests %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ item }}
+                </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </div>
