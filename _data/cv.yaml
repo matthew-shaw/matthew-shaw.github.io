@@ -113,6 +113,28 @@ projects:
       - Scrum
       - Test-driven development
       - GitLab
+  - title: Digital by Default
+    organisation: HM Land Registry
+    date: Mar to Oct 2014
+    description: Working closely with the Government Digital Service on an exemplar departmental digital transformation, including development of a service that published an information page on GOV.UK for every property in the UK.
+    links:
+      - url: https://webarchive.nationalarchives.gov.uk/ukgwa/20171130164640/http://blog.landregistry.gov.uk/new-digital-services-working-alpha/
+        text: Alpha blog post
+      - url: https://webarchive.nationalarchives.gov.uk/ukgwa/20171130163442/http://blog.landregistry.gov.uk/digital-land-registry-completing-concept/
+        text: Discovery blog post
+    skills:
+      - Agile development
+      - Docker
+      - Flask
+      - GitHub
+      - Heroku
+      - Jinja
+      - Microservices
+      - PostGIS
+      - Postgres
+      - Python
+      - RESTful APIs
+      - Test-driven development
   - title: Property Alert
     organisation: HM Land Registry
     date: Aug 2013 to Mar 2014
