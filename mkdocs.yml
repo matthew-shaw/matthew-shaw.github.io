@@ -23,8 +23,7 @@ nav:
       - blog/index.md
 
 theme:
-  icon:
-    repo: fontawesome/brands/github
+  favicon: assets/images/blog-solid.svg
   features:
     - content.action.edit
     - content.action.view
@@ -39,7 +38,15 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+  icon:
+    tag:
+      docker: fontawesome/brands/docker
+      fitness: fontawesome/solid/heart-pulse
+      mental-health: fontawesome/solid/brain
+      python: fontawesome/brands/python
+      weight-loss: fontawesome/solid/weight-scale
   language: en
+  logo: assets/images/blog-solid.svg
   name: material
   palette:
     # Palette toggle for automatic mode
@@ -63,8 +70,7 @@ theme:
         name: Switch to system preference
 
 plugins:
-  - blog:
-      blog_toc: true
+  - blog
   - git-committers:
       repository: matthew-shaw/matthew-shaw.github.io
       branch: main
@@ -82,6 +88,9 @@ plugins:
         - javascripts/tablesort.js
   - privacy
   - rss:
+      categories:
+        - categories
+        - tags
       match_path: "blog/posts/.*"
       date_from_meta:
         as_creation: date.created
@@ -100,6 +109,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
@@ -128,6 +142,12 @@ extra:
     - icon: fontawesome/brands/x-twitter
       name: X
       link: https://x.com/MattShaw85
+  tags:
+    Docker: docker
+    Fitness: fitness
+    Mental health: mental-health
+    Python: python
+    Weight loss: weight-loss
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js

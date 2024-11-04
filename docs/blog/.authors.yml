@@ -1,9 +1,7 @@
 authors:
-  team:
-    name: Team
-    description: Creator
-    avatar: https://simpleicons.org/icons/materialformkdocs.svg
   mash:
     name: Matt Shaw
     description: Principal Software Developer
     avatar: https://github.com/matthew-shaw.png
+    slug: matt
+    url: https://matthew-shaw.github.io/
