@@ -23,7 +23,6 @@ nav:
       - blog/index.md
 
 theme:
-  favicon: assets/images/blog-solid.svg
   features:
     - content.action.edit
     - content.action.view
@@ -39,6 +38,7 @@ theme:
     - search.share
     - search.suggest
   icon:
+    logo: fontawesome/solid/terminal
     tag:
       docker: fontawesome/brands/docker
       fitness: fontawesome/solid/heart-pulse
@@ -46,7 +46,6 @@ theme:
       python: fontawesome/brands/python
       weight-loss: fontawesome/solid/weight-scale
   language: en
-  logo: assets/images/blog-solid.svg
   name: material
   palette:
     # Palette toggle for automatic mode
