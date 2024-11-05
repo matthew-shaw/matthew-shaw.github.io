@@ -5,7 +5,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: My guide to building a highly customisable, lightweight, secure and performant static site using MkDocs, NGINX and Docker.
+description: My guide to building a highly customisable, lightweight, secure, and performant static site using MkDocs, NGINX and Docker.
 tags:
   - Docker
   - MkDocs
@@ -17,18 +17,18 @@ tags:
 
 # Building a static site with MkDocs, NGINX and Docker
 
-My guide to building a highly customisable, lightweight, secure and performant static site using MkDocs, NGINX and Docker.
+My guide to building a highly customisable, lightweight, secure, and performant static site using MkDocs, NGINX and Docker.
 
 <!-- more -->
 
 ## Prerequisites
 
-You will need Python and Docker installed on your system before starting. I reccommend using a version manager such as [pyenv](https://github.com/pyenv/pyenv) to install Python.
+You will need Python and Docker installed on your system before starting. I recommend using a version manager such as [pyenv](https://github.com/pyenv/pyenv) to install Python.
 
 !!! tip
     If you run `pyenv local 3.13` it will create a `.python-version` file which pyenv reads to determine which Python version to use.
 
-## Preparing the MkDocs site
+## Setup
 
 First, lets install [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), the popular and widely used MkDocs theme that adds a lot of features and extensions on top of MkDocs itself:
 
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ## Configuring MkDocs
 
-Material for MkDocs is highly customisable, with a lot of extensions and plugins available. I reccommend starting with a configuration such as this and working from there:
+Material for MkDocs is highly customisable, with a lot of extensions and plugins available. I recommend starting with a configuration such as this and working from there:
 
 ```yaml title="mkdocs.yml" linenums="1"
 site_name: My site
@@ -128,7 +128,7 @@ Then in your browser, open <http://localhost:8000/mysite/> :tada:
 
 ## Docker setup
 
-Now I have a basic site created and working locally, lets get it working inside a Docker container. I'll start by creating a new `Dockerfile` with a simple example:
+Now I have a basic site created and working locally, let's get it working inside a Docker container. I'll start by creating a new `Dockerfile` with a simple example:
 
 ```dockerfile title="Dockerfile" linenums="1"
 FROM python:3.13-alpine
@@ -306,7 +306,7 @@ I've used the policy generator at <https://www.permissionspolicy.com/> to disabl
 !!! quote "Mozilla Developer Network"
     HSTS informs browsers that the site should only be accessed using HTTPS, and that any future attempts to access it using HTTP should automatically be converted to HTTPS.
 
-This header is a default part of Mozilla's modern configuration, but is important to note because just redirecting HTTP to HTTPS alone is still vulnerable to a man-in-the-middle attack. The `max-age` is set to 2 years in seconds.
+This header is a default part of Mozilla's modern configuration but is important to note because just redirecting HTTP to HTTPS alone is still vulnerable to a man-in-the-middle attack. The `max-age` is set to 2 years in seconds.
 
 ## Optimisation
 
@@ -337,7 +337,7 @@ Enabling `sendfile` and `tcp_nopush` are relatively [minor configuration changes
 
 ### Compression
 
-Compressing responses using `gzip` can considerably reduce the size of data transmitted, but comes at the cost of increased processing overhead. In the configuration above I've told NGINX to compress all of the common content types you'll find in most web applications. Adjusting the compression level and observing the results can help to find the optimal setting:
+Compressing responses using `gzip` can considerably reduce the size of data transmitted but comes at the cost of increased processing overhead. In the configuration above I've told NGINX to compress all the common content types you'll find in most web applications. Adjusting the compression level and observing the results can help to find the optimal setting:
 
 | Level   | HTML (kB) | CSS (kB) | JS (kB)  | Total (kB) | Compression |
 | ------- | --------- | -------- | -------- | ---------- | ----------- |
@@ -356,14 +356,14 @@ You can see that after compression level 6 there is no appreciable reduction in 
 
 ### Caching
 
-What's better than transferring an optimised, minified and compressed file to the client? Not transferring one at all!
+What's better than transferring an optimised, minified, and compressed file to the client? Not transferring one at all!
 
-The generated output `/site/assets` directory contains all the bundled JavaScript and CSS with cache-busting hashes appended to their file names. This means that when the content of the file changes, so does the hash of the file, therefore so does it's path. Since a different file would be requested when it changes, I can instruct browsers to cache these files for a long time.
+The generated output `/site/assets` directory contains all the bundled JavaScript and CSS with cache-busting hashes appended to their file names. This means that when the content of the file changes, so does the hash of the file, therefore so does its path. Since a different file would be requested when it changes, I can instruct browsers to cache these files for a long time.
 
 In the NGINX config above I've added a location directive to add the [Cache-Control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) header to any file requested from `/assets`. Browsers will keep these files in their cache for up to one year before requesting it again. For the example site, this equates to only 7.6 kB of 152 kB to be transferred for each page requested after the initial request, with everything else cached.
 
 ## Conclusion
 
-Material for MkDocs is a great choice for creating static sites, blogs and project documentation. It's simple to set up and configure, highly customisable and extensible, plus authoring the content in markdown is easy and familiar to most developers. By using NGINX you can serve the MkDocs generated static site in a secure and highly performant way. Using Docker to build portable, isolated and small containers makes development and deployment much easier as well.
+Material for MkDocs is a great choice for creating static sites, blogs, and project documentation. It's simple to set up and configure, highly customisable and extensible, plus authoring the content in markdown is easy and familiar to most developers. By using NGINX you can serve the MkDocs generated static site in a secure and highly performant way. Using Docker to build portable, isolated, and small containers makes development and deployment much easier as well.
 
 If you want to build your own site in this way, I have created a [template repository on GitHub](https://github.com/matthew-shaw/mkdocs) which includes everything discussed above so you can get started quicker.
