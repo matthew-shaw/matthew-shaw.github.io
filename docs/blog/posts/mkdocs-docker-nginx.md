@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2024-11-03
+  created: 2024-11-04
 authors:
   - mash
 categories:
