@@ -80,11 +80,14 @@ plugins:
   - minify:
       minify_html: true
       minify_js: true
+      minify_css: true
       htmlmin_opts:
         remove_comments: true
       cache_safe: true
       js_files:
         - javascripts/tablesort.js
+      css_files:
+        - stylesheets/extra.css
   - privacy
   - rss:
       categories:
@@ -148,6 +151,8 @@ extra:
     Python: python
     Weight loss: weight-loss
 
+extra_css:
+  - stylesheets/extra.css
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
