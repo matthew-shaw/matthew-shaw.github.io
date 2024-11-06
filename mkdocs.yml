@@ -3,8 +3,8 @@ edit_uri: edit/main/docs/
 repo_name: "matthew-shaw.github.io"
 repo_url: https://github.com/matthew-shaw/matthew-shaw.github.io
 site_author: Matt Shaw
-site_description: Matt Shaw's personal site
-site_name: Hello, World!
+site_description: Matt Shaw's personal site and blog
+site_name: Matt Shaw
 site_url: https://matthew-shaw.github.io
 watch:
   - includes
@@ -40,6 +40,7 @@ theme:
     - search.suggest
   icon:
     logo: fontawesome/solid/terminal
+    repo: fontawesome/brands/github
     tag:
       docker: fontawesome/brands/docker
       fitness: fontawesome/solid/heart-pulse
