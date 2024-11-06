@@ -2,11 +2,22 @@
 icon: fontawesome/solid/house
 ---
 
-# Matthew Shaw
+# :fontawesome-solid-terminal: Hello, World!
 
-I am a full-stack Principal Software Developer with 17 years experience of software development in central government. I have a leading role on key projects in a multi-million pound digital transformation programme, delivering digital services that follow the government Service Manual and Design Principles.
+Hi! :wave: I'm Matt Shaw, a full-stack Principal Software Developer with 17 years experience of software development in central government. I have a leading role on key projects in a multi-million pound digital transformation programme, delivering digital services that follow the government Service Manual and Design Principles.
 
 ## Experience
+
+### HM Land Registry
+
+Sep 2007 to present<br>
+Plymouth, UK<br>
+<https://www.gov.uk/land-registry>
+
+#### Principal Software Developer
+
+Feb 2023 to present<br>
+I am responsible for setting development standards, documenting best practices, providing guidance, mentoring, line management and technical leadership for over 100 developers. I represent and advocate on behalf of the software development community of practice, including promoting greater cross-practice collaboration, capability building, resource planning and recruitment activities. I engage with the community to define and clarify all roles and responsibilities, and turn ideas into practice.
 
 ## Industry knowledge
 
@@ -65,17 +76,3 @@ I am a full-stack Principal Software Developer with 17 years experience of softw
 | RabbitMQ              |    Working |
 | Redis                 |    Working |
 | Ruby                  |    Working |
-
-## Projects
-
-## Education
-
-## Memberships
-
-## Speaking
-
-## Awards
-
-## Testimonials
-
-## Interests
