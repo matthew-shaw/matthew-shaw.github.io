@@ -3,7 +3,7 @@ edit_uri: edit/main/docs/
 repo_name: "matthew-shaw.github.io"
 repo_url: https://github.com/matthew-shaw/matthew-shaw.github.io
 site_author: Matt Shaw
-site_description: Matt Shaw's personal site and blog
+site_description: Matt Shaw's site
 site_name: Matt Shaw
 site_url: https://matthew-shaw.github.io
 watch:
@@ -18,7 +18,6 @@ validation:
 nav:
   - Home:
       - index.md
-      - projects.md
       - tags.md
   - Blog:
       - blog/index.md
@@ -45,7 +44,9 @@ theme:
       docker: fontawesome/brands/docker
       fitness: fontawesome/solid/heart-pulse
       mental-health: fontawesome/solid/brain
+      performance: fontawesome/solid/gauge-high
       python: fontawesome/brands/python
+      security: fontawesome/solid/shield-halved
       weight-loss: fontawesome/solid/weight-scale
   language: en
   name: material
@@ -155,7 +156,9 @@ extra:
     Docker: docker
     Fitness: fitness
     Mental health: mental-health
+    Performance: performance
     Python: python
+    Security: security
     Weight loss: weight-loss
 
 extra_css:
