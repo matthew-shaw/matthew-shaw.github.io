@@ -2,4 +2,4 @@
 icon: fontawesome/solid/blog
 ---
 
-# Blog
+# :fontawesome-solid-blog: Blog
