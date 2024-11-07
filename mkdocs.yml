@@ -1,0 +1,171 @@
+copyright: "&copy; 2014-2024 Matthew Shaw. All rights reserved."
+edit_uri: edit/main/docs/
+repo_name: "matthew-shaw.github.io"
+repo_url: https://github.com/matthew-shaw/matthew-shaw.github.io
+site_author: Matt Shaw
+site_description: Matt Shaw's site
+site_name: Matt Shaw
+site_url: https://matthew-shaw.github.io
+watch:
+  - includes
+
+validation:
+  absolute_links: warn
+  anchors: warn
+  omitted_files: warn
+  unrecognized_links: warn
+
+nav:
+  - Home:
+      - index.md
+      - tags.md
+  - Blog:
+      - blog/index.md
+
+theme:
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+  icon:
+    logo: fontawesome/solid/terminal
+    repo: fontawesome/brands/github
+    tag:
+      docker: fontawesome/brands/docker
+      fitness: fontawesome/solid/heart-pulse
+      mental-health: fontawesome/solid/brain
+      performance: fontawesome/solid/gauge-high
+      python: fontawesome/brands/python
+      security: fontawesome/solid/shield-halved
+      weight-loss: fontawesome/solid/weight-scale
+  language: en
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - blog
+  - git-committers:
+      repository: matthew-shaw/matthew-shaw.github.io
+      branch: main
+      token: None
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - glightbox
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+      js_files:
+        - javascripts/tablesort.js
+      css_files:
+        - stylesheets/extra.css
+  - privacy
+  - rss:
+      categories:
+        - categories
+        - tags
+      match_path: "blog/posts/.*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
+  - search
+  - social:
+      cards_layout_options:
+        background_color: "#1d70b8"
+        color: "#ffffff"
+  - tags:
+      tags_file: tags.md
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tilde
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/bluesky
+      name: Bluesky
+      link: https://bsky.app/profile/mash85.bsky.social
+    - icon: fontawesome/brands/github
+      name: GitHub
+      link: https://github.com/matthew-shaw
+    - icon: fontawesome/brands/linkedin
+      name: LinkedIn
+      link: https://www.linkedin.com/in/matthew-shaw
+    - icon: fontawesome/brands/mastodon
+      name: Mastodon
+      link: https://mastodon.me.uk/@mash
+    - icon: fontawesome/brands/x-twitter
+      name: X
+      link: https://x.com/MattShaw85
+  tags:
+    Docker: docker
+    Fitness: fitness
+    Mental health: mental-health
+    Performance: performance
+    Python: python
+    Security: security
+    Weight loss: weight-loss
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js

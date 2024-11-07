@@ -1,0 +1,14 @@
+.md-grid {
+  max-width: initial;
+}
+
+:root {
+  /* Primary colour shades */
+  --md-primary-fg-color: #1d70b8;
+  --md-primary-fg-color--light: #5694ca;
+  --md-primary-fg-color--dark: #003078;
+
+  /* Accent colour shades */
+  --md-accent-fg-color: #003078;
+  --md-accent-fg-color--transparent: hsla(216, 100%, 23.53%, 0.1);
+}
