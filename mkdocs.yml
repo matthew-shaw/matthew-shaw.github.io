@@ -105,7 +105,10 @@ plugins:
         as_creation: date.created
         as_update: date.updated
   - search
-  - social
+  - social:
+      cards_layout_options:
+        background_color: "#1d70b8"
+        color: "#ffffff"
   - tags:
       tags_file: tags.md
 
