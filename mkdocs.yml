@@ -1,5 +1,4 @@
 copyright: "&copy; 2014-2024 Matthew Shaw. All rights reserved."
-edit_uri: edit/main/docs/
 repo_name: "matthew-shaw.github.io"
 repo_url: https://github.com/matthew-shaw/matthew-shaw.github.io
 site_author: Matt Shaw
@@ -24,8 +23,6 @@ nav:
 
 theme:
   features:
-    - content.action.edit
-    - content.action.view
     - content.tooltips
     - navigation.footer
     - navigation.indexes
