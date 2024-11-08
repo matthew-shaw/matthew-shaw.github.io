@@ -1,6 +1,5 @@
 ---
 icon: fontawesome/solid/house
-description: ""
 ---
 
 # Hello, World!
