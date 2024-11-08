@@ -17,6 +17,7 @@
 *[MP]: Member of Parliament
 *[MVC]: Model-View-Controller
 *[OWASP]: Open Worldwide Application Security Project
+*[REST]: Representational State Transfer
 *[SQL]: Structured Query Language
 *[SSL]: Secure Sockets Layer
 *[TDEE]: Total Daily Energy Expenditure
