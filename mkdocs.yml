@@ -22,7 +22,9 @@ nav:
       - blog/index.md
 
 theme:
+  favicon: assets/images/favicon.svg
   features:
+    - content.code.copy
     - content.tooltips
     - navigation.footer
     - navigation.indexes
@@ -38,12 +40,16 @@ theme:
     logo: fontawesome/solid/terminal
     repo: fontawesome/brands/github
     tag:
+      agile: fontawesome/solid/arrows-spin
       docker: fontawesome/brands/docker
       fitness: fontawesome/solid/heart-pulse
+      javascript: fontawesome/brands/js
       mental-health: fontawesome/solid/brain
+      nodejs: fontawesome/brands/node-js
       performance: fontawesome/solid/gauge-high
       python: fontawesome/brands/python
       security: fontawesome/solid/shield-halved
+      team: fontawesome/solid/users
       weight-loss: fontawesome/solid/weight-scale
   language: en
   name: material
@@ -134,6 +140,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tilde
   - tables
+  - toc:
+      permalink: true
 
 extra:
   social:
@@ -153,12 +161,16 @@ extra:
       name: X
       link: https://x.com/MattShaw85
   tags:
+    Agile: agile
     Docker: docker
     Fitness: fitness
+    JavaScript: javascript
     Mental health: mental-health
+    Node.js: nodejs
     Performance: performance
     Python: python
     Security: security
+    Team: team
     Weight loss: weight-loss
 
 extra_css:
