@@ -14,6 +14,7 @@
 *[JS]: JavaScript
 *[JSON]: JavaScript Object Notation
 *[MAF]: Maximum Aerobic Function
+*[MP]: Member of Parliament
 *[MVC]: Model-View-Controller
 *[OWASP]: Open Worldwide Application Security Project
 *[SQL]: Structured Query Language
