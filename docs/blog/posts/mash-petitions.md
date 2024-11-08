@@ -15,7 +15,7 @@ tags:
 
 # Mash Petitions
 
-Mash Petitions is a digital public service that enables users to explore UK government and parliament petitions. It builds upon the governments’ e-petitions platform, exposes more detailed information and combines it with other open public data to enable interesting analysis and insight.
+Mash Petitions is a digital public service that enables users to explore UK parliament petitions. It builds upon the governments’ e-petitions platform, exposes more detailed information and combines it with other open public data to enable interesting analysis and insight.
 
 <!-- more -->
 
