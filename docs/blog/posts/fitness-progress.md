@@ -20,7 +20,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 ## Weight
 
-![Weight](../../assets/images/weight.svg)
+![Weight](../../assets/images/weight.svg){ width="600" }
 
 ??? abstract "Data"
 
@@ -39,7 +39,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 ## Composition
 
-![Composition](../../assets/images/composition.svg)
+![Composition](../../assets/images/composition.svg){ width="600" }
 
 ??? abstract "Data"
 
@@ -58,7 +58,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 ## BMI
 
-![BMI](../../assets/images/bmi.svg)
+![BMI](../../assets/images/bmi.svg){ width="600" }
 
 ??? abstract "Data"
 
@@ -77,7 +77,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 ## Resting heart rate
 
-![RHR](../../assets/images/rhr.svg)
+![RHR](../../assets/images/rhr.svg){ width="600" }
 
 ??? abstract "Data"
 

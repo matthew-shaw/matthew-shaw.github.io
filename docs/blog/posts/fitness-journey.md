@@ -101,9 +101,9 @@ Taking an average gives me a TDEE of 2240 kcal/day to maintain my starting weigh
 
 ## How long will it take?
 
-I want to reach and maintain my weight in my target range **by my 40th birthday**, which gives me just under a year to achieve it. If I plot a loss of between 0.4 kg and 0.9 kg per week you can see the cone I'm aiming to stay within:
+I want to reach and maintain my weight in my target range **by my 40th birthday**, which gives me just under a year to achieve it. If I plot a loss of between 0.4 kg and 0.96kg per week you can see the cone I'm aiming to stay within:
 
-![Weight](../../assets/images/weight-start.svg)
+![Weight](../../assets/images/weight-start.svg){ width="600" }
 
 With no other data yet I can only make an informed guess at best (#NoEstimates :wink:). As time goes on, I'll be able to refine increasingly accurate projections based on empirical evidence and data. As a starting point though:
 
