@@ -35,10 +35,10 @@ That’s why it’s great that there is now programatic access to some datasets 
 
 I wanted to see what I could do to present healthcare open data in a useful, engaging and interesting way.
 
-- Firstly I wanted to visualise the data on a map, to see how healthcare locations are geographically distributed, as such it takes up the lions share of the page.
+- Firstly, I wanted to visualise the data on a map, to see how healthcare locations are geographically distributed, as such it takes up the lions share of the page.
 - Secondly, theres a lot of different contact information for healthcare providers available; it should be easy to identify and use.
 - Thirdly, you should be able to search for different types of healthcare providers in a consistent and structured way, in order to aid the ease of finding what you need.
-- Lastly it should work well on a mobile device, so the design must be responsive and links to contact details should open appropriate apps (like a phone number).
+- Lastly, it should work well on a mobile device, so the design must be responsive and links to contact details should open appropriate apps (like a phone number).
 
 The last point was a bit tricky with the map, since a [slippy map](https://wiki.openstreetmap.org/wiki/Slippy_map) that occupies the width of the screen can give users issues with scrolling past it, so my solution was to remove it and focus on the textual result data. If you’re using a tablet in landscape orientation, or a regular desktop resolution, then the added screen estate makes the experience a better one, without inhibiting the mobile device experience.
 
