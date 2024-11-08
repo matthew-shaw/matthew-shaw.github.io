@@ -5,7 +5,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: My guide to building a highly customisable, lightweight, secure, and performant static site using MkDocs, NGINX and Docker.
+description: A guide to building a highly customisable, lightweight, secure, and performant static site using MkDocs, NGINX and Docker.
 tags:
   - Docker
   - MkDocs
@@ -17,7 +17,7 @@ tags:
 
 # Building a static site with MkDocs, NGINX and Docker
 
-My guide to building a highly customisable, lightweight, secure, and performant static site using MkDocs, NGINX and Docker.
+A guide to building a highly customisable, lightweight, secure, and performant static site using MkDocs, NGINX and Docker.
 
 <!-- more -->
 

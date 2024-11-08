@@ -14,11 +14,9 @@ tags:
 
 # Fitness progress
 
-Tracking my ongoing progress towards my health and fitness goals.
+Tracking my ongoing progress towards my health and fitness goals. See my [original post](fitness-journey.md) for what I'm trying to achieve and how I'm doing it.
 
 <!-- more -->
-
-See my [original post](fitness-journey.md) for what I'm trying to achieve and how I'm doing it.
 
 ## Weight
 

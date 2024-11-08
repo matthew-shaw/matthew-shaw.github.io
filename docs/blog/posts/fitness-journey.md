@@ -13,11 +13,9 @@ tags:
 
 # My health and fitness journey
 
-I am starting a new health and fitness journey and documenting my progress.
+I am starting a new health and fitness journey and documenting my progress. Hopefully this will help to keep me accountable to myself, and maybe even help some other people with their own journey. I'm going to approach this in a scientific, mathematical, analytical and evidence-based way, so expect lots of stats and graphs!
 
 <!-- more -->
-
-Hopefully this will help to keep me accountable to myself, and maybe even help some other people with their own journey. I'm going to approach this in a scientific, mathematical, analytical and evidence-based way, so expect lots of stats and graphs!
 
 ## Why am I doing this?
 

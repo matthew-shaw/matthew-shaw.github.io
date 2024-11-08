@@ -14,7 +14,7 @@ tags:
 
 # Top 10 features of truly agile teams
 
-I’ve been very lucky to have worked alongside some hugely talented people from the Government Digital Service on the Land Registry Concept and Alpha projects. Although I was experienced in working with the Scrum framework before this, I have come to better appreciate what it means to be a truly agile team.
+I’ve been very lucky to have worked alongside some hugely talented people from the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service) on the [Land Registry](https://www.gov.uk/government/organisations/land-registry) Concept and Alpha projects. Although I was experienced in working with the Scrum framework before this, I have come to better appreciate what it means to be a truly agile team.
 
 <!-- more -->
 
