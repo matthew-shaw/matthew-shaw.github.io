@@ -6,7 +6,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: A guide to building a highly customisable, lightweight, secure, and performant static site using MkDocs, NGINX and Docker.
+description: Developing GOV.UK services with Python
 tags:
   - Docker
   - Flask
@@ -21,6 +21,20 @@ tags:
 # Developing GOV.UK services with Python
 
 <!-- more -->
+
+## A brief history
+
+In 2016 I was working on the beta version of a new GOV.UK service at [HM Land Registry](https://www.gov.uk/land-registry) that would go on to become ["Search for Land and Property Information"](https://search-property-information.service.gov.uk/).
+
+## Templates
+
+## Forms
+
+## Security
+
+## Performance
+
+## Architecture
 
 ```mermaid
 flowchart TB
