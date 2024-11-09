@@ -3,6 +3,7 @@
 *[BMI]: Body Mass Index
 *[BMR]: Basal Metabolic Rate
 *[bpm]: beats per minute
+*[CBT]: Cognitive Behavioural Therapy
 *[CSP]: Content Security Policy
 *[CSS]: Cascading Style Sheets
 *[HM]: His Majesty's

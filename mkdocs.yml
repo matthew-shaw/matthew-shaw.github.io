@@ -49,6 +49,7 @@ theme:
       nodejs: fontawesome/brands/node-js
       performance: fontawesome/solid/gauge-high
       python: fontawesome/brands/python
+      running: fontawesome/solid/person-running
       security: fontawesome/solid/shield-halved
       team: fontawesome/solid/users
       weight-loss: fontawesome/solid/weight-scale
@@ -165,6 +166,7 @@ extra:
     Node.js: nodejs
     Performance: performance
     Python: python
+    Running: running
     Security: security
     Team: team
     Weight loss: weight-loss
