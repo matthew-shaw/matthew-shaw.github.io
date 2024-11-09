@@ -81,12 +81,6 @@ theme:
 
 plugins:
   - blog
-  - git-committers:
-      repository: matthew-shaw/matthew-shaw.github.io
-      branch: main
-      token: None
-  - git-revision-date-localized:
-      enable_creation_date: true
   - glightbox
   - minify:
       minify_html: true
