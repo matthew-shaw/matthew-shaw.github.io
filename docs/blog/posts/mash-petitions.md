@@ -6,7 +6,7 @@ authors:
 categories:
   - Software Development
   - Mash Software
-description: A digital public service that enables users to explore UK government and parliament petitions
+description: A digital public service that enables users to explore UK government and parliament petitions.
 tags:
   - Flask
   - Open Data

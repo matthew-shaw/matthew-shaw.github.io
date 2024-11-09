@@ -8,7 +8,6 @@ categories:
 description: I have come to better appreciate what it means to be a truly agile team.
 tags:
   - Agile
-  - Culture
   - Team
 ---
 
