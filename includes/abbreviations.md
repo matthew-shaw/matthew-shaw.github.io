@@ -25,5 +25,6 @@
 *[THR]: Target Heart Rate
 *[TLS]: Transport Layer Security
 *[UI]: User Interface
+*[UIs]: User Interfaces
 *[URL]: Uniform Resource Locator
 *[XSS]: Cross-Site Scripting
