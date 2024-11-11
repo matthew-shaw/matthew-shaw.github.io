@@ -26,6 +26,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Weight (kg) | Difference (kg) | Total (kg) |
     | ---- | ----------- | --------------- | ---------- |
+    | 10   | 86.8        | -0.1            | -7.6       |
     | 9    | 86.9        | -0.6            | -7.5       |
     | 8    | 87.5        | -1.4            | -6.9       |
     | 7    | 88.9        | -0.4            | -5.5       |
@@ -45,6 +46,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Body fat | Lean mass (kg) | Fat mass (kg) |
     | ---- | -------- | -------------- | ------------- |
+    | 10   | 32.8%    | 58.3           | 28.5          |
     | 9    | 32.8%    | 58.4           | 28.5          |
     | 8    | 33.2%    | 58.5           | 29.1          |
     | 7    | 34.1%    | 58.6           | 30.3          |
@@ -64,6 +66,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | BMI  |
     | ---- | ---- |
+    | 10   | 29.3 |
     | 9    | 29.4 |
     | 8    | 29.6 |
     | 7    | 30.1 |
@@ -83,6 +86,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Resting heart rate |
     | ---- | ------------------ |
+    | 10   | 59                 |
     | 9    | 60                 |
     | 8    | 61                 |
     | 7    | 62                 |
@@ -100,11 +104,11 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 | Goal weight (kg) | Best case  | Worst case |
 | ---------------- | ---------- | ---------- |
-| 85.2             | 2024-11-17 | 2024-12-08 |
-| 80.9             | 2024-12-22 | 2025-02-16 |
-| 76.9             | 2025-01-26 | 2025-04-27 |
-| 73.0             | 2025-02-23 | 2025-07-06 |
-| 69.4             | 2025-03-23 | 2025-09-07 |
+| 85.2             | 2024-11-24 | 2024-12-08 |
+| 80.9             | 2024-12-29 | 2025-02-23 |
+| 76.9             | 2025-01-26 | 2025-05-04 |
+| 73.0             | 2025-03-02 | 2025-07-13 |
+| 69.4             | 2025-03-30 | 2025-09-14 |
 
 ### Completed
 
