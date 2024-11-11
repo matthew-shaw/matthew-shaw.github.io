@@ -60,7 +60,7 @@ router.get("/:version/applications/:application/draft", function (req, res) {
   var version = req.params.version;
   var application = req.params.application;
   var data = fs.readFileSync(
-    __dirname + "/views/" + version + "/data/" + application + ".json"
+    __dirname + "/views/" + version + "/data/" + application + ".json",
   );
   var parsedData = JSON.parse(data);
   res.render(version + "/draft", {
