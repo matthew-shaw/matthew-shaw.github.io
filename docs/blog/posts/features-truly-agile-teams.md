@@ -33,7 +33,7 @@ Source code should be held in an open repository such as GitHub and made publicl
 
 ## Adopt open standards
 
-No closed source, proprietary, costly software. Working to interoperable open standards makes it easier to change technologies if needed.
+No closed-source, proprietary, costly software. Working to interoperable open standards makes it easier to change technologies if needed.
 
 ## Empower the team
 
