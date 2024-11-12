@@ -38,6 +38,47 @@ In this blog I'd like to explore what those packages are, how they combine to he
 
 The [GOV.UK Frontend Jinja](https://github.com/LandRegistry/govuk-frontend-jinja) package provides a like-for-like port of the original Nunjucks macros from [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/). Since Nunjucks is heavily inspired by Jinja, most of the syntax is the same, which enables a key design choice to aim for 100% equivalency. As as result, you can take any of the [GOV.UK Design System component](https://design-system.service.gov.uk/components/) macros and use them exactly as-is in a Flask project.
 
+Integrating these into a Flask application is simple. First add `govuk-frontend-jinja` to your project dependencies; I prefer to use the requirements file format for this:
+
+```title="requirements.in" linenums="1"
+flask==3.0.3
+govuk-frontend-jinja==3.4.0
+```
+
+Then compile the top-level dependencies into the familiar `requirements.txt` file using [pip-tools](https://pip-tools.readthedocs.io/en/latest/):
+
+```shell
+pip-compile requirements.in --upgrade
+```
+
+And install them:
+
+```shell
+pip install -r requirements.txt
+```
+
+I'm not using a `venv` here, because I'm going to use Docker to isolate runtime dependencies. Then in the application initialisation (typically a `create_app()` method in `__init__.py` if using the [application factory pattern](https://flask.palletsprojects.com/en/stable/patterns/appfactories/))
+
+```python title="app/__init__.py" linenums="1"
+from flask import Flask
+from jinja2 import ChoiceLoader, PackageLoader, PrefixLoader
+
+def create_app():
+    app = Flask(__name__)
+    app.jinja_loader = ChoiceLoader(
+        [
+            PackageLoader("app"),
+            PrefixLoader(
+                {
+                    "govuk_frontend_jinja": PackageLoader("govuk_frontend_jinja")
+                }
+            ),
+        ]
+    )
+
+    return app
+```
+
 ## Forms
 
 ## Applications
