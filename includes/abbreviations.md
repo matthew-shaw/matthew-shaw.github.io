@@ -21,6 +21,7 @@
 *[REST]: Representational State Transfer
 *[SQL]: Structured Query Language
 *[SSL]: Secure Sockets Layer
+*[TDD]: Test-Driven Development
 *[TDEE]: Total Daily Energy Expenditure
 *[THR]: Target Heart Rate
 *[TLS]: Transport Layer Security
