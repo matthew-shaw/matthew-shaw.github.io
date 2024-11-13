@@ -34,13 +34,15 @@ When you walk through an office and see the same spreadsheet on so many people�
 
 ## Simple
 
+![Simple products](../../assets/images/button-simple.png)
+
 A lot of corporate and internal facing interfaces end up like the third example above. People believe that the complexities of their particular organisation are irreducible and can’t be distilled into something simple.
 
 It’s also regrettable that we put so much time and effort into making user centred products and services for external customers, then totally forget that internal users are customers too. Back-office administrative systems aren’t as sexy, but people use them all day every day and deserve better.
 
 Simplicity does not mean basic. Case in point; the single search field in Google Maps which takes free-format unstructured terms and manages to turn that into a structured address for (nearly) anywhere in the world. The simplicity of the solution hides a world of complexity from the user but does not mean the solution itself is basic.
 
-> “Simplicity — the art of maximizing the amount of work not done — is essential.” — Principle of the agile manifesto
+> “Simplicity--the art of maximizing the amount of work not done--is essential. ” — [Twelve Principles of Agile Software](https://agilemanifesto.org/principles.html)
 
 The most simple way I could think of to record time spent doing something was a stopwatch. Press a button to start it, press it again to stop, see how long that was. It does one thing and it does it well. As that’s all I want the app to do, that’s all I’ve focused on for the MVP (alpha) release, to refine the core functionality.
 
@@ -90,9 +92,7 @@ You don’t have to take my word for it either, you can see the full source code
 
 ## Alpha
 
-A screenshot from the first public alpha release of The Button.
-
-The Button first public alpha release
+![The Button first public alpha release](../../assets/images/button-alpha.png){ width="600" }
 
 Today I have released the first public alpha version of The Button. As with all pre-release software, this is one for early adopters who want to help test the service in the real world and shape the direction of its development. As such, your feedback on the service is incredibly important, to help me understand what works well, what doesn’t and where to focus my effort. Whilst I am confident there aren’t any major bugs or issues, these things come out in the wash, so please be aware.
 
