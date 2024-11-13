@@ -94,4 +94,4 @@ In the meantime, please try using Mash Petitions and let me know what you think 
 
 ---
 
-[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2016%2F03%2F05%2Fmash-petitions%2F&via=MattShaw85&text=Mash%20Petitions&hashtags=OpenData%2CPython%2CFlask)
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2016%2F03%2F05%2Fmash-petitions%2F&via=MattShaw85&text=Mash%20Petitions&hashtags=OpenData%2CPython%2CFlask){ .md-button .md-button--primary }
