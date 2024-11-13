@@ -101,11 +101,7 @@ def create_app():
 
 ## Applications
 
-## Security
-
-## Performance
-
-## Architecture
+### Architecture
 
 ```mermaid
 flowchart TB
@@ -133,3 +129,7 @@ flowchart TB
         cache1
     end
 ```
+
+## Security
+
+## Performance
