@@ -41,6 +41,8 @@ theme:
     repo: fontawesome/brands/github
     tag:
       agile: fontawesome/solid/arrows-spin
+      bootstrap: fontawesome/brands/bootstrap
+      database: fontawesome/solid/database
       docker: fontawesome/brands/docker
       fitness: fontawesome/solid/heart-pulse
       govuk: fontawesome/solid/crown
@@ -158,6 +160,7 @@ extra:
       link: https://x.com/MattShaw85
   tags:
     Agile: agile
+    Bootstrap: bootstrap
     Docker: docker
     Fitness: fitness
     GOV.UK: govuk
@@ -165,9 +168,11 @@ extra:
     Mental health: mental-health
     Node.js: nodejs
     Performance: performance
+    PostgreSQL: database
     Python: python
     Running: running
     Security: security
+    SQLAlchemy: database
     Team: team
     Weight loss: weight-loss
 
