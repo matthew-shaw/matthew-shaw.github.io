@@ -133,3 +133,7 @@ flowchart TB
 ## Security
 
 ## Performance
+
+---
+
+[:fontawesome-brands-x-twitter: Share on Twitter]()

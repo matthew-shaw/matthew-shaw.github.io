@@ -58,3 +58,7 @@ Make lots of mistakes, make them fast, learn from them then try again until you 
 ## Don’t do agile, be agile
 
 Scrum is great, as a framework, not as a rule. If it works keep it, if it doesn’t change it.
+
+---
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2014%2F12%2F08%2Ftop-10-features-of-truly-agile-teams%2F&via=MattShaw85&text=Top%2010%20features%20of%20truly%20agile%20teams&hashtags=Agile)

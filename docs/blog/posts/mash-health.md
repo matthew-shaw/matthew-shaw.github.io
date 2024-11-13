@@ -60,3 +60,7 @@ This is an ongoing project, driven by user needs and feedback. Here are a few of
 I’d really appreciate any feedback on the service so far, including feature requests and bug reports, so please feel free to contact me, or raise an issue on [GitHub](https://github.com/MashSoftware/health).
 
 In the meantime, please give Mash Health a try and let me know what you think of it.
+
+---
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2016%2F10%2F18%2Fmash-health%2F&via=MattShaw85&text=Mash%20Health&hashtags=OpenData%2CPython%2CFlask)

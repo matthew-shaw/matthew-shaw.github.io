@@ -119,3 +119,7 @@ With no other data yet I can only make an informed guess at best (#NoEstimates :
 ## Let's go!
 
 I'll been keeping track of my progress week-by-week and sharing updates [in this post](fitness-progress.md).
+
+---
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2024%2F08%2F29%2Fmy-health-and-fitness-journey%2F&via=MattShaw85&text=My%20health%20and%20fitness%20journey&hashtags=Health%2CFitness%2CWeightLoss)

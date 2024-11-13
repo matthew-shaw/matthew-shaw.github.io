@@ -76,3 +76,7 @@ In the above `GET` request handler, `/:version` corresponds to the directory nam
 I’ve also made good use of the templating engine, holding all variable data on each page in a structured JSON file, so the HTML templates are largely about presentational logic and layout of that data. This is in keeping with [MVC software architecture](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) and mimics how the data-driven UI would receive data from an API. This means I can make very quick changes to page content without affecting layout that I might want to preserve between versions, and vice versa.
 
 Combine this with an index page with links to each version, a date or sprint each iteration was created and a change log for each iteration and you’ll have a rich visual history of your application prototyping.
+
+---
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2016%2F02%2F23%2Frapid-prototype-versioning%2F&via=MattShaw85&text=Rapid%20prototype%20versioning&hashtags=GOV.UK%2CNodejs%2CPrototype)

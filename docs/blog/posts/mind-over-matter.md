@@ -121,3 +121,7 @@ If you have read this far and want to do something to help, then please consider
 Thank you to the people who have enabled me to write this. Thank you to my wife, family and friends. Thank you to anyone who gave me advice, support and encouragement along the way. And thank you for reading.
 
 \#KeepGoing
+
+---
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2018%2F09%2F08%2Fmind-over-matter%2F&via=MattShaw85&text=Mind%20over%20Matter&hashtags=Fitness%2CMentalHealth%2CRunning%2CWeightLoss)

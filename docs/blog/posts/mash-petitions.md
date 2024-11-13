@@ -90,3 +90,7 @@ Because of fair usage restrictions on some open data API’s I am using there ar
 I also have more features planned to enable citizens to effectively lobby MP’s to represent them and the causes they care about. I will be blogging about new features, fixes and improvements as and when they are live in the service, so keep an eye on my blog for updates.
 
 In the meantime, please try using Mash Petitions and let me know what you think of it!
+
+---
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2016%2F03%2F05%2Fmash-petitions%2F&via=MattShaw85&text=Mash%20Petitions&hashtags=OpenData%2CPython%2CFlask)
