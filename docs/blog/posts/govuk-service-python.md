@@ -56,7 +56,7 @@ At the time of writing, GOV.UK Frontend Jinja is being used in [125 code reposit
 
 ### Usage
 
-Integrating these into a Flask application is simple. First add `govuk-frontend-jinja` to your project dependencies; I prefer to use the requirements file format for this:
+Integrating into a Flask application is simple. First add `govuk-frontend-jinja` to your project dependencies; I prefer to use the requirements file format for this:
 
 ```title="requirements.in" linenums="1"
 flask==3.0.3
@@ -75,7 +75,7 @@ And install them:
 pip install -r requirements.txt
 ```
 
-I'm not using a `venv` here, because I'm going to use Docker to isolate runtime dependencies later on. Then, in the application initialisation (typically a `create_app()` method in `__init__.py` if using the [application factory pattern](https://flask.palletsprojects.com/en/stable/patterns/appfactories/))
+I'm not using a `venv` here, because I'm going to use Docker to isolate runtime dependencies later on. Then, in the application initialisation (typically a `create_app()` method in `__init__.py` if using the [application factory pattern](https://flask.palletsprojects.com/en/stable/patterns/appfactories/)):
 
 ```python title="app/__init__.py" linenums="1"
 from flask import Flask
