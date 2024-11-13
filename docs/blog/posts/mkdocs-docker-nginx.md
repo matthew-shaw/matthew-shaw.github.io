@@ -367,3 +367,7 @@ In the NGINX config above I've added a location directive to add the [Cache-Cont
 Material for MkDocs is a great choice for creating static sites, blogs, and project documentation. It's simple to set up and configure, highly customisable and extensible, plus authoring the content in markdown is easy and familiar to most developers. By using NGINX you can serve the MkDocs generated static site in a secure and highly performant way. Using Docker to build portable, isolated, and small containers makes development and deployment much easier as well.
 
 If you want to build your own site in this way, I have created a [template repository on GitHub](https://github.com/matthew-shaw/mkdocs) which includes everything discussed above so you can get started quicker.
+
+---
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2024%2F11%2F04%2Fbuilding-a-static-site-with-mkdocs-nginx-and-docker%2F&via=MattShaw85&text=Building%20a%20static%20site%20with%20MkDocs%2C%20NGINX%20and%20Docker&hashtags=MkDocs%2CNGINX%2CDocker)
