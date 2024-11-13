@@ -8,6 +8,7 @@ categories:
   - Mash Software
 description: A digital public service that enables users to explore UK government and parliament petitions.
 tags:
+  - Bootstrap
   - Flask
   - Open Data
   - Python
