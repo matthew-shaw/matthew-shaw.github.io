@@ -41,7 +41,10 @@ It’s also regrettable that we put so much time and effort into making user cen
 
 Simplicity does not mean basic. Case in point; the single search field in Google Maps which takes free-format unstructured terms and manages to turn that into a structured address for (nearly) anywhere in the world. The simplicity of the solution hides a world of complexity from the user but does not mean the solution itself is basic.
 
-> “Simplicity--the art of maximizing the amount of work not done--is essential. ” — [Twelve Principles of Agile Software](https://agilemanifesto.org/principles.html)
+!!! quote "Twelve Principles of Agile Software"
+    Simplicity--the art of maximizing the amount of work not done--is essential.
+
+    <https://agilemanifesto.org/principles.html>
 
 The most simple way I could think of to record time spent doing something was a stopwatch. Press a button to start it, press it again to stop, see how long that was. It does one thing and it does it well. As that’s all I want the app to do, that’s all I’ve focused on for the MVP ([alpha](https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha)) release, to refine the core functionality.
 
@@ -51,7 +54,7 @@ I’ve focused on making the app and the UI as small and fast possible. All resp
 
 I’ve implemented reasonable [rate limits](https://en.wikipedia.org/wiki/Rate_limiting), to help protect the application from abuse and maintain a good service for all users. This is backed by [Redis](https://redis.io/), a super-fast in-memory cache. You should never notice it doing its job, but I will continue to monitor this and adjust if needed.
 
-The result of this careful effort is a ==[Google PageSpeed](https://developers.google.com/speed/docs/insights/v5/about) score of [100% on desktop and 99% on mobile](https://pagespeed.web.dev/analysis/https-time-tracker-mashsoftware-com/82ugui0wcf)!==
+The result of this careful effort is a [Google PageSpeed](https://developers.google.com/speed/docs/insights/v5/about) score of [100% on desktop and 99% on mobile](https://pagespeed.web.dev/analysis/https-time-tracker-mashsoftware-com/82ugui0wcf)!
 
 ## Secure
 
@@ -63,7 +66,7 @@ I’m using an extension called [Talisman](https://github.com/GoogleCloudPlatfor
 - Enable HTTP Strict Transport Security (HSTS) to protect against [session hijacking](https://en.wikipedia.org/wiki/Session_hijacking).
 - A strict Content Security Policy (CSP) with only specific resource types allowed. This prevents [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS), [clickjacking](https://en.wikipedia.org/wiki/Clickjacking) and other [code injection](https://en.wikipedia.org/wiki/Code_injection) attacks.
 
-==This has gained the service an [A+ rating](https://securityheaders.com/?q=https%3A%2F%2Ftime-tracker.mashsoftware.com%2F&followRedirects=on) on [securityheaders.com](https://securityheaders.com/)==, but there’s far more to web security than headers alone:
+This has gained the service an [A+ rating](https://securityheaders.com/?q=https%3A%2F%2Ftime-tracker.mashsoftware.com%2F&followRedirects=on) on [securityheaders.com](https://securityheaders.com/), but there’s far more to web security than headers alone:
 
 - Protected against [SQL injection](https://en.wikipedia.org/wiki/SQL_injection) attacks thanks to [SQLAlchemy’s](https://www.sqlalchemy.org/) [object-relational mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) (ORM) generating parameterised SQL.
 - All forms are protected against [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) (CSRF) attacks by using CSRF tokens in [WTForms](https://wtforms.readthedocs.io/en/stable/).
@@ -75,9 +78,9 @@ I’m using an extension called [Talisman](https://github.com/GoogleCloudPlatfor
 
 _“You should create an app for that!”_ said my wife when I was telling her about this idea. It’s a fair assumption in today’s smartphone-driven digital world, but not one I subscribe to. For something as lightweight as this that doesn’t need an OS native app, it’s a big overhead for a developer. It’s more complex to write and slower to deploy/release. The user has to find the app on a marketplace, install it and take up valuable storage space otherwise used for photos of their kids/cats/lunch.
 
-I’ve taken a mobile-first approach to the design of [The Button](https://time-tracker.mashsoftware.com/), so it looks great and works well on all sizes of device. But more importantly, ==I’ve adopted a web-first approach that treats the browser as a first-class citizen and not a fallback option.== That’s _any_ browser on pretty much _any_ device by the way, not just Android or iOS.
+I’ve taken a mobile-first approach to the design of [The Button](https://time-tracker.mashsoftware.com/), so it looks great and works well on all sizes of device. But more importantly, I’ve adopted a web-first approach that treats the browser as a first-class citizen and not a fallback option. That’s _any_ browser on pretty much _any_ device by the way, not just Android or iOS.
 
-==The web is open, democratic and free (as in speech, not beer), in a way that app stores tend not to be.==
+The web is open, democratic and free (as in speech, not beer), in a way that app stores tend not to be.
 
 ## Open
 

@@ -292,6 +292,8 @@ To call out just a few:
 !!! quote "Mozilla Developer Network"
     CSP is a feature that helps to prevent or minimize the risk of certain types of security threats. It consists of a series of instructions from a website to a browser, which instruct the browser to place restrictions on the things that the code comprising the site is allowed to do.
 
+    <https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP>
+
 Ideally, a strict CSP would include the hashes of any inline scripts. However, MkDocs Material uses many inline scripts which makes this approach impractical, so for the purposes of a static content site, allowing `unsafe-inline` is a pragmatic compromise.
 
 ### Permissions Policy
@@ -299,12 +301,16 @@ Ideally, a strict CSP would include the hashes of any inline scripts. However, M
 !!! quote "Mozilla Developer Network"
     The HTTP Permissions-Policy header provides a mechanism to allow and deny the use of browser features.
 
+    <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy>
+
 I've used the policy generator at <https://www.permissionspolicy.com/> to disable all of the standardised features.
 
 ### Strict-Transport-Security
 
 !!! quote "Mozilla Developer Network"
     HSTS informs browsers that the site should only be accessed using HTTPS, and that any future attempts to access it using HTTP should automatically be converted to HTTPS.
+
+    <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security>
 
 This header is a default part of Mozilla's modern configuration but is important to note because just redirecting HTTP to HTTPS alone is still vulnerable to a man-in-the-middle attack. The `max-age` is set to 2 years in seconds.
 
