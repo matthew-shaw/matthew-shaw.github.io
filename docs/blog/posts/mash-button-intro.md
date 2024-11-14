@@ -1,5 +1,4 @@
 ---
-draft: true
 date:
   created: 2019-07-12
 authors:
@@ -26,11 +25,11 @@ One of my first jobs in software development after leaving university was to rew
 
 <!-- more -->
 
-I definitely committed some software sins on that project. Especially by pushing complexity and required knowledge on to the user, forcing them to figure it out for themselves instead of doing the hard work to make it simple.
+I definitely committed some software sins on that project. Especially by pushing complexity and required knowledge on to the user, forcing them to figure it out for themselves instead of [doing the hard work to make it simple](https://www.gov.uk/guidance/government-design-principles#do-the-hard-work-to-make-it-simple).
 
 In the years since I’ve always had the kind of job that requires me to keep track of my time for flexible working hours. I’ve had to live with my previous mistakes, and have also had _far_ worse user experiences in systems from the usual big enterprise vendors.
 
-When you walk through an office and see the same spreadsheet on so many people’s screens, because they prefer to use _that_ over the system they’re otherwise forced to use, you know something has gone wrong. It’s that observation, and the desire to find a simple solution to the problem that has led me to create “The Button”.
+When you walk through an office and see the same spreadsheet on so many people’s screens, because they prefer to use _that_ over the system they’re otherwise forced to use, you know something has gone wrong. It’s that observation, and the desire to find a simple solution to the problem that has led me to create “[The Button](https://time-tracker.mashsoftware.com/)”.
 
 ## Simple
 
@@ -44,41 +43,41 @@ Simplicity does not mean basic. Case in point; the single search field in Google
 
 > “Simplicity--the art of maximizing the amount of work not done--is essential. ” — [Twelve Principles of Agile Software](https://agilemanifesto.org/principles.html)
 
-The most simple way I could think of to record time spent doing something was a stopwatch. Press a button to start it, press it again to stop, see how long that was. It does one thing and it does it well. As that’s all I want the app to do, that’s all I’ve focused on for the MVP (alpha) release, to refine the core functionality.
+The most simple way I could think of to record time spent doing something was a stopwatch. Press a button to start it, press it again to stop, see how long that was. It does one thing and it does it well. As that’s all I want the app to do, that’s all I’ve focused on for the MVP ([alpha](https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha)) release, to refine the core functionality.
 
 ## Quick
 
-I’ve focused on making the app and the UI as small and fast possible. All responses are gzipped, to minimise data transfer, which is particularly important on mobile networks, but benefits everyone. All assets come from large CDNs, so there’s a good chance you already have a copy in your browser cache. If you don’t, then they’re all minified so take up as little space as possible, helping to keep page load time down.
+I’ve focused on making the app and the UI as small and fast possible. All responses are [gzipped](https://en.wikipedia.org/wiki/Gzip), to minimise data transfer, which is particularly important on mobile networks, but benefits everyone. All assets come from large CDNs, so there’s a good chance you already have a copy in your browser cache. If you don’t, then they’re all [minified](<https://en.wikipedia.org/wiki/Minification_(programming)>) so take up as little space as possible, helping to keep page load time down.
 
-I’ve implemented reasonable rate limits, to help protect the application from abuse and maintain a good service for all users. This is backed by Redis too, a super-fast in-memory cache. You should never notice it doing its job, but I will continue to monitor this and adjust if needed.
+I’ve implemented reasonable [rate limits](https://en.wikipedia.org/wiki/Rate_limiting), to help protect the application from abuse and maintain a good service for all users. This is backed by [Redis](https://redis.io/), a super-fast in-memory cache. You should never notice it doing its job, but I will continue to monitor this and adjust if needed.
 
-The result of this careful effort is a Google PageSpeed score of 100% on desktop and 99% on mobile!
+The result of this careful effort is a ==[Google PageSpeed](https://developers.google.com/speed/docs/insights/v5/about) score of [100% on desktop and 99% on mobile](https://pagespeed.web.dev/analysis/https-time-tracker-mashsoftware-com/82ugui0wcf)!==
 
 ## Secure
 
 But what good is speed at the expense of security?
 
-I’m using an extension called Talisman to handle setting HTTP headers. This can help protect against a few common web application security issues, including:
+I’m using an extension called [Talisman](https://github.com/GoogleCloudPlatform/flask-talisman) to handle setting HTTP headers. This can help protect against a few common web application security issues, including:
 
 - Force all connects to HTTPS.
-- Enable HTTP Strict Transport Security (HSTS) to protect against session hijacking.
-- A strict Content Security Policy (CSP) with only specific resource types allowed. This prevents cross-site scripting (XSS), clickjacking and other code injection attacks.
+- Enable HTTP Strict Transport Security (HSTS) to protect against [session hijacking](https://en.wikipedia.org/wiki/Session_hijacking).
+- A strict Content Security Policy (CSP) with only specific resource types allowed. This prevents [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) (XSS), [clickjacking](https://en.wikipedia.org/wiki/Clickjacking) and other [code injection](https://en.wikipedia.org/wiki/Code_injection) attacks.
 
-This has gained the service an A+ rating on securityheaders.com, but there’s far more to web security than headers alone:
+==This has gained the service an [A+ rating](https://securityheaders.com/?q=https%3A%2F%2Ftime-tracker.mashsoftware.com%2F&followRedirects=on) on [securityheaders.com](https://securityheaders.com/)==, but there’s far more to web security than headers alone:
 
-- Protected against SQL injection attacks thanks to SQLAlchemy’s object-relational mapping generating parameterised SQL.
-- All forms are protected against cross-site request forgery (CSRF) attacks by using CSRF tokens in WTForms.
-- All external resources use subresource integrity (SRI) checks, ensuring assets have not been compromised.
-- User passwords are encrypted using bcrypt, a slow key derivation function. It is resistant to rainbow table, dictionary attacks and brute force attacks.
-- User account emails contain a unique, time-limited URL. This uses JSON Web Tokens (JWT) that are digitally signed using HMAC with SHA-256. Activation and confirmation tokens expire in one hour, and password reset tokens expire in ten minutes.
+- Protected against [SQL injection](https://en.wikipedia.org/wiki/SQL_injection) attacks thanks to [SQLAlchemy’s](https://www.sqlalchemy.org/) [object-relational mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping) (ORM) generating parameterised SQL.
+- All forms are protected against [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) (CSRF) attacks by using CSRF tokens in [WTForms](https://wtforms.readthedocs.io/en/stable/).
+- All external resources use [subresource integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) (SRI) checks, ensuring assets have not been compromised.
+- User passwords are encrypted using [bcrypt](https://en.wikipedia.org/wiki/Bcrypt), a slow [key derivation function](https://en.wikipedia.org/wiki/Key_derivation_function). It is resistant to [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table), [dictionary attacks](https://en.wikipedia.org/wiki/Dictionary_attack) and [brute force attacks](https://en.wikipedia.org/wiki/Brute-force_attack).
+- User account emails contain a unique, time-limited URL. This uses [JSON Web Tokens](https://jwt.io/) (JWT) that are digitally signed using HMAC with SHA-256. Activation and confirmation tokens expire in one hour, and password reset tokens expire in ten minutes.
 
 ## Web first
 
 _“You should create an app for that!”_ said my wife when I was telling her about this idea. It’s a fair assumption in today’s smartphone-driven digital world, but not one I subscribe to. For something as lightweight as this that doesn’t need an OS native app, it’s a big overhead for a developer. It’s more complex to write and slower to deploy/release. The user has to find the app on a marketplace, install it and take up valuable storage space otherwise used for photos of their kids/cats/lunch.
 
-I’ve taken a mobile-first approach to the design of The Button, so it looks great and works well on all sizes of device. But more importantly, I’ve adopted a web-first approach that treats the browser as a first-class citizen and not a fallback option. That’s _any_ browser on pretty much _any_ device by the way, not just Android or iOS.
+I’ve taken a mobile-first approach to the design of [The Button](https://time-tracker.mashsoftware.com/), so it looks great and works well on all sizes of device. But more importantly, ==I’ve adopted a web-first approach that treats the browser as a first-class citizen and not a fallback option.== That’s _any_ browser on pretty much _any_ device by the way, not just Android or iOS.
 
-The web is open, democratic and free (as in speech, not beer), in a way that app stores tend not to be.
+==The web is open, democratic and free (as in speech, not beer), in a way that app stores tend not to be.==
 
 ## Open
 
@@ -88,13 +87,13 @@ The email address the user provides is only used for transactional emails initia
 
 If you decide you don’t like the service or don’t want your data held in it anymore, that’s fine, you are in full control of your data. You can delete your account at any time, which includes all your time entries, in one action. No soft-deletes or archiving here, deleted means deleted.
 
-You don’t have to take my word for it either, you can see the full source code for the application on GitHub. If you don’t want the technical details then there’s a human-readable changelog with all notable changes in every release. It’s licenced under the MIT licence too, so you can run your own instance and make improvements. Issues and pull requests are always very much appreciated!
+You don’t have to take my word for it either, you can see the full source code for the application on [GitHub](https://github.com/MashSoftware/time-tracker). If you don’t want the technical details then there’s a human-readable [changelog](https://github.com/MashSoftware/time-tracker/blob/main/CHANGELOG.md) with all notable changes in every release. It’s licenced under the [MIT licence](https://github.com/MashSoftware/time-tracker/blob/main/LICENSE) too, so you can run your own instance and make improvements. [Issues](https://github.com/MashSoftware/time-tracker/issues) and [pull requests](https://github.com/MashSoftware/time-tracker/pulls) are always very much appreciated!
 
 ## Alpha
 
 ![The Button first public alpha release](../../assets/images/button-alpha.png){ width="600" }
 
-Today I have released the first public alpha version of The Button. As with all pre-release software, this is one for early adopters who want to help test the service in the real world and shape the direction of its development. As such, your feedback on the service is incredibly important, to help me understand what works well, what doesn’t and where to focus my effort. Whilst I am confident there aren’t any major bugs or issues, these things come out in the wash, so please be aware.
+Today I have released the first public alpha version of [The Button](https://time-tracker.mashsoftware.com/). As with all pre-release software, this is one for [early adopters](https://en.wikipedia.org/wiki/Early_adopter) who want to help test the service in the real world and shape the direction of its development. As such, your feedback on the service is incredibly important, to help me understand what works well, what doesn’t and where to focus my effort. Whilst I am confident there aren’t any major bugs or issues, these things come out in the wash, so please be aware.
 
 These are the features currently in the service:
 
@@ -108,7 +107,7 @@ Create an automatic time entry. Edit and delete time entries. Create a manual ti
 
 ## Next steps
 
-I’m going to continue iterating on this project to further refine it. I’ll also be adding more features in response to user needs and feedback over time. But, I’m very aware that feature creep can start to undermine the original simplicity of a product. Some features that I am confident I can introduce without losing too much of that simplicity are:
+I’m going to continue iterating on this project to further refine it. I’ll also be adding more features in response to user needs and feedback over time. But, I’m very aware that [feature creep](https://en.wikipedia.org/wiki/Feature_creep) can start to undermine the original simplicity of a product. Some features that I am confident I can introduce without losing too much of that simplicity are:
 
 - **Tagging** — maintain a set of tags to organise and categorise your time entries.
 - **Tag targets** — Associate an amount of time with a particular tag and track progress towards this target.
@@ -119,10 +118,10 @@ Some problems that are going to need more thought to simplify, but are worth doi
 
 ## Thanks
 
-Please sign up for The Button, try using it in your day-to-day life and raise any bug reports or feature requests you have.
+Please sign up for [The Button](https://time-tracker.mashsoftware.com/), try using it in your day-to-day life and raise any bug reports or feature requests you have.
 
 Thanks for reading!
 
 ---
 
-[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2016%2F10%2F18%2Fmash-health%2F&via=MattShaw85&text=Mash%20Health&hashtags=OpenData%2CPython%2CFlask){ .md-button .md-button--primary }
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2019%2F07%2F12%2Fintroducing-the-button%2F&via=MattShaw85&text=Introducing%20%u201CThe%20Button%u201D&hashtags=Python%2CFlask%2CBootstrap%2CPostgreSQL){ .md-button .md-button--primary }

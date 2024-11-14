@@ -25,6 +25,8 @@
 *[MIT]: Massachusetts Institute of Technology
 *[MP]: Member of Parliament
 *[MVC]: Model-View-Controller
+*[MVP]: Minimum Viable Product
+*[ORM]: Object–Relational Mapping
 *[OS]: Operating System
 *[OWASP]: Open Worldwide Application Security Project
 *[REST]: Representational State Transfer

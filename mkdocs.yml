@@ -128,6 +128,7 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
+  - pymdownx.mark
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
