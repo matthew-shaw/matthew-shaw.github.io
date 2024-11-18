@@ -19,7 +19,7 @@ tags:
 
 # Mash Time Tracker - time tags
 
-Since [introducing “Mash Time Tracker”](mash-time-tracker-intro.md) last month there have been two [releases](https://github.com/MashSoftware/time-tracker/releases) to production. The first was a large scale [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) of the app, to improve the structure of the code and make it easier to add new features in future. The second release is what I want to share today; a new feature!
+Since [introducing Mash Time Tracker](mash-time-tracker.md) last month there have been two [releases](https://github.com/MashSoftware/time-tracker/releases) to production. The first was a large scale [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) of the app, to improve the structure of the code and make it easier to add new features in future. The second release is what I want to share today; a new feature!
 
 <!-- more -->
 
@@ -39,7 +39,7 @@ If you have to use a corporate time reporting system, such as those from Oracle 
 
 ## Tag, you’re it!
 
-As mentioned in [my last blog](mash-time-tracker-intro.md), one of the first features I wanted to add was the ability to categorise time entries. I’ve implemented this using the concept of tags.
+As mentioned in [my last blog](mash-time-tracker.md), one of the first features I wanted to add was the ability to categorise time entries. I’ve implemented this using the concept of tags.
 
 ![A tag for a project](../../assets/images/button-tags-3.png){ width="600" }
 

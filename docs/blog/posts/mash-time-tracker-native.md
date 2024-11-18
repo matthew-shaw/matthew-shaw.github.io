@@ -45,7 +45,7 @@ Thanks to Joe Honywill for this feature request. This will help people to access
 
 ## Lighthouse
 
-I’ve [previously blogged](mash-time-tracker-intro.md) about using [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to help optimise the performance of the service, but because [Mash Time Tracker](https://time-tracker.mashsoftware.com/) requires an account PageSpeed isn’t able to analyse pages behind authentication. That’s where [Lighthouse](https://developers.google.com/web/tools/lighthouse/) comes in; using the tool baked in to Chrome I’ve been able to delve deeper into the more complex time entry pages and make further performance, accessibility, best practice and SEO improvements.
+I’ve [previously blogged](mash-time-tracker.md) about using [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to help optimise the performance of the service, but because [Mash Time Tracker](https://time-tracker.mashsoftware.com/) requires an account PageSpeed isn’t able to analyse pages behind authentication. That’s where [Lighthouse](https://developers.google.com/web/tools/lighthouse/) comes in; using the tool baked in to Chrome I’ve been able to delve deeper into the more complex time entry pages and make further performance, accessibility, best practice and SEO improvements.
 
 ![Latest audit results using Google Lighthouse](../../assets/images/button-native-4.png){ width="600" }
 
