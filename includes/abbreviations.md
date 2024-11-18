@@ -16,6 +16,7 @@
 *[HR]: Heart Rate
 *[HSTS]: Strict-Transport-Security
 *[HTML]: Hypertext Markup Language
+*[HTML5]: Hypertext Markup Language 5
 *[HTTP]: Hyper Text Transfer Protocol
 *[HTTPS]: Hyper Text Transfer Protocol Secure
 *[JS]: JavaScript
@@ -30,6 +31,7 @@
 *[OS]: Operating System
 *[OWASP]: Open Worldwide Application Security Project
 *[REST]: Representational State Transfer
+*[SEO]: Search Engine Optimisation
 *[SHA]: Secure Hash Algorithms
 *[SQL]: Structured Query Language
 *[SRI]: Subresource Integrity
