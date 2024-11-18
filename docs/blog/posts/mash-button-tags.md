@@ -17,7 +17,7 @@ tags:
   - WTForms
 ---
 
-# The Button - Time Tags
+# The Button - time tags
 
 Since [introducing “The Button”](mash-button-intro.md) last month there have been two [releases](https://github.com/MashSoftware/time-tracker/releases) to production. The first was a large scale [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) of the app, to improve the structure of the code and make it easier to add new features in future. The second release is what I want to share today; a new feature!
 

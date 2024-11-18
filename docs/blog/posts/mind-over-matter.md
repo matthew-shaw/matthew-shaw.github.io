@@ -13,7 +13,7 @@ tags:
   - Weight loss
 ---
 
-# Mind over Matter
+# Mind over matter
 
 I decided to do something about my weight and perceived body image. But it wasn’t really about that. This is how I learned to stop worrying and love to run.
 
