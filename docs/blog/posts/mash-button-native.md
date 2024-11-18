@@ -6,7 +6,7 @@ authors:
 categories:
   - Software Development
   - Mash Software
-description: Some of the ways that using The Button makes recording your time simpler, easier and quicker.
+description: Making the web app look and feel even more like a native app installed on your smartphone or desktop OS.
 tags:
   - Bootstrap
   - Flask
@@ -17,7 +17,7 @@ tags:
   - WTForms
 ---
 
-# The Button — Native Controls, App Icons and Performance
+# The Button - Native Controls, App Icons and Performance
 
 It’s been a long time since the [previous release](mash-button-tags.md) of [The Button](https://time-tracker.mashsoftware.com/) in August 2019; life, work and free time have been the enemies of side project progress! I’ve had a number of features “parked” for a while, stuck behind other parts I had started working on and not finished. I’ve decided to unblock them to get incremental improvements out sooner rather than wait for the bigger features to be ready. I’ll try and focus on smaller and more frequent releases in future.
 
