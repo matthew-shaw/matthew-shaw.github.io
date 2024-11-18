@@ -17,9 +17,9 @@ tags:
   - WTForms
 ---
 
-# The Button - native controls, app icons and performance
+# Mash Time Tracker - native controls, app icons and performance
 
-It’s been a long time since the [previous release](mash-button-tags.md) of [The Button](https://time-tracker.mashsoftware.com/) in August 2019; life, work and free time have been the enemies of side project progress! I’ve had a number of features “parked” for a while, stuck behind other parts I had started working on and not finished. I’ve decided to unblock them to get incremental improvements out sooner rather than wait for the bigger features to be ready. I’ll try and focus on smaller and more frequent releases in future.
+It’s been a long time since the [previous release](mash-time-tracker-tags.md) of [Mash Time Tracker](https://time-tracker.mashsoftware.com/) in August 2019; life, work and free time have been the enemies of side project progress! I’ve had a number of features “parked” for a while, stuck behind other parts I had started working on and not finished. I’ve decided to unblock them to get incremental improvements out sooner rather than wait for the bigger features to be ready. I’ll try and focus on smaller and more frequent releases in future.
 
 <!-- more -->
 
@@ -39,13 +39,13 @@ In addition to the native controls, other form controls such as radio buttons an
 
 ## App icons
 
-Thanks to Joe Honywill for this feature request. This will help people to access [The Button](https://time-tracker.mashsoftware.com/) from the home screen of their mobile device. Along with using native controls, this change makes [The Button](https://time-tracker.mashsoftware.com/) feel even more like a natively installed app on a mobile device. Correctly sized [icons are available for all platforms](https://realfavicongenerator.net/favicon_checker?protocol=https&site=mash-the-button.herokuapp.com) including iOS, Android, Windows 8/10, MacOS and classic desktop browsers.
+Thanks to Joe Honywill for this feature request. This will help people to access [Mash Time Tracker](https://time-tracker.mashsoftware.com/) from the home screen of their mobile device. Along with using native controls, this change makes [Mash Time Tracker](https://time-tracker.mashsoftware.com/) feel even more like a natively installed app on a mobile device. Correctly sized [icons are available for all platforms](https://realfavicongenerator.net/favicon_checker?protocol=https&site=mash-the-button.herokuapp.com) including iOS, Android, Windows 8/10, MacOS and classic desktop browsers.
 
 ![iOS home screen icon and app running](../../assets/images/button-native-3.png){ width="600" }
 
 ## Lighthouse
 
-I’ve [previously blogged](mash-button-intro.md) about using [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to help optimise the performance of the service, but because [The Button](https://time-tracker.mashsoftware.com/) requires an account PageSpeed isn’t able to analyse pages behind authentication. That’s where [Lighthouse](https://developers.google.com/web/tools/lighthouse/) comes in; using the tool baked in to Chrome I’ve been able to delve deeper into the more complex time entry pages and make further performance, accessibility, best practice and SEO improvements.
+I’ve [previously blogged](mash-time-tracker-intro.md) about using [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to help optimise the performance of the service, but because [Mash Time Tracker](https://time-tracker.mashsoftware.com/) requires an account PageSpeed isn’t able to analyse pages behind authentication. That’s where [Lighthouse](https://developers.google.com/web/tools/lighthouse/) comes in; using the tool baked in to Chrome I’ve been able to delve deeper into the more complex time entry pages and make further performance, accessibility, best practice and SEO improvements.
 
 ![Latest audit results using Google Lighthouse](../../assets/images/button-native-4.png){ width="600" }
 

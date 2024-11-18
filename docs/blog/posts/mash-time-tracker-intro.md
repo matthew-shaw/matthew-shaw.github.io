@@ -19,7 +19,7 @@ tags:
   - WTForms
 ---
 
-# Introducing “The Button”
+# Introducing Mash Time Tracker
 
 One of my first jobs in software development after leaving university was to rewrite a corporate time management system. So it seems ironic that after 12 years of experience I find myself coming right back to where I started.
 
@@ -29,7 +29,7 @@ I definitely committed some software sins on that project. Especially by pushing
 
 In the years since I’ve always had the kind of job that requires me to keep track of my time for flexible working hours. I’ve had to live with my previous mistakes, and have also had _far_ worse user experiences in systems from the usual big enterprise vendors.
 
-When you walk through an office and see the same spreadsheet on so many people’s screens, because they prefer to use _that_ over the system they’re otherwise forced to use, you know something has gone wrong. It’s that observation, and the desire to find a simple solution to the problem that has led me to create “[The Button](https://time-tracker.mashsoftware.com/)”.
+When you walk through an office and see the same spreadsheet on so many people’s screens, because they prefer to use _that_ over the system they’re otherwise forced to use, you know something has gone wrong. It’s that observation, and the desire to find a simple solution to the problem that has led me to create “[Mash Time Tracker](https://time-tracker.mashsoftware.com/)”.
 
 ## Simple
 
@@ -78,7 +78,7 @@ This has gained the service an [A+ rating](https://securityheaders.com/?q=https%
 
 _“You should create an app for that!”_ said my wife when I was telling her about this idea. It’s a fair assumption in today’s smartphone-driven digital world, but not one I subscribe to. For something as lightweight as this that doesn’t need an OS native app, it’s a big overhead for a developer. It’s more complex to write and slower to deploy/release. The user has to find the app on a marketplace, install it and take up valuable storage space otherwise used for photos of their kids/cats/lunch.
 
-I’ve taken a mobile-first approach to the design of [The Button](https://time-tracker.mashsoftware.com/), so it looks great and works well on all sizes of device. But more importantly, I’ve adopted a web-first approach that treats the browser as a first-class citizen and not a fallback option. That’s _any_ browser on pretty much _any_ device by the way, not just Android or iOS.
+I’ve taken a mobile-first approach to the design of [Mash Time Tracker](https://time-tracker.mashsoftware.com/), so it looks great and works well on all sizes of device. But more importantly, I’ve adopted a web-first approach that treats the browser as a first-class citizen and not a fallback option. That’s _any_ browser on pretty much _any_ device by the way, not just Android or iOS.
 
 The web is open, democratic and free (as in speech, not beer), in a way that app stores tend not to be.
 
@@ -94,9 +94,9 @@ You don’t have to take my word for it either, you can see the full source code
 
 ## Alpha
 
-![The Button first public alpha release](../../assets/images/button-alpha.png){ width="600" }
+![Mash Time Tracker first public alpha release](../../assets/images/button-alpha.png){ width="600" }
 
-Today I have released the first public alpha version of [The Button](https://time-tracker.mashsoftware.com/). As with all pre-release software, this is one for [early adopters](https://en.wikipedia.org/wiki/Early_adopter) who want to help test the service in the real world and shape the direction of its development. As such, your feedback on the service is incredibly important, to help me understand what works well, what doesn’t and where to focus my effort. Whilst I am confident there aren’t any major bugs or issues, these things come out in the wash, so please be aware.
+Today I have released the first public alpha version of [Mash Time Tracker](https://time-tracker.mashsoftware.com/). As with all pre-release software, this is one for [early adopters](https://en.wikipedia.org/wiki/Early_adopter) who want to help test the service in the real world and shape the direction of its development. As such, your feedback on the service is incredibly important, to help me understand what works well, what doesn’t and where to focus my effort. Whilst I am confident there aren’t any major bugs or issues, these things come out in the wash, so please be aware.
 
 These are the features currently in the service:
 
@@ -121,7 +121,7 @@ Some problems that are going to need more thought to simplify, but are worth doi
 
 ## Thanks
 
-Please sign up for [The Button](https://time-tracker.mashsoftware.com/), try using it in your day-to-day life and raise any bug reports or feature requests you have.
+Please sign up for [Mash Time Tracker](https://time-tracker.mashsoftware.com/), try using it in your day-to-day life and raise any bug reports or feature requests you have.
 
 Thanks for reading!
 
