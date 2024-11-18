@@ -31,21 +31,21 @@ Using [The Button](https://time-tracker.mashsoftware.com/) is super easy. I leav
 
 And because I tap to start and stop when I arrive and leave I also know that my times are accurate. [The Button](https://time-tracker.mashsoftware.com/) records time down to fractions of seconds but displays time in a clear and readable format to assure you that they’re right.
 
-![Example time card rows showing recorded times and durations](../../assets/images/button-tags-1.png)
+![Example time card rows showing recorded times and durations](../../assets/images/button-tags-1.png){ width="600" }
 
 If you have to use a corporate time reporting system, such as those from Oracle or SAP, then [The Button](https://time-tracker.mashsoftware.com/) helps to make this as painless as possible. I used to type in many start and end times in every day using a slow and awkward system. Now by using the quick, simple and intuitive interface of [The Button](https://time-tracker.mashsoftware.com/), it’s all worked out for me. I copy a single number of decimal hours and that’s it, done!
 
-![Example daily time card header showing a total number of hours](../../assets/images/button-tags-2.png)
+![Example daily time card header showing a total number of hours](../../assets/images/button-tags-2.png){ width="600" }
 
 ## Tag, you’re it!
 
 As mentioned in [my last blog](mash-button-intro.md), one of the first features I wanted to add was the ability to categorise time entries. I’ve implemented this using the concept of tags.
 
-![A tag for a project](../../assets/images/button-tags-3.png)
+![A tag for a project](../../assets/images/button-tags-3.png){ width="600" }
 
 Tags are short descriptions of some kind of activity; anything that you want to record, measure or track. They could be whole projects or individual tasks at work for example. Tags are optional, new time entries are created without an associated tag. You can edit the entry to tag it afterwards, if you want to.
 
-![Daily time card showing time entries tagged with activities](../../assets/images/button-tags-4.png)
+![Daily time card showing time entries tagged with activities](../../assets/images/button-tags-4.png){ width="600" }
 
 Users can create, update and delete up to five unique tags. Tags are personal to each user and not shared between accounts. If you delete a tag it will not delete any associated entries, only remove the link between them.
 
