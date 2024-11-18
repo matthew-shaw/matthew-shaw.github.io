@@ -47,12 +47,14 @@ theme:
       fitness: fontawesome/solid/heart-pulse
       govuk: fontawesome/solid/crown
       javascript: fontawesome/brands/js
+      markdown: fontawesome/brands/markdown
       mental-health: fontawesome/solid/brain
       nodejs: fontawesome/brands/node-js
       performance: fontawesome/solid/gauge-high
       python: fontawesome/brands/python
       running: fontawesome/solid/person-running
       security: fontawesome/solid/shield-halved
+      server: fontawesome/solid/server
       team: fontawesome/solid/users
       weight-loss: fontawesome/solid/weight-scale
   language: en
@@ -164,18 +166,24 @@ extra:
     Bootstrap: bootstrap
     Docker: docker
     Fitness: fitness
+    Flask: python
     GOV.UK: govuk
     JavaScript: javascript
+    Jinja: python
     Mental health: mental-health
+    MkDocs: markdown
+    NGINX: server
     Node.js: nodejs
     Performance: performance
     PostgreSQL: database
     Python: python
+    Redis: database
     Running: running
     Security: security
-    SQLAlchemy: database
+    SQLAlchemy: python
     Team: team
     Weight loss: weight-loss
+    WTForms: python
 
 extra_css:
   - stylesheets/extra.css
