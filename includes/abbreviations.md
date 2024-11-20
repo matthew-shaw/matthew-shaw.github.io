@@ -5,8 +5,10 @@
 *[BMR]: Basal Metabolic Rate
 *[bpm]: beats per minute
 *[CBT]: Cognitive Behavioural Therapy
+*[CD]: Continuous Delivery
 *[CDN]: Content Delivery Network
 *[CDNs]: Content Delivery Networks
+*[CI]: Continuous Integration
 *[CSP]: Content Security Policy
 *[CSRF]: Cross-Site Request Forgery
 *[CSS]: Cascading Style Sheets
