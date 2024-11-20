@@ -1,5 +1,6 @@
 *[API]: Application Programming Interface
 *[APIs]: Application Programming Interfaces
+*[ARIA]: Accessible Rich Internet Applications
 *[BMI]: Body Mass Index
 *[BMR]: Basal Metabolic Rate
 *[bpm]: beats per minute
@@ -43,4 +44,5 @@
 *[UI]: User Interface
 *[UIs]: User Interfaces
 *[URL]: Uniform Resource Locator
+*[UTC]: Coordinated Universal Time
 *[XSS]: Cross-Site Scripting
