@@ -19,11 +19,11 @@ tags:
 
 # Mash Time Tracker: weekly view, time schedules & begining beta
 
-## It's beta time
-
 One of my favourite stickers on my laptop is Simon Wilson's [_"Always be in beta"_](https://www.ermlikeyeah.com/gov-patches/) design. It serves as a reminder that, generally speaking, services are never _finished_ and that continual gradual improvement is the best approach to take. I'm sure this service will be no different.
 
 <!-- more -->
+
+## It's beta time
 
 I originally started [Mash Time Tracker](https://time-tracker.mashsoftware.com/) as a side project to reduce some of the frustration of using a corporate time recording system from one of the big enterprise vendors. Once I'd got to a certain stage I thought; _"this is quite useful, maybe other people would find it useful too?"_. So [I released it](mash-time-tracker.md) as an open public [alpha](https://en.wikipedia.org/wiki/Software_release_life_cycle#Alpha) and have blogged about the iterative releases since then [here](mash-time-tracker-tags.md) and [here](mash-time-tracker-native.md). That was 14 releases and 18 months ago and, to be honest, I've not devoted all that much time to it in the last 9 months. Who knew a global pandemic and adjusting to a new work/family life balance would be so counter-productive to personal side projects?
 
