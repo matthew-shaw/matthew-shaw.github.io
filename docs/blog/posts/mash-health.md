@@ -26,9 +26,9 @@ It allows for easy searching by name, city, county or partial postcode. Results 
 
 ## Open Data API
 
-I’m all for government open data on data.gov.uk, it’s important that it’s published in the public domain for transparency and to encourage re-use and innovation. However, part of the problem is unless you want to download that data, process it, host it, load a database etc, it’s not as easily usable for a developer as it is to someone who just wants to view it. The **availability** of the data on data.gov.uk is high, the ease of **re-use** is, in my opinion, low.
+I'm all for government open data on data.gov.uk, it's important that it's published in the public domain for transparency and to encourage re-use and innovation. However, part of the problem is unless you want to download that data, process it, host it, load a database etc, it's not as easily usable for a developer as it is to someone who just wants to view it. The **availability** of the data on data.gov.uk is high, the ease of **re-use** is, in my opinion, low.
 
-That’s why it’s great that there is now programatic access to some datasets over a common protocol (HTTP), using standard interfaces (RESTful API) and serving open data in open standard formats (JSON). Many thanks to [Ross Jones](https://mastodon.social/@rossjones) for his help in answering a few questions for me and taking my feedback on the API so far. I look forward to seeing and using many more data.gov.uk APIs in future!
+That's why it's great that there is now programatic access to some datasets over a common protocol (HTTP), using standard interfaces (RESTful API) and serving open data in open standard formats (JSON). Many thanks to [Ross Jones](https://mastodon.social/@rossjones) for his help in answering a few questions for me and taking my feedback on the API so far. I look forward to seeing and using many more data.gov.uk APIs in future!
 
 ![Pharmacies in London](../../assets/images/health-pharmacies.png){ width="600" }
 
@@ -41,24 +41,24 @@ I wanted to see what I could do to present healthcare open data in a useful, eng
 - Thirdly, you should be able to search for different types of healthcare providers in a consistent and structured way, in order to aid the ease of finding what you need.
 - Lastly, it should work well on a mobile device, so the design must be responsive and links to contact details should open appropriate apps (like a phone number).
 
-The last point was a bit tricky with the map, since a [slippy map](https://wiki.openstreetmap.org/wiki/Slippy_map) that occupies the width of the screen can give users issues with scrolling past it, so my solution was to remove it and focus on the textual result data. If you’re using a tablet in landscape orientation, or a regular desktop resolution, then the added screen estate makes the experience a better one, without inhibiting the mobile device experience.
+The last point was a bit tricky with the map, since a [slippy map](https://wiki.openstreetmap.org/wiki/Slippy_map) that occupies the width of the screen can give users issues with scrolling past it, so my solution was to remove it and focus on the textual result data. If you're using a tablet in landscape orientation, or a regular desktop resolution, then the added screen estate makes the experience a better one, without inhibiting the mobile device experience.
 
 ![Social Care in Kent](../../assets/images/health-social-care.png){ width="600" }
 
-## What’s next?
+## What's next?
 
-This is an ongoing project, driven by user needs and feedback. Here are a few of the ideas I’d like to implement:
+This is an ongoing project, driven by user needs and feedback. Here are a few of the ideas I'd like to implement:
 
 - Search based on geolocation.
 - Search for all types of healthcare service at once.
 - Identify different healthcare service types with custom map markers
 - Add satellite imagery map base layer
 - Link between clicking on a result in the list and highlighting on the map and vice versa
-- Give it a proper URL on my domain! (I’ll do this shortly)
+- Give it a proper URL on my domain! (I'll do this shortly)
 
 ![GP Surgeries in the PL4 postcode](../../assets/images/health-gp.png){ width="600" }
 
-I’d really appreciate any feedback on the service so far, including feature requests and bug reports, so please feel free to contact me, or raise an issue on [GitHub](https://github.com/MashSoftware/health).
+I'd really appreciate any feedback on the service so far, including feature requests and bug reports, so please feel free to contact me, or raise an issue on [GitHub](https://github.com/MashSoftware/health).
 
 In the meantime, please give Mash Health a try and let me know what you think of it.
 

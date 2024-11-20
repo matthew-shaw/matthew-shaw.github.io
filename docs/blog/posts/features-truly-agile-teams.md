@@ -13,15 +13,15 @@ tags:
 
 # Top 10 features of truly agile teams
 
-I’ve been very lucky to have worked alongside some hugely talented people from the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service) on the [Land Registry](https://www.gov.uk/government/organisations/land-registry) Concept and Alpha projects. Although I was experienced in working with the Scrum framework before this, I have come to better appreciate what it means to be a truly agile team.
+I've been very lucky to have worked alongside some hugely talented people from the [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service) on the [Land Registry](https://www.gov.uk/government/organisations/land-registry) Concept and Alpha projects. Although I was experienced in working with the Scrum framework before this, I have come to better appreciate what it means to be a truly agile team.
 
 <!-- more -->
 
-After reflecting on what made the team so great, I’ve drawn up this top ten list of the things that, if we hadn’t done them, would have seriously impacted on the teams’ culture, productivity, pace, and enjoyment.
+After reflecting on what made the team so great, I've drawn up this top ten list of the things that, if we hadn't done them, would have seriously impacted on the teams' culture, productivity, pace, and enjoyment.
 
 ## Open working environment
 
-Create an unrestricted, open working environment that doesn’t inhibit the team from innovating. Give the team the tools and space they need to do their jobs, in the best way they decide they can, and trust them to do it.
+Create an unrestricted, open working environment that doesn't inhibit the team from innovating. Give the team the tools and space they need to do their jobs, in the best way they decide they can, and trust them to do it.
 
 ## Promote culture over everything else
 
@@ -41,7 +41,7 @@ Tools, technology, practices, and culture should all be decided upon by the team
 
 ## Ask "What is the user need?"
 
-If there isn’t one, stop doing it. If it’s unclear, more user research is required.
+If there isn't one, stop doing it. If it's unclear, more user research is required.
 
 ## Multidisciplinary team
 
@@ -53,11 +53,11 @@ Do pair programming in a collaborative and supportive working environment, both 
 
 ## Learn by doing
 
-Make lots of mistakes, make them fast, learn from them then try again until you don’t make them anymore.
+Make lots of mistakes, make them fast, learn from them then try again until you don't make them anymore.
 
-## Don’t do agile, be agile
+## Don't do agile, be agile
 
-Scrum is great, as a framework, not as a rule. If it works keep it, if it doesn’t change it.
+Scrum is great, as a framework, not as a rule. If it works keep it, if it doesn't change it.
 
 ---
 
