@@ -6,7 +6,7 @@ authors:
 categories:
   - Software Development
   - Mash Software
-description: Making the web app look and feel even more like a native app installed on your smartphone or desktop OS.
+description: Generally speaking, services are never _finished_ and continual gradual improvement is the best approach to take.
 tags:
   - Bootstrap
   - Flask
