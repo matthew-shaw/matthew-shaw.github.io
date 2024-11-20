@@ -119,11 +119,11 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 | Goal weight (kg) | Achieved   |
 | ---------------- | ---------- |
 | 89.7             | 2024-10-06 |
-| 85.2             |  |
-| 80.9             |  |
-| 76.9             |  |
-| 73.0             |  |
-| 69.4             |  |
+| 85.2             |            |
+| 80.9             |            |
+| 76.9             |            |
+| 73.0             |            |
+| 69.4             |            |
 
 ---
 
