@@ -49,7 +49,7 @@ Directory structure:
 │   ├── routes.js
 ```
 
-My URLs are structured in a [RESTful way](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful), with the addition of the leading `/:version` parameter. My resources here are “applications”, where `/applications` is a collection of applications, `/applications/AB1234` is a specific application and `/applications/AB1234/draft` is a draft of application AB1234. Here’s the URL routing code for this:
+My URLs are structured in a [RESTful way](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful), with the addition of the leading `/:version` parameter. My resources here are "applications", where `/applications` is a collection of applications, `/applications/AB1234` is a specific application and `/applications/AB1234/draft` is a draft of application AB1234. Here’s the URL routing code for this:
 
 ```javascript
 var express = require("express");

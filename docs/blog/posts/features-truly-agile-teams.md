@@ -39,7 +39,7 @@ No closed-source, proprietary, costly software. Working to interoperable open st
 
 Tools, technology, practices, and culture should all be decided upon by the team, because they are best placed to make those decisions by being the ones using/doing them.
 
-## Ask “What is the user need?”
+## Ask "What is the user need?"
 
 If there isn’t one, stop doing it. If it’s unclear, more user research is required.
 

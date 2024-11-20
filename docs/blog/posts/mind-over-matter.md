@@ -23,9 +23,9 @@ I decided to do something about my weight and perceived body image. But it wasn�
 
 I’ve never been a particularly sporty person. At school I enjoyed racquet sports like tennis, badminton and squash, but that was offset by a hatred of being forced to play football and rugby. I particularly hated doing cross country running on, seemingly, only the very worst days of the British winter. The only kind of regular exercise I’ve done for the last 5 years or so is drumming in rock bands, which is surprisingly [more aerobic than you might think](http://news.bbc.co.uk/1/hi/health/7518888.stm), but still not exactly intensive.
 
-In February 2018 I set myself a reasonable initial target; lose 1 stone (~6.4 kg) with no particular time frame in mind, just at a sustainable rate. I had no immediate desires to get fitter, stronger or healthier, I just wanted to weigh less and feel better about my body image. My starting weight was 87 kg, the most I think I’ve ever weighed. The previous month I had finally given in and bought bigger jeans, or “fat pants" as I called them, that actually fit me properly. Something had to change.
+In February 2018 I set myself a reasonable initial target; lose 1 stone (~6.4 kg) with no particular time frame in mind, just at a sustainable rate. I had no immediate desires to get fitter, stronger or healthier, I just wanted to weigh less and feel better about my body image. My starting weight was 87 kg, the most I think I’ve ever weighed. The previous month I had finally given in and bought bigger jeans, or "fat pants" as I called them, that actually fit me properly. Something had to change.
 
-I started walking more; by walking to work during the week and each weekend doing a longer 5 km or 6 km walk. The more I did it the more I thought; “I really could run some of this route if I tried". So I bought myself some new running trainers and sought the advice of my friends and colleagues who are into “that fitness stuff", as I jokingly referred to it.
+I started walking more; by walking to work during the week and each weekend doing a longer 5 km or 6 km walk. The more I did it the more I thought; "I really could run some of this route if I tried". So I bought myself some new running trainers and sought the advice of my friends and colleagues who are into "that fitness stuff", as I jokingly referred to it.
 
 That’s how I discovered the [Couch to 5K](https://www.nhs.uk/LiveWell/c25k/Pages/couch-to-5k.aspx) running plan. I wont go through the details of how the plan is structured, but suffice to say it even managed to get a disillusioned and reluctant runner like myself to actually love running. That very first run was a real eye opener; eight intervals of one minute runs that showed just how unfit I was. It was tough, but rather than be put off, I used it as a baseline to improve upon. Some runs were harder than others (not only when the intervals got longer), but slowly and surely my stamina improved, my heart rate went down and my recovery time got shorter.
 
@@ -44,20 +44,20 @@ The benefits to my physical health have been huge. As of the time of publishing 
 - My BMI was 30.1 (Obese) and is now 24.9 (Healthy).
 - I’ve reduced my body fat by 11%.
 - My resting heart rate was around 65 bpm before I started regular aerobic and cardio exercise, now it’s around 48 bpm.
-- My [VO2 Max estimate](https://help.fitbit.com/articles/en_US/Help_article/2096) was 40–44, now it’s 51–55, going from “average" for men my age, to “very good" by Fitbit’s calculations.
-- My “fat pants" now only stay on thanks to a belt, otherwise they will literally drop off me. I’m not sure exactly how many inches I’ve lost from my waistline since I never measured it, but I’d guess about 4. I’m also wearing shirts from years ago that I liked too much to throw away.
+- My [VO2 Max estimate](https://help.fitbit.com/articles/en_US/Help_article/2096) was 40–44, now it’s 51–55, going from "average" for men my age, to "very good" by Fitbit’s calculations.
+- My "fat pants" now only stay on thanks to a belt, otherwise they will literally drop off me. I’m not sure exactly how many inches I’ve lost from my waistline since I never measured it, but I’d guess about 4. I’m also wearing shirts from years ago that I liked too much to throw away.
 
-If you’re reading this and considering starting running, I honestly cannot recommend Couch to 5K highly enough, and I _never_ thought I’d be saying that. Back in February I wouldn’t have taken that advice, so if you’re reading this and feeling dismissive, sceptical or apprehensive, I understand, I was too, but **I was wrong**. Here’s how I realised…
+If you’re reading this and considering starting running, I honestly cannot recommend Couch to 5K highly enough, and I _never_ thought I’d be saying that. Back in February I wouldn’t have taken that advice, so if you’re reading this and feeling dismissive, sceptical or apprehensive, I understand, I was too, but **I was wrong**. Here’s how I realised...
 
 ## Mental Health
 
-Everyone loves a feel-good weight loss / fitness story and I am very pleased with my progress and proud of what I’ve achieved. But that is less than half of this story. Here’s the hardest part for me; to be open and honest about this, as it’s not something many people, even those close to me, _really_ know about, but talking about it is cathartic so here goes…
+Everyone loves a feel-good weight loss / fitness story and I am very pleased with my progress and proud of what I’ve achieved. But that is less than half of this story. Here’s the hardest part for me; to be open and honest about this, as it’s not something many people, even those close to me, _really_ know about, but talking about it is cathartic so here goes...
 
-> “Hi, my name is Matt and I have mental health problems. Specifically, [Clinical Depression](https://www.nhs.uk/conditions/clinical-depression/) and [Generalised Anxiety Disorder](https://www.nhs.uk/conditions/generalised-anxiety-disorder/) with a tendency towards [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)."
+> "Hi, my name is Matt and I have mental health problems. Specifically, [Clinical Depression](https://www.nhs.uk/conditions/clinical-depression/) and [Generalised Anxiety Disorder](https://www.nhs.uk/conditions/generalised-anxiety-disorder/) with a tendency towards [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)."
 
 I have a long history with these issues, mostly over a decade ago, which included periods of depression and anxiety that at times made simply being myself something that I abhorred. I felt worthless and useless, because that’s how I viewed myself, so that’s what I told myself I was. It was a self-fulfilling vicious circle and it prevented me from living my life.
 
-I was on various antidepressants, sought counselling and therapy several times, read some self help books and after a long and difficult time I learned how to cope with it. But you don’t _“get better"_. It’s not like a common cold, it doesn’t just go away eventually, you learn how to live with it. Although I’m pleased to say that most of the last decade has been relapse free.
+I was on various antidepressants, sought counselling and therapy several times, read some self help books and after a long and difficult time I learned how to cope with it. But you don’t _"get better"_. It’s not like a common cold, it doesn’t just go away eventually, you learn how to live with it. Although I’m pleased to say that most of the last decade has been relapse free.
 
 ### Admission
 
@@ -65,7 +65,7 @@ That is, until a couple of years ago. The birth of my daughter was the single mo
 
 In addition, I had recently gained a promotion at work into a role that I had aspired to for many years. A role that carries a lot of technical responsibility with many people looking to me for answers, leadership and guidance. I was working on a high profile project that received a lot of scrutiny and criticism. I was giving it my all, so it was hard not to take things personally. It was a difficult and pressured working environment for quite a long time and whilst I had the support of a brilliant team around me, it took its toll.
 
-It took a long time for me to accept that something was wrong, despite being more aware of the symptoms given my history with them, I just couldn’t see it. “I’m just tired", “I’m stressed at work", “Having a child isn’t easy, every parent must feel this way" are the kind of things I would say to myself to justify my emotions. It wasn’t until I saw the impact it was having on my wife, our relationship and my relationship with my daughter that I started to accept that I needed help. My wife was my saviour really, if she hadn’t helped me see what was happening I don’t think I’d have been able to even want to change.
+It took a long time for me to accept that something was wrong, despite being more aware of the symptoms given my history with them, I just couldn’t see it. "I’m just tired", "I’m stressed at work", "Having a child isn’t easy, every parent must feel this way" are the kind of things I would say to myself to justify my emotions. It wasn’t until I saw the impact it was having on my wife, our relationship and my relationship with my daughter that I started to accept that I needed help. My wife was my saviour really, if she hadn’t helped me see what was happening I don’t think I’d have been able to even want to change.
 
 ### Acceptance
 
@@ -75,7 +75,7 @@ The only benefit I found from this experience was that having gone through their
 
 ### Change
 
-You have to _want_ to change. You can’t just go to a counsellor, sit there and chat for an hour a week and expect to _“get better"_. They can’t cure you and they can’t fix you. You have to do it for yourself. They are a key person though, and the relationship you form with them is very important. I was very lucky to find an excellent counsellor privately who was open to taking a different approach to the CBT model, since my previous experiences with it weren’t that effective.
+You have to _want_ to change. You can’t just go to a counsellor, sit there and chat for an hour a week and expect to _"get better"_. They can’t cure you and they can’t fix you. You have to do it for yourself. They are a key person though, and the relationship you form with them is very important. I was very lucky to find an excellent counsellor privately who was open to taking a different approach to the CBT model, since my previous experiences with it weren’t that effective.
 
 I’ve been seeing my counsellor Sarah for about 6 months and it has helped me tremendously, far more than any of my previous experiences of CBT. I’ve re-learnt various coping mechanisms and strategies, including;
 
@@ -92,7 +92,7 @@ I was experiencing very similar mental barriers in my counselling sessions as I 
 
 It was all about micro-achievements for me; the reward payoff for consistently achieving ever increasing but attainable targets was a massive boost to my mental health. In much the same way as [video games can help people with anxiety](https://www.bbc.co.uk/bbcthree/article/968b997f-4150-4fad-a6e4-997081d87c8d) through inbuilt reward systems, apps like [Fitbit](https://www.fitbit.com/) and [Strava](https://www.strava.com/athletes/mash85) were providing the continual gradual improvement and rewards I needed to keep me motivated.
 
-Running changed from something I was doing to get fit to something I was doing for my own headspace, purely for me, and I didn’t feel guilty about doing it. Getting fitter changed from “I’m so fat, my jeans don’t fit anymore" to feeling confident enough to take a compliment about my appearance without questioning their motives. Losing weight was less about the number and more about setting a target, sticking to it and achieving it.
+Running changed from something I was doing to get fit to something I was doing for my own headspace, purely for me, and I didn’t feel guilty about doing it. Getting fitter changed from "I’m so fat, my jeans don’t fit anymore" to feeling confident enough to take a compliment about my appearance without questioning their motives. Losing weight was less about the number and more about setting a target, sticking to it and achieving it.
 
 Research shows that [regular aerobic exercise is as effective as antidepressants](https://slate.com/technology/2018/03/exercise-is-as-effective-as-antidepressants-for-many-cases-of-depression.html). I’d had some pretty unpleasant side effects from the latest type of antidepressant I was taking, but I was feeling the benefits of the counselling and increased exercise, so I decided to stop taking them. **I do not recommend you do this**, you should of course go back to your GP and review with them before reducing or stopping any medication. That said, once the side effects had passed I felt a lot better knowing I wasn’t dependent on them.
 

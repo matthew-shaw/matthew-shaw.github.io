@@ -48,7 +48,7 @@ This service is about a function of government that serves all of its’ citizen
 
 ### Make it better
 
-When I discovered there was an API for e-petitions, my first thoughts were “I bet I can make something good with that!”. Ultimately that’s all it comes down to, I wanted to make something useful and show open public data in an interesting and clear way that benefits citizens and their interactions with government. I thought I could make it better, so I’ve tried to do that.
+When I discovered there was an API for e-petitions, my first thoughts were "I bet I can make something good with that!". Ultimately that’s all it comes down to, I wanted to make something useful and show open public data in an interesting and clear way that benefits citizens and their interactions with government. I thought I could make it better, so I’ve tried to do that.
 
 ## Features
 

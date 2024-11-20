@@ -19,7 +19,7 @@ tags:
 
 # Mash Time Tracker: native controls, app icons & performance
 
-It’s been a long time since the [previous release](mash-time-tracker-tags.md) of [Mash Time Tracker](https://time-tracker.mashsoftware.com/) in August 2019; life, work and free time have been the enemies of side project progress! I’ve had a number of features “parked” for a while, stuck behind other parts I had started working on and not finished. I’ve decided to unblock them to get incremental improvements out sooner rather than wait for the bigger features to be ready. I’ll try and focus on smaller and more frequent releases in future.
+It’s been a long time since the [previous release](mash-time-tracker-tags.md) of [Mash Time Tracker](https://time-tracker.mashsoftware.com/) in August 2019; life, work and free time have been the enemies of side project progress! I’ve had a number of features "parked" for a while, stuck behind other parts I had started working on and not finished. I’ve decided to unblock them to get incremental improvements out sooner rather than wait for the bigger features to be ready. I’ll try and focus on smaller and more frequent releases in future.
 
 <!-- more -->
 
