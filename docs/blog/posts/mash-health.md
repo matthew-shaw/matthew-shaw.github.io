@@ -10,6 +10,7 @@ description: A digital public service that enables users to find UK healthcare p
 tags:
   - Bootstrap
   - Flask
+  - Maps
   - Open Data
   - Python
 ---

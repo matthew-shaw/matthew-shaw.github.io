@@ -8,12 +8,9 @@ categories:
   - Mash Software
 description: Generally speaking, services are never _finished_ and continual gradual improvement is the best approach to take.
 tags:
+  - Accessibility
   - Bootstrap
-  - Flask
-  - PostgreSQL
-  - Python
-  - Redis
-  - SQLAlchemy
+  - UX
   - WTForms
 ---
 

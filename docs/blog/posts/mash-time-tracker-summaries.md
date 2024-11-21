@@ -9,11 +9,10 @@ categories:
 description: Making the web app look and feel even more like a native app installed on your smartphone or desktop OS.
 tags:
   - Bootstrap
-  - Flask
-  - PostgreSQL
+  - CI/CD
   - Python
-  - Redis
-  - SQLAlchemy
+  - Security
+  - UX
   - WTForms
 ---
 

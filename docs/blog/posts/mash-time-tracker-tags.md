@@ -9,12 +9,7 @@ categories:
 description: Some of the ways that using Mash Time Tracker makes recording your time simpler, easier and quicker.
 tags:
   - Bootstrap
-  - Flask
-  - PostgreSQL
-  - Python
-  - Redis
-  - SQLAlchemy
-  - WTForms
+  - UX
 ---
 
 # Mash Time Tracker: time tags

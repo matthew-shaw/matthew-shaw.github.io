@@ -13,8 +13,10 @@ tags:
   - GOV.UK
   - Jinja
   - NGINX
+  - Performance
   - Python
   - Redis
+  - Security
   - WTForms
 ---
 

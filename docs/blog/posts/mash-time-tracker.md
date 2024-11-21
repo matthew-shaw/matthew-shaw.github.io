@@ -16,6 +16,7 @@ tags:
   - Redis
   - Security
   - SQLAlchemy
+  - UX
   - WTForms
 ---
 
@@ -42,7 +43,7 @@ It's also regrettable that we put so much time and effort into making user centr
 Simplicity does not mean basic. Case in point; the single search field in Google Maps which takes free-format unstructured terms and manages to turn that into a structured address for (nearly) anywhere in the world. The simplicity of the solution hides a world of complexity from the user but does not mean the solution itself is basic.
 
 !!! quote "Twelve Principles of Agile Software"
-Simplicity--the art of maximizing the amount of work not done--is essential.
+    Simplicity--the art of maximizing the amount of work not done--is essential.
 
     <https://agilemanifesto.org/principles.html>
 

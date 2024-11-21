@@ -8,12 +8,11 @@ categories:
   - Mash Software
 description: Making the web app look and feel even more like a native app installed on your smartphone or desktop OS.
 tags:
+  - Accessibility
   - Bootstrap
-  - Flask
-  - PostgreSQL
-  - Python
-  - Redis
-  - SQLAlchemy
+  - Performance
+  - Security
+  - UX
   - WTForms
 ---
 
@@ -55,7 +54,10 @@ Redesigned account information page taking direct inspiration from the [GOV.UK S
 
 ## Other bits and pieces
 
-All textual content pages, such as the help page, are now 2/3 width on larger devices, for more readable line lengths. Form related pages are 1/2 width on larger devices. All required frameworks and libraries have been updated to the latest versions, making sure to keep up with critical security patches. Also, some behind-the-scenes backend work to prepare for an upcoming feature.
+- All textual content pages, such as the help page, are now 2/3 width on larger devices, for more readable line lengths.
+- Form related pages are 1/2 width on larger devices.
+- All required frameworks and libraries have been updated to the latest versions, making sure to keep up with critical security patches.
+- Some behind-the-scenes backend work to prepare for an upcoming feature.
 
 More details to follow in the next release blog!
 

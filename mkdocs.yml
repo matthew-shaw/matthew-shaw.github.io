@@ -40,13 +40,16 @@ theme:
     logo: fontawesome/solid/terminal
     repo: fontawesome/brands/github
     tag:
+      accessibility: fontawesome/solid/universal-access
       agile: fontawesome/solid/arrows-spin
       bootstrap: fontawesome/brands/bootstrap
+      cicd: fontawesome/solid/code-pull-request
       database: fontawesome/solid/database
       docker: fontawesome/brands/docker
       fitness: fontawesome/solid/heart-pulse
       govuk: fontawesome/solid/crown
       javascript: fontawesome/brands/js
+      location: fontawesome/solid/location-dot
       markdown: fontawesome/brands/markdown
       mental-health: fontawesome/solid/brain
       nodejs: fontawesome/brands/node-js
@@ -56,6 +59,7 @@ theme:
       security: fontawesome/solid/shield-halved
       server: fontawesome/solid/server
       team: fontawesome/solid/users
+      ux: fontawesome/solid/face-grin
       weight-loss: fontawesome/solid/weight-scale
   language: en
   name: material
@@ -164,14 +168,19 @@ extra:
       name: X
       link: https://x.com/MattShaw85
   tags:
+    Accessibility: accessibility
     Agile: agile
+    Anxiety: mental-health
     Bootstrap: bootstrap
+    CI/CD: cicd
+    Depression: mental-health
     Docker: docker
     Fitness: fitness
     Flask: python
     GOV.UK: govuk
     JavaScript: javascript
     Jinja: python
+    Maps: location
     Mental health: mental-health
     MkDocs: markdown
     NGINX: server
@@ -184,6 +193,7 @@ extra:
     Security: security
     SQLAlchemy: python
     Team: team
+    UX: ux
     Weight loss: weight-loss
     WTForms: python
 

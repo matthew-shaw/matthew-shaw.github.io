@@ -10,6 +10,7 @@ description: A digital public service that enables users to explore UK governmen
 tags:
   - Bootstrap
   - Flask
+  - Maps
   - Open Data
   - Python
 ---

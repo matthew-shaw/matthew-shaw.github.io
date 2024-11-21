@@ -7,6 +7,8 @@ categories:
   - Health
 description: I decided to do something about my weight and perceived body image. But it wasn't really about that.
 tags:
+  - Anxiety
+  - Depression
   - Fitness
   - Mental health
   - Running
