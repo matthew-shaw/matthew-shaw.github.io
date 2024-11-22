@@ -6,7 +6,7 @@ authors:
 categories:
   - Software Development
   - Mash Software
-description: After 12 years of experience I find myself coming right back to where I started.
+description: Time recording made simple.
 tags:
   - Bootstrap
   - Flask

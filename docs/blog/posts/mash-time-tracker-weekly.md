@@ -6,7 +6,8 @@ authors:
 categories:
   - Software Development
   - Mash Software
-description: Generally speaking, services are never _finished_ and continual gradual improvement is the best approach to take.
+title: Mash Time Tracker
+description: Weekly view, time schedules & begining beta
 tags:
   - Accessibility
   - Bootstrap
@@ -14,7 +15,7 @@ tags:
   - WTForms
 ---
 
-# Mash Time Tracker: weekly view, time schedules & begining beta
+# Mash Time Tracker: Weekly view, time schedules & begining beta
 
 One of my favourite stickers on my laptop is Simon Wilson's [_"Always be in beta"_](https://www.ermlikeyeah.com/gov-patches/) design. It serves as a reminder that, generally speaking, services are never _finished_ and that continual gradual improvement is the best approach to take. I'm sure this service will be no different.
 
@@ -86,3 +87,9 @@ Those are the headline features in this release, but I've been tweaking and tuni
 - Weekly summary of time spent on each tag, to help with recording allocation of time to projects.
 - Remove numerical entry limit in favour of a time based one which automatically removes entries over a certain age. As the number of users increases this will be a better approach to keeping the storage requirements of the app down.
 - Comments on time entries? Let me know!
+
+---
+
+[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?){ .md-button .md-button--primary }
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?){ .md-button .md-button--primary }

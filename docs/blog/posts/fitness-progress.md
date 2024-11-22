@@ -127,4 +127,6 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 ---
 
+[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?){ .md-button .md-button--primary }
+
 [:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2024%2F09%2F05%2Ffitness-progress%2F&via=MattShaw85&text=Fitness%20progress&hashtags=Health%2CFitness%2CWeightLoss){ .md-button .md-button--primary }

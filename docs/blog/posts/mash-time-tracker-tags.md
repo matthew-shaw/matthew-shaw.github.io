@@ -6,13 +6,14 @@ authors:
 categories:
   - Software Development
   - Mash Software
-description: Some of the ways that using Mash Time Tracker makes recording your time simpler, easier and quicker.
+title: Mash Time Tracker
+description: Time tags
 tags:
   - Bootstrap
   - UX
 ---
 
-# Mash Time Tracker: time tags
+# Mash Time Tracker: Time tags
 
 Since [introducing Mash Time Tracker](mash-time-tracker.md) last month there have been two [releases](https://github.com/MashSoftware/time-tracker/releases) to production. The first was a large scale [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) of the app, to improve the structure of the code and make it easier to add new features in future. The second release is what I want to share today; a new feature!
 

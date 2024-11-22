@@ -6,7 +6,8 @@ authors:
 categories:
   - Software Development
   - Mash Software
-description: Making the web app look and feel even more like a native app installed on your smartphone or desktop OS.
+title: Mash Time Tracker
+description: Weekly summaries, comments & UI upgrade
 tags:
   - Bootstrap
   - CI/CD
@@ -77,3 +78,9 @@ I'm going to continue working on the daily time deltas, alongside some more back
 ## Thanks
 
 Thanks for using [Mash Time Tracker](https://time-tracker.mashsoftware.com/) in 2020, please send any feedback and raise any [bug reports or feature requests](https://github.com/MashSoftware/time-tracker/issues/new/choose) you have, it really is appreciated. :grinning:
+
+---
+
+[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?){ .md-button .md-button--primary }
+
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?){ .md-button .md-button--primary }

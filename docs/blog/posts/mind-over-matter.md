@@ -5,7 +5,7 @@ authors:
   - mash
 categories:
   - Health
-description: I decided to do something about my weight and perceived body image. But it wasn't really about that.
+description: Couch to 5K and beyond – a physical and mental health journey.
 tags:
   - Anxiety
   - Depression
