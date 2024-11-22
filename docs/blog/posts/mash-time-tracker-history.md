@@ -6,7 +6,6 @@ authors:
 categories:
   - Software Development
   - Mash Software
-title: Mash Time Tracker
 description: History retention, tag pages, in-progress duration & improved forms
 tags:
   - Bootstrap

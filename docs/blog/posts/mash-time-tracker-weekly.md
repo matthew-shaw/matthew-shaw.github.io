@@ -6,7 +6,6 @@ authors:
 categories:
   - Software Development
   - Mash Software
-title: Mash Time Tracker
 description: Weekly view, time schedules & begining beta
 tags:
   - Accessibility

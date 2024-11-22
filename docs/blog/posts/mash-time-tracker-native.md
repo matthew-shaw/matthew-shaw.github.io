@@ -6,7 +6,6 @@ authors:
 categories:
   - Software Development
   - Mash Software
-title: Mash Time Tracker
 description: Native controls, app icons & performance
 tags:
   - Accessibility
