@@ -95,6 +95,6 @@ In the meantime, please try using Mash Petitions and let me know what you think 
 
 ---
 
-[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?){ .md-button .md-button--primary }
+[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?text={{ page.title }} by @mash85.bsky.social {{ page.canonical_url }} {% for tag in page.meta.tags %}%23{{tag}} {% endfor %}){ .md-button .md-button--primary }
 
-[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2016%2F03%2F05%2Fmash-petitions%2F&via=MattShaw85&text=Mash%20Petitions&hashtags=OpenData%2CPython%2CFlask){ .md-button .md-button--primary }
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.canonical_url }}&hashtags={% for tag in page.meta.tags %}{{tag}},{% endfor %}&via=MattShaw85){ .md-button .md-button--primary }

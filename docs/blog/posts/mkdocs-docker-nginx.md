@@ -376,6 +376,6 @@ If you want to build your own site in this way, I have created a [template repos
 
 ---
 
-[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?text=Building%20a%20static%20site%20with%20MkDocs%2C%20NGINX%20and%20Docker%20by%20@mash85.bsky.social%20https%3A//matthew-shaw.github.io/blog/2024/11/04/building-a-static-site-with-mkdocs-nginx-and-docker/%20%23MkDocs%20%23NGINX%20%23Docker){ .md-button .md-button--primary }
+[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?text={{ page.title }} by @mash85.bsky.social {{ page.canonical_url }} {% for tag in page.meta.tags %}%23{{tag}} {% endfor %}){ .md-button .md-button--primary }
 
-[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?url=https%3A%2F%2Fmatthew-shaw.github.io%2Fblog%2F2024%2F11%2F04%2Fbuilding-a-static-site-with-mkdocs-nginx-and-docker%2F&via=MattShaw85&text=Building%20a%20static%20site%20with%20MkDocs%2C%20NGINX%20and%20Docker&hashtags=MkDocs%2CNGINX%2CDocker){ .md-button .md-button--primary }
+[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.canonical_url }}&hashtags={% for tag in page.meta.tags %}{{tag}},{% endfor %}&via=MattShaw85){ .md-button .md-button--primary }

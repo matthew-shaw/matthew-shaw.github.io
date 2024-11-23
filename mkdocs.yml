@@ -91,6 +91,7 @@ theme:
 plugins:
   - blog
   - glightbox
+  - macros
   - minify:
       minify_html: true
       minify_js: true

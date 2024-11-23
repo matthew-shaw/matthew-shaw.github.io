@@ -1,4 +1,5 @@
 mkdocs-glightbox
+mkdocs-macros-plugin
 mkdocs-material[imaging]
 mkdocs-minify-plugin
 mkdocs-rss-plugin
