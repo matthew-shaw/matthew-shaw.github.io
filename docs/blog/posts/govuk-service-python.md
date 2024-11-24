@@ -101,6 +101,8 @@ def create_app():
 
 ## Forms
 
+The GOV.UK Frontend WTForms package provides a set of WTForms widgets used to render form fields using the GOV.UK Frontend components in GOV.UK Frontend Jinja. Associated error messages are rendered in the appropriate place, along with the error summary component and all related accessibility ARIA attributes. By simply adding a widget to the form class you get far simpler templates, which makes it quick and easy to produce fully GOV.UK compliant forms.
+
 ## Applications
 
 ### Architecture
