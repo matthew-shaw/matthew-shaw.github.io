@@ -103,6 +103,55 @@ def create_app():
 
 The GOV.UK Frontend WTForms package provides a set of WTForms widgets used to render form fields using the GOV.UK Frontend components in GOV.UK Frontend Jinja. Associated error messages are rendered in the appropriate place, along with the error summary component and all related accessibility ARIA attributes. By simply adding a widget to the form class you get far simpler templates, which makes it quick and easy to produce fully GOV.UK compliant forms.
 
+### Usage
+
+```python title="app/__init__.py" linenums="1" hl_lines="2 13 19 20"
+from flask import Flask
+from govuk_frontend_wtf.main import WTFormsHelpers
+from jinja2 import ChoiceLoader, PackageLoader, PrefixLoader
+
+def create_app(config_class=Config):
+    app = Flask(__name__)
+    app.jinja_loader = ChoiceLoader(
+        [
+            PackageLoader("app"),
+            PrefixLoader(
+                {
+                    "govuk_frontend_jinja": PackageLoader("govuk_frontend_jinja"),
+                    "govuk_frontend_wtf": PackageLoader("govuk_frontend_wtf"),
+                }
+            ),
+        ]
+    )
+
+    # Initialise app extensions
+    WTFormsHelpers(app)
+
+    return app
+```
+
+```python title="app/demos/forms.py" linenums="1" hl_lines="2 10 19"
+from flask_wtf import FlaskForm
+from govuk_frontend_wtf.wtforms_widgets import GovSubmitInput, GovTextInput
+from wtforms import StringField, SubmitField
+from wtforms.validators import Email, InputRequired, Length
+
+
+class ExampleForm(FlaskForm):
+    email_address = StringField(
+        "Email address",
+        widget=GovTextInput(),
+        validators=[
+            InputRequired(message="Enter an email address"),
+            Length(max=256, message="Email address must be 256 characters or fewer"),
+            Email(message="Enter an email address in the correct format, like name@example.com"),
+        ],
+        description="We’ll only use this to send you a receipt",
+    )
+
+    submit = SubmitField("Continue", widget=GovSubmitInput())
+```
+
 ## Applications
 
 ### Architecture
