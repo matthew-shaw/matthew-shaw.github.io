@@ -8,7 +8,7 @@ categories:
 description: I am starting a new health and fitness journey and documenting my progress.
 tags:
   - Fitness
-  - Weight loss
+  - Weight Loss
 ---
 
 # My health and fitness journey

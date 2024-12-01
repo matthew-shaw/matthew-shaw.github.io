@@ -10,9 +10,9 @@ tags:
   - Anxiety
   - Depression
   - Fitness
-  - Mental health
+  - Mental Health
   - Running
-  - Weight loss
+  - Weight Loss
 ---
 
 # Mind over matter
