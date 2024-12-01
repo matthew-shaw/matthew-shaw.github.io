@@ -182,7 +182,7 @@ extra:
     JavaScript: javascript
     Jinja: python
     Maps: location
-    Mental health: mental-health
+    Mental Health: mental-health
     MkDocs: markdown
     NGINX: server
     Node.js: nodejs
@@ -195,7 +195,7 @@ extra:
     SQLAlchemy: python
     Team: team
     UX: ux
-    Weight loss: weight-loss
+    Weight Loss: weight-loss
     WTForms: python
 
 extra_css:
