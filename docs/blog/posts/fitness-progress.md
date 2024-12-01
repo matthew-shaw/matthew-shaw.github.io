@@ -1,7 +1,7 @@
 ---
 date:
   created: 2024-09-05
-  updated: 2024-11-17
+  updated: 2024-12-01
 authors:
   - mash
 categories:
@@ -9,7 +9,7 @@ categories:
 description: Tracking my ongoing progress towards my health and fitness goals.
 tags:
   - Fitness
-  - Weight loss
+  - Weight Loss
 ---
 
 # Fitness progress
@@ -26,6 +26,8 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Weight (kg) | Difference (kg) | Total (kg) |
     | ---- | ----------- | --------------- | ---------- |
+    | 13   | 85.0        | -0.5            | -9.4       |
+    | 12   | 85.5        | -1.3            | -8.9       |
     | 11   | 85.5        | -1.3            | -8.9       |
     | 10   | 86.8        | -0.1            | -7.6       |
     | 9    | 86.9        | -0.6            | -7.5       |
@@ -47,6 +49,8 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Body fat | Lean mass (kg) | Fat mass (kg) |
     | ---- | -------- | -------------- | ------------- |
+    | 13   | 31.5%    | 58.2           | 26.8          |
+    | 12   | 31.8%    | 58.3           | 27.2          |
     | 11   | 31.8%    | 58.3           | 27.2          |
     | 10   | 32.8%    | 58.3           | 28.5          |
     | 9    | 32.8%    | 58.4           | 28.5          |
@@ -68,6 +72,8 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | BMI  |
     | ---- | ---- |
+    | 13   | 28.7 |
+    | 12   | 28.9 |
     | 11   | 28.9 |
     | 10   | 29.3 |
     | 9    | 29.4 |
@@ -89,6 +95,8 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Resting heart rate |
     | ---- | ------------------ |
+    | 13   | 61                 |
+    | 12   | 61                 |
     | 11   | 59                 |
     | 10   | 59                 |
     | 9    | 60                 |
@@ -108,18 +116,17 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 | Goal weight (kg) | Best case  | Worst case |
 | ---------------- | ---------- | ---------- |
-| 85.2             | 2024-11-24 | 2024-11-24 |
-| 80.9             | 2024-12-29 | 2025-02-09 |
-| 76.9             | 2025-01-26 | 2025-04-20 |
-| 73.0             | 2025-02-23 | 2025-06-29 |
-| 69.4             | 2025-03-23 | 2025-08-31 |
+| 80.9             | 2025-01-05 | 2025-02-16 |
+| 76.9             | 2025-02-02 | 2025-04-27 |
+| 73.0             | 2025-03-09 | 2025-06-29 |
+| 69.4             | 2025-04-06 | 2025-08-31 |
 
 ### Completed
 
 | Goal weight (kg) | Achieved   |
 | ---------------- | ---------- |
 | 89.7             | 2024-10-06 |
-| 85.2             |            |
+| 85.2             | 2024-12-01 |
 | 80.9             |            |
 | 76.9             |            |
 | 73.0             |            |
