@@ -6,7 +6,7 @@
 #
 babel==2.16.0
     # via mkdocs-material
-cachecontrol[filecache]==0.14.1
+cachecontrol[filecache]==0.14.2
     # via mkdocs-rss-plugin
 cairocffi==1.7.1
     # via cairosvg
@@ -32,9 +32,9 @@ filelock==3.16.1
     # via cachecontrol
 ghp-import==2.1.0
     # via mkdocs
-gitdb==4.0.11
+gitdb==4.0.12
     # via gitpython
-gitpython==3.1.43
+gitpython==3.1.44
     # via mkdocs-rss-plugin
 hjson==3.1.0
     # via
@@ -104,9 +104,9 @@ platformdirs==4.3.6
     # via mkdocs-get-deps
 pycparser==2.22
     # via cffi
-pygments==2.18.0
+pygments==2.19.1
     # via mkdocs-material
-pymdown-extensions==10.13
+pymdown-extensions==10.14
     # via mkdocs-material
 python-dateutil==2.9.0.post0
     # via
@@ -130,7 +130,7 @@ requests==2.32.3
     #   mkdocs-rss-plugin
 six==1.17.0
     # via python-dateutil
-smmap==5.0.1
+smmap==5.0.2
     # via gitdb
 super-collections==0.5.3
     # via mkdocs-macros-plugin
