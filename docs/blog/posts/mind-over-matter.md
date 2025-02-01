@@ -7,8 +7,6 @@ categories:
   - Health
 description: Couch to 5K and beyond – a physical and mental health journey.
 tags:
-  - Anxiety
-  - Depression
   - Fitness
   - Mental Health
   - Running
