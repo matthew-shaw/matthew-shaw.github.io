@@ -31,7 +31,7 @@ That's how I discovered the [Couch to 5K](https://www.nhs.uk/LiveWell/c25k/Pages
 
 I stuck with it, through wind, rain, snow and injuries. A particular low point was tripping over and ending up in A&E for 6 hours with a black eye and suspected fractured hand. But even when I really didn't feel like going out running after a hard day at work I knew I would always feel much better afterwards and that kept me doing it.
 
-During the Couch to 5K plan I;
+During the Couch to 5K plan I:
 
 - Covered a total distance of 110.3 km — That's roughly the same as London to Dover.
 - Spent a total of 13 hours exercising — That's the same time as flying from London to Singapore.
