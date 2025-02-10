@@ -167,9 +167,6 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 | 89.7             | 2024-10-06 |
 | 85.2             | 2024-12-01 |
 | 80.9             | 2025-02-09 |
-| 76.9             |            |
-| 73.0             |            |
-| 69.4             |            |
 
 ---
 
