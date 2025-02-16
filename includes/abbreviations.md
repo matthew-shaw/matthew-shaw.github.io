@@ -47,4 +47,5 @@
 *[UIs]: User Interfaces
 *[URL]: Uniform Resource Locator
 *[UTC]: Coordinated Universal Time
+*[WCAG]: Web Content Accessibility Guidelines
 *[XSS]: Cross-Site Scripting
