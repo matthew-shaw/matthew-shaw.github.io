@@ -1,7 +1,7 @@
 ---
 date:
   created: 2024-09-05
-  updated: 2025-02-09
+  updated: 2025-03-03
 authors:
   - mash
 categories:
@@ -26,6 +26,9 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Weight (kg) | Difference (kg) | Total (kg) |
     | ---- | ----------- | --------------- | ---------- |
+    | 26   | 79.6        | -0.6            | -14.8      |
+    | 25   | 80.2        | -0.3            | -14.2      |
+    | 24   | 80.5        | -0.2            | -13.9      |
     | 23   | 80.7        | -0.4            | -13.7      |
     | 22   | 81.1        | -0.8            | -13.3      |
     | 21   | 81.9        | 0.0             | -12.5      |
@@ -59,6 +62,9 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Body fat | Lean mass (kg) | Fat mass (kg) |
     | ---- | -------- | -------------- | ------------- |
+    | 26   | 27.3%    | 57.9           | 21.7          |
+    | 25   | 27.9%    | 57.8           | 22.4          |
+    | 24   | 28.1%    | 57.9           | 22.6          |
     | 23   | 28.3%    | 57.9           | 22.8          |
     | 22   | 28.5%    | 58.0           | 23.1          |
     | 21   | 29.4%    | 57.8           | 24.1          |
@@ -92,6 +98,9 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | BMI  |
     | ---- | ---- |
+    | 26   | 26.9 |
+    | 25   | 27.1 |
+    | 24   | 27.2 |
     | 23   | 27.3 |
     | 22   | 27.4 |
     | 21   | 27.7 |
@@ -125,6 +134,9 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Resting heart rate |
     | ---- | ------------------ |
+    | 26   | 56                 |
+    | 25   | 58                 |
+    | 24   | 59                 |
     | 23   | 56                 |
     | 22   | 57                 |
     | 21   | 58                 |
@@ -156,9 +168,9 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 | Goal weight (kg) | Best case  | Worst case |
 | ---------------- | ---------- | ---------- |
-| 76.9             | 2025-03-16 | 2025-04-20 |
-| 73.0             | 2025-04-13 | 2025-06-29 |
-| 69.4             | 2025-05-11 | 2025-08-31 |
+| 76.9             | 2025-03-23 | 2025-04-20 |
+| 73.0             | 2025-04-27 | 2025-06-29 |
+| 69.4             | 2025-05-25 | 2025-08-31 |
 
 ### Completed
 
