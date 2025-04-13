@@ -1,6 +1,7 @@
 ---
 date:
   created: 2024-08-29
+  updated: 2025-04-13
 authors:
   - mash
 categories:
@@ -87,17 +88,29 @@ Weight loss happens in the kitchen, you can't out-train a bad diet. By far the b
 
 I'm still going to eat normal meals with my family, which _will_ include the occasional takeaway, as I know that denying myself everything that I enjoy will only lead to resenting the process and failing to achieve my goals. But unhealthy snacks, sugary drinks and alcohol will be kept to an absolute minimum.
 
-To work out how many calories I should consume, first I need to understand my Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE); the number of calories my body needs per day just being alive. This is based on age, height, weight and gender, and again there are different formulas for calculating this. Based on my starting weight of 94.4 kg and no exercise:
+To work out how many calories I should consume, first I need to understand my Basal Metabolic Rate (BMR); the number of calories my body needs per day just being alive. This is based on gender, age, height, weight and lean mass, and again there are different formulas for calculating this. Based on my starting weight of 94.4 kg:
 
-| Formula                 | BMR (kcal/day) | TDEE (kcal/day) |
-| ----------------------- | -------------- | --------------- |
-| Harris-Benedict         | 1962           | 2354            |
-| Katch-McArdle           | 1628           | 1954            |
-| Mifflin-St Jeor         | 1829           | 2195            |
-| Revised Harris-Benedict | 1957           | 2348            |
-| Schofield               | 1956           | 2347            |
+| Name                       | Formula                                                       | BMR (kcal/day) |
+| -------------------------- | ------------------------------------------------------------- | -------------- |
+| Cunningham                 | 500 + (22 x Lean mass)                                        | 1780           |
+| Harris-Benedict (Original) | 66.47 + (13.75 x Weight) + (5.003 x Height) - (6.755 x Age)   | 1962           |
+| Harris-Benedict (Revised)  | 88.362 + (13.397 x Weight) + (4.799 x Height) - (5.677 x Age) | 1957           |
+| Katch-McArdle              | 370 + (21.6 x Lean mass)                                      | 1627           |
+| Mifflin-St Jeor            | (10 x Weight) + (6.25 x Height) - (5 x Age) + 5               | 1829           |
+| Owen                       | 879 + (10.2 x Weight)                                         | 1842           |
+| Schofield                  | 11.6 x Weight + 879                                           | 1974           |
 
-Taking an average gives me a TDEE of 2240 kcal/day to maintain my starting weight. A healthy weight loss of between 0.4 kg and 0.9 kg per week requires a calorie deficit of between 300 kcal to 600 kcal per day. This gives me a figure of **between 1640 kcal to 1940 kcal per day.** As my weight reduces, the number of calories needed will reduce too, so I will need to evaluate this regularly.
+Taking an average gives me a BMR of **1853 kcal per day**. From there I can work out my Total Daily Energy Expenditure (TDEE) which uses a multiplier to take into account my activity level:
+
+| Activity level                          | Multiplier | TDEE (kcal/day) | Max deficit (kcal/day) | Min deficit (kcal/day) |
+| --------------------------------------- | ---------- | --------------- | ---------------------- | ---------------------- |
+| Sedentary                               | 1.2        | 2224            | 1224                   | 1724                   |
+| Light exercise (1-2 days a week)        | 1.375      | 2548            | 1548                   | 2048                   |
+| **Moderate exercise (3-5 days a week)** | **1.55**   | **2872**        | **1872**               | **2372**               |
+| Heavy exercise (6-7 days a week)        | 1.725      | 3196            | 2196                   | 2696                   |
+| Athlete (2x a day)                      | 1.9        | 3521            | 2521                   | 3021                   |
+
+I want to do my 150 minutes of exercise per week over 3 days, so the _"moderate exercise"_ multiplier gives me a TDEE of 2872 kcal per day. But, that's to _maintain_ my current (starting) weight. A healthy weight loss of between 0.4 kg and 0.9 kg per week requires a calorie deficit of between 500 kcal to 1000 kcal per day. So, I need to limit my calorie intake to **between 1872 to 2372 calories per day**, in addition to exercise, to create a consistent deficit. As my weight reduces, the number of calories needed will reduce too, so I will need to evaluate this regularly.
 
 ## How long will it take?
 
