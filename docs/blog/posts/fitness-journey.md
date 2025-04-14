@@ -48,9 +48,9 @@ I've done a lot of reading and research about _"ideal weight"_ and of course the
 | Peterson (2016) | 65          |
 | Robinson (1983) | 67          |
 
-Taking an average of those results gives me an ideal weight of 67.9 kg, which seems like reasonable collective wisdom. Then there's BMI, which says I should be between 54.8 kg and 73.9 kg to be in the healthy weight range. Whilst these methods don't take body composition into account and aren't absolutely accurate, at least they are consistent metrics to start from.
+Taking an average of those results gives me an ideal weight of 67.9 kg, which seems like reasonable collective wisdom. Then there's BMI, which says I should be between 54.8 kg and 73.8 kg to be in the healthy weight range. Whilst these methods don't take body composition into account and aren't absolutely accurate, at least they are consistent metrics to start from.
 
-I'm going to set my target weight range as between the top end of the BMI healthy range, and my average ideal weight, e.g. **between 67.9 kg and 73.9 kg**. Now we're getting somewhere, but how do I achieve that?
+I'm going to set my target weight range as between the top end of the BMI healthy range, and my average ideal weight, e.g. **between 67.9 kg and 73.8 kg**. Now we're getting somewhere, but how do I achieve that?
 
 ## How do I get there?
 
