@@ -32,7 +32,7 @@ This is ground zero, the heaviest and probably the most unfit I have ever been. 
 
 ## Where do I start?
 
-I know from experience that setting a large, far-future goal isn't going to keep me motivated. I need small, incremental, achievable goals, and to be able to clearly see my progress against them. This keeps me on the dopamine reward train. So, I'm setting interim goals of losing **5% of my bodyweight at a time**. Each time I achieve one of these small goals, I set another 5% reduction goal, and so on. But I can't do that forever, so what's my _ultimate_ goal? Even if it isn't what I'm working towards _right now_, I still need to know where I'm trying to get to in the long run.
+I know from experience that setting a large, far-future goal isn't going to keep me motivated. I need small, incremental, achievable goals, and to be able to clearly see my progress against them. This keeps me on the dopamine reward train. So, I'm setting interim goals of losing **5% of my bodyweight at a time**. Each time I achieve one of these small goals, I set another 5% reduction goal, and so on. But I can't do that forever, so what's my _ultimate_ goal? Even if it isn't what I'm working towards _right now_, I still need to know where I'm trying to get to.
 
 ## Where am I going?
 
@@ -54,7 +54,7 @@ I'm going to set my target weight range as between the top end of the BMI health
 
 ## How do I get there?
 
-To get to my target weight range, I want to reduce my body fat percentage whilst keeping lean muscle mass. The most efficient way to achieve that is through **lower intensity, longer duration cardio** workouts. I used to do a lot of running, but my heart rate would nearly always be in the anaerobic zone, so whilst I would burn more calories overall at that higher intensity, the source of that energy would be from a greater percentage of glycogen, and less from stored fats. I need to be aware of my heart rate while exercising, and to choose activities where I can moderate and pace myself accordingly.
+To get to my target weight range, I want to reduce my body fat percentage whilst maintaining lean muscle mass. The most efficient way to achieve that is through **lower intensity and longer duration cardio** exercise. I used to do a lot of running, but my heart rate would nearly always be in the anaerobic zone, so whilst I would burn more calories overall at a higher intensity, the source of that energy would be from a greater percentage of glycogen, and less from stored fats. I need to be aware of my heart rate while exercising, and to choose activities where I can moderate and pace myself accordingly.
 
 Much like ideal weight, there's a lot of different research and studies into maximum heart rate (HR~max~) and heart rate zones. It's fair to say there's not a definitive answer, and it very much depends on the individual, so I'm going to go with collective wisdom again:
 
@@ -67,7 +67,7 @@ Much like ideal weight, there's a lot of different research and studies into max
 | Tanaka, Monahan & Seals | 208 − (0.7 × Age)       | 181           |
 | Wingate                 | 208.609 − (0.716 × Age) | 181           |
 
-Taking a rounded average gives me a HR~max~ of **181 bpm**. But what heart rate should I be targeting for my exercise, in order to maximise the percentage of stored fat used as my primary fuel source? Unsurprisingly again, it depends!
+Taking a rounded average gives me a HR~max~ of **181 bpm**. But what heart rate should I target in order to maximise the percentage of stored fat used as my primary fuel source? Unsurprisingly again, it depends!
 
 The definition of heart rate zones varies quite significantly too, with Polar, Garmin, Fitbit and Strava all using different percentage ranges to delineate them. Their names vary too, such as _"Zone 2"_, _"Easy"_, _"Light"_ and _"Moderate"_. In any case, it's all about the target heart rate (THR) percentage of my HR~max~ and fortunately there's some general consensus that 60% to 80% is a good range, with the sweet spot at around 70%.
 
@@ -84,9 +84,9 @@ I need to exercise for **at least 150 minutes per week** at a target heart rate 
 
 ## What about diet?
 
-Weight loss happens in the kitchen, you can't out-train a bad diet. By far the biggest contributor to my progress will be **consistently maintaining a calorie deficit**, i.e. burning more calories than I consume. Of course, I'm not going to just starve myself, so a mixed and healthy diet is important, not just the latest trend of either cutting out or promoting one food group over another. Plenty of lean protein to keep the hunger at bay (and use more energy in digesting it), low sugar, low fat, lots of water, and as little highly processed food as possible.
+Weight loss happens in the kitchen, you can't out-train a bad diet. By far the biggest contributor to my progress will be **consistently maintaining a calorie deficit**, i.e. burning more calories than I consume. Of course, I'm not going to just starve myself, so a mixed and healthy diet is important, not just the latest trend of either cutting out or promoting one food group over another. Plenty of lean protein to keep the hunger at bay (and increase the Thermal Effect of Food, using more energy to digest it), low sugar, low fat, lots of water, and as little highly processed food as possible.
 
-I'm still going to eat normal meals with my family, which _will_ include the occasional takeaway, as I know that denying myself everything that I enjoy will only lead to resenting the process and failing to achieve my goals. But unhealthy snacks, sugary drinks and alcohol will be kept to an absolute minimum.
+I'm still going to eat meals with my family, which _will_ include the occasional takeaway, as I know that denying myself everything that I enjoy will only lead to resenting the process and failing to achieve my goals. But unhealthy snacks, sugary drinks and alcohol will be kept to an absolute minimum.
 
 To work out how many calories I should consume, first I need to understand my Basal Metabolic Rate (BMR); the number of calories my body needs per day just being alive. This is based on gender, age, height, weight and lean mass, and again there are different formulas for calculating this. Based on my starting weight of 94.4 kg:
 
@@ -114,20 +114,20 @@ I want to do my 150 minutes of exercise per week over 3 days, so the _"moderate 
 
 ## How long will it take?
 
-I want to reach and maintain my weight in my target range **by my 40th birthday**, which gives me just under a year to achieve it. If I plot a loss of between 0.4 kg and 0.96kg per week you can see the cone I'm aiming to stay within:
+I want to reach and maintain my weight in my target range **by my 40th birthday**, which gives me just under a year to achieve it. If I plot a loss of between 0.4 kg and 0.9 kg per week you can see the cone I'm aiming to stay within:
 
 ![Weight](../../assets/images/weight-start.svg){ width="600" }
 
 With no other data yet I can only make an informed guess at best (#NoEstimates :wink:). As time goes on, I'll be able to refine increasingly accurate projections based on empirical evidence and data. As a starting point though:
 
-| Goal weight (kg) | Best case | Worst case |
-| ---------------- | --------- | ---------- |
-| 89.7             | 06/10/24  | 24/11/24   |
-| 85.2             | 10/11/24  | 09/02/25   |
-| 80.9             | 15/12/24  | 27/04/25   |
-| 76.9             | 12/01/25  | 06/07/25   |
-| 73.0             | 16/02/25  | 07/09/25   |
-| 69.4             | 16/03/25  | 09/11/25   |
+| Interim goal (kg) | Best case | Worst case |
+| ----------------- | --------- | ---------- |
+| 89.7              | 06/10/24  | 24/11/24   |
+| 85.2              | 10/11/24  | 09/02/25   |
+| 80.9              | 15/12/24  | 27/04/25   |
+| 76.9              | 12/01/25  | 06/07/25   |
+| 73.0              | 16/02/25  | 07/09/25   |
+| 69.4              | 16/03/25  | 09/11/25   |
 
 ## Let's go!
 
