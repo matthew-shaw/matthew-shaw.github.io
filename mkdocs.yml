@@ -117,8 +117,7 @@ plugins:
       cards_layout_options:
         background_color: "#1d70b8"
         color: "#ffffff"
-  - tags:
-      tags_file: tags.md
+  - tags
 
 markdown_extensions:
   - abbr
