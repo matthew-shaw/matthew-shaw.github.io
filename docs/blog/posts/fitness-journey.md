@@ -1,7 +1,7 @@
 ---
 date:
   created: 2024-08-29
-  updated: 2025-04-13
+  updated: 2025-05-06
 authors:
   - mash
 categories:
@@ -54,6 +54,10 @@ I'm going to set my target weight range as between the top end of the BMI health
 
 ## How do I get there?
 
+It's simply a case of how much, and what type, of diet and exercise I need to do:
+
+### Exercise
+
 To get to my target weight range, I want to reduce my body fat percentage whilst maintaining lean muscle mass. The most efficient way to achieve that is through **lower intensity and longer duration cardio** exercise. I used to do a lot of running, but my heart rate would nearly always be in the anaerobic zone, so whilst I would burn more calories overall at a higher intensity, the source of that energy would be from a greater percentage of glycogen, and less from stored fats. I need to be aware of my heart rate while exercising, and to choose activities where I can moderate and pace myself accordingly.
 
 Much like ideal weight, there's a lot of different research and studies into maximum heart rate (HR~max~) and heart rate zones. It's fair to say there's not a definitive answer, and it very much depends on the individual, so I'm going to go with collective wisdom again:
@@ -82,7 +86,7 @@ Given my current HR~rest~ of 61 bpm:
 
 I need to exercise for **at least 150 minutes per week** at a target heart rate of **around 145 bpm**.
 
-## What about diet?
+### Diet
 
 Weight loss happens in the kitchen, you can't out-train a bad diet. By far the biggest contributor to my progress will be **consistently maintaining a calorie deficit**, i.e. burning more calories than I consume. Of course, I'm not going to just starve myself, so a mixed and healthy diet is important, not just the latest trend of either cutting out or promoting one food group over another. Plenty of lean protein to keep the hunger at bay (and increase the Thermal Effect of Food, using more energy to digest it), low sugar, low fat, lots of water, and as little highly processed food as possible.
 
@@ -102,15 +106,25 @@ To work out how many calories I should consume, first I need to understand my Ba
 
 Taking an average gives me a BMR of **1853 kcal per day**. From there I can work out my Total Daily Energy Expenditure (TDEE) which uses a multiplier to take into account my activity level:
 
-| Activity level                          | Multiplier | TDEE (kcal/day) | Max deficit (kcal/day) | Min deficit (kcal/day) |
-| --------------------------------------- | ---------- | --------------- | ---------------------- | ---------------------- |
-| Sedentary                               | 1.2        | 2224            | 1224                   | 1724                   |
-| Light exercise (1-2 days a week)        | 1.375      | 2548            | 1548                   | 2048                   |
-| **Moderate exercise (3-5 days a week)** | **1.55**   | **2872**        | **1872**               | **2372**               |
-| Heavy exercise (6-7 days a week)        | 1.725      | 3196            | 2196                   | 2696                   |
-| Athlete (2x a day)                      | 1.9        | 3521            | 2521                   | 3021                   |
+| Activity level                          | Multiplier | TDEE (kcal/day) |
+| --------------------------------------- | ---------- | --------------- |
+| Sedentary                               | 1.2        | 2224            |
+| Light exercise (1-2 days a week)        | 1.375      | 2548            |
+| **Moderate exercise (3-5 days a week)** | **1.55**   | **2872**        |
+| Heavy exercise (6-7 days a week)        | 1.725      | 3196            |
+| Athlete (2x a day)                      | 1.9        | 3521            |
 
-I want to do my 150 minutes of exercise per week over 3 days, so the _"moderate exercise"_ multiplier gives me a TDEE of 2872 kcal per day. But, that's to _maintain_ my current (starting) weight. A healthy weight loss of between 0.4 kg and 0.9 kg per week requires a calorie deficit of between 500 kcal to 1000 kcal per day. So, I need to limit my calorie intake to **between 1872 to 2372 calories per day**, in addition to exercise, to create a consistent deficit. As my weight reduces, the number of calories needed will reduce too, so I will need to evaluate this regularly.
+I want to do my 150 minutes of exercise per week over 3 days, so the _"moderate exercise"_ multiplier gives me a TDEE of 2872 kcal per day. But, that's to _maintain_ my current (starting) weight. A healthy weight loss of between 0.4 kg and 0.9 kg per week requires a calorie deficit of between 500 kcal to 750 kcal per day. So, I need to limit my intake to **between 1872 to 2122 calories per day**, in addition to exercise, to create a consistent deficit. As my weight reduces, the number of calories needed will reduce too, so I will need to evaluate this regularly.
+
+But 1800 calories of chips every day isn't going to help me, so where should those calories come from? Thats where macronutrients come in; the percentage of carbohydrates, protein and fat in my overall diet. To help preserve lean mass, support recovery and satiety I need to prioritise lean protein, with about 35% of my calories coming from this source. I also need to keep fat consumption low, but not cut out altogether to support hormones and joint health, for about 25% of my calorie intake. The remaining 40% is made up of carbohydrates, giving me fuel for exercise but without overloading calories.
+
+To work out how much of each nutrient I need, multiply my target calorie intake by the target nutrient percentage, then divide that by the number of calories per gram:
+
+| Nutrient     | Ratio | Calories | Calories per Gram | Grams |
+| ------------ | ----- | -------- | ----------------- | ----- |
+| Protein      | 35%   | 655      | 4 kcal/g          | 164   |
+| Fat          | 25%   | 468      | 9 kcal/g          | 52    |
+| Carbohydrate | 40%   | 749      | 4 kcal/g          | 187   |
 
 ## How long will it take?
 
