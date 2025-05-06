@@ -1,6 +1,7 @@
 ---
 date:
   created: 2024-08-29
+  updated: 2025-04-13
 authors:
   - mash
 categories:
@@ -31,7 +32,7 @@ This is ground zero, the heaviest and probably the most unfit I have ever been. 
 
 ## Where do I start?
 
-I know from experience that setting a large, far-future goal isn't going to keep me motivated. I need small, incremental, achievable goals, and to be able to clearly see my progress against them. This keeps me on the dopamine reward train. So, I'm setting interim goals of losing **5% of my bodyweight at a time**. Each time I achieve one of these small goals, I set another 5% reduction goal, and so on. But I can't do that forever, so what's my _ultimate_ goal? Even if it isn't what I'm working towards _right now_, I still need to know where I'm trying to get to in the long run.
+I know from experience that setting a large, far-future goal isn't going to keep me motivated. I need small, incremental, achievable goals, and to be able to clearly see my progress against them. This keeps me on the dopamine reward train. So, I'm setting interim goals of losing **5% of my bodyweight at a time**. Each time I achieve one of these small goals, I set another 5% reduction goal, and so on. But I can't do that forever, so what's my _ultimate_ goal? Even if it isn't what I'm working towards _right now_, I still need to know where I'm trying to get to.
 
 ## Where am I going?
 
@@ -47,13 +48,13 @@ I've done a lot of reading and research about _"ideal weight"_ and of course the
 | Peterson (2016) | 65          |
 | Robinson (1983) | 67          |
 
-Taking an average of those results gives me an ideal weight of 67.9 kg, which seems like reasonable collective wisdom. Then there's BMI, which says I should be between 54.8 kg and 73.9 kg to be in the healthy weight range. Whilst these methods don't take body composition into account and aren't absolutely accurate, at least they are consistent metrics to start from.
+Taking an average of those results gives me an ideal weight of 67.9 kg, which seems like reasonable collective wisdom. Then there's BMI, which says I should be between 54.8 kg and 73.8 kg to be in the healthy weight range. Whilst these methods don't take body composition into account and aren't absolutely accurate, at least they are consistent metrics to start from.
 
-I'm going to set my target weight range as between the top end of the BMI healthy range, and my average ideal weight, e.g. **between 67.9 kg and 73.9 kg**. Now we're getting somewhere, but how do I achieve that?
+I'm going to set my target weight range as between the top end of the BMI healthy range, and my average ideal weight, e.g. **between 67.9 kg and 73.8 kg**. Now we're getting somewhere, but how do I achieve that?
 
 ## How do I get there?
 
-To get to my target weight range, I want to reduce my body fat percentage whilst keeping lean muscle mass. The most efficient way to achieve that is through **lower intensity, longer duration cardio** workouts. I used to do a lot of running, but my heart rate would nearly always be in the anaerobic zone, so whilst I would burn more calories overall at that higher intensity, the source of that energy would be from a greater percentage of glycogen, and less from stored fats. I need to be aware of my heart rate while exercising, and to choose activities where I can moderate and pace myself accordingly.
+To get to my target weight range, I want to reduce my body fat percentage whilst maintaining lean muscle mass. The most efficient way to achieve that is through **lower intensity and longer duration cardio** exercise. I used to do a lot of running, but my heart rate would nearly always be in the anaerobic zone, so whilst I would burn more calories overall at a higher intensity, the source of that energy would be from a greater percentage of glycogen, and less from stored fats. I need to be aware of my heart rate while exercising, and to choose activities where I can moderate and pace myself accordingly.
 
 Much like ideal weight, there's a lot of different research and studies into maximum heart rate (HR~max~) and heart rate zones. It's fair to say there's not a definitive answer, and it very much depends on the individual, so I'm going to go with collective wisdom again:
 
@@ -66,7 +67,7 @@ Much like ideal weight, there's a lot of different research and studies into max
 | Tanaka, Monahan & Seals | 208 − (0.7 × Age)       | 181           |
 | Wingate                 | 208.609 − (0.716 × Age) | 181           |
 
-Taking a rounded average gives me a HR~max~ of **181 bpm**. But what heart rate should I be targeting for my exercise, in order to maximise the percentage of stored fat used as my primary fuel source? Unsurprisingly again, it depends!
+Taking a rounded average gives me a HR~max~ of **181 bpm**. But what heart rate should I target in order to maximise the percentage of stored fat used as my primary fuel source? Unsurprisingly again, it depends!
 
 The definition of heart rate zones varies quite significantly too, with Polar, Garmin, Fitbit and Strava all using different percentage ranges to delineate them. Their names vary too, such as _"Zone 2"_, _"Easy"_, _"Light"_ and _"Moderate"_. In any case, it's all about the target heart rate (THR) percentage of my HR~max~ and fortunately there's some general consensus that 60% to 80% is a good range, with the sweet spot at around 70%.
 
@@ -83,38 +84,50 @@ I need to exercise for **at least 150 minutes per week** at a target heart rate 
 
 ## What about diet?
 
-Weight loss happens in the kitchen, you can't out-train a bad diet. By far the biggest contributor to my progress will be **consistently maintaining a calorie deficit**, i.e. burning more calories than I consume. Of course, I'm not going to just starve myself, so a mixed and healthy diet is important, not just the latest trend of either cutting out or promoting one food group over another. Plenty of lean protein to keep the hunger at bay (and use more energy in digesting it), low sugar, low fat, lots of water, and as little highly processed food as possible.
+Weight loss happens in the kitchen, you can't out-train a bad diet. By far the biggest contributor to my progress will be **consistently maintaining a calorie deficit**, i.e. burning more calories than I consume. Of course, I'm not going to just starve myself, so a mixed and healthy diet is important, not just the latest trend of either cutting out or promoting one food group over another. Plenty of lean protein to keep the hunger at bay (and increase the Thermal Effect of Food, using more energy to digest it), low sugar, low fat, lots of water, and as little highly processed food as possible.
 
-I'm still going to eat normal meals with my family, which _will_ include the occasional takeaway, as I know that denying myself everything that I enjoy will only lead to resenting the process and failing to achieve my goals. But unhealthy snacks, sugary drinks and alcohol will be kept to an absolute minimum.
+I'm still going to eat meals with my family, which _will_ include the occasional takeaway, as I know that denying myself everything that I enjoy will only lead to resenting the process and failing to achieve my goals. But unhealthy snacks, sugary drinks and alcohol will be kept to an absolute minimum.
 
-To work out how many calories I should consume, first I need to understand my Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE); the number of calories my body needs per day just being alive. This is based on age, height, weight and gender, and again there are different formulas for calculating this. Based on my starting weight of 94.4 kg and no exercise:
+To work out how many calories I should consume, first I need to understand my Basal Metabolic Rate (BMR); the number of calories my body needs per day just being alive. This is based on gender, age, height, weight and lean mass, and again there are different formulas for calculating this. Based on my starting weight of 94.4 kg:
 
-| Formula                 | BMR (kcal/day) | TDEE (kcal/day) |
-| ----------------------- | -------------- | --------------- |
-| Harris-Benedict         | 1962           | 2354            |
-| Katch-McArdle           | 1628           | 1954            |
-| Mifflin-St Jeor         | 1829           | 2195            |
-| Revised Harris-Benedict | 1957           | 2348            |
-| Schofield               | 1956           | 2347            |
+| Name                       | Formula                                                       | BMR (kcal/day) |
+| -------------------------- | ------------------------------------------------------------- | -------------- |
+| Cunningham                 | 500 + (22 x Lean mass)                                        | 1780           |
+| Harris-Benedict (Original) | 66.47 + (13.75 x Weight) + (5.003 x Height) - (6.755 x Age)   | 1962           |
+| Harris-Benedict (Revised)  | 88.362 + (13.397 x Weight) + (4.799 x Height) - (5.677 x Age) | 1957           |
+| Katch-McArdle              | 370 + (21.6 x Lean mass)                                      | 1627           |
+| Mifflin-St Jeor            | (10 x Weight) + (6.25 x Height) - (5 x Age) + 5               | 1829           |
+| Owen                       | 879 + (10.2 x Weight)                                         | 1842           |
+| Schofield                  | 11.6 x Weight + 879                                           | 1974           |
 
-Taking an average gives me a TDEE of 2240 kcal/day to maintain my starting weight. A healthy weight loss of between 0.4 kg and 0.9 kg per week requires a calorie deficit of between 300 kcal to 600 kcal per day. This gives me a figure of **between 1640 kcal to 1940 kcal per day.** As my weight reduces, the number of calories needed will reduce too, so I will need to evaluate this regularly.
+Taking an average gives me a BMR of **1853 kcal per day**. From there I can work out my Total Daily Energy Expenditure (TDEE) which uses a multiplier to take into account my activity level:
+
+| Activity level                          | Multiplier | TDEE (kcal/day) | Max deficit (kcal/day) | Min deficit (kcal/day) |
+| --------------------------------------- | ---------- | --------------- | ---------------------- | ---------------------- |
+| Sedentary                               | 1.2        | 2224            | 1224                   | 1724                   |
+| Light exercise (1-2 days a week)        | 1.375      | 2548            | 1548                   | 2048                   |
+| **Moderate exercise (3-5 days a week)** | **1.55**   | **2872**        | **1872**               | **2372**               |
+| Heavy exercise (6-7 days a week)        | 1.725      | 3196            | 2196                   | 2696                   |
+| Athlete (2x a day)                      | 1.9        | 3521            | 2521                   | 3021                   |
+
+I want to do my 150 minutes of exercise per week over 3 days, so the _"moderate exercise"_ multiplier gives me a TDEE of 2872 kcal per day. But, that's to _maintain_ my current (starting) weight. A healthy weight loss of between 0.4 kg and 0.9 kg per week requires a calorie deficit of between 500 kcal to 1000 kcal per day. So, I need to limit my calorie intake to **between 1872 to 2372 calories per day**, in addition to exercise, to create a consistent deficit. As my weight reduces, the number of calories needed will reduce too, so I will need to evaluate this regularly.
 
 ## How long will it take?
 
-I want to reach and maintain my weight in my target range **by my 40th birthday**, which gives me just under a year to achieve it. If I plot a loss of between 0.4 kg and 0.96kg per week you can see the cone I'm aiming to stay within:
+I want to reach and maintain my weight in my target range **by my 40th birthday**, which gives me just under a year to achieve it. If I plot a loss of between 0.4 kg and 0.9 kg per week you can see the cone I'm aiming to stay within:
 
 ![Weight](../../assets/images/weight-start.svg){ width="600" }
 
 With no other data yet I can only make an informed guess at best (#NoEstimates :wink:). As time goes on, I'll be able to refine increasingly accurate projections based on empirical evidence and data. As a starting point though:
 
-| Goal weight (kg) | Best case | Worst case |
-| ---------------- | --------- | ---------- |
-| 89.7             | 06/10/24  | 24/11/24   |
-| 85.2             | 10/11/24  | 09/02/25   |
-| 80.9             | 15/12/24  | 27/04/25   |
-| 76.9             | 12/01/25  | 06/07/25   |
-| 73.0             | 16/02/25  | 07/09/25   |
-| 69.4             | 16/03/25  | 09/11/25   |
+| Interim goal (kg) | Best case | Worst case |
+| ----------------- | --------- | ---------- |
+| 89.7              | 06/10/24  | 24/11/24   |
+| 85.2              | 10/11/24  | 09/02/25   |
+| 80.9              | 15/12/24  | 27/04/25   |
+| 76.9              | 12/01/25  | 06/07/25   |
+| 73.0              | 16/02/25  | 07/09/25   |
+| 69.4              | 16/03/25  | 09/11/25   |
 
 ## Let's go!
 
