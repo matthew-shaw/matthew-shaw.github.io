@@ -1,7 +1,7 @@
 ---
 date:
   created: 2024-09-05
-  updated: 2025-04-13
+  updated: 2025-05-11
 authors:
   - mash
 categories:
@@ -26,6 +26,10 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Weight (kg) | Difference (kg) | Total (kg) |
     | ---- | ----------- | --------------- | ---------- |
+    | 36   | 75.2        | -1.4            | -19.2      |
+    | 35   | 76.6        | 0.4             | -17.8      |
+    | 34   | 76.2        | -0.4            | -18.2      |
+    | 33   | 76.6        | 0.2             | -17.8      |
     | 32   | 76.4        | -1.4            | -18.0      |
     | 31   | 77.8        | 0.0             | -16.6      |
     | 30   | 77.8        | 0.0             | -16.6      |
@@ -68,6 +72,10 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Body fat | Lean mass (kg) | Fat mass (kg) |
     | ---- | -------- | -------------- | ------------- |
+    | 36   | 24.2%    | 57.0           | 18.2          |
+    | 35   | 25.3%    | 57.2           | 19.4          |
+    | 34   | 25.0%    | 57.2           | 19.1          |
+    | 33   | 25.2%    | 57.3           | 19.3          |
     | 32   | 25.0%    | 57.3           | 19.1          |
     | 31   | 26.2%    | 57.4           | 20.4          |
     | 30   | 26.2%    | 57.4           | 20.4          |
@@ -110,6 +118,10 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | BMI  |
     | ---- | ---- |
+    | 36   | 25.4 |
+    | 35   | 25.9 |
+    | 34   | 25.8 |
+    | 33   | 25.9 |
     | 32   | 25.8 |
     | 31   | 26.3 |
     | 30   | 26.3 |
@@ -152,6 +164,10 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Resting heart rate |
     | ---- | ------------------ |
+    | 36   | 58                 |
+    | 35   | 58                 |
+    | 34   | 57                 |
+    | 33   | 57                 |
     | 32   | 58                 |
     | 31   | 58                 |
     | 30   | 59                 |
@@ -192,8 +208,8 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 | Goal weight (kg) | Best case  | Worst case |
 | ---------------- | ---------- | ---------- |
-| 73.0             | 2025-05-11 | 2025-06-15 |
-| 69.4             | 2025-06-08 | 2025-08-17 |
+| 73.0             | 2025-06-01 | 2025-06-22 |
+| 69.4             | 2025-06-29 | 2025-08-24 |
 
 ### Completed
 
