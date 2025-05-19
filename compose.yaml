@@ -1,0 +1,18 @@
+services:
+  mkdocs:
+    build: .
+    ports:
+      - "8000:8000"
+    develop:
+      watch:
+        - action: rebuild
+          path: requirements.txt
+        - action: sync
+          path: mkdocs.yml
+          target: /app/mkdocs.yml
+        - action: sync
+          path: docs
+          target: /app/docs
+        - action: sync
+          path: includes
+          target: /app/includes
