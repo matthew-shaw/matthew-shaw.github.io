@@ -8,7 +8,8 @@ categories:
   - Software Development
 description: DRAFT
 tags:
-  - DRAFT
+  - Microservices
+  - REST
 ---
 
 # Resource-oriented software architecture patterns
