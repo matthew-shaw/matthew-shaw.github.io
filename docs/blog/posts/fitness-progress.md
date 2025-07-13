@@ -26,6 +26,15 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Weight (kg) | Difference (kg) | Total (kg) |
     | ---- | ----------- | --------------- | ---------- |
+    | 45   |             |                 |            |
+    | 44   | 72.2        | -1.0            | -22.2      |
+    | 43   | 73.2        | -0.5            | -21.2      |
+    | 42   | 73.7        | 0.0             | -20.7      |
+    | 41   | 73.7        | 0.7             | -20.7      |
+    | 40   | 73.0        | -1.0            | -21.4      |
+    | 39   | 74.0        | -0.6            | -20.4      |
+    | 38   | 74.6        | 0.3             | -19.8      |
+    | 37   | 74.3        | -0.9            | -20.1      |
     | 36   | 75.2        | -1.4            | -19.2      |
     | 35   | 76.6        | 0.4             | -17.8      |
     | 34   | 76.2        | -0.4            | -18.2      |
@@ -72,6 +81,15 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Body fat | Lean mass (kg) | Fat mass (kg) |
     | ---- | -------- | -------------- | ------------- |
+    | 45   |          |                |               |
+    | 44   | 22.0%    | 56.3           | 15.9          |
+    | 43   | 22.9%    | 56.4           | 16.8          |
+    | 42   | 23.2%    | 56.6           | 17.1          |
+    | 41   | 23.1%    | 56.7           | 17.0          |
+    | 40   | 22.6%    | 56.5           | 16.5          |
+    | 39   | 23.3%    | 56.8           | 17.2          |
+    | 38   | 23.8%    | 56.8           | 17.8          |
+    | 37   | 23.5%    | 56.8           | 17.5          |
     | 36   | 24.2%    | 57.0           | 18.2          |
     | 35   | 25.3%    | 57.2           | 19.4          |
     | 34   | 25.0%    | 57.2           | 19.1          |
@@ -118,6 +136,15 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | BMI  |
     | ---- | ---- |
+    | 45   |      |
+    | 44   | 24.4 |
+    | 43   | 24.7 |
+    | 42   | 24.9 |
+    | 41   | 24.9 |
+    | 40   | 24.7 |
+    | 39   | 25.0 |
+    | 38   | 25.2 |
+    | 37   | 25.1 |
     | 36   | 25.4 |
     | 35   | 25.9 |
     | 34   | 25.8 |
@@ -164,6 +191,15 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Resting heart rate |
     | ---- | ------------------ |
+    | 45   | 66                 |
+    | 44   | 61                 |
+    | 43   | 58                 |
+    | 42   | 55                 |
+    | 41   | 57                 |
+    | 40   | 55                 |
+    | 39   | 57                 |
+    | 38   | 58                 |
+    | 37   | 56                 |
     | 36   | 58                 |
     | 35   | 58                 |
     | 34   | 57                 |
@@ -208,8 +244,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
 | Goal weight (kg) | Best case  | Worst case |
 | ---------------- | ---------- | ---------- |
-| 73.0             | 2025-06-01 | 2025-06-22 |
-| 69.4             | 2025-06-29 | 2025-08-24 |
+| 69.4             | 2025-08-04 | 2025-08-25 |
 
 ### Completed
 
@@ -219,6 +254,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 | 85.2             | 2024-12-01 |
 | 80.9             | 2025-02-09 |
 | 76.9             | 2025-04-13 |
+| 73.0             | 2025-06-09 |
 
 ---
 
