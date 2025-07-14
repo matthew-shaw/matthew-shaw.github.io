@@ -26,7 +26,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Weight (kg) | Difference (kg) | Total (kg) |
     | ---- | ----------- | --------------- | ---------- |
-    | 45   |             |                 |            |
+    | 45   | 71.6        | -0.6            | -22.8      |
     | 44   | 72.2        | -1.0            | -22.2      |
     | 43   | 73.2        | -0.5            | -21.2      |
     | 42   | 73.7        | 0.0             | -20.7      |
@@ -81,7 +81,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | Body fat | Lean mass (kg) | Fat mass (kg) |
     | ---- | -------- | -------------- | ------------- |
-    | 45   |          |                |               |
+    | 45   | 21.6%    | 56.1           | 15.5          |
     | 44   | 22.0%    | 56.3           | 15.9          |
     | 43   | 22.9%    | 56.4           | 16.8          |
     | 42   | 23.2%    | 56.6           | 17.1          |
@@ -136,7 +136,7 @@ Tracking my ongoing progress towards my health and fitness goals. See my [origin
 
     | Week | BMI  |
     | ---- | ---- |
-    | 45   |      |
+    | 45   | 24.2 |
     | 44   | 24.4 |
     | 43   | 24.7 |
     | 42   | 24.9 |
