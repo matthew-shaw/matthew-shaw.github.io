@@ -51,5 +51,6 @@
 *[URL]: Uniform Resource Locator
 *[UTC]: Coordinated Universal Time
 *[WCAG]: Web Content Accessibility Guidelines
+*[WIP]: Work In Progress
 *[XSS]: Cross-Site Scripting
 *[YAGNI]: You aren't gonna need it
