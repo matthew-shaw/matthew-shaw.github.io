@@ -28,8 +28,9 @@ In manufacturing, transportation waste is about unnecessary movement of material
 
 Every handoff introduces delay, confusion, and risk. This is why DevOps and Team Topologies both advocate for stream-aligned teams - groups that can take a product or feature from concept to production with minimal dependencies.
 
-- **DevOps** breaks down silos between development and operations, reducing handoffs (and context switching).
+- **DevOps** and **Agile** reduce this by creating cross-functional, product-aligned teams that own features end-to-end.
 - **Team Topologies** defines interaction modes (collaboration, X-as-a-service, facilitation) to make communication intentional rather than chaotic.
+- **Platform Engineering** minimises “transportation” by providing self-service infrastructure - no more waiting on ops tickets or manual environment setup.
 
 How to reduce waste:
 
@@ -45,6 +46,8 @@ Inventory in software hides risk
 
 - **Kanban** visualises and limits WIP, revealing bottlenecks in flow.
 - **Continuous Delivery** aims to keep the system in a deployable state at all times - minimising WIP by integrating continuously.
+- **Trunk-Based Development** eliminates long-lived branches - keeping “inventory” small and always moving forward.
+- **Agile** promotes short iterations and small batch sizes to minimise partially done work.
 
 How to reduce waste:
 
@@ -60,6 +63,7 @@ Every time a developer has to manually configure a local environment or chase do
 
 - **DevOps** encourages automation of repetitive tasks (CI/CD pipelines, infrastructure as code).
 - **Clean Code** and **Clean Architecture** reduce cognitive “motion” - making codebases easier to navigate and modify safely.
+- **Platform Engineering** provides standard, repeatable environments that “just work.”
 
 How to reduce waste:
 
@@ -73,9 +77,10 @@ Idle machines are costly; so are idle developers. Waiting waste in software show
 
 Every minute waiting is a minute not learning, not improving, and not delivering.
 
-- **Continuous Delivery** promotes automation and parallelisation to minimise idle time.
-- **Kanban** emphasises monitoring _flow efficiency_ (the ratio of active work time to total elapsed time).
+- **Continuous Integration** and **Continuous Delivery** automate tests and deployments, reducing idle time.
+- **Agile** and **Kanban** emphasise small batches and quick feedback.
 - **Team Topologies** warns against coupling teams so tightly that one blocks another’s progress.
+- **Platform Engineering** helps developers self-serve what they need without waiting on external teams.
 
 How to reduce waste:
 
@@ -89,8 +94,10 @@ Overproduction is producing goods before they’re needed. In software, it’s b
 
 This is one of the most expensive forms of waste in software, because it consumes engineering capacity on work that never delivers value.
 
+- **Agile** and **Lean Startup** thinking focus on delivering the smallest valuable increment.
 - **Domain-Driven Design** helps teams focus on the core domain - the parts of the system that actually create value - instead of spreading effort across everything.
 - **Continuous Delivery** encourages small, validated releases - not large, speculative ones.
+- **Behavior-Driven Development** ensures teams build exactly what’s required - nothing more.
 
 How to reduce waste:
 
@@ -105,6 +112,7 @@ Overprocessing happens when we do more work than necessary to achieve the same r
 Complex systems are harder to maintain, test, and deploy - and they slow everything down.
 
 - **Clean Code** principles directly fight overprocessing: favor clarity over cleverness, simplicity over abstraction.
+- **Agile** discourages unnecessary documentation or heavyweight ceremonies.
 - **Domain-Driven Design** Bounded Contexts help manage complexity by isolating concerns.
 - **Team Topologies** reinforces this by promoting smaller, decoupled teams that own coherent parts of the system.
 
@@ -120,9 +128,11 @@ Just as defects on the factory floor require rework, bugs, regressions and techn
 
 Defects aren’t just bugs - they’re feedback delayed. Each bug that reaches production represents a missed opportunity.
 
+- **Test-Driven Development** ensures quality is built in from the start.
+- **Behavior-Driven Development** aligns developers, testers, and product on the same definition of done.
 - **Continuous Delivery** embeds testing throughout the pipeline - catching issues fast.
 - **Clean Code** practices (readability, testability, modularity) reduce the defect rate over time.
-- *DevOps* promotes shared responsibility for quality - _“you build it, you run it.”_
+- **DevOps** promotes shared responsibility for quality - _“you build it, you run it.”_
 
 How to reduce waste:
 
@@ -136,6 +146,7 @@ Many lean practitioners add an eighth waste: failing to use people’s creativit
 
 In software, this is arguably the most damaging. Engineers are problem solvers by nature - yet too often they’re treated as implementers of someone else’s plan.
 
+- **Agile** empowers teams to self-organise.
 - **Team Topologies** empowers teams to own outcomes, not just deliverables.
 - **DevOps** culture encourages experimentation and learning.
 - **Domain-Driven Design** and **Clean Code** both assume developers are designers - responsible for shaping the system thoughtfully.
@@ -156,6 +167,6 @@ By spotting and eliminating these wastes you’ll deliver faster, build smarter,
 
 ---
 
-[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?text={{ page.title | urlencode }} by @mash85.bsky.social {{ page.canonical_url }} {% for tag in page.meta.tags %}%23{{ tag | replace(" ", "") }} {% endfor %}){ .md-button .md-button--primary }
+[:fontawesome-brands-bluesky: Share on Bluesky](<https://bsky.app/intent/compose?text={{> page.title | urlencode }} by @mash85.bsky.social {{ page.canonical_url }} {% for tag in page.meta.tags %}%23{{ tag | replace(" ", "") }} {% endfor %}){ .md-button .md-button--primary }
 
-[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?text={{ page.title | urlencode }}&url={{ page.canonical_url }}&hashtags={% for tag in page.meta.tags %}{{ tag | replace(" ", "") }},{% endfor %}&via=MattShaw85){ .md-button .md-button--primary }
+[:fontawesome-brands-x-twitter: Share on Twitter](<https://twitter.com/intent/tweet?text={{> page.title | urlencode }}&url={{ page.canonical_url }}&hashtags={% for tag in page.meta.tags %}{{ tag | replace(" ", "") }},{% endfor %}&via=MattShaw85){ .md-button .md-button--primary }
