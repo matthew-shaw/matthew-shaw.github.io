@@ -16,13 +16,13 @@ tags:
 
 In manufacturing, Lean Thinking revolutionised how teams build products by relentlessly focusing on eliminating waste - anything that doesn’t add value for the customer.
 
-This philosophy, born from the Toyota Production System, identifies seven types of waste (_“Muda”_ in Japanese). While these ideas started on factory floors, they’ve found a powerful second life in the world of software engineering.
+In Japanese, 無駄 (_"Muda"_) literally means waste or futility - any activity that consumes resources but creates no value. Taiichi Ohno, the father of the Toyota Production System, categorised seven specific types.
 
 Let’s explore how each of the seven wastes - plus a crucial eighth - shows up in modern software development, and how to spot (and stop) them in your team.
 
 <!-- more -->
 
-## 1. Transportation
+## 1. Transportation (輸送 - _"Yusō"_)
 
 In manufacturing, transportation waste is about unnecessary movement of materials.
 In software, it’s about unnecessary movement of work - between teams, tools, or processes.
@@ -35,7 +35,7 @@ How to reduce it:
 - Automate CI/CD pipelines to reduce manual steps.
 - Create shared visibility across the development lifecycle.
 
-## 2. Inventory
+## 2. Inventory (在庫 - _"Zaiko"_)
 
 In manufacturing, inventory means stock that isn’t adding value yet.
 In software, it’s unfinished work: code sitting in branches, half-done features, unvalidated ideas.
@@ -48,7 +48,7 @@ How to reduce it:
 - Merge small, frequent PR's instead of massive ones.
 - Validate product ideas early (MVP's, feature toggles).
 
-## 3. Motion
+## 3. Motion (動作 - _"Dōsa"_)
 
 Motion waste in manufacturing is unnecessary physical movement.
 In software, it’s the extra effort developers spend on non-value tasks - hunting down logs, waiting for environments, or manually configuring builds.
@@ -59,7 +59,7 @@ How to reduce it:
 - Standardise environments with containers or scripts.
 - Invest in internal developer experience (DX) tooling.
 
-## 4. Waiting
+## 4. Waiting (待機 - _"Taiki"_)
 
 Idle machines are costly; so are idle developers.
 Waiting waste in software shows up as long build times, delayed reviews, or slow feedback from stakeholders.
@@ -72,7 +72,7 @@ How to reduce it:
 - Encourage faster feedback loops (continuous integration).
 - Keep reviewers accountable with lightweight, async reviews.
 
-## 5. Overproduction
+## 5. Overproduction (過剰生産 - _"Kajō seisan"_)
 
 Overproduction is producing goods before they’re needed.
 In software, it’s building features no one uses or developing too far ahead of validated demand.
@@ -85,7 +85,7 @@ How to reduce it:
 - Validate hypotheses with real users before building.
 - Deliver incrementally and measure adoption.
 
-## 6. Overprocessing
+## 6. Overprocessing (過剰加工 - _"Kajō kakō"_)
 
 Overprocessing happens when we do more work than necessary to achieve the same result.
 In software, it’s the trap of overengineering - complex abstractions, unnecessary layers, and excessive documentation or process.
@@ -96,7 +96,7 @@ How to reduce it:
 - Keep architectures simple until scale truly demands otherwise.
 - Tailor processes to project complexity (no heavyweight workflows for small teams).
 
-## 7. Defects
+## 7. Defects (不良 - _"Furyō"_)
 
 Just as defects on the factory floor require rework, bugs and regressions in software consume huge amounts of time and morale.
 
@@ -106,7 +106,7 @@ How to reduce it:
 - Encourage pair programming or peer review for high-risk areas.
 - Fix the root cause - not just the symptom.
 
-## Bonus: 8. Unused Talent
+## Bonus: 8. Unused Talent (人材の未活用 - _"Jinzai no mikatsuyō"_)
 
 Many lean practitioners add an eighth waste: not using people’s creativity.
 
