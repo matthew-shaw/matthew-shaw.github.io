@@ -12,6 +12,7 @@
 *[CSP]: Content Security Policy
 *[CSRF]: Cross-Site Request Forgery
 *[CSS]: Cascading Style Sheets
+*[DX]: Developer Experience
 *[EU]: European Union
 *[GDPR]: General Data Protection Regulation
 *[HM]: His Majesty's
@@ -33,6 +34,8 @@
 *[ORM]: Object–Relational Mapping
 *[OS]: Operating System
 *[OWASP]: Open Worldwide Application Security Project
+*[PR]: Pull Request
+*[QA]: Quality Assurance
 *[REST]: Representational State Transfer
 *[SEO]: Search Engine Optimisation
 *[SHA]: Secure Hash Algorithms
@@ -49,3 +52,4 @@
 *[UTC]: Coordinated Universal Time
 *[WCAG]: Web Content Accessibility Guidelines
 *[XSS]: Cross-Site Scripting
+*[YAGNI]: You aren't gonna need it
