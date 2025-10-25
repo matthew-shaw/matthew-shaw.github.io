@@ -50,7 +50,7 @@ Reducing transportation means shortening the path from idea to running code and 
 
 ### Evidence
 
-This waste is a primary driver of long **Lead Times for Changes**. Research from _Accelerate_ and the DORA program shows that reducing handoffs and enabling end-to-end ownership directly improves performance — shortening lead times and increasing **Deployment Frequency**.
+This waste is a primary driver of long **Lead Time for Changes**. Research from _Accelerate_ and the DORA program shows that reducing handoffs and enabling end-to-end ownership directly improves performance — shortening lead times and increasing **Deployment Frequency**.
 
 ## 2. Inventory (Zaiko)
 
@@ -75,7 +75,7 @@ Lean flow depends on fast feedback. When inventory piles up, feedback slows, and
 
 ### Evidence
 
-High inventory (WIP) is a major contributor to poor **Lead Times for Changes**. The DORA findings strongly support this: keeping work small and continuously integrated leads to faster feedback, lower risk, and shorter lead times — hallmarks of high-performing teams.
+High inventory (WIP) is a major contributor to poor **Lead Time for Changes**. The DORA findings strongly support this: keeping work small and continuously integrated leads to faster feedback, lower risk, and shorter lead times — hallmarks of high-performing teams.
 
 ## 3. Motion (Dōsa)
 
@@ -98,7 +98,7 @@ Reducing motion means building a smooth, predictable developer experience — on
 
 ### Evidence
 
-Friction from manual tasks directly harms **Lead Times for Changes** and often increases the **Change Failure Rate** due to human error. Data from the DORA studies confirms that automation and standardised development environments are key predictors of elite performance.
+Friction from manual tasks directly harms **Lead Time for Changes** and often increases the **Change Failure Rate** due to human error. Data from the DORA studies confirms that automation and standardised development environments are key predictors of elite performance.
 
 ## 4. Waiting (Taiki)
 
@@ -123,7 +123,7 @@ Reducing waiting means collapsing those loops — making feedback continuous, no
 
 ### Evidence
 
-Waiting is a pure component of **Lead Times for Changes**. _Accelerate_ research highlights fast feedback loops as one of the strongest predictors of success — teams that shorten the path from commit to deploy (which reduces waiting) consistently outperform those trapped in slow feedback cycles.
+Waiting is a pure component of **Lead Time for Changes**. _Accelerate_ research highlights fast feedback loops as one of the strongest predictors of success — teams that shorten the path from commit to deploy (which reduces waiting) consistently outperform those trapped in slow feedback cycles.
 
 ## 5. Overproduction (Kajō seisan)
 
@@ -173,7 +173,7 @@ Reducing overprocessing means matching effort to value — choosing simplicity, 
 
 ### Evidence
 
-Overprocessing adds unnecessary complexity, which directly increases **Lead Times for Changes** and can contribute to a higher **Change Failure Rate**. Studies in _Accelerate_ show that simplifying architectures and streamlining technical and organisational processes reduce lead times and increase **Deployment Frequency** — proving that leaner, less bureaucratic systems deliver faster and more reliably.
+Overprocessing adds unnecessary complexity, which directly increases **Lead Time for Changes** and can contribute to a higher **Change Failure Rate**. Studies in _Accelerate_ show that simplifying architectures and streamlining technical and organisational processes reduce lead times and increase **Deployment Frequency** — proving that leaner, less bureaucratic systems deliver faster and more reliably.
 
 ## 7. Defects (Furyō)
 
