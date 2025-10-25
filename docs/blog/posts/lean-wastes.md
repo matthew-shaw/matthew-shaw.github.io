@@ -144,7 +144,7 @@ Reducing overproduction means focusing relentlessly on outcomes, not output. The
 - **Agile** and Lean Startup thinking focus on delivering the smallest valuable increment.
 - **Domain-Driven Design** helps teams focus on the core domain — the areas that create real business value.
 - **Continuous Delivery** encourages small, validated releases rather than speculative ones.
-- **Behavior-Driven Development** ensures teams build exactly what’s required, no more.
+- **Behaviour-Driven Development** ensures teams build exactly what’s required, no more.
 
 ### Evidence
 
@@ -192,7 +192,7 @@ Reducing defects means building quality in — making testing, feedback, and imp
 ### Software engineering approaches
 
 - **Test-Driven Development** builds quality in from the start.
-- **Behavior-Driven Development** aligns developers, testers, and product on shared expectations.
+- **Behaviour-Driven Development** aligns developers, testers, and product on shared expectations.
 - **Continuous Delivery** embeds testing throughout the pipeline, catching issues early.
 - **Clean Code** practices — readability, modularity, testability — reduce the defect rate over time.
 - **DevOps** promotes shared responsibility for quality: _"You build it, you run it."_
