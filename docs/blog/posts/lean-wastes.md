@@ -5,7 +5,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: What’s really slowing your team down — and how to fix it.
+description: What’s really slowing your team down, and how to fix it.
 tags:
   - Agile
   - Continuous Delivery
