@@ -26,9 +26,11 @@ Let’s explore how each of these seven wastes — plus a crucial eighth — sho
 
 ## 1. Transportation (Yusō)
 
-In manufacturing, transportation waste is unnecessary movement of materials. In software, it’s unnecessary handoffs between teams, tools, or environments.
+In manufacturing, transportation waste is the unnecessary movement of materials — moving parts without improving them. In software, it’s the same pattern made invisible: unnecessary handoffs between people, tools, or environments.
 
-Every handoff introduces delay, confusion, and risk. Reducing “transportation” means shortening the path from idea to running code.
+Every transfer adds friction and risk. Knowledge gets diluted, priorities drift, and work waits for permission to move. The cost isn’t just time — it’s lost clarity, context, and momentum.
+
+Reducing transportation means shortening the path from idea to running code and giving teams direct ownership of outcomes.
 
 ### How to reduce waste
 
@@ -48,9 +50,11 @@ Research from _Accelerate_ and the DORA program shows that reducing handoffs and
 
 ## 2. Inventory (Zaiko)
 
-In manufacturing, inventory means stock that isn’t yet adding value. In software, it’s unfinished code, unmerged branches, backlog bloat, or unvalidated features.
+In manufacturing, inventory waste means stock that’s been built but isn’t delivering value. In software, that inventory lives as unfinished code, unmerged branches, bloated backlogs, and half-validated features.
 
-Inventory hides risk — unmerged code ages silently, accumulating merge conflicts, stale requirements, and missed context.
+Every line of dormant code represents work that’s not learning or earning. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context.
+
+Lean flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The goal isn’t just to start less — it’s to finish faster.
 
 ### How to reduce waste
 
@@ -71,9 +75,11 @@ The DORA findings strongly support this Lean principle: keeping work small and c
 
 ## 3. Motion (Dōsa)
 
-Motion waste in manufacturing is unnecessary movement. In software, it’s repetitive setup steps, manual deployments, inconsistent environments, or inefficient tooling.
+Motion waste is the unnecessary movement of people or tools. In software, it shows up as manual setup steps, repetitive configuration, inconsistent environments, or scattered information.
 
-Every time a developer manually configures a local environment or chases down a missing log file, focus and flow are lost — that’s motion waste.
+Every manual click or repeated setup is friction that interrupts focus. Developers spend time wrestling with tools instead of solving problems.
+
+Reducing motion means building a smooth, predictable developer experience — one where environments, builds, and feedback are automatic, consistent, and close at hand.
 
 ### How to reduce waste
 
@@ -93,9 +99,11 @@ Data from the DORA studies confirms that automation and standardised development
 
 ## 4. Waiting (Taiki)
 
-Idle machines are costly; so are idle developers. Waiting waste appears as long build times, delayed reviews, or slow feedback from stakeholders.
+In manufacturing, idle machines burn money. In software, idle people burn opportunity. Waiting waste is the silent cost of slow builds, blocked reviews, overloaded dependencies, or delayed feedback.
 
-Every minute waiting is a minute not learning, not improving, and not delivering.
+Every delay in the feedback loop weakens flow and motivation. Engineers lose context, teams lose pace, and the organisation loses learning.
+
+Reducing waiting means collapsing those loops — making feedback continuous, not calendar-driven — so progress never depends on someone else’s availability.
 
 ### How to reduce waste
 
@@ -116,9 +124,11 @@ _Accelerate_ research highlights fast feedback loops as one of the strongest pre
 
 ## 5. Overproduction (Kajō seisan)
 
-Overproduction is producing goods before they’re needed. In software, it’s building features no one uses or developing too far ahead of validated demand.
+Overproduction is building more than what’s needed — features without validation, designs without demand, or automation without purpose.
 
-It’s the most expensive form of waste — consuming capacity on work that never delivers value.
+It’s seductive because it looks like progress. Teams ship features, write code, and fill roadmaps — but if it doesn’t create measurable value, it’s waste disguised as output.
+
+Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is customer value, not feature count.
 
 ### How to reduce waste
 
@@ -139,9 +149,11 @@ The DORA research reinforces that small, validated releases reduce waste and imp
 
 ## 6. Overprocessing (Kajō kakō)
 
-Overprocessing happens when we do more work than necessary for the same result. In software, it’s overengineering — unnecessary abstraction, excessive process, or documentation for its own sake.
+Overprocessing is doing more work than necessary for the same result. In software, it’s overengineering, unnecessary abstraction, or process overhead added “just in case.”
 
-Complex systems are harder to maintain, harder to test, and slower to change — complexity compounds waste.
+Complexity accumulates quietly — every extra layer, meeting, or document increases cognitive load and slows adaptation. The result is a system that’s heavy where it should be light.
+
+Reducing overprocessing means matching effort to value — choosing simplicity, clarity, and sufficiency over theoretical perfection.
 
 ### How to reduce waste
 
@@ -162,7 +174,11 @@ Studies in _Accelerate_ show that simplifying architectures and streamlining tec
 
 ## 7. Defects (Furyō)
 
-Defects in manufacturing cause rework; in software, bugs and technical debt consume time, energy, and trust. The later an issue is found, the more expensive it is to fix.
+Defects are the most visible waste — bugs, outages, regressions, or rework. But beneath every defect lies a deeper issue: a missed learning opportunity earlier in the process.
+
+The later an error surfaces, the more expensive it becomes. Each missed test, unchecked assumption, or rushed review compounds until failure becomes inevitable.
+
+Reducing defects means building quality in — making testing, feedback, and improvement continuous parts of delivery rather than post-facto correction.
 
 ### How to reduce waste
 
@@ -184,7 +200,11 @@ DORA’s data shows that teams that build quality in through automation and shar
 
 ## 8. Unused Talent
 
-Many Lean practitioners add an eighth waste: failing to use people’s creativity and ideas. In software, this may be the most damaging of all. Engineers are problem-solvers by nature — yet too often treated as implementers of someone else’s roadmap.
+Perhaps the most damaging waste of all: failing to use the creativity and insight of the people closest to the work.
+
+When teams are reduced to task-takers, innovation dies. The best engineers become disengaged, and the organisation loses its capacity to learn, adapt, and improve.
+
+Reducing this waste means treating developers as designers of systems — trusted to experiment, decide, and continuously shape how value flows.
 
 ### How to reduce waste
 
