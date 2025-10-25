@@ -36,9 +36,9 @@ Every handoff introduces delay, confusion, and risk. Reducing “transportation�
 
 **How to reduce waste:**
 
-- Build cross-functional, outcome-oriented teams.
-- Automate CI/CD pipelines to reduce manual steps.
-- Create shared visibility across the entire delivery lifecycle.
+- Form cross-functional, outcome-oriented teams to reduce handoffs.
+- Provide self-service environments and standardised tooling.
+- Establish clear communication channels and ownership for tasks and escalations.
 
 !!! info "Evidence"
 
@@ -57,9 +57,9 @@ Inventory hides risk — unmerged code ages silently, accumulating merge conflic
 
 **How to reduce waste:**
 
-- Limit WIP on your boards and in your processes.
-- Merge small, frequent PRs instead of massive ones.
-- Validate product ideas early using MVPs and feature flags.
+- Limit WIP to expose bottlenecks and maintain flow.
+- Deliver small, independently deployable increments.
+- Regularly review and prune backlog items that no longer add value.
 
 !!! info "Evidence"
 
@@ -77,9 +77,9 @@ Every time a developer manually configures a local environment or chases down a 
 
 **How to reduce waste:**
 
-- Automate repetitive setup steps.
-- Standardise environments with containers or scripts.
-- Invest in developer experience (DX) tooling that removes friction.
+- Automate repetitive tasks like environment setup, builds, and deployments.
+- Provide standardised, containerised environments for consistency.
+- Supply curated scripts, templates, and DX tooling to reduce friction.
 
 !!! info "Evidence"
 
@@ -98,9 +98,9 @@ Every minute waiting is a minute not learning, not improving, and not delivering
 
 **How to reduce waste:**
 
-- Automate builds, tests, and deployments to shorten feedback loops.
-- Use lightweight, asynchronous reviews to avoid bottlenecks.
-- Optimise CI with caching and parallelisation.
+- Automate CI/CD pipelines for fast feedback loops.
+- Enable async reviews and lightweight approvals to remove blockers.
+- Decouple teams and reduce inter-team dependencies to avoid idle time.
 
 !!! info "Evidence"
 
@@ -119,9 +119,9 @@ It’s the most expensive form of waste — consuming capacity on work that neve
 
 **How to reduce waste:**
 
-- Focus on customer value, not feature volume.
-- Validate hypotheses early with real users.
-- Use feature toggles or A/B testing before committing to full-scale builds.
+- Prioritise work based on validated customer value and usage metrics.
+- Deliver small, incremental releases instead of speculative features.
+- Test assumptions early with MVPs, prototypes, or user research.
 
 !!! info "Evidence"
 
@@ -140,9 +140,9 @@ Complex systems are harder to maintain, harder to test, and slower to change —
 
 **How to reduce waste:**
 
-- Apply the YAGNI principle — _You Aren’t Gonna Need It_.
-- Keep architectures simple until scale truly demands otherwise.
-- Match process to risk — small teams and low-risk work deserve lightweight governance.
+- Apply YAGNI: implement features only when needed.
+- Keep architectures and abstractions simple.
+- Regularly review code and processes to remove redundant complexity.
 
 !!! info "Evidence"
 
@@ -160,9 +160,9 @@ Defects in manufacturing cause rework; in software, bugs and technical debt cons
 
 **How to reduce waste:**
 
-- Invest in automated testing and CI quality gates.
-- Use pair programming or peer review for high-risk areas.
-- Fix root causes, not just symptoms.
+- Build quality in with TDD, automated testing, and CI pipelines.
+- Perform code reviews and static analysis for high-risk areas.
+- Monitor production with observability tools to detect and prevent regressions.
 
 !!! info "Evidence"
 
@@ -179,9 +179,9 @@ Many Lean practitioners add an eighth waste: failing to use people’s creativit
 
 **How to reduce waste:**
 
-- Empower teams with ownership, autonomy, and trust.
-- Encourage ideas from everyone — not just leads or architects.
-- Create space for experimentation (spikes, hack days, retrospectives).
+- Empower teams with autonomy and ownership over outcomes.
+- Encourage contributions and ideas from all team members.
+- Allocate time for experimentation, learning, and innovation (spikes, hackdays).
 
 !!! info "Evidence"
 
