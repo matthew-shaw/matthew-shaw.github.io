@@ -6,7 +6,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: The Seven Wastes of Lean Thinking
+description: The Eight Wastes of Lean Thinking
 tags:
   - Lean
   - Agile
@@ -32,7 +32,7 @@ Every transfer adds friction and risk. Knowledge gets diluted, priorities drift,
 
 Reducing transportation means shortening the path from idea to running code and giving teams direct ownership of outcomes.
 
-### How to reduce waste
+### How to reduce transportation
 
 - Form cross-functional, outcome-oriented teams to reduce handoffs.
 - Provide self-service environments and standardised tooling.
@@ -56,7 +56,7 @@ Every line of dormant code represents work that’s not learning or earning. It 
 
 Lean flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The focus must shift from starting work to finishing work, which requires limiting work-in-progress.
 
-### How to reduce waste
+### How to reduce inventory
 
 - Limit WIP to expose bottlenecks and maintain flow.
 - Deliver small, independently deployable increments.
@@ -81,7 +81,7 @@ Every manual click or repeated setup is friction that interrupts focus. Develope
 
 Reducing motion means building a smooth, predictable developer experience — one where environments, builds, and feedback are automatic, consistent, and close at hand.
 
-### How to reduce waste
+### How to reduce motion
 
 - Automate repetitive tasks like environment setup, builds, and deployments.
 - Provide standardised, containerised environments for consistency.
@@ -104,7 +104,7 @@ Every delay in the feedback loop weakens flow and motivation. Engineers lose con
 
 Reducing waiting means collapsing those loops — making feedback continuous, not calendar-driven — so progress never depends on someone else’s availability.
 
-### How to reduce waste
+### How to reduce waiting
 
 - Automate CI/CD pipelines for fast feedback loops.
 - Enable async reviews and lightweight approvals to remove blockers.
@@ -129,7 +129,7 @@ It’s seductive because it looks like progress. Teams ship features, write code
 
 Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is customer value, not feature count.
 
-### How to reduce waste
+### How to reduce overproduction
 
 - Prioritise work based on validated customer value and usage metrics.
 - Deliver small, incremental releases instead of speculative features.
@@ -154,7 +154,7 @@ Complexity accumulates quietly — every extra layer, meeting, or document incre
 
 Reducing overprocessing means matching effort to value — choosing simplicity, clarity, and sufficiency over theoretical perfection.
 
-### How to reduce waste
+### How to reduce overprocessing
 
 - Apply YAGNI: implement features only when needed.
 - Keep architectures and abstractions simple.
@@ -177,9 +177,9 @@ Defects are the most visible waste — bugs, outages, regressions, or rework. Bu
 
 The later an error surfaces, the more expensive it becomes. Each missed test, unchecked assumption, or rushed review compounds until failure becomes inevitable.
 
-Reducing defects means building quality in — making testing, feedback, and improvement continuous parts of delivery rather than post-facto correction.
+Reducing defects means building quality in — making testing, feedback, and improvement continuous parts of delivery rather than after-the-fact correction.
 
-### How to reduce waste
+### How to reduce defects
 
 - Build quality in with TDD, automated testing, and CI pipelines.
 - Perform code reviews and static analysis for high-risk areas.
@@ -205,7 +205,7 @@ When teams are reduced to task-takers, innovation dies. The best engineers becom
 
 Reducing this waste means treating developers as designers of systems — trusted to experiment, decide, and continuously shape how value flows.
 
-### How to reduce waste
+### How to reduce unused talent
 
 - Empower teams with autonomy and ownership over outcomes.
 - Encourage contributions and ideas from all team members.
