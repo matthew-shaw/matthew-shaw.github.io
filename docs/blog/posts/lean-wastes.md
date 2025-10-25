@@ -141,7 +141,7 @@ Reducing overproduction means focusing relentlessly on outcomes, not output. The
 
 ### Software engineering approaches
 
-- **Agile** and Lean Startup thinking focus on delivering the smallest valuable increment.
+- **Agile** and **Lean Startup** thinking focus on delivering the smallest valuable increment.
 - **Domain-Driven Design** helps teams focus on the core domain — the areas that create real business value.
 - **Continuous Delivery** encourages small, validated releases rather than speculative ones.
 - **Behaviour-Driven Development** ensures teams build exactly what’s required, no more.
