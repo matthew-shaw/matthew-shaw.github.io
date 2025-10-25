@@ -38,6 +38,8 @@ Every handoff introduces delay, confusion, and risk. Reducing “transportation�
 - Automate CI/CD pipelines to reduce manual steps.
 - Create shared visibility across the entire delivery lifecycle.
 
+Research from Accelerate and the DORA program shows that reducing handoffs and enabling teams to own delivery end-to-end directly improves software delivery performance — shortening lead times and increasing deployment frequency.
+
 ## 2. Inventory (Zaiko)
 
 In manufacturing, inventory means stock that isn’t yet adding value. In software, it’s unfinished code, unmerged branches, backlog bloat, or unvalidated features.
@@ -55,6 +57,8 @@ Inventory hides risk — unmerged code ages silently, accumulating merge conflic
 - Merge small, frequent PRs instead of massive ones.
 - Validate product ideas early using MVPs and feature flags.
 
+The DORA findings strongly support this Lean principle: keeping work small and continuously integrated leads to faster feedback, lower risk, and shorter lead times for changes — hallmarks of high-performing teams.
+
 ## 3. Motion (Dōsa)
 
 Motion waste in manufacturing is unnecessary movement. In software, it’s repetitive setup steps, manual deployments, inconsistent environments, or inefficient tooling.
@@ -70,6 +74,8 @@ Every time a developer manually configures a local environment or chases down a 
 - Automate repetitive setup steps.
 - Standardise environments with containers or scripts.
 - Invest in developer experience (DX) tooling that removes friction.
+
+Data from the DORA studies confirms that automation and standardised development environments are key predictors of elite performance across all four metrics — teams deliver faster, recover quicker, and fail less often when repetitive motion is eliminated.
 
 ## 4. Waiting (Taiki)
 
@@ -88,6 +94,8 @@ Every minute waiting is a minute not learning, not improving, and not delivering
 - Use lightweight, asynchronous reviews to avoid bottlenecks.
 - Optimise CI with caching and parallelisation.
 
+Accelerate research highlights fast feedback loops as one of the strongest predictors of delivery success. Teams that minimise waiting between commit, test, and deploy consistently outperform those with slow feedback cycles.
+
 ## 5. Overproduction (Kajō seisan)
 
 Overproduction is producing goods before they’re needed. In software, it’s building features no one uses or developing too far ahead of validated demand.
@@ -104,6 +112,8 @@ It’s the most expensive form of waste — consuming capacity on work that neve
 - Focus on customer value, not feature volume.
 - Validate hypotheses early with real users.
 - Use feature toggles or A/B testing before committing to full-scale builds.
+
+The DORA research reinforces that small, validated releases reduce waste and improve stability. Teams that focus on delivering what users actually need achieve both higher throughput and lower change failure rates.
 
 ## 6. Overprocessing (Kajō kakō)
 
@@ -122,6 +132,8 @@ Complex systems are harder to maintain, harder to test, and slower to change —
 - Keep architectures simple until scale truly demands otherwise.
 - Match process to risk — small teams and low-risk work deserve lightweight governance.
 
+Studies in Accelerate show that simplifying architectures and streamlining processes reduce lead times and increase deployment frequency — proving that leaner, less bureaucratic systems deliver faster and more reliably.
+
 ## 7. Defects (Furyō)
 
 Defects in manufacturing cause rework; in software, bugs and technical debt consume time, energy, and trust. The later an issue is found, the more expensive it is to fix.
@@ -138,6 +150,8 @@ Defects in manufacturing cause rework; in software, bugs and technical debt cons
 - Use pair programming or peer review for high-risk areas.
 - Fix root causes, not just symptoms.
 
+DORA’s data shows that teams investing in continuous testing, automated quality gates, and a culture of shared responsibility experience significantly lower change failure rates and faster recovery times — speed and quality rise together.
+
 ## 8. Unused Talent
 
 Many Lean practitioners add an eighth waste: failing to use people’s creativity and ideas. In software, this may be the most damaging of all. Engineers are problem-solvers by nature — yet too often treated as implementers of someone else’s roadmap.
@@ -152,6 +166,8 @@ Many Lean practitioners add an eighth waste: failing to use people’s creativit
 - Empower teams with ownership, autonomy, and trust.
 - Encourage ideas from everyone — not just leads or architects.
 - Create space for experimentation (spikes, hack days, retrospectives).
+
+The Accelerate research identifies culture as a decisive factor in performance: teams with autonomy, trust, and psychological safety deliver faster, fail less, and recover more quickly — showing that empowering people is the ultimate efficiency gain.
 
 ## Lean Thinking for Modern Software Teams
 
