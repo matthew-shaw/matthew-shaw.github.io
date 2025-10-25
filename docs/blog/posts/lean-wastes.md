@@ -6,13 +6,18 @@ authors:
   - mash
 categories:
   - Software Development
-description: The Eight Wastes of Lean Thinking
+description: The Eight Wastes of Modern Software Delivery
 tags:
-  - Lean
   - Agile
+  - Continuous Delivery
+  - DevOps
+  - DORA
+  - Lean
+  - Platform Engineering
+  - Team Topologies
 ---
 
-# The Eight Wastes of Lean Thinking
+# The Eight Wastes of Modern Software Delivery
 
 In manufacturing, Lean thinking revolutionised how products were built by relentlessly eliminating waste. Though it began on factory floors, its principles now underpin modern software delivery — from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
@@ -20,7 +25,7 @@ In manufacturing, Lean thinking revolutionised how products were built by relent
 
 Decades later, research from _Accelerate_ and the DORA program has validated these same Lean principles as the foundation of high-performing software teams.
 
-In Japanese, _Muda_ means “waste” or “futility” — any activity that consumes resources but creates no value. Taiichi Ohno, the father of the Toyota Production System, originally identified seven types of waste. Over time, an eighth—Unused Talent—has been widely added as perhaps the most critical waste of all.
+In Japanese, _Muda_ means _"waste"_ or _"futility"_ — any activity that consumes resources but creates no value. Taiichi Ohno, the father of the Toyota Production System, originally identified seven types of waste. Over time, an eighth has been widely added as perhaps the most critical waste of all.
 
 Let’s explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
 
@@ -90,7 +95,7 @@ Reducing motion means building a smooth, predictable developer experience — on
 ### Software engineering approaches
 
 - **Automation** and **Infrastructure as Code** eliminate manual setup and configuration.
-- **Platform Engineering** provides standardised environments that “just work.”
+- **Platform Engineering** provides standardised environments that _"just work."_
 
 ### Evidence
 
@@ -148,7 +153,7 @@ Overproduction wastes capacity that could be used to improve **Deployment Freque
 
 ## 6. Overprocessing (Kajō kakō)
 
-Overprocessing is doing more work than necessary for the same result. In software, it’s overengineering, unnecessary abstraction, or process overhead added “just in case.”
+Overprocessing is doing more work than necessary for the same result. In software, it’s overengineering, unnecessary abstraction, or process overhead added _"just in case."_
 
 Complexity accumulates quietly — every extra layer, meeting, or document increases cognitive load and slows adaptation. The result is a system that’s heavy where it should be light.
 
@@ -191,7 +196,7 @@ Reducing defects means building quality in — making testing, feedback, and imp
 - **Behavior-Driven Development** aligns developers, testers, and product on shared expectations.
 - **Continuous Delivery** embeds testing throughout the pipeline, catching issues early.
 - **Clean Code** practices — readability, modularity, testability — reduce the defect rate over time.
-- **DevOps** promotes shared responsibility for quality: “You build it, you run it.”
+- **DevOps** promotes shared responsibility for quality: _"You build it, you run it."_
 
 ### Evidence
 
@@ -224,7 +229,7 @@ The _Accelerate_ research identifies culture as a decisive factor in performance
 
 ## Lean Thinking for Modern Software Teams
 
-The eight wastes aren’t just a process checklist — they’re a mindset. They challenge us to constantly ask: “Is this adding value, or just keeping us busy?”
+The eight wastes aren’t just a process checklist — they’re a mindset. They challenge us to constantly ask: _"Is this adding value, or just keeping us busy?"_
 
 By spotting and eliminating these wastes, you’ll deliver faster, build smarter, and free up creative energy to focus on what truly matters: solving real problems.
 
