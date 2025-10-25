@@ -12,17 +12,17 @@ tags:
   - Agile
 ---
 
-# The Seven Wastes of Lean Thinking
+# The Eight Wastes of Lean Thinking
 
-In manufacturing, Lean thinking revolutionised how products were built by relentlessly eliminating waste. Though it began on factory floors, its principles now underpin modern software delivery — from Agile and DevOps to Continuous Delivery and Platform Engineering.
+In manufacturing, Lean thinking revolutionised how products were built by relentlessly eliminating waste. Though it began on factory floors, its principles now underpin modern software delivery — from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
 <!-- more -->
 
 Decades later, research from _Accelerate_ and the DORA program has validated these same Lean principles as the foundation of high-performing software teams.
 
-In Japanese, _Muda_ means “waste” or “futility” — any activity that consumes resources but creates no value. Taiichi Ohno, the father of the Toyota Production System, identified seven types of waste that slow flow, obscure learning, and erode quality.
+In Japanese, _Muda_ means “waste” or “futility” — any activity that consumes resources but creates no value. Taiichi Ohno, the father of the Toyota Production System, originally identified seven types of waste. Over time, an eighth—Unused Talent—has been widely added as perhaps the most critical waste of all.
 
-Let’s explore how each of these seven wastes — plus a crucial eighth — shows up in software development, and how to spot (and stop) them in your team.
+Let’s explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
 
 ## 1. Transportation (Yusō)
 
@@ -46,7 +46,7 @@ Reducing transportation means shortening the path from idea to running code and 
 
 ### Evidence
 
-Research from _Accelerate_ and the DORA program shows that reducing handoffs and enabling end-to-end ownership directly improves performance — shortening lead times and increasing deployment frequency.
+This waste is a primary driver of long **Lead Times for Changes**. Research from _Accelerate_ and the DORA program shows that reducing handoffs and enabling end-to-end ownership directly improves performance — shortening lead times and increasing **Deployment Frequency**.
 
 ## 2. Inventory (Zaiko)
 
@@ -54,7 +54,7 @@ In manufacturing, inventory waste means stock that’s been built but isn’t de
 
 Every line of dormant code represents work that’s not learning or earning. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context.
 
-Lean flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The goal isn’t just to start less — it’s to finish faster.
+Lean flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The focus must shift from starting work to finishing work, which requires limiting work-in-progress.
 
 ### How to reduce waste
 
@@ -71,7 +71,7 @@ Lean flow depends on fast feedback. When inventory piles up, feedback slows, and
 
 ### Evidence
 
-The DORA findings strongly support this Lean principle: keeping work small and continuously integrated leads to faster feedback, lower risk, and shorter _lead times for changes_ — hallmarks of high-performing teams.
+High inventory (WIP) is a major contributor to poor **Lead Times for Changes**. The DORA findings strongly support this: keeping work small and continuously integrated leads to faster feedback, lower risk, and shorter lead times — hallmarks of high-performing teams.
 
 ## 3. Motion (Dōsa)
 
@@ -90,12 +90,11 @@ Reducing motion means building a smooth, predictable developer experience — on
 ### Software engineering approaches
 
 - **Automation** and **Infrastructure as Code** eliminate manual setup and configuration.
-- **Clean Code** and **Clean Architecture** reduce cognitive motion, making systems easier to navigate and evolve safely.
 - **Platform Engineering** provides standardised environments that “just work.”
 
 ### Evidence
 
-Data from the DORA studies confirms that automation and standardised development environments are key predictors of elite performance across all four metrics — teams deliver faster, recover more quickly, and experience fewer failures when repetitive motion is eliminated.
+Friction from manual tasks directly harms **Lead Times for Changes** and often increases the **Change Failure Rate** due to human error. Data from the DORA studies confirms that automation and standardised development environments are key predictors of elite performance.
 
 ## 4. Waiting (Taiki)
 
@@ -120,7 +119,7 @@ Reducing waiting means collapsing those loops — making feedback continuous, no
 
 ### Evidence
 
-_Accelerate_ research highlights fast feedback loops as one of the strongest predictors of success — teams that shorten the path from commit to deploy consistently outperform those trapped in slow feedback cycles.
+Waiting is a pure component of **Lead Times for Changes**. _Accelerate_ research highlights fast feedback loops as one of the strongest predictors of success — teams that shorten the path from commit to deploy (which reduces waiting) consistently outperform those trapped in slow feedback cycles.
 
 ## 5. Overproduction (Kajō seisan)
 
@@ -138,14 +137,14 @@ Reducing overproduction means focusing relentlessly on outcomes, not output. The
 
 ### Software engineering approaches
 
-- **Agile** and **Lean Startup** thinking focus on delivering the smallest valuable increment.
+- **Agile** and Lean Startup thinking focus on delivering the smallest valuable increment.
 - **Domain-Driven Design** helps teams focus on the core domain — the areas that create real business value.
 - **Continuous Delivery** encourages small, validated releases rather than speculative ones.
 - **Behavior-Driven Development** ensures teams build exactly what’s required, no more.
 
 ### Evidence
 
-The DORA research reinforces that small, validated releases reduce waste and improve stability. Teams that deliver only what users actually need achieve both higher throughput and lower change failure rates.
+Overproduction wastes capacity that could be used to improve **Deployment Frequency** and, by creating unnecessary code, can increase the **Change Failure Rate**. The DORA research reinforces that small, validated releases reduce waste and improve stability, allowing teams to achieve both higher throughput and lower **Change Failure Rate**.
 
 ## 6. Overprocessing (Kajō kakō)
 
@@ -170,11 +169,11 @@ Reducing overprocessing means matching effort to value — choosing simplicity, 
 
 ### Evidence
 
-Studies in _Accelerate_ show that simplifying architectures and streamlining technical and organisational processes reduce lead times and increase deployment frequency — proving that leaner, less bureaucratic systems deliver faster and more reliably.
+Overprocessing adds unnecessary complexity, which directly increases **Lead Times for Changes** and can contribute to a higher **Change Failure Rate**. Studies in _Accelerate_ show that simplifying architectures and streamlining technical and organisational processes reduce lead times and increase **Deployment Frequency** — proving that leaner, less bureaucratic systems deliver faster and more reliably.
 
 ## 7. Defects (Furyō)
 
-Defects are the most visible waste — bugs, outages, regressions, or rework. But beneath every defect lies a deeper issue: a missed learning opportunity earlier in the process.
+Defects are the most visible waste — bugs, outages, regressions, or rework. But every defect is a symptom of a deeper process failure—a flaw in testing, a gap in understanding, or a rushed review.
 
 The later an error surfaces, the more expensive it becomes. Each missed test, unchecked assumption, or rushed review compounds until failure becomes inevitable.
 
@@ -192,11 +191,11 @@ Reducing defects means building quality in — making testing, feedback, and imp
 - **Behavior-Driven Development** aligns developers, testers, and product on shared expectations.
 - **Continuous Delivery** embeds testing throughout the pipeline, catching issues early.
 - **Clean Code** practices — readability, modularity, testability — reduce the defect rate over time.
-- **DevOps** promotes shared responsibility for quality: _“You build it, you run it.”_
+- **DevOps** promotes shared responsibility for quality: “You build it, you run it.”
 
 ### Evidence
 
-DORA’s data shows that teams that build quality in through automation and shared ownership see lower failure rates and faster recovery — proving that speed and quality rise together.
+This waste is a direct measure of the **Change Failure Rate** and impacts **Time to Restore Service**. DORA’s data shows that teams that build quality in through automation and shared ownership see lower failure rates and faster recovery — proving that speed and quality rise together.
 
 ## 8. Unused Talent
 
@@ -221,11 +220,11 @@ Reducing this waste means treating developers as designers of systems — truste
 
 ### Evidence
 
-The _Accelerate_ research identifies culture as a decisive factor in performance: teams with autonomy, trust, and psychological safety deliver faster, fail less, and recover more quickly — proving that empowering people is the most powerful efficiency gain of all.
+The _Accelerate_ research identifies culture as a decisive factor in performance, impacting all four DORA metrics. Teams with autonomy, trust, and psychological safety deliver faster (**Lead Time**, **Deployment Frequency**), fail less (**Change Failure Rate**), and recover more quickly (**Time to Restore Service**) — proving that empowering people is the most powerful efficiency gain of all.
 
 ## Lean Thinking for Modern Software Teams
 
-The seven wastes aren’t just a process checklist — they’re a mindset. They challenge us to constantly ask: _“Is this adding value, or just keeping us busy?”_
+The eight wastes aren’t just a process checklist — they’re a mindset. They challenge us to constantly ask: “Is this adding value, or just keeping us busy?”
 
 By spotting and eliminating these wastes, you’ll deliver faster, build smarter, and free up creative energy to focus on what truly matters: solving real problems.
 
