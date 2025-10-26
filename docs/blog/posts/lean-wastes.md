@@ -167,7 +167,7 @@ Reducing overprocessing means matching effort to value — choosing simplicity, 
 
 ### Enabling Methodologies & Practices
 
-- **Clean Code** principles fight overprocessing: clarity over cleverness, simplicity over abstraction.
+- **Clean Code** and **Refactoring** principles fight overprocessing: clarity over cleverness, simplicity over abstraction.
 - **Agile** discourages heavyweight ceremonies and unnecessary documentation.
 - **Domain-Driven Design** uses _Bounded Contexts_ to contain complexity.
 - **Team Topologies** reinforces small, decoupled teams that own coherent parts of the system.
@@ -193,6 +193,7 @@ Reducing defects means building quality in — making testing, feedback, and imp
 ### Enabling Methodologies & Practices
 
 - **Test-Driven Development** builds quality in from the start.
+- **Pair Programming** provides continuous, real-time code review.
 - **Behaviour-Driven Development** aligns developers, testers, and product on shared expectations.
 - **Continuous Delivery** embeds testing throughout the pipeline, catching issues early.
 - **Clean Code** practices — readability, modularity, testability — reduce the defect rate over time.
