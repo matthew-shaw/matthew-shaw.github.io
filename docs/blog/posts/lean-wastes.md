@@ -19,15 +19,15 @@ tags:
 
 # The Eight Wastes of Modern Software Delivery
 
-In manufacturing, Lean thinking revolutionised how products were built by relentlessly eliminating waste. Though it began on factory floors, its principles now underpin modern software delivery — from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
+In manufacturing, Lean thinking revolutionised how products were built by relentlessly eliminating waste. Whilst the _"software factory"_ analogy isn't perfect, the core Lean principles of eliminating waste now underpin all of modern software delivery, from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
 <!-- more -->
 
 Decades later, research from _Accelerate_ and the DORA program has validated these same Lean principles as the foundation of high-performing software teams.
 
-In Japanese, _Muda_ means _"waste"_ or _"futility"_ — any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. In later years, a widely recognised eighth form of waste was added by Lean practitioners — often considered the most critical of all.
+In Japanese, _Muda_ means _"waste"_ or _"futility"_ — any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. Over the years, Lean practitioners have adapted these for software, and added a widely recognised eighth form of waste — often considered the most critical of all.
 
-Let's explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
+I've seen first-hand how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience. Let's explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
 
 ## 1. Transportation
 
