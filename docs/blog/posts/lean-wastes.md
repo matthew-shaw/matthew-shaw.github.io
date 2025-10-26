@@ -1,6 +1,7 @@
 ---
 date:
   created: 2025-10-25
+  updated: 2025-10-26
 authors:
   - mash
 categories:
