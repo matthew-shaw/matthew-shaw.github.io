@@ -24,7 +24,7 @@ In manufacturing, Lean thinking revolutionised how products were built by relent
 
 Decades later, research from _Accelerate_ and the DORA program has validated these same Lean principles as the foundation of high-performing software teams.
 
-In Japanese, _Muda_ means _"waste"_ or _"futility"_ — any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. In later years, a widely recognised eighth form of waste was added — often considered the most critical of all.
+In Japanese, _Muda_ means _"waste"_ or _"futility"_ — any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. In later years, a widely recognised eighth form of waste was added by Lean practitioners — often considered the most critical of all.
 
 Let's explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
 
