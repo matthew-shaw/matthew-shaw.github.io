@@ -5,7 +5,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: What’s really slowing your team down, and how to fix it.
+description: What's really slowing your team down and how to fix it.
 tags:
   - Agile
   - Continuous Delivery
@@ -26,13 +26,13 @@ Decades later, research from _Accelerate_ and the DORA program has validated the
 
 In Japanese, _Muda_ means _"waste"_ or _"futility"_ — any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. In later years, a widely recognised eighth form of waste was added — often considered the most critical of all.
 
-Let’s explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
+Let's explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
 
 ## 1. Transportation (Yusō)
 
-In manufacturing, transportation waste is the unnecessary movement of materials — moving parts without improving them. In software, it’s the same pattern made invisible: unnecessary handoffs between people, tools, or environments.
+In manufacturing, transportation waste is the unnecessary movement of materials — moving parts without improving them. In software, it's the same pattern made invisible: unnecessary handoffs between people, tools, or environments.
 
-Every transfer adds friction and risk. Knowledge gets diluted, priorities drift, and work waits for permission to move. The cost isn’t just time — it’s lost clarity, context, and momentum.
+Every transfer adds friction and risk. Knowledge gets diluted, priorities drift, and work waits for permission to move. The cost isn't just time — it's lost clarity, context, and momentum.
 
 Reducing transportation means shortening the path from idea to running code in production and giving teams direct ownership of outcomes.
 
@@ -54,9 +54,9 @@ This waste is a primary driver of long **Lead Time for Changes**. Research from 
 
 ## 2. Inventory (Zaiko)
 
-In manufacturing, inventory waste means stock that’s been built but isn’t delivering value. In software, that inventory lives as unfinished code, unmerged branches, bloated backlogs, and half-validated features.
+In manufacturing, inventory waste means stock that's been built but isn't delivering value. In software, that inventory lives as unfinished code, unmerged branches, bloated backlogs, and half-validated features.
 
-Every line of dormant code represents work that’s not learning or earning. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context.
+Every line of dormant code represents work that's not improving services. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context.
 
 Lean flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The focus must shift from starting work to finishing work, which requires limiting work-in-progress.
 
@@ -104,9 +104,9 @@ Friction from manual tasks directly harms **Lead Time for Changes** and often in
 
 In manufacturing, idle machines burn money. In software, idle people burn opportunity. Waiting waste is the silent cost of slow builds, blocked reviews, overloaded dependencies, or delayed feedback.
 
-Every delay in the feedback loop weakens flow and motivation. Engineers lose context, teams lose pace, and the organisation loses learning.
+Every delay in the feedback loop weakens flow and motivation. Engineers lose context, teams lose pace, and users wait longer for improvements.
 
-Reducing waiting means collapsing those loops — making feedback continuous, not calendar-driven — so progress never depends on someone else’s availability.
+Reducing waiting means collapsing those loops — making feedback continuous, not calendar-driven — so progress never depends on someone else's availability.
 
 ### How to reduce waiting
 
@@ -118,7 +118,7 @@ Reducing waiting means collapsing those loops — making feedback continuous, no
 
 - **Continuous Integration** and **Continuous Delivery** automate builds, tests, and deployments to reduce idle time.
 - **Agile** and **Kanban** emphasise small batches and fast feedback.
-- **Team Topologies** warns against coupling teams so tightly that one’s progress blocks another’s.
+- **Team Topologies** warns against coupling teams so tightly that one's progress blocks another's.
 - **Platform Engineering** allows developers to self-serve environments and tools instead of waiting for tickets.
 
 ### Evidence
@@ -127,24 +127,24 @@ Waiting is a pure component of **Lead Time for Changes**. _Accelerate_ research 
 
 ## 5. Overproduction (Kajō seisan)
 
-Overproduction is building more than what’s needed — features without validation, designs without demand, or automation without purpose.
+Overproduction is building more than what's needed — features without validation, designs without user input, or automation without purpose.
 
-It’s seductive because it looks like progress. Teams ship features, write code, and fill roadmaps — but if it doesn’t create measurable value, it’s waste disguised as output.
+It's seductive because it looks like progress. Teams deliver features, fill backlogs, and complete roadmaps — but if it doesn't meet a user need or improve service quality, it's waste disguised as delivery.
 
-Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is customer value, not feature count.
+Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is user value, not feature count.
 
 ### How to reduce overproduction
 
-- Prioritise work based on validated customer value and usage metrics.
+- Prioritise work based on validated user needs and service outcomes.
 - Deliver small, incremental releases instead of speculative features.
-- Test assumptions early with MVPs, prototypes, or user research.
+- Test assumptions early with MVPs, prototypes or user research.
 
 ### Software engineering approaches
 
 - **Agile** and **Lean Startup** thinking focus on delivering the smallest valuable increment.
-- **Domain-Driven Design** helps teams focus on the core domain — the areas that create real business value.
+- **Domain-Driven Design** helps teams focus on the core domain — the areas that create real user and service value.
 - **Continuous Delivery** encourages small, validated releases rather than speculative ones.
-- **Behaviour-Driven Development** ensures teams build exactly what’s required, no more.
+- **Behaviour-Driven Development** ensures teams build exactly what's required, no more.
 
 ### Evidence
 
@@ -152,9 +152,9 @@ Overproduction wastes capacity that could be used to improve **Deployment Freque
 
 ## 6. Overprocessing (Kajō kakō)
 
-Overprocessing is doing more work than necessary for the same result. In software, it’s overengineering, unnecessary abstraction, or process overhead added _"just in case."_
+Overprocessing is doing more work than necessary for the same result. In software, it's overengineering, unnecessary abstraction, or process overhead added _"just in case."_
 
-Complexity accumulates quietly — every extra layer, meeting, or document increases cognitive load and slows adaptation. The result is a system that’s heavy where it should be light.
+Complexity accumulates quietly — every extra layer, meeting, or document increases cognitive load and slows adaptation. The result is a system that's heavy where it should be light.
 
 Reducing overprocessing means matching effort to value — choosing simplicity, clarity, and sufficiency over theoretical perfection.
 
@@ -177,7 +177,7 @@ Overprocessing adds unnecessary complexity, which directly increases **Lead Time
 
 ## 7. Defects (Furyō)
 
-Defects are the most visible waste — bugs, outages, regressions, or rework. But every defect is a symptom of a deeper process failure—a flaw in testing, a gap in understanding, or a rushed review.
+Defects are the most visible waste — bugs, outages, regressions, or rework. But every defect is a symptom of a deeper process failure — a flaw in testing, a gap in understanding, or a rushed review.
 
 The later an error surfaces, the more expensive it becomes. Each missed test, unchecked assumption, or rushed review compounds until failure becomes inevitable.
 
@@ -199,7 +199,7 @@ Reducing defects means building quality in — making testing, feedback, and imp
 
 ### Evidence
 
-This waste is a direct measure of the **Change Failure Rate** and impacts **Time to Restore Service**. DORA’s data shows that teams that build quality in through automation and shared ownership see lower failure rates and faster recovery — proving that speed and quality rise together.
+This waste is a direct measure of the **Change Failure Rate** and impacts **Time to Restore Service**. DORA's data shows that teams that build quality in through automation and shared ownership see lower failure rates and faster recovery — proving that speed and quality rise together.
 
 ## 8. Unused Talent
 
@@ -207,7 +207,7 @@ Perhaps the most damaging waste of all: failing to use the creativity and insigh
 
 When teams are reduced to task-takers, innovation dies. The best engineers become disengaged, and the organisation loses its capacity to learn, adapt, and improve.
 
-Reducing this waste means treating developers as designers of systems — trusted to experiment, decide, and continuously shape how value flows.
+Reducing this waste means treating developers as designers of systems — trusted to experiment, decide, and continuously shape how value flows to users.
 
 ### How to reduce unused talent
 
@@ -228,13 +228,13 @@ The _Accelerate_ research identifies culture as a decisive factor in performance
 
 ## Lean Thinking for Modern Software Teams
 
-The eight wastes aren’t just a process checklist — they’re a mindset. They challenge us to constantly ask: _"Is this adding value, or just keeping us busy?"_
+The eight wastes aren't just a process checklist — they're a mindset. They challenge us to constantly ask: _"Is this adding value, or just keeping us busy?"_
 
-By spotting and eliminating these wastes, you’ll deliver faster, build smarter, and free up creative energy to focus on what truly matters: solving real problems.
+By spotting and eliminating these wastes, you'll deliver faster, build smarter, and free up creative energy to focus on what truly matters: solving real problems.
 
-The _Accelerate_ and DORA studies have shown that Lean’s principles of flow, feedback, and empowerment remain the strongest predictors of high-performing software teams today.
+The _Accelerate_ and DORA studies have shown that Lean's principles of flow, feedback, and empowerment remain the strongest predictors of high-performing teams today.
 
-**Lean isn’t about doing more with less — it’s about doing only what matters.**
+**Lean isn't about doing more with less — it's about doing only what matters.**
 
 ---
 
