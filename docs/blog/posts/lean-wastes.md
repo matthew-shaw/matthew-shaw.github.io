@@ -76,7 +76,7 @@ Lean flow depends on fast feedback. When inventory piles up, feedback slows, and
 
 ### Validated Performance Impact
 
-High inventory (WIP) is a major contributor to poor **Lead Time for Changes**. The DORA findings strongly support this: keeping work small and continuously integrated leads to faster feedback, lower risk, and shorter lead times — hallmarks of high-performing teams.
+High inventory (WIP) directly impacts both throughput and stability. It is a major contributor to poor **Lead Time for Changes**, as work waits in queues. It also increases the **Change Failure Rate**, as large, complex batches are inherently riskier to merge and deploy. The DORA findings strongly support this: keeping work small (low WIP) leads to faster, safer, and more reliable delivery.
 
 ## 3. Motion
 
