@@ -27,7 +27,7 @@ Decades later, research from _Accelerate_ and the DORA program has validated the
 
 In Japanese, _Muda_ means _"waste"_ or _"futility"_ — any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. Over the years, Lean practitioners have adapted these for software, and added a widely recognised eighth form of waste — often considered the most critical of all.
 
-I've seen first-hand how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience. Let's explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
+I've seen first-hand how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience and evidence. Let's explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
 
 ## 1. Transportation
 
