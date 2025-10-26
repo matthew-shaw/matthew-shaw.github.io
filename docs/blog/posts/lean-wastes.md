@@ -28,7 +28,7 @@ In Japanese, _Muda_ means _"waste"_ or _"futility"_ — any activity that consum
 
 Let's explore how each of these eight wastes shows up in software development, and how to spot (and stop) them in your team.
 
-## 1. Transportation (Yusō)
+## 1. Transportation
 
 In manufacturing, transportation waste is the unnecessary movement of materials — moving parts without improving them. In software, it's the same pattern made invisible: unnecessary handoffs between people, tools, or environments.
 
@@ -52,7 +52,7 @@ Reducing transportation means shortening the path from idea to running code in p
 
 This waste is a primary driver of long **Lead Time for Changes**. Research from _Accelerate_ and the DORA program shows that reducing handoffs and enabling end-to-end ownership directly improves performance — shortening lead times and increasing **Deployment Frequency**.
 
-## 2. Inventory (Zaiko)
+## 2. Inventory
 
 In manufacturing, inventory waste means stock that's been built but isn't delivering value. In software, that inventory lives as unfinished code, unmerged branches, bloated backlogs, and half-validated features.
 
@@ -77,7 +77,7 @@ Lean flow depends on fast feedback. When inventory piles up, feedback slows, and
 
 High inventory (WIP) is a major contributor to poor **Lead Time for Changes**. The DORA findings strongly support this: keeping work small and continuously integrated leads to faster feedback, lower risk, and shorter lead times — hallmarks of high-performing teams.
 
-## 3. Motion (Dōsa)
+## 3. Motion
 
 Motion waste is the unnecessary movement of people or tools. In software, it shows up as manual setup steps, repetitive configuration, inconsistent environments, or scattered information.
 
@@ -100,7 +100,7 @@ Reducing motion means building a smooth, predictable developer experience — on
 
 Friction from manual tasks directly harms **Lead Time for Changes** and often increases the **Change Failure Rate** due to human error. Data from the DORA studies confirms that automation and standardised development environments are key predictors of elite performance.
 
-## 4. Waiting (Taiki)
+## 4. Waiting
 
 In manufacturing, idle machines burn money. In software, idle people burn opportunity. Waiting waste is the silent cost of slow builds, blocked reviews, overloaded dependencies, or delayed feedback.
 
@@ -125,7 +125,7 @@ Reducing waiting means collapsing those loops — making feedback continuous, no
 
 Waiting is a pure component of **Lead Time for Changes**. _Accelerate_ research highlights fast feedback loops as one of the strongest predictors of success — teams that shorten the path from commit to deploy (which reduces waiting) consistently outperform those trapped in slow feedback cycles.
 
-## 5. Overproduction (Kajō seisan)
+## 5. Overproduction
 
 Overproduction is building more than what's needed — features without validation, designs without user input, or automation without purpose.
 
@@ -150,7 +150,7 @@ Reducing overproduction means focusing relentlessly on outcomes, not output. The
 
 Overproduction wastes capacity that could be used to improve **Deployment Frequency** and, by creating unnecessary code, can increase the **Change Failure Rate**. The DORA research reinforces that small, validated releases reduce waste and improve stability, allowing teams to achieve both higher throughput and lower **Change Failure Rate**.
 
-## 6. Overprocessing (Kajō kakō)
+## 6. Overprocessing
 
 Overprocessing is doing more work than necessary for the same result. In software, it's overengineering, unnecessary abstraction, or process overhead added _"just in case."_
 
@@ -175,7 +175,7 @@ Reducing overprocessing means matching effort to value — choosing simplicity, 
 
 Overprocessing adds unnecessary complexity, which directly increases **Lead Time for Changes** and can contribute to a higher **Change Failure Rate**. Studies in _Accelerate_ show that simplifying architectures and streamlining technical and organisational processes reduce lead times and increase **Deployment Frequency** — proving that leaner, less bureaucratic systems deliver faster and more reliably.
 
-## 7. Defects (Furyō)
+## 7. Defects
 
 Defects are the most visible waste — bugs, outages, regressions, or rework. But every defect is a symptom of a deeper process failure — a flaw in testing, a gap in understanding, or a rushed review.
 
