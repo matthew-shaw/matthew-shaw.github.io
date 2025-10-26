@@ -226,7 +226,7 @@ Reducing this waste means treating developers as designers of systems — truste
 
 The _Accelerate_ research identifies culture as a decisive factor in performance, impacting all four DORA metrics. Teams with autonomy, trust, and psychological safety deliver faster (**Lead Time**, **Deployment Frequency**), fail less (**Change Failure Rate**), and recover more quickly (**Time to Restore Service**) — proving that empowering people is the most powerful efficiency gain of all.
 
-## Lean Thinking for Modern Software Delivery Teams
+## Challenge Everything — Deliver Only What Matters
 
 The eight wastes aren't just a process checklist — they're a mindset. They challenge us to constantly ask: _"Is this adding value, or just keeping us busy?"_
 
