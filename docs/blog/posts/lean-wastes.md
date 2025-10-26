@@ -19,7 +19,7 @@ tags:
 
 # The Eight Wastes of Modern Software Delivery
 
-In manufacturing, Lean thinking revolutionised how products were built by relentlessly eliminating waste. Whilst the _"software factory"_ analogy isn't perfect, the core Lean principles of eliminating waste now underpin all of modern software delivery, from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
+In manufacturing, Lean thinking revolutionised how products were built by relentlessly eliminating waste. Whilst the _"software factory"_ analogy isn't perfect, the core Lean principles of eliminating waste now underpin modern software delivery, from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
 <!-- more -->
 
