@@ -5,7 +5,7 @@ authors:
   - mash
 categories:
   - Health
-description: A data-driven deep dive into the science and numbers behind a year-long transformation.
+description: A deep dive into the science behind a year-long transformation.
 tags:
   - Fitness
   - Weight Loss
