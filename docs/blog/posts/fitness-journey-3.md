@@ -1,5 +1,4 @@
 ---
-draft: true
 date:
   created: 2025-11-02
 authors:
@@ -16,11 +15,11 @@ tags:
 
 Welcome to the third and final part of this blog series. In [Part 1](fitness-journey-1.md), I outlined a scientific and analytical plan to transform my health and fitness by my 40th birthday. No fads, no guesswork, no pseudo-science — just measurable data, evidence-based methods, and a willingness to test and iterate on myself as the subject. In [Part 2](fitness-journey-2.md), I obsessively tracked and shared 52 weeks of raw data as I executed that plan.
 
-Now it's time to connect the dots...
+Now it's time to connect the dots — to bring the theory and the data together and understand why this worked.
 
 <!-- more -->
 
-This post is where I compare the theory from the start with the observed data from the past year. My goal provided the direction, but it was the system of daily habits that delivered the results. It's a celebration of what I achieved, but more importantly, it's an exploration of why this data-driven approach worked.
+This post is both a celebration of what I achieved and an exploration of how a scientific method, powered by consistent systems and the principles from James Clear’s _Atomic Habits_, led to transformation.
 
 ## What Happened?
 
@@ -80,7 +79,7 @@ Now for the maths: 22.1 kg of fat × 7,700 kcal/kg = 170,170 kcal
 
 That is the total calorie deficit I achieved over the entire year, purely from fat stores. To find the average daily deficit, we divide by the 364 days in the 52-week period: 170,170 kcal ÷ 364 days = 467 kcal/day
 
-This is the most powerful finding of the entire experiment. My theoretical plan aimed for a deficit starting at 500 kcal, and my real-world, observed average deficit calculated from the fat I actually lost was 467 kcal.
+This is the most satisfying finding of the entire experiment. My theoretical plan aimed for a deficit starting at 500 kcal, and my real-world, observed average deficit calculated from the fat I actually lost was 467 kcal.
 
 **Conclusion**: The TDEE and BMR formulas I researched in [Part 1](fitness-journey-1.md) were not just academic; they were incredibly accurate predictors of my real-world energy needs. It confirms the core principle: a small, consistent, and mathematically-sound calorie deficit will deliver predictable results. Every calorie I logged, every workout I tracked, was a data point feeding into the fundamental law of thermodynamics: energy in versus energy out.
 
@@ -107,9 +106,9 @@ Let's look at that as a ratio. Of all the weight I lost:
 
 ## What I Learned
 
-As a software developer, no project is complete without a retrospective. Reflecting on the process, a few things stand out, many of which echo the principles in James Clear's _Atomic Habits_ book, which was an inspirational resource for me.
+As a software developer, no project is complete without a retrospective. Reflecting on the process, a few things stand out, many of which echo the principles in _Atomic Habits_ book, which was an inspirational resource for me.
 
-1. **Trust the Process (_Plateau of Latent Potential_)**: There were plateaus and rebounds. In weeks 45-48, my weight stalled completely at 71.6 kg. In the past, this would have caused me to panic, over-train, or crash diet. This time, I trusted the data. I was in what _Atomic Habits_ calls the _"Plateau of Latent Potential"_ —the work was being done, but the results were delayed. I knew my deficit was in place, and sure enough, the trend resumed. You must trust the system, not the noisy data of a single day.
+1. **Trust the Process (_Plateau of Latent Potential_)**: There were plateaus and rebounds. In weeks 45-48, my weight stalled completely at 71.6 kg. In the past, this would have caused me to panic, over-train, or crash diet. This time, I trusted the data. I was in what James Clear calls the _"Plateau of Latent Potential"_ —the work was being done, but the results were delayed. I knew my deficit was in place, and sure enough, the trend resumed. You must trust the system, not the noisy data of a single day.
 2. **Consistency Beats Intensity (_Systems > Goals_)**: This entire journey was not about _"beasting"_ myself in the gym, or starving myself. It was about the relentless, boring, and sustainable effect of consistency. A 500 kcal deficit is barely noticeable. A 30-minute run at 145 bpm is challenging but not destructive. Each time I did it, I was _"casting a vote"_ for the new identity I wanted to build. My goal might have been to reach a healthy weight, but the system was what got me there: daily calorie tracking, structured exercise, and weekly reviews. I didn't wake up every day trying to _"lose weight"_; I just followed my system. The outcome became inevitable.
 3. **The 5% Goals Were Critical (_Make it Satisfying_)**: A 25 kg weight loss goal is demoralising. A 5% goal (4.7 kg) is achievable. The plan in [Part 1](fitness-journey-1.md) to set these incremental goals was a lifeline. The "Goals" table in [Part 2](fitness-journey-2.md) shows I ticked one off every 2-3 months. This turned long-term delayed gratification into short-term reward. It was the perfect way to _"Make it Satisfying"_ and keep the _"dopamine reward train"_ on the tracks.
 
