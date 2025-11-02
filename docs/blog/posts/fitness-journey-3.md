@@ -15,7 +15,7 @@ tags:
 
 Welcome to the third and final part of this blog series. In [Part 1](fitness-journey-1.md), I outlined a scientific and analytical plan to transform my health and fitness by my 40th birthday. No fads, no guesswork, no pseudo-science — just measurable data, evidence-based methods, and a willingness to test and iterate on myself as the subject. In [Part 2](fitness-journey-2.md), I obsessively tracked and shared 52 weeks of raw data as I executed that plan.
 
-Now it's time to connect the dots — to bring the theory and the data together and understand why this worked.
+Now it’s time to connect the dots — to bring the theory and the data together, and understand not just _what_ worked, but _why_ it did.
 
 <!-- more -->
 
@@ -39,7 +39,7 @@ In simple terms, I've gone from clinically obese to a healthy BMI, halved my bod
 
 ![Weight](../../assets/images/weight.svg){ width="600" }
 
-Looking at the chart of my actual progress, you can see the compounding effect of small, daily decisions. The overall weight trend is remarkably consistent. There were inevitable lumps, but across the full 52 weeks the line follows an exponential decay — rapid early change as glycogen and water stores reduced, followed by slower, sustained loss as energy balance stabilised.
+Looking at the chart of my actual progress, you can see the compounding effect of small, daily decisions. The overall weight trend is remarkably consistent. There were inevitable fluctuations, but across the full 52 weeks the line follows an exponential decay — rapid early change as glycogen and water stores depleted, followed by slower, more sustainable loss as fat reduction took over.
 
 Each interim goal I set along the way was achieved almost exactly on schedule, confirming that the predictive models I built in [Part 1](fitness-journey-1.md) were not only reasonable but also accurate. This proves that a slow, steady, and predictable loss of ~0.47 kg (1 lb) per week is not only achievable but incredibly sustainable.
 
@@ -81,7 +81,7 @@ That is the total calorie deficit I achieved over the entire year, purely from f
 
 This is the most satisfying finding of the entire experiment. My theoretical plan aimed for a deficit starting at 500 kcal, and my real-world, observed average deficit calculated from the fat I actually lost was 467 kcal.
 
-**Conclusion**: The TDEE and BMR formulas I researched in [Part 1](fitness-journey-1.md) were not just academic; they were incredibly accurate predictors of my real-world energy needs. It confirms the core principle: a small, consistent, and mathematically-sound calorie deficit will deliver predictable results. Every calorie I logged, every workout I tracked, was a data point feeding into the fundamental law of thermodynamics: energy in versus energy out.
+**Conclusion**: The TDEE and BMR formulas I researched in [Part 1](fitness-journey-1.md) were not just academic; they were incredibly accurate predictors of my real-world energy needs. It confirms the core principle: a small, consistent, and mathematically-sound calorie deficit will deliver predictable results. Every calorie I logged, every workout I tracked, was a data point reinforcing the fundamental law of thermodynamics: energy in versus energy out.
 
 By prioritising lean protein (35% of calories), moderating fats, and keeping carbohydrates functional rather than indulgent, I avoided the "diet fatigue" that derails most plans.
 
@@ -102,7 +102,7 @@ Let's look at that as a ratio. Of all the weight I lost:
 - 89.5% was Fat
 - 10.5% was Lean Mass
 
-**Conclusion**: This is a phenomenal success. It is metabolically impossible to be in a significant calorie deficit for a year and lose _zero_ lean mass. However my lean mass remained remarkably stable, while my fat mass plummeted. To have kept ~90% of the loss to fat is a direct validation of the plan. The lower-intensity cardio strategy delivered exactly what the literature suggests: improved fat oxidation, better recovery, and reduced cardiovascular strain. The heart rate data confirms the adaptation, with my resting rate steadily dropping as efficiency improved. This is why I don't just look thinner; I'm leaner and healthier.
+**Conclusion**: This is a phenomenal success. It is metabolically impossible to be in a significant calorie deficit for a year and lose _zero_ lean mass. However, my lean mass remained remarkably stable, while my fat mass plummeted. To have kept ~90% of the loss to fat is a direct validation of the plan. The lower-intensity cardio strategy delivered exactly what the literature suggests: improved fat oxidation, better recovery, and reduced cardiovascular strain. The heart rate data confirms the adaptation, with my resting rate steadily dropping as efficiency improved. This is why I don't just look thinner; I'm leaner and healthier.
 
 ## What I Learned
 
