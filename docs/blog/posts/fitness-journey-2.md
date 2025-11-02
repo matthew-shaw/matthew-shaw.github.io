@@ -1,20 +1,20 @@
 ---
 date:
   created: 2024-09-05
-  updated: 2025-08-27
+  updated: 2025-11-02
 authors:
   - mash
 categories:
   - Health
-description: Tracking my ongoing progress towards my health and fitness goals.
+description: Tracking ongoing progress towards my health and fitness goals.
 tags:
   - Fitness
   - Weight Loss
 ---
 
-# Fitness progress
+# My health and fitness journey: Part 2
 
-Tracking my ongoing progress towards my health and fitness goals. See my [original post](fitness-journey.md) for what I'm trying to achieve and how I'm doing it.
+Tracking my ongoing progress towards my health and fitness goals. See [part 1](fitness-journey-1.md) for what I'm trying to achieve and how I'm doing it.
 
 <!-- more -->
 

@@ -1,7 +1,7 @@
 ---
 date:
   created: 2024-08-29
-  updated: 2025-05-06
+  updated: 2025-11-02
 authors:
   - mash
 categories:
@@ -12,7 +12,7 @@ tags:
   - Weight Loss
 ---
 
-# My health and fitness journey
+# My health and fitness journey: Part 1
 
 I am starting a new health and fitness journey and documenting my progress. Hopefully this will help to keep me accountable to myself, and maybe even help some other people with their own journey. I'm going to approach this in a scientific, mathematical, analytical and evidence-based way, so expect lots of stats and graphs!
 
@@ -145,7 +145,7 @@ With no other data yet I can only make an informed guess at best (#NoEstimates :
 
 ## Let's go!
 
-I'll been keeping track of my progress week-by-week and sharing updates [in this post](fitness-progress.md).
+I'll been keeping track of my progress week-by-week and sharing updates [in part 2](fitness-journey-2.md).
 
 ---
 
