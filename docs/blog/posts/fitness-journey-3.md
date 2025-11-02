@@ -106,7 +106,7 @@ Let's look at that as a ratio. Of all the weight I lost:
 
 ## What I Learned
 
-As a software developer, no project is complete without a retrospective. Reflecting on the process, a few things stand out, many of which echo the principles in _Atomic Habits_ book, which was an inspirational resource for me.
+As a software developer, no project is complete without a retrospective. Reflecting on the process, a few things stand out, many of which echo the principles in _Atomic Habits_, which was an inspirational resource for me.
 
 1. **Trust the Process (_Plateau of Latent Potential_)**: There were plateaus and rebounds. In weeks 45-48, my weight stalled completely at 71.6 kg. In the past, this would have caused me to panic, over-train, or crash diet. This time, I trusted the data. I was in what James Clear calls the _"Plateau of Latent Potential"_ —the work was being done, but the results were delayed. I knew my deficit was in place, and sure enough, the trend resumed. You must trust the system, not the noisy data of a single day.
 2. **Consistency Beats Intensity (_Systems > Goals_)**: This entire journey was not about _"beasting"_ myself in the gym, or starving myself. It was about the relentless, boring, and sustainable effect of consistency. A 500 kcal deficit is barely noticeable. A 30-minute run at 145 bpm is challenging but not destructive. Each time I did it, I was _"casting a vote"_ for the new identity I wanted to build. My goal might have been to reach a healthy weight, but the system was what got me there: daily calorie tracking, structured exercise, and weekly reviews. I didn't wake up every day trying to _"lose weight"_; I just followed my system. The outcome became inevitable.
