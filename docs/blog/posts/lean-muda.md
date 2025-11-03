@@ -18,7 +18,7 @@ tags:
   - Team Topologies
 ---
 
-# Muda: The Eight Wastes of Modern Software Delivery
+# The Eight Wastes of Modern Software Delivery
 
 In manufacturing, Lean thinking revolutionised how products were built by relentlessly eliminating waste. Whilst the _"software factory"_ analogy isn't perfect, the core Lean principle of eliminating waste underpins modern software delivery, from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
