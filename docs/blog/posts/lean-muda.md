@@ -24,17 +24,17 @@ In manufacturing, **Lean** thinking revolutionised how products were built by re
 
 <!-- more -->
 
-> This post is the first in a three-part series:
+In Japanese, _Muda_ (無駄) means "waste" or "futility" - any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. Over the years, **Lean** practitioners have adapted these for software and added a widely recognised eighth form of waste - often considered the most critical of all.
+
+Decades later, research from _Accelerate_ and the **DORA** program has validated these same **Lean** principles as the foundation of high-performing software teams. I've seen first-hand how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience and evidence. Let's explore how each of these eight wastes shows up in software development, and how to spot them in your team.
+
+> This is the first in a three-part series:
 >
 > 1. **Muda: The Eight Wastes of Modern Software Delivery** _(You are here)_ - Identifying the _symptoms_ of inefficiency.
 > 2. **Mura: The Source of Uneven Flow** _(Coming soon)_ - Diagnosing the _patterns_ that create waste.
 > 3. **Muri: The Root of Overburden** _(Coming soon)_ - Uncovering the _causes_ of failure and burnout.
 
 ---
-
-In Japanese, _Muda_ (無駄) means "waste" or "futility" - any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. Over the years, **Lean** practitioners have adapted these for software and added a widely recognised eighth form of waste - often considered the most critical of all.
-
-Decades later, research from _Accelerate_ and the **DORA** program has validated these same **Lean** principles as the foundation of high-performing software teams. I've seen first-hand how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience and evidence. Let's explore how each of these eight wastes shows up in software development, and how to spot them in your team.
 
 ## 1. Transportation
 
