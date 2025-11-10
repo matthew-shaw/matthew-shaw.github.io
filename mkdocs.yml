@@ -41,7 +41,6 @@ theme:
     repo: fontawesome/brands/github
     tag:
       accessibility: fontawesome/solid/universal-access
-      agile: fontawesome/solid/arrows-spin
       bootstrap: fontawesome/brands/bootstrap
       cicd: fontawesome/solid/code-pull-request
       database: fontawesome/solid/database
@@ -58,7 +57,6 @@ theme:
       running: fontawesome/solid/person-running
       security: fontawesome/solid/shield-halved
       server: fontawesome/solid/server
-      team: fontawesome/solid/users
       ux: fontawesome/solid/face-grin
       weight-loss: fontawesome/solid/weight-scale
   language: en
@@ -169,7 +167,6 @@ extra:
       link: https://x.com/MattShaw85
   tags:
     Accessibility: accessibility
-    Agile: agile
     Anxiety: mental-health
     Bootstrap: bootstrap
     CI/CD: cicd
@@ -192,7 +189,6 @@ extra:
     Running: running
     Security: security
     SQLAlchemy: python
-    Team: team
     UX: ux
     Weight Loss: weight-loss
     WTForms: python
