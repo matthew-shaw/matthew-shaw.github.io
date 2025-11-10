@@ -59,7 +59,7 @@ A spiky CFR is the inevitable result of a "crunch" cycle. The team was forced to
 
 Unevenness is created by _push-based_ systems. If we push unrefined work onto teams, or push untested code into a release branch, or push a sprint's-worth of "done" work onto the testers on the final day, we’re actively _creating_ instability.
 
-The solution is a fundamental cultural and technical shift to a _pull-based_ systems.
+The solution is a fundamental cultural and technical shift to _pull-based_ systems.
 
 ### The Management System
 
