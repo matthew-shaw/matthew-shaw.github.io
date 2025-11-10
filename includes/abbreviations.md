@@ -1,6 +1,7 @@
 *[API]: Application Programming Interface
 *[APIs]: Application Programming Interfaces
 *[ARIA]: Accessible Rich Internet Applications
+*[BDD]: Behaviour-Driven Development
 *[BMI]: Body Mass Index
 *[BMR]: Basal Metabolic Rate
 *[bpm]: beats per minute
@@ -8,6 +9,7 @@
 *[CD]: Continuous Delivery
 *[CDN]: Content Delivery Network
 *[CDNs]: Content Delivery Networks
+*[CFR]: Change Failure Rate
 *[CI]: Continuous Integration
 *[CSP]: Content Security Policy
 *[CSRF]: Cross-Site Request Forgery
@@ -32,6 +34,7 @@
 *[MP]: Member of Parliament
 *[MVC]: Model-View-Controller
 *[MVP]: Minimum Viable Product
+*[MVPs]: Minimum Viable Products
 *[ORM]: Object–Relational Mapping
 *[OS]: Operating System
 *[OWASP]: Open Worldwide Application Security Project
@@ -53,5 +56,6 @@
 *[UTC]: Coordinated Universal Time
 *[WCAG]: Web Content Accessibility Guidelines
 *[WIP]: Work In Progress
+*[XP]: Extreme Programming
 *[XSS]: Cross-Site Scripting
 *[YAGNI]: You aren't gonna need it
