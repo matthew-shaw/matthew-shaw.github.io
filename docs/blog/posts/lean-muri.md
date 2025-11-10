@@ -2,7 +2,7 @@
 draft: true
 slug: the-root-cause-of-overburden
 date:
-  created: 2025-12-31
+  created: 2025-11-25
 authors:
   - mash
 categories:
@@ -16,6 +16,9 @@ tags:
   - Lean
   - Platform Engineering
   - Team Topologies
+links:
+  - blog/posts/lean-muda.md
+  - blog/posts/lean-mura.md
 ---
 
 # Muri: The Root Cause of Overburden
@@ -27,12 +30,6 @@ But we have not yet reached the root cause. Muri (無理), meaning "overburden" 
 <!-- more -->
 
 Muri doesn’t just slow delivery. It breaks systems, burns out teams, and guarantees failure modes. If Mura is the shape of the problem, Muri is the force that shapes it.
-
-> This is the final part of a three-part series:
->
-> 1. [**Muda: The Eight Wastes of Modern Software Delivery**](lean-muda.md) - Identifying the _symptoms_ of inefficiency.
-> 2. [**Mura: The Source of Uneven Flow**](lean-mura.md) - Diagnosing the _patterns_ that create waste.
-> 3. **Muri: The Root of Overburden** _(You are here)_ - Uncovering the _causes_ of failure and burnout.
 
 ---
 
