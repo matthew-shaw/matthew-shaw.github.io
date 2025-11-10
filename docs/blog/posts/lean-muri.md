@@ -24,11 +24,11 @@ In the first two parts of this series, we explored waste (Muda) and unevenness (
 
 But we have not yet reached the root cause. Muri (無理), meaning "overburden" or "overstrain", is the condition that forces teams into uneven flow. It is the pressure to do “more” with the same people, the same systems, and the same time. It is the moment where capacity is exceeded, safety nets disappear, and shortcuts become survival tactics.
 
-Muri doesn’t just slow delivery. It breaks systems, burns out teams, and guarantees failure modes. If Mura is the shape of the problem, Muri is the force that shapes it.
-
 <!-- more -->
 
-> This post is the final part of a three-part series:
+Muri doesn’t just slow delivery. It breaks systems, burns out teams, and guarantees failure modes. If Mura is the shape of the problem, Muri is the force that shapes it.
+
+> This is the final part of a three-part series:
 >
 > 1. [**Muda: The Eight Wastes of Modern Software Delivery**](lean-muda.md) - Identifying the _symptoms_ of inefficiency.
 > 2. [**Mura: The Source of Uneven Flow**](lean-mura.md) - Diagnosing the _patterns_ that create waste.
