@@ -22,9 +22,9 @@ tags:
 
 In manufacturing, **Lean** thinking revolutionised how products were built by relentlessly eliminating waste. Whilst the "software factory" analogy isn't perfect, the core **Lean** principle of eliminating waste underpins modern software delivery, from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
-<!-- more -->
-
 In Japanese, _Muda_ (無駄) means "waste" or "futility" - any activity that consumes resources but creates no value. During the development of the Toyota Production System in the late 1940s through to the 1970s, Taiichi Ohno identified seven types of waste that hinder efficiency and productivity. Over the years, **Lean** practitioners have adapted these for software and added a widely recognised eighth form of waste - often considered the most critical of all.
+
+<!-- more -->
 
 Decades later, research from _Accelerate_ and the **DORA** program has validated these same **Lean** principles as the foundation of high-performing software teams. I've seen first-hand how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience and evidence. Let's explore how each of these eight wastes shows up in software development, and how to spot them in your team.
 
