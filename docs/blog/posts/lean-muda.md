@@ -2,7 +2,7 @@
 slug: the-eight-wastes-of-modern-software-delivery
 date:
   created: 2025-10-25
-  updated: 2025-11-09
+  updated: 2025-11-11
 authors:
   - mash
 categories:
