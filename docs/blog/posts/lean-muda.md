@@ -16,6 +16,8 @@ tags:
   - Lean
   - Platform Engineering
   - Team Topologies
+links:
+  - blog/posts/lean-mura.md
 ---
 
 # Muda: The Eight Wastes of Modern Software Delivery
@@ -27,12 +29,6 @@ In Japanese, _Muda_ (無駄) means "waste" or "futility" - any activity that con
 <!-- more -->
 
 Decades later, research from _Accelerate_ and the **DORA** program has validated these same **Lean** principles as the foundation of high-performing software teams. I've seen first-hand how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience and evidence. Let's explore how each of these eight wastes shows up in software development, and how to spot them in your team.
-
-> This is the first in a three-part series:
->
-> 1. **Muda: The Eight Wastes of Modern Software Delivery** _(You are here)_ - Identifying the _symptoms_ of inefficiency.
-> 2. **Mura: The Source of Uneven Flow** _(Coming soon)_ - Diagnosing the _patterns_ that create waste.
-> 3. **Muri: The Root of Overburden** _(Coming soon)_ - Uncovering the _causes_ of failure and burnout.
 
 ---
 
@@ -241,7 +237,7 @@ The eight wastes aren't just a checklist: they're a mindset. They challenge us t
 
 But waste is only the symptom. The real question is: why does waste appear in the first place? The answer is _Mura_; unevenness in how work moves through the system.
 
-In part 2, we will move from the what to the why, diagnosing the patterns of uneven flow that create waste, and exploring how to measure and eliminate them.
+In [part 2](lean-mura.md), we will move from the what to the why, diagnosing the patterns of uneven flow that create waste, and exploring how to measure and eliminate them.
 
 > The ideas, structure, and all final arguments and conclusions in this article are my own. As part of my research and revision workflow, I have used AI tools to accelerate drafting and language refinement.
 

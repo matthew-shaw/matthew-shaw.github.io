@@ -1,5 +1,4 @@
 ---
-draft: true
 slug: the-source-of-uneven-flow
 date:
   created: 2025-11-11
@@ -13,26 +12,22 @@ tags:
   - Continuous Delivery
   - DevOps
   - DORA
-  - Extreme Programming
   - Kanban
   - Lean
+  - XP
+links:
+  - blog/posts/lean-muda.md
 ---
 
 # Mura: The Source of Uneven Flow
 
-In part 1, we explored the eight wastes (_Muda_) as the visible symptoms of inefficiency in software delivery. We saw how waste shows up in unfinished work, handoffs, long waits, rework, and lost talent. Those are the effects we can observe and feel.
+In [part 1](lean-muda.md), we explored the eight wastes (_Muda_) as the visible symptoms of inefficiency in software delivery. We saw how waste shows up in unfinished work, handoffs, long waits, rework, and lost talent. Those are the effects we can observe and feel.
 
 Those wastes are almost always the result of _Mura_ (斑), a Japanese term from the Toyota Production System meaning "unevenness" or "inconsistency" in how work flows. It is the _"hurry up and wait"_ cycle: periods of low activity followed by periods of frantic catch-up, that make delivery unpredictable and unsustainable.
 
 <!-- more -->
 
 This post examines in depth how to identify uneven flow, and how modern software delivery practices work together to reduce inconsistency and create predictability.
-
-> This is the second in a three-part series:
->
-> 1. [**Muda: The Eight Wastes of Modern Software Delivery**](lean-muda.md) - Identifying the _symptoms_ of inefficiency.
-> 2. **Mura: The Source of Uneven Flow** _(You are here)_ - Diagnosing the _patterns_ that create waste.
-> 3. **Muri: The Root of Overburden** _(Coming soon)_ - Uncovering the _causes_ of failure and burnout.
 
 ---
 
