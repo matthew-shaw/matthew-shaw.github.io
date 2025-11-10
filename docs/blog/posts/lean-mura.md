@@ -13,9 +13,9 @@ tags:
   - Continuous Delivery
   - DevOps
   - DORA
+  - Extreme Programming
+  - Kanban
   - Lean
-  - Platform Engineering
-  - Team Topologies
 ---
 
 # Mura: The Source of Uneven Flow
