@@ -9,6 +9,9 @@ description: A deep dive into the science behind a year-long transformation.
 tags:
   - Fitness
   - Weight Loss
+links:
+  - blog/posts/fitness-journey-1.md
+  - blog/posts/fitness-journey-2.md
 ---
 
 # My health and fitness journey: Part 3
