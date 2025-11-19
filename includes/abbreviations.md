@@ -5,6 +5,7 @@
 *[BMI]: Body Mass Index
 *[BMR]: Basal Metabolic Rate
 *[bpm]: beats per minute
+*[BUFD]: Big Up-Front Design
 *[CBT]: Cognitive Behavioural Therapy
 *[CD]: Continuous Delivery
 *[CDN]: Content Delivery Network
@@ -14,9 +15,11 @@
 *[CSP]: Content Security Policy
 *[CSRF]: Cross-Site Request Forgery
 *[CSS]: Cascading Style Sheets
+*[DDD]: Domain-Driven Design
 *[DORA]: DevOps Research and Assessment
 *[DX]: Developer Experience
 *[EU]: European Union
+*[GCHQ]: Government Communications Headquarters
 *[GDPR]: General Data Protection Regulation
 *[HM]: His Majesty's
 *[HMAC]: Hash-based Message Authentication Code
