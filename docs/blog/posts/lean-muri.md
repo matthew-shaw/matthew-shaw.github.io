@@ -33,6 +33,8 @@ There's a well-known paper called [Boiling Frogs](https://github.com/gchq/Boilin
 
 Then one day, the system is brittle, the team is exhausted, and delivery feels like wading through treacle, but no one can quite explain how it happened. This is how Muri works.
 
+---
+
 ## Overload on People
 
 Software is not manufacturing. Our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we often describe as "burnout", as though it were an personal failing rather than an outcome.
