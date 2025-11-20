@@ -35,7 +35,7 @@ Then one day, the system is brittle, the team is exhausted, and delivery feels l
 
 ## Overload on People
 
-Software is not manufacturing. Our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we politely call “burnout,” as if it were an individual failing, not an organisational design choice.
+Software is not manufacturing. Our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we politely call "burnout," as if it were an individual failing, not an organisational design choice.
 
 ### Cognitive Load
 
