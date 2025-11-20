@@ -58,7 +58,7 @@ A spiky CFR often indicates a deadline-driven "crunch" cycle. The team was force
 
 ## The Solutions
 
-Unevenness is created by _push-based_ systems, where work is started regardless of downstream capacity. If we push unrefined work onto teams, or push untested code into a release branch, or push a sprint's-worth of "done" work onto the testers on the final day, we’re actively _creating_ instability.
+Unevenness is created by _push-based_ systems, where work is started regardless of downstream capacity. If we push unrefined work onto teams, or push untested code into a release branch, or push a sprint's-worth of "done" work onto the testers on the final day, we're actively _creating_ instability.
 
 The solution is a fundamental cultural and technical shift to _pull-based_ systems, where work is started only when downstream capacity is available.
 
@@ -82,7 +82,7 @@ The **DevOps** movement is the cultural countermeasure. By unifying ownership an
 
 ### The Technical System
 
-A high-trust, continuous flow doesn’t happen by accident. It is a technical foundation of built-in quality. You cannot have continuous flow if you are constantly finding [Defects](lean-muda.md#7-defects).
+A high-trust, continuous flow doesn't happen by accident. It is a technical foundation of built-in quality. You cannot have continuous flow if you are constantly finding [Defects](lean-muda.md#7-defects).
 
 The practices championed by **Extreme Programming** (XP) enable this:
 
@@ -90,7 +90,7 @@ The practices championed by **Extreme Programming** (XP) enable this:
 - **Behaviour-Driven Development** (BDD) creates a shared understanding of the requirements, ensuring that the right code is built the first time, reducing the wasteful [Transportation](lean-muda.md#1-transportation) handoffs between "dev," "test," and "product."
 - **Pair Programming** is a continuous, real-time code review. Instead of work [Waiting](lean-muda.md#4-waiting) for an asynchronous review, quality is validated as the code is written.
 
-XP practices don’t just improve quality; they make the pull-system more reliable and trustworthy, in turn reducing the variance in lead time.
+XP practices don't just improve quality; they make the pull-system more reliable and trustworthy, in turn reducing the variance in lead time.
 
 ### The Ideal
 
@@ -108,7 +108,7 @@ This is where our industry so often gets it wrong. We adopt "agile" practices th
 
 This is perhaps the most insidious anti-pattern, because it presents itself as a predictability tool while actively producing uneven batches. In theory, story points were intended as an internal estimation shorthand for teams. In practice, velocity is quickly weaponised into a delivery target. This creates a push-system where teams play sprint-Tetris, packing work to hit a number rather than maintaining flow. The result is uneven batches, rushed work, and [Defects](lean-muda.md#7-defects) created simply to get "committed" points accepted.
 
-Ron Jeffries, one of the early advocates of story points in XP, has even said: _"if I did invent story points, I’m probably a little sorry now"_, in response to how commonly they are misused. The **Lean** alternative is to stop treating estimation as forecasting, and instead focus relentlessly on making batch sizes small, stable, and consistent.
+Ron Jeffries, one of the early advocates of story points in XP, has even said: _"if I did invent story points, I'm probably a little sorry now"_, in response to how commonly they are misused. The **Lean** alternative is to stop treating estimation as forecasting, and instead focus relentlessly on making batch sizes small, stable, and consistent.
 
 ### "Scrum-fall"
 
@@ -138,7 +138,7 @@ Unevenness is not "a system problem", it is almost always the direct result of:
 
 The solution is not another tool or framework, but a fundamental cultural shift from a push mentality to a pull system. By embracing WIP limits (**Kanban**), a **DevOps** culture, built-in quality (**TDD** & **BDD**) and the ideal of **Continuous Delivery**, we can tame the chaos. We can move from unpredictable delivery to a smooth, sustainable, and high-performance flow.
 
-These patterns are rarely accidental; they are the system’s response to overburden, or _Muri_, on our people and our technology, which we will uncover in the final part of this series.
+These patterns are rarely accidental; they are the system's response to overburden, or _Muri_, on our people and our technology, which we will uncover in the final part of this series.
 
 > The ideas, structure, and all final arguments and conclusions in this article are my own. As part of my research and revision workflow, I have used AI tools to accelerate drafting and language refinement.
 

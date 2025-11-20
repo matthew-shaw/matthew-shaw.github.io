@@ -63,7 +63,7 @@ At the time of writing, GOV.UK Frontend Jinja is being used in [138 code reposit
 
 ### Benefits
 
-- **Consistency with GOV.UK Design Standards**: The package ensures services align with the GOV.UK Design System’s visual and interaction guidelines, maintaining accessibility, usability, and a consistent user experience across government services.
+- **Consistency with GOV.UK Design Standards**: The package ensures services align with the GOV.UK Design System's visual and interaction guidelines, maintaining accessibility, usability, and a consistent user experience across government services.
 - **Direct Nunjucks Macro Porting**: Each component directly mirrors the Nunjucks macros from the [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/).
 - **Seamless Integration with Jinja Templates**: The package simplifies incorporating GOV.UK Design System components into Python web frameworks (e.g., Flask, Django) using Jinja templates, eliminating the need for manual HTML, CSS, or JavaScript implementation.
 - **Improved Accessibility**: The package ensures compliance with WCAG standards, meeting legal and ethical requirements and helping make public sector services more inclusive for all users.
@@ -171,7 +171,7 @@ class ExampleForm(FlaskForm):
             Length(max=256, message="Email address must be 256 characters or fewer"),
             Email(message="Enter an email address in the correct format, like name@example.com"),
         ],
-        description="We’ll only use this to send you a receipt",
+        description="We'll only use this to send you a receipt",
     )
 
     submit = SubmitField("Continue", widget=GovSubmitInput())

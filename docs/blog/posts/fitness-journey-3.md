@@ -18,11 +18,11 @@ links:
 
 Welcome to the third and final part of this blog series. In [Part 1](fitness-journey-1.md), I outlined a scientific and analytical plan to transform my health and fitness by my 40th birthday. No fads, no guesswork, no pseudo-science — just measurable data, evidence-based methods, and a willingness to test and iterate on myself as the subject. In [Part 2](fitness-journey-2.md), I obsessively tracked and shared 52 weeks of raw data as I executed that plan.
 
-Now it’s time to connect the dots — to bring the theory and the data together, and understand not just _what_ worked, but _why_ it did.
+Now it's time to connect the dots — to bring the theory and the data together, and understand not just _what_ worked, but _why_ it did.
 
 <!-- more -->
 
-This post is both a celebration of what I achieved and an exploration of how a scientific method, powered by consistent systems and the principles from James Clear’s _Atomic Habits_, led to transformation.
+This post is both a celebration of what I achieved and an exploration of how a scientific method, powered by consistent systems and the principles from James Clear's _Atomic Habits_, led to transformation.
 
 ## What Happened?
 
