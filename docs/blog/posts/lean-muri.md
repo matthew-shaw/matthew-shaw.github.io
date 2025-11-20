@@ -37,7 +37,7 @@ Then one day, the system is brittle, the team is exhausted, and delivery feels l
 
 ## Overload on People
 
-Software is not manufacturing. Our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we often describe as "burnout", as though it were an personal failing rather than an outcome.
+Software is not manufacturing. Our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we often describe as "burnout", as though it were a personal failing rather than an outcome.
 
 ### Cognitive Load
 
@@ -65,9 +65,9 @@ If you only try to fix the symptoms with superficial changes you will always fai
 
 We like to separate "the people stuff" from "the technical stuff" because it's tidier that way. But software architecture and team structure are two expressions of the same underlying system. Therefore, meaningful architectural improvement doesn't begin in diagrams. It begins with team design. This isn't just theory; it's an actionable strategy.
 
-It would be too costly and time consuming to enact this approach for an entire organisation in one big hit. So although these steps read linearly, in practice they're iterative, overlapping, and most effective when applied to one domain at a time. Pick a single Bounded Context to start with. Don't pick the simplest one, or the smallest one, pick something in the middle, with just enough gnarly parts to overcome that will prove the approach is resilient, repeatable and credible.
+It would be too costly and time consuming to enact this approach for an entire organisation in one big hit. So, although these steps read linearly, in practice they're iterative, overlapping, and most effective when applied to one domain at a time. Pick a single Bounded Context to start with. Don't pick the simplest one, or the smallest one, pick something in the middle, with just enough gnarly parts to overcome that will prove the approach is resilient, repeatable and credible.
 
-1. **Map Your Business**: First, stop guessing. Use the analytical tools from **Domain-Driven Design**, like _Event Storming_ or _Context Mapping_, to create a true map of your business value streams. This isn't a techical diagram for engineers; it's a strategic map of what your business actually does and where the natural seams lie. This process reveals your true _Bounded Contexts_.
+1. **Map Your Business**: First, stop guessing. Use the analytical tools from **Domain-Driven Design**, like _Event Storming_ or _Context Mapping_, to create a true map of your business value streams. This isn't a technical diagram for engineers; it's a strategic map of what your business actually does and where the natural seams lie. This process reveals your true _Bounded Contexts_.
 2. **Define Your Target Architecture**: Once you have your map, you can make the strategic-level decisions. You intentionally design the target architecture that aligns with those _Bounded Contexts_. This blueprint, where services and products have clear, single owners, becomes the model for your new organisation.
 3. **Execute the Manoeuvre**: Now, execute the **Reverse Conway Manoeuvre**. This is the leadership act of re-organising your people to match the target blueprint. Use the **Team Topologies** patterns as your guide. Your _Bounded Contexts_ become the mission for new _Stream-aligned_ teams. Common, repetitive work that burdens them is extracted and given to _Platform_ teams. This isn't just moving boxes on an org chart; it's empowering teams with a clear mission and sustainable cognitive load.
 4. **Defend the New Boundaries**: A new org chart is useless if you don't defend it. You must rigorously define and protect the interaction modes for your new teams. It can be useful to define a "Team API" for each team; a description and specification that improves the team's clarity of purpose and helps other groups understand how that team fits into the broader organisation. This is how you make the change stick. It prevents the old, high-friction patterns of communication and dependency from creeping back in, ensuring your new, low-stress, high-flow state is sustainable.
@@ -103,13 +103,13 @@ We can fix this by absorbing, removing and preventing it.
 
 ### Platform Engineering
 
-In an high-load organisation, every stream-aligned team is burdened with reinventing the wheel. They must solve for infrastructure, compliance, security, and delivery in addition to their core mission.
+In a high-load organisation, every stream-aligned team is burdened with reinventing the wheel. They must solve for infrastructure, compliance, security, and delivery in addition to their core mission.
 
 This is the overburden of figuring out complex cloud-native tooling, navigating a security sign-off process, or manually building a monitoring dashboard just to get a new service live. It's the friction that grinds delivery to a halt.
 
 A good internal developer platform is treated as an internal product and served by a Platform Team (as defined in **Team Topologies**). Its purpose is to absorb this cross-cutting complexity and present it to stream-aligned teams as a set of simple, self-service tools and APIs.
 
-The goal is to pave a low-friction path to production. A developer shouldn't have to become an expert in container orchestration, infrastructure-as-code, or observability just to ship a feature. They should be able to consume these as a reliable service, allowing them to focus all their cognitive load on solving problems and deliering user value.
+The goal is to pave a low-friction path to production. A developer shouldn't have to become an expert in container orchestration, infrastructure-as-code, or observability just to ship a feature. They should be able to consume these as a reliable service, allowing them to focus all their cognitive load on solving problems and delivering user value.
 
 ### Continuous Refactoring
 
@@ -145,7 +145,7 @@ This forces teams into performative work, looking busy to satisfy the metrics. I
 
 Obviously, the core ideas in this series are not uniquely mine. They have been articulated before, clearly and generously, by practitioners and researchers who have been solving these problems for decades. What I have tried to do is consolidate them in context, highlighting modern practices and methods that have emerged as industry leading since the Poppendiecks' original work on Lean Software Development.
 
-What makes these ideas so powerful is that the source texts for them aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are just good ideas. Many aren't even new, we've had the playbook for more than two decades.
+What makes these ideas so powerful is that the source texts for them aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are just good ideas. Many aren't even new; we've had the playbook for more than two decades.
 
 But they have been tested, refined, and over time, _empirically proven_ to be the foundations of high-performing, sustainable, and _humane_ technology organisations. They hold up because they were grounded in reality to begin with.
 
@@ -173,15 +173,15 @@ The solutions are fundamental and sociotechnical. You must solve the two primary
 
 ## The Choice You Can No Longer Ignore
 
-This is not just a theory, this is a practical diagnostic toolkit. You can use it to see the waste, measure the flow, and identify the sources of overload that are slowly burning out your people and corroding your systems.
+This is not just a theory; this is a practical diagnostic toolkit. You can use it to see the waste, measure the flow, and identify the sources of overload that are slowly burning out your people and corroding your systems.
 
 And it leaves every single person reading this with a choice...
 
 **For teams**, the choice is to stop normalising the pain. Stop accepting unreasonable load as "just part of the job". You are not a "hero" for surviving burnout; you're operating inside a system that makes heroism necessary. The modern practices in this series are not "nice-to-haves". They are essential professional tools. Start using them. Demand the time to use them. Prove their value by showing that they _really work_.
 
-**For leaders**, the choice is more stark. You are the only ones who have the leverage to fix the system. You can fund a platform. You can sponsor a sociotechnical action plan. You can build a culture of psychological safety that eliminates fear. You can choose to measure outcomes and sustainability, not just activity and output.
+**For leaders**, the choice is more profound. You are the only ones who have the leverage to fix the system. You can fund a platform. You can sponsor a sociotechnical action plan. You can build a culture of psychological safety that eliminates fear. You can choose to measure outcomes and sustainability, not just activity and output.
 
-The alternative is to keep adding more governance, processes, planning, coordination, rituals, frameworks, tooling, committees, dashboards, and transformation programmes. But to be clear, that is just rearranging the deck chairs on the Titanic.
+The alternative is to keep adding more governance, processes, planning, coordination, ceremonies, frameworks, tooling, committees, dashboards, and transformation programmes. But to be clear, that is just rearranging the deck chairs on the Titanic.
 
 > The ideas, structure, and all final arguments and conclusions in this article are my own. As part of my research and revision workflow, I have used AI tools to accelerate drafting and language refinement.
 
