@@ -2,6 +2,7 @@
 slug: the-source-of-uneven-flow
 date:
   created: 2025-11-11
+  updated: 2025-11-20
 authors:
   - mash
 categories:
@@ -53,13 +54,13 @@ Deploying twenty changes on a Tuesday afternoon and then nothing for four days i
 
 **What it tells you**: A spiky Change Failure Rate is a lagging consequence of rushed work.
 
-A spiky CFR is the inevitable result of a "crunch" cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done." The resulting spike in [Defects](lean-muda.md#7-defects) is the unavoidable effect of that unevenness.
+A spiky CFR often indicates a deadline-driven "crunch" cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done." The resulting spike in [Defects](lean-muda.md#7-defects) is the unavoidable effect of that unevenness.
 
 ## The Solutions
 
-Unevenness is created by _push-based_ systems. If we push unrefined work onto teams, or push untested code into a release branch, or push a sprint's-worth of "done" work onto the testers on the final day, we’re actively _creating_ instability.
+Unevenness is created by _push-based_ systems, where work is started regardless of downstream capacity. If we push unrefined work onto teams, or push untested code into a release branch, or push a sprint's-worth of "done" work onto the testers on the final day, we’re actively _creating_ instability.
 
-The solution is a fundamental cultural and technical shift to _pull-based_ systems.
+The solution is a fundamental cultural and technical shift to _pull-based_ systems, where work is started only when downstream capacity is available.
 
 ### The Management System
 
@@ -86,7 +87,7 @@ A high-trust, continuous flow doesn’t happen by accident. It is a technical fo
 The practices championed by **Extreme Programming** (XP) enable this:
 
 - **Test-Driven Development** (TDD) builds a regression-proof suite of automated tests that gives teams the confidence to merge and deploy continuously.
-- **Behaviour-Driven Development** (BDD) creates a shared understanding of the requirements, ensuring that the right code is built the first time, eliminating the wasteful [Transportation](lean-muda.md#1-transportation) handoffs between "dev," "test," and "product."
+- **Behaviour-Driven Development** (BDD) creates a shared understanding of the requirements, ensuring that the right code is built the first time, reducing the wasteful [Transportation](lean-muda.md#1-transportation) handoffs between "dev," "test," and "product."
 - **Pair Programming** is a continuous, real-time code review. Instead of work [Waiting](lean-muda.md#4-waiting) for an asynchronous review, quality is validated as the code is written.
 
 XP practices don’t just improve quality; they make the pull-system more reliable and trustworthy, in turn reducing the variance in lead time.
@@ -126,6 +127,14 @@ SAFe attempts to manage the symptoms of unevenness, rather than eliminating the 
 ## Conclusion
 
 Mura is not just a vague feeling of chaos; in modern software delivery teams it is a problem you can detect and measure using **DORA** metrics. It is the _"hurry up and wait"_ pattern that creates the waste (Muda) and symptoms of inefficiency.
+
+Unevenness is not "a system problem", it is almost always the direct result of:
+
+- capacity overcommitment
+- deadline-driven delivery
+- multi-projecting
+- fractured ownership
+- incentives that reward starting rather than finishing
 
 The solution is not another tool or framework, but a fundamental cultural shift from a push mentality to a pull system. By embracing WIP limits (**Kanban**), a **DevOps** culture, built-in quality (**TDD** & **BDD**) and the ideal of **Continuous Delivery**, we can tame the chaos. We can move from unpredictable delivery to a smooth, sustainable, and high-performance flow.
 
