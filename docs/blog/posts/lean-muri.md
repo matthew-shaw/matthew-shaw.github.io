@@ -45,11 +45,11 @@ This is the "brain overburden" of a system that is too complex, too coupled, or 
 
 - Navigate sprawling "big ball of mud" architectures.
 - Constantly shatter their focus with cross-team dependencies and context-switching.
-- Understand the entire, complex system just to make one small change.
+- Understand the entire, complex system just to make one minor change.
 
 It's a direct reflection of a fragmented organisation. As _Conway's Law_ observed decades ago:
 
-> Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure.
+> "Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure".
 
 If you have siloed "Frontend", "Backend", and "Database" teams for example, you will inevitably create a system with high-friction handoffs and a coupled, high-burden architecture. You are, in effect, shipping your org chart.
 
@@ -103,7 +103,7 @@ We can fix this by absorbing, removing and preventing it.
 
 ### Platform Engineering
 
-In an high-load organisation, every stream-aligned team is burdened with reinventing the wheel. They must solve for infrastructure, compliance, security, and delivery in addition to their core mission.
+In a high-load organisation, every stream-aligned team is burdened with reinventing the wheel. They must solve for infrastructure, compliance, security, and delivery in addition to their core mission.
 
 This is the overburden of figuring out complex cloud-native tooling, navigating a security sign-off process, or manually building a monitoring dashboard just to get a new service live. It's the friction that grinds delivery to a halt.
 
@@ -137,7 +137,7 @@ This unintentionally generates mistrust. It's the desire to make sure developers
 
 This practice is a perfect example of _Goodhart's Law_:
 
-> "When a measure becomes a target, it ceases to be a good measure."
+> "When a measure becomes a target, it ceases to be a good measure".
 
 This forces teams into performative work, looking busy to satisfy the metrics. It creates immense, unreasonable pressure to prioritise the visible and measurable over the important and sustainable. Teams stop doing the invisible, preventative work (like refactoring or documentation) because it doesn't "count", thus accumulating more systemic burden and technical debt.
 
@@ -145,9 +145,9 @@ This forces teams into performative work, looking busy to satisfy the metrics. I
 
 Obviously, the core ideas in this series are not uniquely mine. They have been articulated before, clearly and generously, by practitioners and researchers who have been solving these problems for decades. What I have tried to do is consolidate them in context, highlighting modern practices and methods that have emerged as industry leading since the Poppendiecks' original work on Lean Software Development.
 
-What makes these ideas so powerful is that the source texts for them aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are just good ideas. Many aren't even new, we've had the playbook for more than two decades.
+What makes these ideas so powerful is that their source texts aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are simply good ideas. Many aren't even new, we've had the playbook for more than two decades.
 
-But they have been tested, refined, and over time, _empirically proven_ to be the foundations of high-performing, sustainable, and _humane_ technology organisations. They hold up because they were grounded in reality to begin with.
+They have been tested, refined, and over time, _empirically proven_ to be the foundations of high-performing, sustainable, and _humane_ technology organisations. They hold up because they were grounded in reality to begin with.
 
 ### Recommended Reading
 
