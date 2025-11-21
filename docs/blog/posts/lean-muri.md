@@ -55,7 +55,7 @@ If you have siloed "Frontend", "Backend", and "Database" teams for example, you 
 
 We can fix this with a modern, sociotechnical toolkit:
 
-- **Domain-Driven Design**: This is our analytical tool. It's how we discover and map the business domains that matter, defining clear _Bounded Contexts_ that tame the "big ball of mud." It's how we draw the map.
+- **Domain-Driven Design**: This is our analytical tool. It's how we discover and map the business domains, capabilities and value-streams that matter, defining clear _Bounded Contexts_ that tame the "big ball of mud." It's how we draw the map.
 - **Reverse Conway Manoeuvre**: This is our strategy. Instead of letting our bad org chart dictate our bad architecture, we consciously invert it and design good team structures to match the good architecture that we want.
 - **Team Topologies**: This is our operating model. It's the practical "how-to" for executing the manoeuvre, giving us patterns (_Stream-aligned_, _Platform_, etc.) to build teams that own clearly defined domains and have a manageable cognitive load.
 
@@ -65,7 +65,7 @@ If you only try to fix the symptoms with superficial changes you will always fai
 
 We like to separate "the people stuff" from "the technical stuff" because it's tidier that way. But software architecture and team structure are two expressions of the same underlying system. Therefore, meaningful architectural improvement doesn't begin in diagrams. It begins with team design. This isn't just theory; it's an actionable strategy.
 
-It would be too costly and time consuming to enact this approach for an entire organisation in one big hit. So, although these steps read linearly, in practice they're iterative, overlapping, and most effective when applied to one domain at a time. Pick a single Bounded Context to start with. Don't pick the simplest one, or the smallest one, pick something in the middle, with just enough gnarly parts to overcome that will prove the approach is resilient, repeatable and credible.
+It would be too costly and time consuming to enact this approach for an entire organisation in one big hit. So, although these steps read linearly, in practice they're iterative, overlapping, and most effective when applied to one domain at a time. Pick a single Bounded Context to start with. Don't pick the simplest one, or the smallest one, pick something in the middle, with enough gnarly parts to overcome that will prove the approach is resilient, repeatable and credible.
 
 1. **Map Your Business**: First, stop guessing. Use the analytical tools from **Domain-Driven Design**, like _Event Storming_ or _Context Mapping_, to create a true map of your business value streams. This isn't a technical diagram for engineers; it's a strategic map of what your business actually does and where the natural seams lie. This process reveals your true _Bounded Contexts_.
 2. **Define Your Target Architecture**: Once you have your map, you can make the strategic-level decisions. You intentionally design the target architecture that aligns with those _Bounded Contexts_. This blueprint, where services and products have clear, single owners, becomes the model for your new organisation.
@@ -93,11 +93,11 @@ This is the breeding ground for "hero culture", where individuals are praised fo
 
 ## Overload on Systems
 
-The other half of Muri is the overburden we place on our systems. The most common name for this is Technical Debt.
+The other half of Muri is the overburden we place on our systems. The most common name for this is _Technical Debt_.
 
 This is frequently misunderstood as "old code", or even just "someone else's code". It isn't. It's the accumulation of shortcuts, compromises, or outdated assumptions - sometimes made under pressure, sometimes simply made with limited information - that increase the cost or risk of future change.
 
-It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every moment we said, "We'll clean this up later". But later rarely comes. Over time, these choices form a fossil record of an organisation's priorities and stress patterns.
+It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time we said, "We'll clean this up later". But later rarely comes. Over time, these choices form a fossil record of an organisation's priorities and stress patterns.
 
 We can fix this by absorbing, removing and preventing it.
 
