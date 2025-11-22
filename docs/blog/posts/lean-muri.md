@@ -56,8 +56,8 @@ If you have siloed "Frontend", "Backend", and "Database" teams for example, you 
 We can fix this with a modern, sociotechnical toolkit:
 
 - **Domain-Driven Design**: This is our analytical tool. It's how we discover and map the business domains, capabilities and value-streams that matter, defining clear _Bounded Contexts_ that tame the "big ball of mud." It's how we draw the map.
-- **Reverse Conway Manoeuvre**: This is our strategy. Instead of letting our bad org chart dictate our bad architecture, we consciously invert it and design good team structures to match the good architecture that we want.
-- **Team Topologies**: This is our operating model. It's the practical "how-to" for executing the manoeuvre, giving us patterns (_Stream-aligned_, _Platform_, etc.) to build teams that own clearly defined domains and have a manageable cognitive load.
+- **Reverse Conway Manoeuvre**: This is our strategy. Instead of letting our bad org chart dictate our bad architecture, we consciously invert it and design good team structures around the good architecture that we want to have.
+- **Team Topologies**: This is our operating model. It's the practical "how-to" for executing the manoeuvre, giving us patterns (_Stream-aligned_, _Platform_, etc.) to build teams that have ownership and autonomy over clearly defined domains with a manageable cognitive load.
 
 ### A Practical Sociotechnical Approach
 
