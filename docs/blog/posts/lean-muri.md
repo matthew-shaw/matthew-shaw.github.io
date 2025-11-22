@@ -37,7 +37,7 @@ Then one day, the system is brittle, the team is exhausted, and delivery feels l
 
 ## Overload on People
 
-Software is not manufacturing. Our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we often describe as "burnout", as though it were a personal failing rather than an outcome.
+Software is not manufacturing. Our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we often describe as "burnout", as though it were a personal failing rather than an environmental response.
 
 ### Cognitive Load
 
@@ -51,7 +51,7 @@ It's a direct reflection of a fragmented organisation. As _Conway's Law_ observe
 
 > "Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure".
 
-If you have siloed "Frontend", "Backend", and "Database" teams for example, you will inevitably create a system with high-friction handoffs and a coupled, high-burden architecture. You are, in effect, shipping your org chart.
+If you have siloed "Frontend", "Backend", and "Database" teams for example, you are destined to create a system with high-friction handoffs and a coupled, high-burden architecture. You are, in effect, shipping your org chart.
 
 We can fix this with a modern, sociotechnical toolkit:
 
