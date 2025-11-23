@@ -29,7 +29,7 @@ It's not dramatic, it's not loud and it doesn't announce itself with outages. Mu
 
 <!-- more -->
 
-There's a well-known paper called [Boiling Frogs](https://github.com/gchq/BoilingFrogs/blob/9e4ecaf6617ac306c6c4c6bcc875bbeab6a1a9ca/GCHQ_Boiling_Frogs.pdf) by GCHQ that describes how organisations degrade not through a single catastrophic mistake, but through a gradual series of tiny concessions. A workaround here, an exception there, a deadline accepted "just this once". The water warms, degree by degree, and no one jumps out. They acclimatise, they adapt and they cope.
+There's a well-known paper called [Boiling Frogs](https://github.com/gchq/BoilingFrogs/blob/9e4ecaf6617ac306c6c4c6bcc875bbeab6a1a9ca/GCHQ_Boiling_Frogs.pdf) by GCHQ that describes how organisations degrade not through a single catastrophic mistake, but through a gradual series of tiny concessions. A workaround here, an exception there, a deadline accepted "just this once". The water warms degree by degree and no one jumps out. They acclimatise, they adapt and they cope.
 
 Then one day, the system is brittle, the team is exhausted, and delivery feels like wading through treacle, but no one can quite explain how it happened. This is how Muri works.
 
@@ -80,7 +80,7 @@ The sociotechnical plan above is doomed to fail if you do not simultaneously add
 
 That plan _requires_ individuals to do things that would make them feel vulnerable in a low-trust environment:
 
-- **Be honest** about how things really work.
+- **Be honest** about how things _really_ work.
 - **Challenge** existing boundaries, power structures, and "the way we've always done things".
 - **Admit ignorance** and ask "stupid" questions.
 - **Debate and disagree** (respectfully) with colleagues and managers.
@@ -97,7 +97,7 @@ The other half of Muri is the overburden we place on our systems. The most commo
 
 This is frequently misunderstood as "old code", or even just "someone else's code". It isn't. It's the accumulation of shortcuts, compromises, or outdated assumptions - sometimes made under pressure, sometimes simply made with limited information - that increase the cost or risk of future change.
 
-It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time we said, "We'll clean this up later". But later rarely comes. Over time, these choices form a fossil record of an organisation's priorities and stress patterns.
+It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time we said, "We'll clean this up later". But later rarely comes. Over time, these choices form a fossil record of the organisation's priorities and stress patterns.
 
 We can fix this by absorbing, removing and preventing it.
 
@@ -109,7 +109,7 @@ This is the overburden of figuring out complex cloud-native tooling, navigating 
 
 A good internal developer platform is treated as an internal product and served by a Platform Team (as defined in **Team Topologies**). Its purpose is to absorb this cross-cutting complexity and present it to stream-aligned teams as a set of simple, self-service tools and APIs.
 
-The goal is to pave a low-friction path to production. A developer shouldn't have to become an expert in container orchestration, infrastructure-as-code, or observability just to ship a feature. They should be able to consume these as a reliable service, allowing them to focus all their cognitive load on solving problems and delivering user value.
+The goal is to pave a low-friction path to production. A developer shouldn't have to become an expert in container orchestration, infrastructure-as-code, or observability just to ship a feature. They should be able to consume these as reliable services, allowing them to focus all their cognitive energy on solving problems and delivering user value.
 
 ### Continuous Refactoring
 
@@ -119,9 +119,9 @@ This is the core discipline of **Extreme Programming**: leaving the code cleaner
 
 ### Evolutionary Architecture
 
-This is the strategic mindset that prevents future overburden. An evolutionary architecture is one designed to change. Instead of a brittle plan, it is a system protected by automated guardrails called _Fitness Functions_; a suite of tests that continuously verify critical architectural characteristics like performance, security, or module dependencies.
+This is the strategic mindset that prevents future overburden. An evolutionary architecture is one _designed_ to change. Instead of a brittle plan (or Big Up Front Design), it is a system protected by automated guardrails called _Fitness Functions_; a suite of tests that continuously verify critical architectural characteristics like performance, security, or module dependencies.
 
-This is the modern, automated, and living implementation of what we used to call "Non-Functional Requirements". Instead of a requirement being a forgotten line in a document, it becomes an active, automated guardrail that prevents systemic debt from accumulating. This allows the system to evolve safely and independently, creating an environment where small, safe changes are always possible.
+This is the modern, automated, and living implementation of what we used to call "Non-Functional Requirements". Instead of a requirement being a forgotten line in a document, it becomes an automated test that prevents systemic debt from accumulating. This allows the system to evolve safely and independently, creating an environment where small, safe changes are always possible.
 
 ## The Anti-Patterns
 
@@ -129,7 +129,7 @@ The uncomfortable truth is that we actively create and institutionalise overburd
 
 ### Estimation as Commitment
 
-This is the most common and toxic way managers create unreasonable pressure. An estimate is a guess, a statement of probability, at best. A commitment is a promise. Turning a guess into a promise by default is an act of applying unreasonable, arbitrary load. This single act forces teams to cut corners (creating [Defects](lean-muda.md#7-defects){ data-preview }), work in unsustainable "crunch" cycles, and ultimately burn out.
+This is the most common and toxic way managers create unreasonable pressure. An estimate is a guess, a statement of probability, at best. A commitment is a promise. Turning a guess into a promise by default is an act of applying unreasonable, arbitrary load. This single act forces teams to cut corners (creating [Defects](lean-muda.md#7-defects)), work in unsustainable "crunch" cycles, and ultimately causes burn out.
 
 ### Productivity Paranoia
 
@@ -139,15 +139,15 @@ This practice is a perfect example of _Goodhart's Law_:
 
 > "When a measure becomes a target, it ceases to be a good measure".
 
-This forces teams into performative work, looking busy to satisfy the metrics. It creates immense, unreasonable pressure to prioritise the visible and measurable over the important and sustainable. Teams stop doing the invisible, preventative work (like refactoring or documentation) because it doesn't "count", thus accumulating more systemic burden and technical debt.
+This forces teams into performative work only to satisfy the metrics. It creates immense, unreasonable pressure to prioritise the visible and measurable over the important and sustainable. Teams stop doing the invisible, preventative work (like refactoring or documentation) because it doesn't "count", thus accumulating more systemic burden and technical debt.
 
 ## These Ideas Are Not For Sale
 
 Obviously, the core ideas in this series are not uniquely mine. They have been articulated before, clearly and generously, by practitioners and researchers who have been solving these problems for decades. What I have tried to do is consolidate them in context, highlighting modern practices and methods that have emerged as industry leading since the Poppendiecks' original work on Lean Software Development.
 
-What makes these ideas so powerful is that their source texts aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are simply good ideas. Many aren't even new; we've had the playbook for more than two decades.
+What makes these ideas so accessible is that their source texts aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are simply good ideas. Many aren't even new; we've had the playbook for more than two decades.
 
-They have been tested, refined, and over time, _empirically proven_ to be the foundations of high-performing, sustainable, and _humane_ technology organisations. They hold up because they were grounded in reality to begin with.
+They have been tested, refined, and over time, _empirically proven_ to be the foundations of high-performing, sustainable, and _humane_ technology organisations. They still hold up today, because they were grounded in reality to begin with.
 
 ### Recommended Reading
 
@@ -164,7 +164,7 @@ They have been tested, refined, and over time, _empirically proven_ to be the fo
 
 _Muri_ is the root cause, the "boiling frog" that normalises overload until it's too late. Because it is the root cause, it cannot be solved with a new tool, a dashboard, or a superficial "transformation".
 
-Overload (Muri) causes Irregularity ([Mura](lean-mura.md)) which causes Waste ([Muda](lean-muda.md)).
+We can now see the complete chain of events: Overload (Muri) causes Irregularity ([Mura](lean-mura.md)) which causes Waste ([Muda](lean-muda.md)).
 
 The solutions are fundamental and sociotechnical. You must solve the two primary sources of overburden:
 
