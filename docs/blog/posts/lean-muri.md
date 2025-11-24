@@ -49,7 +49,7 @@ This is the "brain overburden" of a system that is too complex, too coupled, or 
 
 It's a direct reflection of a fragmented organisation. As _Conway's Law_ observed decades ago:
 
-> "Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure".
+> _"Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure"._
 
 If you have siloed "Frontend", "Backend", and "Database" teams for example, you are destined to create a system with high-friction handoffs and a coupled, high-burden architecture. You are, in effect, shipping your org chart.
 
@@ -137,7 +137,7 @@ This unintentionally generates mistrust. It's the desire to make sure developers
 
 This practice is a perfect example of _Goodhart's Law_:
 
-> "When a measure becomes a target, it ceases to be a good measure".
+> _"When a measure becomes a target, it ceases to be a good measure"._
 
 This forces teams into performative work only to satisfy the metrics. It creates immense, unreasonable pressure to prioritise the visible and measurable over the important and sustainable. Teams stop doing the invisible, preventative work (like refactoring or documentation) because it doesn't "count", thus accumulating more systemic burden and technical debt.
 
