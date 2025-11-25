@@ -8,13 +8,13 @@ categories:
   - Software Development
 description: Uncovering the causes of failure and burnout.
 tags:
-  - Agile
-  - Continuous Delivery
+  - Cognitive Load
   - DevOps
-  - DORA
+  - Domain-Driven Design
   - Lean
   - Platform Engineering
   - Team Topologies
+  - Technical Debt
 links:
   - blog/posts/lean-muda.md
   - blog/posts/lean-mura.md
