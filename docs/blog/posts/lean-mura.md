@@ -18,6 +18,7 @@ tags:
   - XP
 links:
   - blog/posts/lean-muda.md
+  - blog/posts/lean-muri.md
 ---
 
 # Mura: The Source of Uneven Flow
@@ -138,7 +139,7 @@ Unevenness is not "a system problem", it is almost always the direct result of:
 
 The solution is not another tool or framework, but a fundamental cultural shift from a push mentality to a pull system. By embracing WIP limits (**Kanban**), a **DevOps** culture, built-in quality (**TDD** & **BDD**) and the ideal of **Continuous Delivery**, we can tame the chaos. We can move from unpredictable delivery to a smooth, sustainable, and high-performance flow.
 
-These patterns are rarely accidental; they are the system's response to overburden, or _Muri_, on our people and our technology, which we will uncover in the final part of this series.
+These patterns are rarely accidental; they are the system's response to overburden, or _Muri_, on our people and our technology, which we will uncover in the [final part](lean-muri.md) of this series.
 
 > The ideas, structure, and all final arguments and conclusions in this article are my own. As part of my research and revision workflow, I have used AI tools to accelerate drafting and language refinement.
 

@@ -18,6 +18,7 @@ tags:
   - Team Topologies
 links:
   - blog/posts/lean-mura.md
+  - blog/posts/lean-muri.md
 ---
 
 # Muda: The Eight Wastes of Modern Software Delivery
