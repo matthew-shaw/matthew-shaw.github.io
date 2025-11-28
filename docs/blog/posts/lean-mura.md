@@ -13,9 +13,9 @@ tags:
   - Continuous Delivery
   - DevOps
   - DORA
+  - Extreme Programming
   - Kanban
   - Lean
-  - XP
 links:
   - blog/posts/lean-muda.md
   - blog/posts/lean-muri.md
