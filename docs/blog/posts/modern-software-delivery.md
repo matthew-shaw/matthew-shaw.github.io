@@ -418,6 +418,8 @@ The uncomfortable truth is that we actively create and institutionalise _Mura_ a
 
 ### The Illusion of Control
 
+These are behaviours that create a false sense of managerial predictability, certainty, or controllability, typically by adding oversight, metrics, estimation pressure, or administrative mechanisms.
+
 #### Productivity Paranoia
 
 This unintentionally generates mistrust. It's the desire to make sure developers are busy, often by measuring counter-productive metrics like "lines of code", "story points delivered", or "JIRA tickets closed."
@@ -448,6 +450,8 @@ Hero Culture is what happens when chronic overload becomes normal and the organi
 Hero Culture is seductive because it feels like excellence. But it is actually the loudest symptom of failure: a system that only works when someone suffers. And because heroism "works" in the short term, it prevents leadership from seeing the real problem: the system is overburdened, brittle, and unsustainable. Heroes are not a strength. They are a warning sign.
 
 ### The Illusion of Agility
+
+These are behaviours that create a false sense of being agile, typically by adopting agile theatre, rituals, or scaled frameworks that _look_ agile but preserve waterfall/batch thinking.
 
 #### "Scrum-fall"
 
