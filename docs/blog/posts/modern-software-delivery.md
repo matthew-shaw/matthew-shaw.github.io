@@ -480,13 +480,20 @@ They have been tested, refined, and over time, empirically proven to be the foun
 
 ## Conclusion: The Choice
 
-We can now see the full causal chain of events: **Overload (_Muri_) causes Irregularity (_Mura_) which causes Waste (_Muda_).**
+We can now see the full causal chain of events:
+
+```mermaid
+flowchart LR
+    muri("Overburden<br>(Muri)") -- Causes -->
+    mura("Unevenness<br>(Mura)") -- Causes -->
+    muda("Waste<br>(Muda)")
+```
 
 This paper is not just theory; this is a practical, evidenced-based diagnostic toolkit. You can use it to see the waste, measure the flow, and identify the sources of overload that are slowly burning out your people and corroding your systems.
 
 And it leaves every single person reading this with a choice...
 
-For teams, the choice is to stop normalising the pain. Stop accepting unreasonable load as "just part of the job". You are not a "hero" for surviving burnout; you're operating inside a system that makes heroism necessary. The modern practices in this paper are not "nice-to-haves". They are essential professional tools. Start using them. Demand the time to use them. Prove their value by showing that they really work.
+For teams, the choice is to stop normalising the pain. Stop accepting unreasonable load as "just part of the job". You are not a "hero" for surviving burnout; you're operating inside a system that makes heroism necessary. The modern practices in this paper are not "nice-to-haves". They are essential professional tools. Start using them. Demand the time to use them. Prove their value by showing that they _really work_.
 
 For leaders, the choice is more profound. You are the only ones who have the leverage to fix the system. You can fund a platform. You can sponsor a sociotechnical action plan. You can build a culture of psychological safety that eliminates fear. You can choose to measure outcomes and sustainability, not just activity and output.
 
