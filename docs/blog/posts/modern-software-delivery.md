@@ -441,6 +441,12 @@ Ron Jeffries, one of the early advocates of story points in **Extreme Programmin
 
 This is the most common and toxic way managers create unreasonable pressure. An estimate is a guess, a statement of probability, at best. A commitment is a promise. Turning a guess into a promise by default is an act of applying unreasonable, arbitrary load. This single act forces teams to cut corners (creating [Defects](#defects)), work in unsustainable "crunch" cycles, and ultimately causes burnout.
 
+#### Hero Culture
+
+Hero Culture is what happens when chronic overload becomes normal and the organisation quietly begins to rely on individuals who can absorb unreasonable load through personal sacrifice. The late-night deployment, the weekend fix, the 2am incident save, these become celebrated behaviours.
+
+Hero Culture is seductive because it feels like excellence. But it is actually the loudest symptom of failure: a system that only works when someone suffers. And because heroism "works" in the short term, it prevents leadership from seeing the real problem: the system is overburdened, brittle, and unsustainable. Heroes are not a strength. They are a warning sign.
+
 ### The Illusion of Agility
 
 #### "Scrum-fall"
@@ -452,12 +458,6 @@ This is an anti-pattern disguised as Agile. Work piles up at the start of the sp
 This is the most elaborate and costly form of institutionalised ceremony. The Agile Release Train is a large-batch planning and coordination mechanism presented as agility. It produces the illusion of agility, but synchronised big-batch planning events make flow uneven and unpredictable. In practice, this leads to integration crunches and "hardening phases," which are a tacit admission that the system generates more waste than it removes.
 
 SAFe attempts to manage the symptoms of unevenness, rather than eliminating the causes. It is a coping mechanism for organisations struggling with deep _Muri_ (dependencies, brittle systems, low trust) but unwilling or unable to reduce cognitive load or decouple teams.
-
-#### Hero Culture
-
-Hero Culture is what happens when chronic overload becomes normal and the organisation quietly begins to rely on individuals who can absorb unreasonable load through personal sacrifice. The late-night deployment, the weekend fix, the 2am incident save, these become celebrated behaviours.
-
-Hero Culture is seductive because it feels like excellence. But it is actually the loudest symptom of failure: a system that only works when someone suffers. And because heroism "works" in the short term, it prevents leadership from seeing the real problem: the system is overburdened, brittle, and unsustainable. Heroes are not a strength. They are a warning sign.
 
 ## These Ideas Are Not For Sale
 
