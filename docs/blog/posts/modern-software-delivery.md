@@ -232,19 +232,19 @@ The **DORA** metrics are not performance scorecards; they are flow indicators. T
 
 A high average lead time is a problem, but a high variance (or standard deviation) is a warning signal.
 
-If your team delivers one feature in two days, but the next one takes forty, your system isn't just slow, it's chaotic. This variance makes forecasting impossible. It's the single best indicator that your process is unpredictable and riddled with hidden blockers (like Waiting for code reviews or environments). A smooth flowing system has a tight, predictable Lead Time.
+If your team delivers one feature in two days, but the next one takes forty, your system isn't just slow, it's chaotic. This variance makes forecasting impossible. It's the single best indicator that your process is unpredictable and riddled with hidden blockers (like [Waiting](#waiting) for code reviews or environments). A smooth flowing system has a tight, predictable Lead Time.
 
 #### Deployment Frequency
 
 An inconsistent deployment cadence is a clear sign of batching and queues.
 
-Deploying twenty changes on a Tuesday afternoon and then nothing for four days isn't high frequency; it's batched and irregular delivery. It's a sign of an uneven system that queues work up for a "Release Day", creating a massive Inventory of undeployed code. A smooth flowing system has a consistent, rhythmic deployment cadence - or even better, deploy on-demand.
+Deploying twenty changes on a Tuesday afternoon and then nothing for four days isn't high frequency; it's batched and irregular delivery. It's a sign of an uneven system that queues work up for a "Release Day", creating a massive [Inventory](#inventory) of undeployed code. A smooth flowing system has a consistent, rhythmic deployment cadence - or even better, deploy on-demand.
 
 #### Change Failure Rate
 
 A spiky **Change Failure Rate** is a lagging consequence of rushed work.
 
-This often indicates a deadline-driven "crunch" cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done." The resulting spike in Defects is the unavoidable effect of that unevenness.
+This often indicates a deadline-driven "crunch" cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done." The resulting spike in [Defects](#defects) is the unavoidable effect of that unevenness.
 
 ### The Solutions
 
@@ -258,35 +258,35 @@ The solution is a fundamental cultural and technical shift to pull-based systems
 
 The key to **Kanban** is the Work in Progress (WIP) limit. A WIP limit is not a process bottleneck, or a constraint on productivity; it is a deliberate countermeasure. It is a simple rule that forces the team to stop starting work and start finishing it.
 
-WIP limits relentlessly expose hidden bottlenecks, making the Waiting, and the unevenness painfully visible. By forcing the team to pull new work only when capacity is available, WIP limits naturally smooth the flow.
+WIP limits relentlessly expose hidden bottlenecks, making the [Waiting](#waiting), and the unevenness painfully visible. By forcing the team to pull new work only when capacity is available, WIP limits naturally smooth the flow.
 
-This effect is not just philosophical; it's mathematical. Queueing theory shows that as a system approaches full utilisation; its cycle time increases non-linearly. In other words, when everyone is "100% busy," work does not finish faster, it finishes _much_ slower. High WIP means more context switching, more Waiting, and more unevenness. A WIP limit creates slack, and slack creates flow.
+This effect is not just philosophical; it's mathematical. Queueing theory shows that as a system approaches full utilisation; its cycle time increases non-linearly. In other words, when everyone is "100% busy," work does not finish faster, it finishes _much_ slower. High WIP means more context switching, more [Waiting](#waiting), and more unevenness. A WIP limit creates slack, and slack creates flow.
 
 #### The Cultural System
 
 A pull-system on its own can still be thwarted by organisational structures and silos. The largest and most damaging bottleneck in traditional IT is the "wall of confusion" between Development and Operations. This isn't just a handoff; it's a fundamental conflict of incentives.
 
-In this broken model, developers are incentivised to deliver change (go fast), while operations are incentivised to maintain stability (go slow). This conflict guarantees a stop-start process of Transportation followed by prolonged periods of Waiting. If a deployment fails, the work is thrown back, creating Defects and halting all forward progress.
+In this broken model, developers are incentivised to deliver change (go fast), while operations are incentivised to maintain stability (go slow). This conflict guarantees a stop-start process of [Transportation](#transportation) followed by prolonged periods of [Waiting](#waiting). If a deployment fails, the work is thrown back, creating [Defects](#defects) and halting all forward progress.
 
 The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (“you build it, you run it”), it aligns these incentives. The team is now incentivised to build operable and stable features from the start. This cultural shift is the prerequisite for true, continuous flow, as it replaces these two large silos with a single, empowered team.
 
 #### The Technical System
 
-A high-trust, continuous flow doesn't happen by accident. It is a technical foundation of built-in quality. You cannot have continuous flow if you are constantly finding Defects.
+A high-trust, continuous flow doesn't happen by accident. It is a technical foundation of built-in quality. You cannot have continuous flow if you are constantly finding [Defects](#defects).
 
 The practices championed by **Extreme Programming** enable this:
 
 - **Test-Driven Development** builds a regression-proof suite of automated tests that gives teams the confidence to merge and deploy continuously.
-- **Behaviour-Driven Development** creates a shared understanding of the requirements, ensuring that the right code is built the first time, reducing the wasteful Transportation handoffs between "dev," "test," and "product."
-- **Pair Programming** is a continuous, real-time code review. Instead of work Waiting for an asynchronous review, quality is validated as the code is written.
+- **Behaviour-Driven Development** creates a shared understanding of the requirements, ensuring that the right code is built the first time, reducing the wasteful [Transportation](#transportation) handoffs between "dev," "test," and "product."
+- **Pair Programming** is a continuous, real-time code review. Instead of work [Waiting](#waiting) for an asynchronous review, quality is validated as the code is written.
 
 **Extreme Programming** practices don't just improve quality; they make the pull-system more reliable and trustworthy, in turn reducing the variance in lead time.
 
 #### The Ideal System
 
-In the Toyota Production System, the ultimate solution for _Mura_ was the ideal of "One-Piece Flow" - making one part at a time and moving it immediately to the next step, with zero Inventory in between.
+In the Toyota Production System, the ultimate solution for _Mura_ was the ideal of "One-Piece Flow" - making one part at a time and moving it immediately to the next step, with zero [Inventory](#inventory) in between.
 
-The modern software equivalent is **Continuous Delivery**, supported by **Trunk-Based Development**, automated testing, and fast deployment pipelines. **Continuous Delivery** approximates one-piece flow by reducing batch sizes, shortening feedback loops, and ensuring that each change can move smoothly into production without accumulating Inventory.
+The modern software equivalent is **Continuous Delivery**, supported by **Trunk-Based Development**, automated testing, and fast deployment pipelines. **Continuous Delivery** approximates one-piece flow by reducing batch sizes, shortening feedback loops, and ensuring that each change can move smoothly into production without accumulating [Inventory](#inventory).
 
 In a high-flow system, a single commit can be built, tested, and deployed within minutes. This is the closest practical expression of the same principle: work should move continuously, without queueing, batching, or delay.
 
@@ -429,23 +429,23 @@ This forces teams into performative work, looking busy to satisfy the metrics. I
 
 #### "JIRA-First"
 
-This is the anti-pattern of treating JIRA (or any work-tracking system) as a ticket-pushing workflow. The focus becomes moving cards through states rather than improving flow. This incentivises starting work ("In Progress") over finishing it (WIP limits and flow efficiency). JIRA becomes a status reporting tool, not a system for managing value. The result is bloated Inventory and chronic WIP that never seems to get to "Done".
+This is the anti-pattern of treating JIRA (or any work-tracking system) as a ticket-pushing workflow. The focus becomes moving cards through states rather than improving flow. This incentivises starting work ("In Progress") over finishing it (WIP limits and flow efficiency). JIRA becomes a status reporting tool, not a system for managing value. The result is bloated [Inventory](#inventory) and chronic WIP that never seems to get to "Done".
 
 #### Misusing Story Points
 
-This is perhaps the most insidious anti-pattern, because it presents itself as a predictability tool while actively producing uneven batches. In theory, story points were intended as an internal estimation shorthand for teams. In practice, velocity is quickly weaponised into a delivery target. This creates a push-system where teams play sprint-Tetris, packing work to hit a number rather than maintaining flow. The result is uneven batches, rushed work, and Defects created simply to get "committed" points accepted.
+This is perhaps the most insidious anti-pattern, because it presents itself as a predictability tool while actively producing uneven batches. In theory, story points were intended as an internal estimation shorthand for teams. In practice, velocity is quickly weaponised into a delivery target. This creates a push-system where teams play sprint-Tetris, packing work to hit a number rather than maintaining flow. The result is uneven batches, rushed work, and [Defects](#defects) created simply to get "committed" points accepted.
 
 Ron Jeffries, one of the early advocates of story points in **Extreme Programming**, has even said: _"if I did invent story points, I'm probably a little sorry now",_ in response to how commonly they are misused. The **Lean** alternative is to stop treating estimation as forecasting, and instead focus relentlessly on making batch sizes small, stable, and consistent.
 
 #### Estimation as Commitment
 
-This is the most common and toxic way managers create unreasonable pressure. An estimate is a guess, a statement of probability, at best. A commitment is a promise. Turning a guess into a promise by default is an act of applying unreasonable, arbitrary load. This single act forces teams to cut corners (creating Defects), work in unsustainable "crunch" cycles, and ultimately causes burnout.
+This is the most common and toxic way managers create unreasonable pressure. An estimate is a guess, a statement of probability, at best. A commitment is a promise. Turning a guess into a promise by default is an act of applying unreasonable, arbitrary load. This single act forces teams to cut corners (creating [Defects](#defects)), work in unsustainable "crunch" cycles, and ultimately causes burnout.
 
 ### The Illusion of Agility
 
 #### "Scrum-fall"
 
-This is an anti-pattern disguised as Agile. Work piles up at the start of the sprint and testing piles up at the end, creating a mini-waterfall inside timeboxes. This guarantees unevenness, reinforces handoffs, and produces the "hurry up and wait" cycle that drives Defects and Overprocessing. The countermeasures are practices like **Pair Programming** and **Behaviour-Driven Development**, where building and checking happen together, not in sequence.
+This is an anti-pattern disguised as Agile. Work piles up at the start of the sprint and testing piles up at the end, creating a mini-waterfall inside timeboxes. This guarantees unevenness, reinforces handoffs, and produces the "hurry up and wait" cycle that drives [Defects](#defects) and [Overprocessing](#overprocessing). The countermeasures are practices like **Pair Programming** and **Behaviour-Driven Development**, where building and checking happen together, not in sequence.
 
 #### SAFe (and the Agile Release Train)
 
