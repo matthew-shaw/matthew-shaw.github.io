@@ -263,7 +263,7 @@ flowchart LR
     CFR(Change Failure Rate)
     unused_talent -- Increases --> TRS(Time to Restore Service)
     unused_talent -- Increases --> LTC(Lead Time for Changes)
-    unused_talent -- Decreates --> DF(Deployment Frequency)
+    unused_talent -- Decreases --> DF(Deployment Frequency)
 ```
 
 The _Accelerate_ research identifies culture as a decisive factor in performance, impacting all four **DORA** metrics. Teams with autonomy, trust, and psychological safety deliver faster (**Lead Time for Changes**, **Deployment Frequency**), fail less (**Change Failure Rate**), and recover more quickly (**Time to Restore Service**) - proving that empowering people is the most powerful efficiency gain of all.
