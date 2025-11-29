@@ -82,6 +82,13 @@ Reducing transportation means shortening the path from idea to running code in p
 
 #### Validated Performance Impact
 
+```mermaid
+flowchart LR
+    transportation(Transportation) -- Increases -->
+    LTC(Lead Time for Changes)
+    transportation -- Decreases --> DF(Deployment Frequency)
+```
+
 This waste is a primary driver of long **Lead Time for Changes**. Research from _Accelerate_ and the **DORA** program shows that reducing handoffs and enabling end-to-end ownership directly improves performance - shortening lead times and increasing **Deployment Frequency**.
 
 ### Inventory
@@ -99,6 +106,13 @@ Every line of dormant code represents work that's not improving services. It clo
 - Regularly review and prune backlog items that no longer add value.
 
 #### Validated Performance Impact
+
+```mermaid
+flowchart LR
+    inventory(Inventory) -- Increases -->
+    LTC(Lead Time for Changes)
+    inventory -- Increases --> CFR(Change Failure Rate)
+```
 
 High inventory (WIP) directly impacts both throughput and stability. It is a major contributor to poor **Lead Time for Changes**, as work waits in queues. It also increases the **Change Failure Rate**, as large, complex batches are inherently riskier to merge and deploy. The **DORA** findings strongly support this: keeping work small (low WIP) leads to faster, safer, and more reliable delivery.
 
@@ -118,6 +132,13 @@ Reducing motion means building a smooth, predictable developer experience - one 
 
 #### Validated Performance Impact
 
+```mermaid
+flowchart LR
+    motion(Motion) -- Increases -->
+    LTC(Lead Time for Changes)
+    motion -- Increases --> CFR(Change Failure Rate)
+```
+
 Friction from manual tasks directly harms **Lead Time for Changes** and often increases the **Change Failure Rate** due to human error. Data from the **DORA** studies confirms that automation and standardised development environments are key predictors of elite performance.
 
 ### Waiting
@@ -135,6 +156,12 @@ Reducing waiting means collapsing those loops - making feedback continuous, not 
 - Decouple teams and reduce inter-team dependencies to avoid idle time.
 
 #### Validated Performance Impact
+
+```mermaid
+flowchart LR
+    waiting(Waiting) -- Increases -->
+    LTC(Lead Time for Changes)
+```
 
 Waiting is a pure component of **Lead Time for Changes**. _Accelerate_ research highlights fast feedback loops as one of the strongest predictors of success - teams that shorten the path from commit to deploy (which reduces waiting) consistently outperform those trapped in slow feedback cycles.
 
@@ -154,6 +181,13 @@ Reducing overproduction means focusing relentlessly on outcomes, not output. The
 
 #### Validated Performance Impact
 
+```mermaid
+flowchart LR
+    overproduction(Overproduction) -- Increases -->
+    CFR(Change Failure Rate)
+    overproduction -- Decreases --> DF(Deployment Frequency)
+```
+
 Overproduction wastes capacity that could be used to improve **Deployment Frequency** and, by creating unnecessary code, can increase the **Change Failure Rate**. The **DORA** research reinforces that small, validated releases reduce waste and improve stability, allowing teams to achieve both higher throughput and lower **Change Failure Rate**.
 
 ### Overprocessing
@@ -171,6 +205,14 @@ Reducing overprocessing means matching effort to value - choosing simplicity, cl
 - Regularly review code and processes to remove redundant complexity.
 
 #### Validated Performance Impact
+
+```mermaid
+flowchart LR
+    overprocessing(Overprocessing) -- Increases -->
+    LTC(Lead Time for Changes)
+    overprocessing -- Increases --> CFR(Change Failure Rate)
+    overprocessing -- Decreases --> DF(Deployment Frequency)
+```
 
 Overprocessing adds unnecessary complexity, which directly increases **Lead Time for Changes** and can contribute to a higher **Change Failure Rate**. Studies in _Accelerate_ show that simplifying architectures and streamlining technical and organisational processes reduce lead times and increase **Deployment Frequency** - proving that leaner, less bureaucratic systems deliver faster and more reliably.
 
@@ -190,6 +232,13 @@ Reducing defects means building quality in - making testing, feedback, and impro
 
 #### Validated Performance Impact
 
+```mermaid
+flowchart LR
+    defects(Defects) -- Increases -->
+    CFR(Change Failure Rate)
+    defects -- Increases --> TRS(Time to Restore Service)
+```
+
 This waste is a direct measure of the **Change Failure Rate** and impacts **Time to Restore Service**. **DORA**'s data shows that teams that build in quality through automation and shared ownership see lower failure rates and faster recovery - proving that speed and quality rise together.
 
 ### Unused Talent
@@ -207,6 +256,15 @@ Reducing this waste means treating developers as designers of systems - trusted 
 - Allocate time for experimentation, learning, and innovation (spikes, hackdays).
 
 #### Validated Performance Impact
+
+```mermaid
+flowchart LR
+    unused_talent(Unused Talent) -- Increases -->
+    CFR(Change Failure Rate)
+    unused_talent -- Increases --> TRS(Time to Restore Service)
+    unused_talent -- Increases --> LTC(Lead Time for Changes)
+    unused_talent -- Decreates --> DF(Deployment Frequency)
+```
 
 The _Accelerate_ research identifies culture as a decisive factor in performance, impacting all four **DORA** metrics. Teams with autonomy, trust, and psychological safety deliver faster (**Lead Time for Changes**, **Deployment Frequency**), fail less (**Change Failure Rate**), and recover more quickly (**Time to Restore Service**) - proving that empowering people is the most powerful efficiency gain of all.
 
@@ -324,11 +382,11 @@ Software is not manufacturing. Our raw materials are ideas held in human working
 
 This is the "brain overburden" of a system that is too complex, too coupled, or too poorly documented for a single human to hold in their head. This high cognitive load is chronic stress. We inflict this on people when we force them to:
 
-- Navigate sprawling "big ball of mud" architectures.
+- Navigate sprawling ["big ball of mud"](https://en.wikipedia.org/wiki/Spaghetti_code#big-ball-o-mud) architectures.
 - Constantly shatter their focus with cross-team dependencies and context-switching.
 - Understand the entire, complex system just to make one minor change.
 
-It's a direct reflection of a fragmented organisation. As Conway's Law observed decades ago:  
+It's a direct reflection of a fragmented organisation. As [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) observed decades ago:  
 > _“Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure.”_
 
 If you have siloed "Frontend", "Backend", and "Database" teams for example, you will inevitably create a system with high-friction handoffs and a coupled, high-burden architecture. You are, in effect, shipping your org chart.
@@ -424,7 +482,7 @@ These are behaviours that create a false sense of managerial predictability, cer
 
 This unintentionally generates mistrust. It's the desire to make sure developers are busy, often by measuring counter-productive metrics like "lines of code", "story points delivered", or "JIRA tickets closed."
 
-This practice is a perfect example of Goodhart's Law:  
+This practice is a perfect example of [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law):  
 > _"When a measure becomes a target, it ceases to be a good measure."_
 
 This forces teams into performative work, looking busy to satisfy the metrics. It creates immense, unreasonable pressure to prioritise the visible and measurable over the important and sustainable. Teams stop doing the invisible, preventative work (like refactoring or documentation) because it doesn't "count", thus accumulating more systemic burden and _technical debt_.
