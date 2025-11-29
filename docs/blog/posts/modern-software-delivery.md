@@ -290,7 +290,7 @@ The **DORA** metrics are not performance scorecards; they are flow indicators. T
 
 A high average lead time is a problem, but a high variance (or standard deviation) is a warning signal.
 
-If your team delivers one feature in two days, but the next one takes forty, your system isn't just slow, it's chaotic. This variance makes forecasting impossible. It's the single best indicator that your process is unpredictable and riddled with hidden blockers (like [Waiting](#waiting) for code reviews or environments). A smooth flowing system has a tight, predictable Lead Time.
+If your team delivers one feature in two days, but the next one takes forty, your system isn't just slow, it's chaotic. This variance makes forecasting impossible. It's the single best indicator that your process is unpredictable and riddled with hidden waste (like [Waiting](#waiting) for code reviews or environments and [Transportation](#transportation) as work bounces between functions). A smooth flowing system has a tight, predictable Lead Time.
 
 #### Deployment Frequency
 
@@ -306,7 +306,7 @@ This often indicates a deadline-driven "crunch" cycle. The team was forced to ru
 
 ### The Solutions
 
-Unevenness is created by push-based systems, where work is started regardless of downstream capacity. If we push unrefined work onto teams, or push untested code into a release branch, or push a sprint's-worth of "done" work onto the testers on the final day, we're actively creating instability.
+Unevenness is created by push-based systems, where work is started regardless of downstream capacity, which guarantees [Overproduction](#overproduction) and [Transportation](#transportation) waste. If we push unrefined work onto teams, or push untested code into a release branch, or push a sprint's-worth of "done" work onto the testers on the final day, we're actively creating instability.
 
 The solution is a fundamental cultural and technical shift to pull-based systems, where work is started only when downstream capacity is available.
 
@@ -318,7 +318,7 @@ The key to **Kanban** is the Work in Progress (WIP) limit. A WIP limit is not a 
 
 WIP limits relentlessly expose hidden bottlenecks, making the [Waiting](#waiting), and the unevenness painfully visible. By forcing the team to pull new work only when capacity is available, WIP limits naturally smooth the flow.
 
-This effect is not just philosophical; it's mathematical. Queueing theory shows that as a system approaches full utilisation; its cycle time increases non-linearly. In other words, when everyone is "100% busy," work does not finish faster, it finishes _much_ slower. High WIP means more context switching, more [Waiting](#waiting), and more unevenness. A WIP limit creates slack, and slack creates flow.
+This effect is not just philosophical; it's mathematical. Queueing theory shows that as a system approaches full utilisation; its cycle time increases non-linearly. In other words, when everyone is "100% busy," work does not finish faster, it finishes _much_ slower. High WIP means more context switching, more [Waiting](#waiting), more [Inventory](#inventory) and more unevenness. A WIP limit creates slack, and slack creates flow.
 
 #### The Cultural System
 
@@ -326,7 +326,7 @@ A pull-system on its own can still be thwarted by organisational structures and 
 
 In this broken model, developers are incentivised to deliver change (go fast), while operations are incentivised to maintain stability (go slow). This conflict guarantees a stop-start process of [Transportation](#transportation) followed by prolonged periods of [Waiting](#waiting). If a deployment fails, the work is thrown back, creating [Defects](#defects) and halting all forward progress.
 
-The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (“you build it, you run it”), it aligns these incentives. The team is now incentivised to build operable and stable features from the start. This cultural shift is the prerequisite for true, continuous flow, as it replaces these two large silos with a single, empowered team.
+The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (“you build it, you run it”), it aligns these incentives and eliminates handoffs ([Transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. This cultural shift is the prerequisite for true, continuous flow, as it replaces these two large silos with a single, empowered team.
 
 #### The Technical System
 
@@ -334,7 +334,7 @@ A high-trust, continuous flow doesn't happen by accident. It is a technical foun
 
 The practices championed by **Extreme Programming** enable this:
 
-- **Test-Driven Development** builds a regression-proof suite of automated tests that gives teams the confidence to merge and deploy continuously.
+- **Test-Driven Development** builds a regression-proof suite of automated tests that reduce [Defects](#defects) and gives teams the confidence to merge and deploy continuously.
 - **Behaviour-Driven Development** creates a shared understanding of the requirements, ensuring that the right code is built the first time, reducing the wasteful [Transportation](#transportation) handoffs between "dev," "test," and "product."
 - **Pair Programming** is a continuous, real-time code review. Instead of work [Waiting](#waiting) for an asynchronous review, quality is validated as the code is written.
 
@@ -346,7 +346,7 @@ In the Toyota Production System, the ultimate solution for _Mura_ was the ideal 
 
 The modern software equivalent is **Continuous Delivery**, supported by **Trunk-Based Development**, automated testing, and fast deployment pipelines. **Continuous Delivery** approximates one-piece flow by reducing batch sizes, shortening feedback loops, and ensuring that each change can move smoothly into production without accumulating [Inventory](#inventory).
 
-In a high-flow system, a single commit can be built, tested, and deployed within minutes. This is the closest practical expression of the same principle: work should move continuously, without queueing, batching, or delay.
+In a high-flow system, a single commit can be built, tested, and deployed within minutes. This is the closest practical expression of the same principle: work should move continuously, without queueing, batching, or [Waiting](#waiting).
 
 ### Tracing the Root Cause
 
@@ -386,6 +386,8 @@ This is the "brain overburden" of a system that is too complex, too coupled, or 
 - Constantly shatter their focus with cross-team dependencies and context-switching.
 - Understand the entire, complex system just to make one minor change.
 
+High cognitive load causes teams to create [Overprocessing](#overprocessing) as they attempt to manage complexity, fuels [Motion](#motion) waste through constant tool and context-switching, and ultimately increases [Defects](#defects) because overloaded humans make mistakes.
+
 It's a direct reflection of a fragmented organisation. As [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) observed decades ago:  
 > _“Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure.”_
 
@@ -423,6 +425,8 @@ The plan requires individuals to do things that would make them feel vulnerable 
 - **Admit ignorance** and ask "stupid" questions.
 - **Debate and disagree** (respectfully) with colleagues and managers.
 
+Low psychological safety directly generates [Unused Talent](#unused-talent) waste, as insight from the people closest to the work never surfaces. It also drives [Overproduction](#overproduction) because teams are afraid to say "no" or challenge poorly validated assumptions, so they quietly build features that aren’t needed.
+
 The _Accelerate_ and **DORA** research provides strong evidence for this. A culture of fear and blame, where people are punished for failures, unreasonable deadlines are normalised, or raising concerns is seen as "negative", is a significant predictor of low performance.
 
 This culture is a factory for anxiety. When people are constantly afraid of making a mistake, of being blamed, or of not looking "100% busy", their mental health deteriorates. They live in a constant state of fight-or-flight, which is fundamentally incompatible with the creative, complex problem-solving our work requires.
@@ -437,6 +441,12 @@ This is frequently misunderstood as "old code", or even just "someone else's cod
 
 It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time we said, "We'll clean this up later". But later rarely comes. Over time, these choices form a fossil record of an organisation's priorities and stress patterns.
 
+Technical debt manifests as:
+
+- [Motion](#motion) waste - repeated work to navigate brittle code, rebuild fragile environments, or rediscover long-buried documentation
+- [Waiting](#waiting) waste - slow builds, long feedback loops, dependency queues
+- [Defect](#defects) waste - instability caused by unpredictable interactions in decayed architectures
+
 We can fix this by absorbing, removing and preventing it.
 
 #### Platform Engineering
@@ -445,19 +455,19 @@ In a high-load organisation, every _stream-aligned_ team is burdened with reinve
 
 This is the overburden of figuring out complex cloud-native tooling, navigating a security sign-off process, or manually building a monitoring dashboard just to get a new service live. It's the friction that grinds delivery to a halt.
 
-A good internal developer platform is treated as an internal product and served by a _Platform Team_ (as defined in **Team Topologies**). Its purpose is to absorb this cross-cutting complexity and present it to _stream-aligned_ teams as a set of simple, self-service tools and APIs.
+A good internal developer platform is treated as an internal product and served by a _Platform Team_ (as defined in **Team Topologies**). Its purpose is to absorb this cross-cutting complexity and present it to _stream-aligned_ teams as a set of simple, self-service tools and APIs. A well-designed internal platform removes vast amounts of [Motion](#motion) waste (manual setup, repetitive configuration) and [Transportation](#transportation) waste (cross-team handoffs for infrastructure, compliance, and environments).
 
 The goal is to pave a low-friction path to production. A developer shouldn't have to become an expert in container orchestration, infrastructure-as-code, or observability just to ship a feature. They should be able to consume these as reliable services, allowing them to focus all their cognitive load on solving problems and delivering user value.
 
 #### Continuous Refactoring
 
-**Continuous Refactoring** is the act of paying _technical debt_ back, not in a single "big bang" project, but as a small, daily, professional practice.
+**Continuous Refactoring** is the act of paying _technical debt_ back, not in a single "big bang" project, but as a small, daily, professional practice. This reduces [Overprocessing](#overprocessing) by removing redundant abstractions, reduces [Defects](#defects) by stabalising the codebase and reduces [Inventory](#inventory) by preventing long-lived code branches that can't be merged due to rot.
 
 This is the core discipline of **Extreme Programming**: leaving the code cleaner than you found it. Kent Beck's recent work, Tidy First?, gives a modern name to this practice: it's the art of making small, safe, tidying changes before adding new features, to ensure development speed is sustainable. It requires an organisational commitment to allocate capacity for this work and making _technical debt_ removal a constant and sustainable activity.
 
 #### Evolutionary Architecture
 
-This is the strategic mindset that prevents future overburden. An **Evolutionary Architecture** is one _designed_ to change. Instead of a brittle plan (or Big Up Front Design), it is a system protected by automated guardrails called Fitness Functions; a suite of tests that continuously verify critical architectural characteristics like performance, security, or module dependencies.
+This is the strategic mindset that prevents future overburden. An **Evolutionary Architecture** is one _designed_ to change. Instead of a brittle plan (or [Big Design Up Front](https://en.wikipedia.org/wiki/Big_design_up_front)), it is a system protected by automated guardrails called Fitness Functions; a suite of tests that continuously verify critical architectural characteristics like performance, security, or module dependencies, to reduce [Defects](#defects).
 
 This is the modern, automated, and living implementation of what we used to call "Non-Functional Requirements". Instead of a requirement being a forgotten line in a document, it becomes an automated test that prevents systemic debt from accumulating. This allows the system to evolve safely and independently, creating an environment where small, safe changes are always possible.
 
