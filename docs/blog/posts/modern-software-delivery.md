@@ -74,12 +74,6 @@ Every transfer adds friction and risk. Knowledge gets diluted, priorities drift,
 
 Reducing transportation means shortening the path from idea to running code in production and giving teams direct ownership of outcomes.
 
-#### Practical Reduction Strategies
-
-- Form cross-functional, outcome-oriented teams to reduce handoffs.
-- Provide self-service environments and standardised tooling.
-- Establish clear communication channels and ownership for tasks and escalations.
-
 #### Validated Performance Impact
 
 ```mermaid
@@ -93,17 +87,11 @@ This waste is a primary driver of long **Lead Time for Changes**. Research from 
 
 ### Inventory
 
-In manufacturing, inventory waste means stock that's been built but isn't delivering value. In software, that inventory lives as unfinished code, unmerged branches, bloated backlogs, and half-validated features.
+In manufacturing, inventory waste means stock that's been built but isn't delivering value. In software, that inventory lives as unfinished code, unmerged branches, bloated backlogs that are rarely pruned, and half-validated features.
 
 Every line of dormant code represents work that's not improving services. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context.
 
 **Lean** flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The focus must shift from starting work to finishing work, which requires limiting work-in-progress (WIP).
-
-#### Practical Reduction Strategies
-
-- Limit WIP to expose bottlenecks and maintain flow.
-- Deliver small, independently deployable increments.
-- Regularly review and prune backlog items that no longer add value.
 
 #### Validated Performance Impact
 
@@ -124,12 +112,6 @@ Every manual click or repeated setup is friction that interrupts focus. Develope
 
 Reducing motion means building a smooth, predictable developer experience - one where environments, builds, and feedback are automatic, consistent, and close at hand.
 
-#### Practical Reduction Strategies
-
-- Automate repetitive tasks like environment setup, builds, and deployments.
-- Provide standardised, containerised environments for consistency.
-- Supply curated scripts, templates, and DX tooling to reduce friction.
-
 #### Validated Performance Impact
 
 ```mermaid
@@ -149,12 +131,6 @@ Every delay in the feedback loop weakens flow and motivation. Engineers lose con
 
 Reducing waiting means collapsing those loops - making feedback continuous, not calendar-driven - so progress never depends on someone else's availability.
 
-#### Practical Reduction Strategies
-
-- Automate CI/CD pipelines for fast feedback loops.
-- Enable async reviews and lightweight approvals to remove blockers.
-- Decouple teams and reduce inter-team dependencies to avoid idle time.
-
 #### Validated Performance Impact
 
 ```mermaid
@@ -172,12 +148,6 @@ Overproduction is building more than what's needed - features without validation
 It's seductive because it looks like progress. Teams deliver features, fill backlogs, and complete roadmaps - but if it doesn't meet a user need or improve service quality, it's waste disguised as delivery.
 
 Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is user value, not feature count.
-
-#### Practical Reduction Strategies
-
-- Prioritise work based on validated user needs and service outcomes.
-- Deliver small, incremental releases instead of speculative features.
-- Test assumptions early with MVPs, prototypes or user research.
 
 #### Validated Performance Impact
 
@@ -197,12 +167,6 @@ Overprocessing is doing more work than necessary for the same result. In softwar
 Complexity accumulates quietly - every extra layer, meeting, or document increases cognitive load and slows adaptation. The result is a system that's heavy where it should be light.
 
 Reducing overprocessing means matching effort to value - choosing simplicity, clarity, and sufficiency over theoretical perfection.
-
-#### Practical Reduction Strategies
-
-- Apply “You aren’t going to need it”: implement features only when needed.
-- Keep architectures and abstractions simple.
-- Regularly review code and processes to remove redundant complexity.
 
 #### Validated Performance Impact
 
@@ -224,12 +188,6 @@ The later an error surfaces, the more expensive it becomes. Each missed test, un
 
 Reducing defects means building quality in - making testing, feedback, and improvement continuous parts of delivery rather than after-the-fact correction.
 
-#### Practical Reduction Strategies
-
-- Build quality in with **Test-Driven Development**, automated testing, and CI pipelines.
-- Perform code reviews and static analysis for high-risk areas.
-- Monitor production with observability tools to detect and prevent regressions.
-
 #### Validated Performance Impact
 
 ```mermaid
@@ -248,12 +206,6 @@ Often considered the most damaging waste of all, particularly in knowledge work:
 When teams are reduced to task-takers, innovation dies. The best engineers become disengaged, and the organisation loses its capacity to learn, adapt, and improve.
 
 Reducing this waste means treating developers as designers of systems - trusted to experiment, decide, and continuously shape how value flows to users.
-
-#### Practical Reduction Strategies
-
-- Empower teams with autonomy and ownership over outcomes.
-- Encourage contributions and ideas from all team members.
-- Allocate time for experimentation, learning, and innovation (spikes, hackdays).
 
 #### Validated Performance Impact
 
@@ -516,7 +468,7 @@ Ron Jeffries, one of the early advocates of story points in **Extreme Programmin
 
 #### Estimation as Commitment
 
-This is the most common and toxic way managers create unreasonable pressure. An estimate is a guess, a statement of probability, at best. A commitment is a promise. Turning a guess into a promise by default is an act of applying unreasonable, arbitrary load. This single act forces teams to cut corners (creating [Defects](#defects)), work in unsustainable "crunch" cycles, and ultimately causes burnout.
+This is the most common and toxic way managers create unreasonable pressure. An estimate is a guess, a statement of probability, at best. A commitment is a promise. Turning a guess into a promise by default is an act of applying unreasonable and arbitrary load. This single act forces teams to cut corners (creating [Defects](#defects)), work in unsustainable "crunch" cycles, and ultimately causes burnout.
 
 #### Hero Culture
 
@@ -526,7 +478,7 @@ Hero Culture is seductive because it feels like excellence. But it is actually t
 
 ### The Illusion of Agility
 
-These are behaviours that create a false sense of being agile, typically by adopting agile theatre, rituals, or scaled frameworks that _look_ agile but preserve waterfall/batch thinking.
+These are behaviours that create a false sense of being agile, typically by adopting agile theatre, rituals, or cargo-cult frameworks that _look_ agile but preserve waterfall and batch thinking.
 
 #### "Scrum-fall"
 
@@ -544,7 +496,7 @@ Obviously, the core ideas in this paper are not uniquely mine. They have been ar
 
 What makes these ideas so accessible is that their source texts aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are simply good ideas. Many aren't even new; we've had the playbook for more than two decades.
 
-They have been tested, refined, and over time, empirically proven to be the foundations of high-performing, sustainable, and humane technology organisations. They still hold up today because they were grounded in reality to begin with
+They have been tested, refined, and over time, empirically proven to be the foundations of high-performing, sustainable, and humane technology organisations. They still hold up today because they were grounded in reality to begin with.
 
 ### Recommended Reading
 
@@ -568,7 +520,7 @@ flowchart LR
     muda("Waste<br>(Muda)")
 ```
 
-This paper is not just theory; this is a practical, evidenced-based diagnostic toolkit. You can use it to see the waste, measure the flow, and identify the sources of overload that are slowly burning out your people and corroding your systems.
+This paper is not just theory; this is a practical, evidence-based diagnostic toolkit. You can use it to see the waste, measure the flow, and identify the sources of overload that are slowly burning out your people and corroding your systems.
 
 And it leaves every single person reading this with a choice...
 
@@ -576,9 +528,9 @@ For teams, the choice is to stop normalising the pain. Stop accepting unreasonab
 
 For leaders, the choice is more profound. You are the only ones who have the leverage to fix the system. You can fund a platform. You can sponsor a sociotechnical action plan. You can build a culture of psychological safety that eliminates fear. You can choose to measure outcomes and sustainability, not just activity and output.
 
-The alternative is to keep doing what you are doing. You can keep adding more governance, processes, planning, coordination, ceremonies, frameworks, tooling, committees, dashboards, and transformation programmes.
+The alternative is to keep adding more governance, processes, planning, coordination, ceremonies, frameworks, tooling, committees, dashboards, and transformation programmes.
 
-But make no mistake: you are just rearranging the deck chairs on the Titanic…
+But make no mistake: you are just rearranging the deck chairs on the Titanic...
 
 > The ideas, structure, and all final arguments and conclusions in this article are my own. As part of my research and revision workflow, I have used AI tools to accelerate drafting and language refinement.
 
