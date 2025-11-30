@@ -48,7 +48,7 @@ This paper argues that the core challenges facing modern software delivery organ
     - _Team Design_: **Domain-Driven Design** and **Team Topologies** to align team structures with decoupled architectures for manageable cognitive load.
     - _System Health_: Psychological safety, **Platform Engineering** (to absorb complexity), and **Continuous Refactoring** (to pay down _Technical Debt_).
 
-The paper concludes by highlighting common industry anti-patterns that institutionalise _Mura_ and _Muri_ (e.g. JIRA, Story Points, SAFe) and offers a practical diagnostic framework. Genuine, sustainable improvement depends not on new frameworks, but on systematically reducing overload, stabilising flow, and empowering teams to deliver small, safe, continuous changes.
+The paper concludes by highlighting common industry anti-patterns that institutionalise _Mura_ and _Muri_ (e.g. JIRA, Story Points, SAFe) and acts as a practical diagnostic framework. Genuine, sustainable improvement depends not on new frameworks, but on systematically reducing overload, stabilising flow, and empowering teams to deliver small, safe, continuous changes.
 
 ## Introduction
 
@@ -270,7 +270,7 @@ The key to **Kanban** is the Work in Progress (WIP) limit. A WIP limit is not a 
 
 WIP limits relentlessly expose hidden bottlenecks, making the [Waiting](#waiting), and the unevenness painfully visible. By forcing the team to pull new work only when capacity is available, WIP limits naturally smooth the flow.
 
-This effect is not just philosophical; it's mathematical. Queueing theory shows that as a system approaches full utilisation; its cycle time increases non-linearly. In other words, when everyone is "100% busy," work does not finish faster, it finishes _much_ slower. High WIP means more context switching, more [Waiting](#waiting), more [Inventory](#inventory) and more unevenness. A WIP limit creates slack, and slack creates flow.
+This is not philosophy; it is mathematics. Queueing theory shows that as a system approaches full utilisation; its cycle time increases non-linearly. In other words, when everyone is "100% busy," work does not finish faster, it finishes _much_ slower. High WIP means more context switching, more [Waiting](#waiting), more [Inventory](#inventory) and more unevenness. A WIP limit creates slack, and slack creates flow.
 
 #### The Cultural System
 
@@ -278,7 +278,9 @@ A pull-system on its own can still be thwarted by organisational structures and 
 
 In this broken model, developers are incentivised to deliver change (go fast), while operations are incentivised to maintain stability (go slow). This conflict guarantees a stop-start process of [Transportation](#transportation) followed by prolonged periods of [Waiting](#waiting). If a deployment fails, the work is thrown back, creating [Defects](#defects) and halting all forward progress.
 
-The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (“you build it, you run it”), it aligns these incentives and eliminates handoffs ([Transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. This cultural shift is the prerequisite for true, continuous flow, as it replaces these two large silos with a single, empowered team.
+The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (“you build it, you run it”), it aligns these incentives and eliminates handoffs ([Transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
+
+This cultural shift is the prerequisite for true, continuous flow, as it replaces these two large silos with a single, empowered team.
 
 #### The Technical System
 
@@ -389,7 +391,7 @@ This is the breeding ground for "hero culture", where individuals are praised fo
 
 The other half of _Muri_ is the overburden we place on our systems. The most common name for this is _Technical Debt_.
 
-This is frequently misunderstood as "old code", or even just "someone else's code". It isn't. It's the accumulation of shortcuts, compromises, or outdated assumptions - sometimes made under pressure, sometimes simply made with limited information - that increase the cost or risk of future change.
+Technical Debt is frequently misunderstood as "old code", or even just "someone else's code". It isn't. It's the accumulation of shortcuts, compromises, or outdated assumptions - sometimes made under pressure, sometimes simply made with limited information - that increase the cost or risk of future change.
 
 It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time we said, "We'll clean this up later". But later rarely comes. Over time, these choices form a fossil record of an organisation's priorities and stress patterns.
 
@@ -478,7 +480,7 @@ Hero Culture is seductive because it feels like excellence. But it is actually t
 
 ### The Illusion of Agility
 
-These are behaviours that create a false sense of being agile, typically by adopting agile theatre, rituals, or cargo-cult frameworks that _look_ agile but preserve waterfall and batch thinking.
+These are behaviours that create a false sense of being agile, typically by adopting agile theatre, rituals, or imitative frameworks that _look_ agile but preserve waterfall and batch thinking.
 
 #### "Scrum-fall"
 
