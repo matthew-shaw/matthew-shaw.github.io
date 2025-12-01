@@ -188,7 +188,7 @@ flowchart LR
 
 Overprocessing kills flow. **DORA** research supports that approval boards are negatively correlated with **Deployment Frequency** and **Change Lead Time**.
 
-Worse still, they fail at their primary job: safety. Low performers, characterised by heavy process gates, suffer a **Change Fail Percentage** of ~40%, compared to ~5% for Elite performers who rely on peer review. The data confirms that bureaucratic Overprocessing slows you down and makes you 8 times more likely to fail.
+Worse, they fail at their primary job: safety. Low performers, characterised by heavy process gates, suffer a **Change Fail Percentage** of ~40%, compared to ~5% for Elite performers who rely on peer review. The data confirms that bureaucratic Overprocessing slows you down and makes you 8 times more likely to fail.
 
 ### Defects
 
@@ -209,7 +209,7 @@ flowchart LR
 
 Defects are the direct driver of **Change Fail Percentage**. Low performers operate in a state where 40% of their changes fail, forcing them into reactive rework.
 
-When these defects occur, the impact on **Failed Deployment Recovery Time** is catastrophic. The 2024 data shows that Elite performers recover in less than one hour. Low performers take between one week and one month. This 2,293x difference proves that tolerating defects doesn't just hurt stability; it destroys your ability to recover.
+When these defects occur, the impact on **Failed Deployment Recovery Time** is catastrophic. Data from 2024 shows that Elite performers recover in less than one hour. Low performers take one week to one month. This 2,293x difference proves that tolerating defects doesn't just hurt stability; it destroys your ability to recover.
 
 ### Unused Talent
 
@@ -488,7 +488,7 @@ This is the most common and toxic way managers create unreasonable pressure. An 
 
 #### Hero Culture
 
-Hero Culture is what happens when chronic overload becomes normal, and the organisation quietly begins to rely on individuals who can absorb unreasonable load through personal sacrifice. The late-night deployment, the weekend fix, the 2am incident save, these become celebrated behaviours.
+Hero Culture is what happens when chronic overload becomes normal. The organisation quietly begins to rely on individuals who can absorb unreasonable load through personal sacrifice. The late-night deployment, the weekend fix, the 2am incident save, these become celebrated behaviours.
 
 Hero Culture is seductive because it feels like excellence. But it is actually the loudest symptom of failure: a system that only works when someone suffers. And because heroism "works" in the short term, it prevents leadership from seeing the real problem: the system is overburdened, brittle, and unsustainable. Heroes are not a strength. They are a warning sign.
 
@@ -510,7 +510,7 @@ SAFe attempts to manage the symptoms of unevenness, rather than eliminating the 
 
 Obviously, the core ideas in this paper are not uniquely mine. They have been articulated before, clearly and generously, by practitioners and researchers who have been solving these problems for decades. What I have tried to do is consolidate them in context, highlighting modern practices and methods that have emerged as industry leading since the Poppendiecks' original work on **Lean Software Development**.
 
-What makes these ideas so accessible is that their source texts aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are simply good ideas. Many aren't even new; we've had the playbook for more than two decades.
+What makes these ideas so accessible is that their source texts aren't trying to sell you anything. They are not frameworks. They do not come with a mandatory certification path, a five-day training plan, proprietary toolchains, or a lucrative consultancy engagement. They are simply good ideas. Many aren't even new; we've had the playbook for over two decades.
 
 They have been tested, refined, and over time, empirically proven to be the foundations of high-performing, sustainable, and humane technology organisations. They still hold up today because they were grounded in reality to begin with.
 
