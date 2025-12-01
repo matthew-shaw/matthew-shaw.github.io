@@ -304,7 +304,7 @@ In a high-flow system, a single commit can be built, tested, and deployed within
 
 ### Tracing the Root Cause
 
-_Mura_ is not just a vague feeling of chaos. In modern software delivery teams it is a problem you can detect and measure using **DORA** metrics. It is the "hurry up and wait" pattern that creates the waste (_Muda_) and symptoms of inefficiency.
+_Mura_ is not just a vague feeling of chaos. In modern software delivery teams, it is a problem you can detect and measure using **DORA** metrics. It is the "hurry up and wait" pattern that creates the waste (_Muda_) and symptoms of inefficiency.
 
 Unevenness is not "a system problem", it is almost always the direct result of:
 
@@ -474,7 +474,7 @@ This is the most common and toxic way managers create unreasonable pressure. An 
 
 #### Hero Culture
 
-Hero Culture is what happens when chronic overload becomes normal and the organisation quietly begins to rely on individuals who can absorb unreasonable load through personal sacrifice. The late-night deployment, the weekend fix, the 2am incident save, these become celebrated behaviours.
+Hero Culture is what happens when chronic overload becomes normal, and the organisation quietly begins to rely on individuals who can absorb unreasonable load through personal sacrifice. The late-night deployment, the weekend fix, the 2am incident save, these become celebrated behaviours.
 
 Hero Culture is seductive because it feels like excellence. But it is actually the loudest symptom of failure: a system that only works when someone suffers. And because heroism "works" in the short term, it prevents leadership from seeing the real problem: the system is overburdened, brittle, and unsustainable. Heroes are not a strength. They are a warning sign.
 
