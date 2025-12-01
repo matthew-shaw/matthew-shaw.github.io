@@ -64,7 +64,7 @@ This is a practical guide to diagnosing and resolving these issues. We will begi
 
 _Muda_ (無駄), meaning ”waste”, “futility” or “uselessness”, is any activity that consumes resources but creates no value. Modern practitioners have adapted the original seven wastes identified by Ohno, adding a critical eighth form: unused talent.
 
-Let's explore how each of these eight wastes manifests in software development.
+In software development, waste often hides in queues, backlogs, meetings, or handoffs.
 
 ### Transportation
 
@@ -83,7 +83,9 @@ flowchart LR
     transportation -- Decreases --> DF(Deployment Frequency)
 ```
 
-This waste is a primary driver of long **Change Lead Time**. Research from _Accelerate_ and the **DORA** program shows that reducing handoffs and enabling end-to-end ownership directly improves performance - shortening lead times and increasing **Deployment Frequency**.
+Transportation is one of the primary drivers of slow flow. The 2024 **DORA** benchmarks confirm that Elite performers, who have eliminated these handoffs to achieve flow, have a **Deployment Frequency** 182 times greater than Low performers.
+
+Because they don't wait for handoffs between teams, their **Change Lead Time** is 127 times faster (less than one day vs. up to six months). The data proves that you cannot achieve elite velocity without removing the need to transport work between silos.
 
 ### Inventory
 
@@ -102,7 +104,9 @@ flowchart LR
     inventory -- Increases --> CFR(Change Fail Percentage)
 ```
 
-High inventory (WIP) directly impacts both throughput and stability. It is a major contributor to poor **Change Lead Time**, as work waits in queues. It also increases the **Change Fail Percentage**, as large, complex batches are inherently riskier to merge and deploy. The **DORA** findings strongly support this: keeping work small (low WIP) leads to faster, safer, and more reliable delivery.
+High Inventory (WIP) acts as a queue that inflates **Change Lead Time**. Queueing theory ([Little's Law](https://en.wikipedia.org/wiki/Little's_law)) dictates that as WIP rises, lead time rises. The **DORA** data supports this: Low performers, who accumulate inventory in large batches, suffer lead times of one to six months.
+
+Crucially, this inventory accumulation also degrades stability. Low performers operating with large batch sizes have a **Change Fail Percentage** of ~40%, whereas Elite performers (small batches, low inventory) maintain a failure rate of ~5%. Holding inventory makes you 8 times more likely to fail.
 
 ### Motion
 
@@ -121,7 +125,7 @@ flowchart LR
     motion -- Increases --> CFR(Change Fail Percentage)
 ```
 
-Friction from manual tasks directly harms **Change Lead Time** and often increases the **Change Fail Percentage** due to human error. Data from the **DORA** studies confirms that automation and standardised development environments are key predictors of elite performance.
+Manual configuration is error-prone. The data shows that Elite performers, who use automation to remove this motion, achieve a **Change Fail Percentage** that is 8x lower than their manual-heavy counterparts. Automation doesn't just make the **Change Lead Time** faster; it removes the "human error" that causes deployments to fail.
 
 ### Waiting
 
@@ -139,7 +143,9 @@ flowchart LR
     LTC(Change Lead Time)
 ```
 
-Waiting is a pure component of **Change Lead Time**. _Accelerate_ research highlights fast feedback loops as one of the strongest predictors of success - teams that shorten the path from commit to deploy (which reduces waiting) consistently outperform those trapped in slow feedback cycles.
+Waiting is a pure component of **Change Lead Time**. The 2024 statistics show the devastating impact of "waiting for approval". Elite performers, who have continuous flow, go from commit to production in less than one day.
+
+Low performers, trapped in waiting cycles, take up to six months. This 127x difference is primarily composed of wait time. The actual coding time is often the same; the difference is the waste of waiting.
 
 ### Overproduction
 
@@ -158,7 +164,9 @@ flowchart LR
     overproduction -- Decreases --> DF(Deployment Frequency)
 ```
 
-Overproduction wastes capacity that could be used to improve **Deployment Frequency** and, by creating unnecessary code, can increase the **Change Fail Percentage**. The **DORA** research reinforces that small, validated releases reduce waste and improve stability, allowing teams to achieve both higher throughput and lower **Change Fail Percentage**.
+Overproduction clogs the pipeline. The 2024 **DORA** report found that while AI adoption increased the volume of code generation, it was statistically linked to a 1.5% decrease in throughput (**Deployment Frequency**) and a 7.2% decrease in stability (**Change Fail Percentage**).
+
+The magnitude isn't the point — the direction is. More code does not mean more value. This empirically proves that simply producing more without validation actively hurts both your frequency of delivery and your stability.
 
 ### Overprocessing
 
@@ -178,7 +186,9 @@ flowchart LR
     overprocessing -- Decreases --> DF(Deployment Frequency)
 ```
 
-Overprocessing adds unnecessary complexity, which directly increases **Change Lead Time** and can contribute to a higher **Change Fail Percentage**. Studies in _Accelerate_ show that simplifying architectures and streamlining technical and organisational processes reduce lead times and increase **Deployment Frequency** - proving that leaner, less bureaucratic systems deliver faster and more reliably.
+Overprocessing kills flow. **DORA** research supports that approval boards are negatively correlated with **Deployment Frequency** and **Change Lead Time**.
+
+Worse still, they fail at their primary job: safety. Low performers, characterised by heavy process gates, suffer a **Change Fail Percentage** of ~40%, compared to ~5% for Elite performers who rely on peer review. The data confirms that bureaucratic Overprocessing slows you down and makes you 8 times more likely to fail.
 
 ### Defects
 
@@ -197,7 +207,9 @@ flowchart LR
     defects -- Increases --> TRS(Failed Deployment Recovery Time)
 ```
 
-This waste is a direct measure of the **Change Fail Percentage** and impacts **Failed Deployment Recovery Time**. **DORA**'s data shows that teams that build in quality through automation and shared ownership see lower failure rates and faster recovery - proving that speed and quality rise together.
+Defects are the direct driver of **Change Fail Percentage**. Low performers operate in a state where 40% of their changes fail, forcing them into reactive rework.
+
+When these defects occur, the impact on **Failed Deployment Recovery Time** is catastrophic. The 2024 data shows that Elite performers recover in less than one hour. Low performers take between one week and one month. This 2,293x difference proves that tolerating defects doesn't just hurt stability; it destroys your ability to recover.
 
 ### Unused Talent
 
@@ -218,7 +230,9 @@ flowchart LR
     unused_talent -- Decreases --> DF(Deployment Frequency)
 ```
 
-The _Accelerate_ research identifies culture as a decisive factor in performance, impacting all four **DORA** metrics. Teams with autonomy, trust, and psychological safety deliver faster (**Change Lead Time**, **Deployment Frequency**), fail less (**Change Fail Percentage**), and recover more quickly (**Failed Deployment Recovery Time**) - proving that empowering people is the most powerful efficiency gain of all.
+Unused Talent acts as a dampener on all four metrics. The 2024 report identifies a "Generative" culture (high trust, high agency) as a predictor for Software Delivery Performance as a whole.
+
+Organisations that waste talent with unstable priorities or limiting autonomy see an increase in burnout. Teams with high burnout are incapable of achieving Elite status in **Change Lead Time**, **Deployment Frequency**, or **Change Fail Percentage**. Empowering people is the prerequisite for moving the needle on all four **DORA** metrics.
 
 ### From Symptoms to Systems
 
@@ -403,7 +417,7 @@ Technical debt manifests as:
 
 We can fix this by absorbing, removing and preventing it:
 
-```mermaid
+``````mermaid
 flowchart LR
     TD(Technical Debt) -- Absorbed by --> PE(Platform Engineering) 
     TD -- Removed by --> CR(Continuous Refactoring)
@@ -515,7 +529,7 @@ They have been tested, refined, and over time, empirically proven to be the foun
 
 We can now see the full causal chain of events:
 
-```mermaid
+``````mermaid
 flowchart LR
     muri("Overburden<br>(Muri)") -- Causes -->
     mura("Unevenness<br>(Mura)") -- Causes -->
