@@ -138,8 +138,8 @@ flowchart LR
     Trans & OverP & OverPr & Talent -- Decreases --> DF
 ```
 
-- **Change Lead Time**: Queues caused by high [Inventory](#inventory) ([Little's Law](https://en.wikipedia.org/wiki/Little%27s_law)) and the "hurry up and wait" cycles of [Transportation](#transportation) and [Waiting](#waiting) are the primary drivers of slow delivery. Elite performers, who have eliminated these wastes to achieve continuous flow, go from commit to production in less than one day. Low performers take up to six months, a 127 times difference.
-- **Deployment Frequency**: [Overprocessing](#overprocessing) and [Transportation](#transportation) act as brakes on throughput. Elite performers achieve a Deployment Frequency 182 times greater than low performers. Furthermore, AI adoption without flow optimisation resulted in a 1.5% decrease in throughput, proving that [Overproduction](#overproduction) of code actively hurts frequency.
+- **Change Lead Time**: Queues caused by high [Inventory](#inventory) ([Little's Law](https://en.wikipedia.org/wiki/Little%27s_law)) and the "hurry up and wait" cycles of [Transportation](#transportation) and [Waiting](#waiting) are the primary drivers of slow delivery. Low performers take between one and six months to go from commit to production. Elite performers, who have eliminated these wastes to achieve continuous flow, take less than one day, achieving a 127 times faster lead time.
+- **Deployment Frequency**: [Overprocessing](#overprocessing) and [Transportation](#transportation) act as brakes on throughput. Low performers only deploy to production between once a month, and once every six months. In contrast, Elite performers achieve an on-demand Deployment Frequency, deploying multiple times per day, 182 times more deployments per year. Furthermore, AI adoption without flow optimisation resulted in a 1.5% decrease in throughput, proving that [Overproduction](#overproduction) of code actively hurts speed.
 
 #### The Impact on Stability
 
@@ -161,7 +161,7 @@ flowchart LR
 ```
 
 - **Change Fail Percentage**: High [Inventory](#inventory) and [Overprocessing](#overprocessing) are correlated with higher failure rates. Low performers suffer a failure rate of ~40%, whereas Elite performers maintain a rate of ~5%. Simply put, holding [Inventory](#inventory) and relying on manual [Motion](#motion) makes you 8 times more likely to fail.
-- **Failed Deployment Recovery Time**: When [Defects](#defects) do occur, the ability to recover is defined by how much waste is in the system. Elite performers recover in less than one hour, while Low performers take between one week and one month. This 2,293 times difference highlights that waste doesn't just cause failures; it prevents recovery.
+- **Failed Deployment Recovery Time**: When [Defects](#defects) do occur, the ability to recover is defined by how much waste is in the system. Low performers take between one week and one month to recover from a failed deployment, while Elite performers recover in less than one hour. This remarkable 2,293 times faster recovery time highlights that waste doesn't just cause failures; it prevents recovery.
 
 #### The Multiplier
 
