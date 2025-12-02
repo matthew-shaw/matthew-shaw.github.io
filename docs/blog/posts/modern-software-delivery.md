@@ -62,7 +62,7 @@ This is a practical guide to diagnosing and resolving these issues. We will begi
 
 ## Muda: The Eight Wastes
 
-_Muda_ (無駄), meaning ”waste”, “futility” or “uselessness”, is any activity that consumes resources but creates no value. Modern practitioners have adapted the original seven wastes identified by Ohno, adding a critical eighth form: unused talent.
+_Muda_ (無駄), meaning "waste", "futility" or "uselessness", is any activity that consumes resources but creates no value. Modern practitioners have adapted the original seven wastes identified by Ohno, adding a critical eighth form: unused talent.
 
 In software development, waste often hides in queues, backlogs, meetings, or handoffs.
 
@@ -70,179 +70,112 @@ In software development, waste often hides in queues, backlogs, meetings, or han
 
 In manufacturing, transportation waste is the unnecessary movement of materials - moving parts without improving them. In software, it's the same pattern made invisible: unnecessary handoffs between people, tools, or environments.
 
-Every transfer adds friction and risk. Knowledge gets diluted, priorities drift, and work waits for permission to move. The cost isn't just time - it's lost clarity, context, and momentum.
-
-Reducing transportation means shortening the path from idea to running code in production and giving teams direct ownership of outcomes.
-
-#### Validated Performance Impact
-
-```mermaid
-flowchart LR
-    transportation(Transportation) -- Increases -->
-    LTC(Change Lead Time)
-    transportation -- Decreases --> DF(Deployment Frequency)
-```
-
-Transportation is one of the primary drivers of slow flow. The 2024 **DORA** benchmarks confirm that Elite performers, who have eliminated these handoffs to achieve flow, have a **Deployment Frequency** 182 times greater than Low performers.
-
-Because they don't wait for handoffs between teams, their **Change Lead Time** is 127 times faster (less than one day vs. up to six months). The data proves that you cannot achieve elite velocity without removing the need to transport work between silos.
+Every transfer adds friction and risk. Knowledge gets diluted, priorities drift, and work waits for permission to move. The cost isn't just time - it's lost clarity, context, and momentum. Reducing transportation means shortening the path from idea to running code in production and giving teams direct ownership of outcomes.
 
 ### Inventory
 
 In manufacturing, inventory waste means stock that's been built but isn't delivering value. In software, that inventory lives as unfinished code, unmerged branches, bloated backlogs that are rarely pruned, and half-validated features.
 
-Every line of dormant code represents work that's not improving services. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context.
-
-**Lean** flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The focus must shift from starting work to finishing work, which requires limiting work-in-progress (WIP).
-
-#### Validated Performance Impact
-
-```mermaid
-flowchart LR
-    inventory(Inventory) -- Increases -->
-    LTC(Change Lead Time)
-    inventory -- Increases --> CFR(Change Fail Percentage)
-```
-
-High Inventory (WIP) acts as a queue that inflates **Change Lead Time**. Queueing theory ([Little's Law](https://en.wikipedia.org/wiki/Little's_law)) dictates that as WIP rises, lead time rises. The **DORA** data supports this: Low performers, who accumulate inventory in large batches, suffer lead times of one to six months.
-
-Crucially, this inventory accumulation also degrades stability. Low performers operating with large batch sizes have a **Change Fail Percentage** of ~40%, whereas Elite performers (small batches, low inventory) maintain a failure rate of ~5%. Holding inventory makes you 8 times more likely to fail.
+Every line of dormant code represents work that's not improving services. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context. **Lean** flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The focus must shift from starting work to finishing work, which requires limiting work-in-progress (WIP).
 
 ### Motion
 
 Motion waste is the unnecessary movement of people or tools. In software, it shows up as manual setup steps, repetitive configuration, inconsistent environments, or scattered information.
 
-Every manual click or repeated setup is friction that interrupts focus. Developers spend time wrestling with tools instead of solving problems.
-
-Reducing motion means building a smooth, predictable developer experience - one where environments, builds, and feedback are automatic, consistent, and close at hand.
-
-#### Validated Performance Impact
-
-```mermaid
-flowchart LR
-    motion(Motion) -- Increases -->
-    LTC(Change Lead Time)
-    motion -- Increases --> CFR(Change Fail Percentage)
-```
-
-Manual configuration is error-prone. The data shows that Elite performers, who use automation to remove this motion, achieve a **Change Fail Percentage** that is 8x lower than their manual-heavy counterparts. Automation doesn't just make the **Change Lead Time** faster; it removes the "human error" that causes deployments to fail.
+Every manual click or repeated setup is friction that interrupts focus. Developers spend time wrestling with tools instead of solving problems. Reducing motion means building a smooth, predictable developer experience - one where environments, builds, and feedback are automatic, consistent, and close at hand.
 
 ### Waiting
 
 In manufacturing, idle machines burn money. In software, idle people burn opportunity. Waiting waste is the silent cost of slow builds, blocked reviews, overloaded dependencies, or delayed feedback.
 
-Every delay in the feedback loop weakens flow and motivation. Engineers lose context, teams lose pace, and users wait longer for improvements.
-
-Reducing waiting means collapsing those loops - making feedback continuous, not calendar-driven - so progress never depends on someone else's availability.
-
-#### Validated Performance Impact
-
-```mermaid
-flowchart LR
-    waiting(Waiting) -- Increases -->
-    LTC(Change Lead Time)
-```
-
-Waiting is a pure component of **Change Lead Time**. The 2024 statistics show the devastating impact of "waiting for approval". Elite performers, who have continuous flow, go from commit to production in less than one day.
-
-Low performers, trapped in waiting cycles, take up to six months. This 127x difference is primarily composed of wait time. The actual coding time is often the same; the difference is the waste of waiting.
+Every delay in the feedback loop weakens flow and motivation. Engineers lose context, teams lose pace, and users wait longer for improvements. Reducing waiting means collapsing those loops - making feedback continuous, not calendar-driven - so progress never depends on someone else's availability.
 
 ### Overproduction
 
 Overproduction is building more than what's needed - features without validation, designs without user input, or automation without purpose.
 
-It's seductive because it looks like progress. Teams deliver features, fill backlogs, and complete roadmaps - but if it doesn't meet a user need or improve service quality, it's waste disguised as delivery.
-
-Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is user value, not feature count.
-
-#### Validated Performance Impact
-
-```mermaid
-flowchart LR
-    overproduction(Overproduction) -- Increases -->
-    CFR(Change Fail Percentage)
-    overproduction -- Decreases --> DF(Deployment Frequency)
-```
-
-Overproduction clogs the pipeline. The 2024 **DORA** report found that while AI adoption increased the volume of code generation, it was statistically linked to a 1.5% decrease in throughput (**Deployment Frequency**) and a 7.2% decrease in stability (**Change Fail Percentage**).
-
-The magnitude isn't the point — the direction is. More code does not mean more value. This empirically proves that simply producing more without validation actively hurts both your frequency of delivery and your stability.
+It's seductive because it looks like progress. Teams deliver features, fill backlogs, and complete roadmaps - but if it doesn't meet a user need or improve service quality, it's waste disguised as delivery. Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is user value, not feature count.
 
 ### Overprocessing
 
 Overprocessing is doing more work than necessary for the same result. In software, it's overengineering, unnecessary abstraction, or process overhead added "just in case".
 
-Complexity accumulates quietly - every extra layer, meeting, or document increases cognitive load and slows adaptation. The result is a system that's heavy where it should be light.
-
-Reducing overprocessing means matching effort to value - choosing simplicity, clarity, and sufficiency over theoretical perfection.
-
-#### Validated Performance Impact
-
-```mermaid
-flowchart LR
-    overprocessing(Overprocessing) -- Increases -->
-    LTC(Change Lead Time)
-    overprocessing -- Increases --> CFR(Change Fail Percentage)
-    overprocessing -- Decreases --> DF(Deployment Frequency)
-```
-
-Overprocessing kills flow. **DORA** research supports that approval boards are negatively correlated with **Deployment Frequency** and **Change Lead Time**.
-
-Worse, they fail at their primary job: safety. Low performers, characterised by heavy process gates, suffer a **Change Fail Percentage** of ~40%, compared to ~5% for Elite performers who rely on peer review. The data confirms that bureaucratic Overprocessing slows you down and makes you 8 times more likely to fail.
+Complexity accumulates quietly - every extra layer, meeting, or document increases cognitive load and slows adaptation. The result is a system that's heavy where it should be light. Reducing overprocessing means matching effort to value - choosing simplicity, clarity, and sufficiency over theoretical perfection.
 
 ### Defects
 
 Defects are the most visible waste - bugs, outages, regressions, or rework. But every defect is a symptom of a deeper process failure - a flaw in testing, a gap in understanding, or a rushed review.
 
-The later an error surfaces, the more expensive it becomes. Each missed test, unchecked assumption, or rushed review compounds until failure becomes inevitable.
-
-Reducing defects means building quality in - making testing, feedback, and improvement continuous parts of delivery rather than after-the-fact correction.
-
-#### Validated Performance Impact
-
-```mermaid
-flowchart LR
-    defects(Defects) -- Increases -->
-    CFR(Change Fail Percentage)
-    defects -- Increases --> TRS(Failed Deployment Recovery Time)
-```
-
-Defects are the direct driver of **Change Fail Percentage**. Low performers operate in a state where 40% of their changes fail, forcing them into reactive rework.
-
-When these defects occur, the impact on **Failed Deployment Recovery Time** is catastrophic. Data from 2024 shows that Elite performers recover in less than one hour. Low performers take one week to one month. This 2,293x difference proves that tolerating defects doesn't just hurt stability; it destroys your ability to recover.
+The later an error surfaces, the more expensive it becomes. Each missed test, unchecked assumption, or rushed review compounds until failure becomes inevitable. Reducing defects means building quality in - making testing, feedback, and improvement continuous parts of delivery rather than after-the-fact correction.
 
 ### Unused Talent
 
 Often considered the most damaging waste of all, particularly in knowledge work: failing to use the creativity and insight of the people closest to the work.
 
-When teams are reduced to task-takers, innovation dies. The best engineers become disengaged, and the organisation loses its capacity to learn, adapt, and improve.
+When teams are reduced to task-takers, innovation dies. The best engineers become disengaged, and the organisation loses its capacity to learn, adapt, and improve. Reducing this waste means treating developers as designers of systems - trusted to experiment, decide, and continuously shape how value flows to users.
 
-Reducing this waste means treating developers as designers of systems - trusted to experiment, decide, and continuously shape how value flows to users.
+### Software Delivery Performance
 
-#### Validated Performance Impact
+The eight wastes are empirically linked to degraded software delivery performance. Data from the 2024 **DORA** report and the _Accelerate_ research allows us to quantify exactly how these wastes impact the four key metrics of high performance.
+
+#### The Impact on Throughput
+
+Wastes that introduce friction devastate velocity:
 
 ```mermaid
 flowchart LR
-    unused_talent(Unused Talent) -- Increases -->
-    CFR(Change Fail Percentage)
-    unused_talent -- Increases --> TRS(Failed Deployment Recovery Time)
-    unused_talent -- Increases --> LTC(Change Lead Time)
-    unused_talent -- Decreases --> DF(Deployment Frequency)
+    Trans(Transportation)
+    Inv(Inventory)
+    Wait(Waiting)
+    OverP(Overproduction)
+    OverPr(Overprocessing)
+    Talent(Unused Talent)
+
+    LTC(Change Lead Time)
+    DF(Deployment Frequency)
+
+    Trans & Inv & Wait & OverPr & Talent -- Increases --> LTC
+    Trans & OverP & OverPr & Talent -- Decreases --> DF
 ```
 
-Unused Talent acts as a dampener on all four metrics. The 2024 report identifies a "Generative" culture (high trust, high agency) as a predictor for Software Delivery Performance as a whole.
+- **Change Lead Time**: Queues caused by high [Inventory](#inventory) ([Little's Law](https://en.wikipedia.org/wiki/Little%27s_law)) and the "hurry up and wait" cycles of [Transportation](#transportation) and [Waiting](#waiting) are the primary drivers of slow delivery. Elite performers, who have eliminated these wastes to achieve continuous flow, go from commit to production in less than one day. Low performers take up to six months, a 127x difference.
+- **Deployment Frequency**: [Overprocessing](#overprocessing) and [Transportation](#transportation) act as brakes on throughput. Elite performers achieve a Deployment Frequency 182 times greater than low performers. Furthermore, AI adoption without flow optimisation resulted in a 1.5% decrease in throughput, proving that [Overproduction](#overproduction) of code actively hurts frequency.
 
-Organisations that waste talent with unstable priorities or limiting autonomy see an increase in burnout. Teams with high burnout are incapable of achieving Elite status in **Change Lead Time**, **Deployment Frequency**, or **Change Fail Percentage**. Empowering people is the prerequisite for moving the needle on all four **DORA** metrics.
+#### The Impact on Stability
+
+Wastes that obscure feedback or increase complexity destroy system stability:
+
+```mermaid
+flowchart LR
+    Inv(Inventory)
+    Mot(Motion)
+    OverPr(Overprocessing)
+    Def(Defects)
+    Talent(Unused Talent)
+
+    CFR(Change Fail Percentage)
+    TRS(Failed Deployment Recovery Time)
+
+    Inv & Mot & OverPr & Def & Talent -- Increases --> CFR
+    Def & Talent -- Increases --> TRS
+```
+
+- **Change Fail Percentage**: High [Inventory](#inventory) and [Overprocessing](#overprocessing) are correlated with higher failure rates. Low performers suffer a failure rate of ~40%, whereas Elite performers maintain a rate of ~5%. Simply put, holding [Inventory](#inventory) and relying on manual [Motion](#motion) makes you 8 times more likely to fail.
+- **Failed Deployment Recovery Time**: When [Defects](#defects) do occur, the ability to recover is defined by how much waste is in the system. Elite performers recover in less than one hour, while Low performers take between one week and one month. This 2,293x difference highlights that waste doesn't just cause failures; it prevents recovery.
+
+#### The Multiplier: Unused Talent
+
+[Unused Talent](#unused-talent) acts as a dampener on all four metrics simultaneously. A "Generative" culture (high trust, high agency) is a top predictor of performance. Organisations that waste talent through low autonomy or high burnout are statistically incapable of achieving Elite status in _any_ of the four metrics.
 
 ### From Symptoms to Systems
 
-The eight wastes aren't just a checklist: they're a mindset. They challenge us to constantly ask: "Is this activity adding value, or just keeping us busy?" _Accelerate_ and **DORA** have shown that the **Lean** foundations of flow, feedback, and empowerment remain the strongest predictors of high performance today.
+The eight wastes aren't just a checklist: they're a mindset. They challenge us to constantly ask: "Is this activity adding value, or just keeping us busy?"
 
 But waste is only a symptom. The real question is: why does waste appear in the first place?
 
 ## Mura: The Source of Uneven Flow
 
-_Mura_ (斑), meaning “unevenness” or “irregularity” is the inconsistency in how work flows, the “hurry up and wait” cycle. It manifests as periods of low activity followed by frantic catch-up, rendering delivery unpredictable and unsustainable.
+_Mura_ (斑), meaning "unevenness" or "irregularity" is the inconsistency in how work flows, the "hurry up and wait" cycle. It manifests as periods of low activity followed by frantic catch-up, rendering delivery unpredictable and unsustainable.
 
 This section examines in depth how to identify uneven flow, and how modern software delivery practices work together to reduce inconsistency and create predictability.
 
@@ -292,7 +225,7 @@ A pull-system on its own can still be thwarted by organisational structures and 
 
 In this broken model, developers are incentivised to deliver change (go fast), while operations are incentivised to maintain stability (go slow). This conflict guarantees a stop-start process of [Transportation](#transportation) followed by prolonged periods of [Waiting](#waiting). If a deployment fails, the work is thrown back, creating [Defects](#defects) and halting all forward progress.
 
-The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (“you build it, you run it”), it aligns these incentives and eliminates handoffs ([Transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
+The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility ("you build it, you run it"), it aligns these incentives and eliminates handoffs ([Transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
 
 This cultural shift is the prerequisite for true, continuous flow, as it replaces these two large silos with a single, empowered team.
 
@@ -334,7 +267,7 @@ These patterns aren’t random; they are the system's response to overburden, or
 
 ## Muri: The Root Cause of Overburden
 
-_Muri_ (無理), meaning “overburden” or “unreasonable load”, is the root cause. In manufacturing, _Muri_ was a physical strain. In software, it is the invisible pressure we place on the two load-bearing parts of any technology organisation: the people who change the system and the system they are forced to change.
+_Muri_ (無理), meaning "overburden" or "unreasonable load", is the root cause. In manufacturing, _Muri_ was a physical strain. In software, it is the invisible pressure we place on the two load-bearing parts of any technology organisation: the people who change the system and the system they are forced to change.
 
 _Muri_ isn’t dramatic, it's not loud and it doesn't announce itself with outages. _Muri_ accumulates slowly and becomes the norm. And because of that, it's the most dangerous of the three.
 
@@ -357,7 +290,7 @@ This is the "brain overburden" of a system that is too complex, too coupled, or 
 High cognitive load causes teams to create [Overprocessing](#overprocessing) as they attempt to manage complexity, fuels [Motion](#motion) waste through constant tool and context-switching, and ultimately increases [Defects](#defects) because overloaded humans make mistakes.
 
 It's a direct reflection of a fragmented organisation. As [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) observed decades ago:  
-> _“Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure.”_
+> _"Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure."_
 
 If you have siloed "Frontend", "Backend", and "Database" teams for example, you will inevitably create a system with high-friction handoffs and a coupled, high-burden architecture. You are, in effect, shipping your org chart.
 
