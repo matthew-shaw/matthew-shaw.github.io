@@ -350,7 +350,7 @@ Technical debt manifests as:
 
 We can fix this by absorbing, removing and preventing it:
 
-``````mermaid
+```mermaid
 flowchart LR
     TD(Technical Debt) -- Absorbed by --> PE(Platform Engineering) 
     TD -- Removed by --> CR(Continuous Refactoring)
@@ -462,7 +462,7 @@ They have been tested, refined, and over time, empirically proven to be the foun
 
 We can now see the full causal chain of events:
 
-``````mermaid
+```mermaid
 flowchart LR
     muri("Overburden<br>(Muri)") -- Causes -->
     mura("Unevenness<br>(Mura)") -- Causes -->
