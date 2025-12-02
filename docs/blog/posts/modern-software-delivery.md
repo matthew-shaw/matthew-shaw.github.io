@@ -138,7 +138,7 @@ flowchart LR
     Trans & OverP & OverPr & Talent -- Decreases --> DF
 ```
 
-- **Change Lead Time**: Queues caused by high [Inventory](#inventory) ([Little's Law](https://en.wikipedia.org/wiki/Little%27s_law)) and the "hurry up and wait" cycles of [Transportation](#transportation) and [Waiting](#waiting) are the primary drivers of slow delivery. Elite performers, who have eliminated these wastes to achieve continuous flow, go from commit to production in less than one day. Low performers take up to six months, a 127x difference.
+- **Change Lead Time**: Queues caused by high [Inventory](#inventory) ([Little's Law](https://en.wikipedia.org/wiki/Little%27s_law)) and the "hurry up and wait" cycles of [Transportation](#transportation) and [Waiting](#waiting) are the primary drivers of slow delivery. Elite performers, who have eliminated these wastes to achieve continuous flow, go from commit to production in less than one day. Low performers take up to six months, a 127 times difference.
 - **Deployment Frequency**: [Overprocessing](#overprocessing) and [Transportation](#transportation) act as brakes on throughput. Elite performers achieve a Deployment Frequency 182 times greater than low performers. Furthermore, AI adoption without flow optimisation resulted in a 1.5% decrease in throughput, proving that [Overproduction](#overproduction) of code actively hurts frequency.
 
 #### The Impact on Stability
@@ -161,7 +161,7 @@ flowchart LR
 ```
 
 - **Change Fail Percentage**: High [Inventory](#inventory) and [Overprocessing](#overprocessing) are correlated with higher failure rates. Low performers suffer a failure rate of ~40%, whereas Elite performers maintain a rate of ~5%. Simply put, holding [Inventory](#inventory) and relying on manual [Motion](#motion) makes you 8 times more likely to fail.
-- **Failed Deployment Recovery Time**: When [Defects](#defects) do occur, the ability to recover is defined by how much waste is in the system. Elite performers recover in less than one hour, while Low performers take between one week and one month. This 2,293x difference highlights that waste doesn't just cause failures; it prevents recovery.
+- **Failed Deployment Recovery Time**: When [Defects](#defects) do occur, the ability to recover is defined by how much waste is in the system. Elite performers recover in less than one hour, while Low performers take between one week and one month. This 2,293 times difference highlights that waste doesn't just cause failures; it prevents recovery.
 
 #### The Multiplier
 
