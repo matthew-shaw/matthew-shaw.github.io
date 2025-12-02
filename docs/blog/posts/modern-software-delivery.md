@@ -76,7 +76,7 @@ Every transfer adds friction and risk. Knowledge gets diluted, priorities drift,
 
 In manufacturing, inventory waste means stock that's been built but isn't delivering value. In software, that inventory lives as unfinished code, unmerged branches, bloated backlogs that are rarely pruned, and half-validated features.
 
-Every line of dormant code represents work that's not improving services. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context. **Lean** flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The focus must shift from starting work to finishing work, which requires limiting work-in-progress (WIP).
+Every line of dormant code represents work that's not improving services. It clogs flow, hides defects, and accumulates merge conflicts, stale dependencies, and forgotten context. **Lean** flow depends on fast feedback. When inventory piles up, feedback slows, and value creation stops. The focus must shift from starting work to finishing work.
 
 ### Motion
 
@@ -92,7 +92,7 @@ Every delay in the feedback loop weakens flow and motivation. Engineers lose con
 
 ### Overproduction
 
-Overproduction is building more than what's needed - features without validation, designs without user input, or automation without purpose.
+Overproduction is building more than what's needed - features without validation, designs without user input, or automation without purpose. Building more code also means maintaining more code.
 
 It's seductive because it looks like progress. Teams deliver features, fill backlogs, and complete roadmaps - but if it doesn't meet a user need or improve service quality, it's waste disguised as delivery. Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is user value, not feature count.
 
@@ -163,7 +163,7 @@ flowchart LR
 - **Change Fail Percentage**: High [Inventory](#inventory) and [Overprocessing](#overprocessing) are correlated with higher failure rates. Low performers suffer a failure rate of ~40%, whereas Elite performers maintain a rate of ~5%. Simply put, holding [Inventory](#inventory) and relying on manual [Motion](#motion) makes you 8 times more likely to fail.
 - **Failed Deployment Recovery Time**: When [Defects](#defects) do occur, the ability to recover is defined by how much waste is in the system. Elite performers recover in less than one hour, while Low performers take between one week and one month. This 2,293x difference highlights that waste doesn't just cause failures; it prevents recovery.
 
-#### The Multiplier: Unused Talent
+#### The Multiplier
 
 [Unused Talent](#unused-talent) acts as a dampener on all four metrics simultaneously. A "Generative" culture (high trust, high agency) is a top predictor of performance. Organisations that waste talent through low autonomy or high burnout are statistically incapable of achieving Elite status in _any_ of the four metrics.
 
