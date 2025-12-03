@@ -114,7 +114,7 @@ When teams are reduced to task-takers, innovation dies. The best engineers becom
 
 ### Software Delivery Performance
 
-The eight wastes are empirically linked to degraded software delivery performance. Data from the [2024 State of DevOps report](https://dora.dev/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf) and the _Accelerate_ research allows us to quantify exactly how these wastes impact the four key metrics of high performance.
+The eight wastes are empirically linked to degraded software delivery performance. Data from the [Accelerate State of DevOps Report 2024](https://dora.dev/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf) allows us to quantify exactly how these wastes impact the four key metrics of high performance.
 
 #### The Impact on Throughput
 
@@ -136,8 +136,8 @@ flowchart LR
     Trans & OverP & OverPr & Talent -- Decreases --> DF
 ```
 
-- **Change Lead Time**: Queues caused by high [Inventory](#inventory) ([Little's Law](https://en.wikipedia.org/wiki/Little%27s_law)) and the "hurry up and wait" cycles of [Transportation](#transportation) and [Waiting](#waiting) are the primary drivers of slow delivery. Low performers take between one and six months to go from commit to production. Elite performers, who have eliminated these wastes to achieve continuous flow, take less than one day, achieving a **127 times faster lead time**.
-- **Deployment Frequency**: [Overprocessing](#overprocessing) and [Transportation](#transportation) act as brakes on throughput. Low performers only deploy to production between once a month, and once every six months. In contrast, Elite performers achieve an on-demand Deployment Frequency, deploying multiple times per day, **182 times more deployments per year**. Furthermore, AI adoption without flow optimisation resulted in a 1.5% decrease in throughput, proving that [Overproduction](#overproduction) of code actively hurts speed.
+- **Change Lead Time**: Queues caused by high [Inventory](#inventory) ([Little's Law](https://en.wikipedia.org/wiki/Little%27s_law)) and the "hurry up and wait" cycles of [Transportation](#transportation) and [Waiting](#waiting) are the primary drivers of slow delivery. Low performers take between one and six months to go from commit to production. Elite performers, who have eliminated these wastes to achieve continuous flow, take less than one day, achieving a **127 times faster lead time**[^1].
+- **Deployment Frequency**: [Overprocessing](#overprocessing) and [Transportation](#transportation) act as brakes on throughput. Low performers only deploy to production between once a month, and once every six months. In contrast, Elite performers achieve an on-demand Deployment Frequency, deploying multiple times per day, **182 times more deployments per year**[^1]. Furthermore, AI adoption without flow optimisation resulted in a 1.5% decrease in throughput, proving that [Overproduction](#overproduction) of code actively hurts speed.
 
 #### The Impact on Stability
 
@@ -158,8 +158,8 @@ flowchart LR
     Def & Talent -- Increases --> TRS
 ```
 
-- **Change Fail Percentage**: High [Inventory](#inventory) and [Overprocessing](#overprocessing) are correlated with higher failure rates. Low performers suffer a failure rate of ~40%, whereas Elite performers maintain a rate of ~5%. Simply put, holding [Inventory](#inventory) and relying on manual [Motion](#motion) makes you **8 times more likely to fail**.
-- **Failed Deployment Recovery Time**: When [Defects](#defects) do occur, the ability to recover is defined by how much waste is in the system. Low performers take between one week and one month to recover from a failed deployment, while Elite performers recover in less than one hour. This remarkable **2,293 times faster recovery time** highlights that waste doesn't just cause failures; it prevents recovery.
+- **Change Fail Percentage**: High [Inventory](#inventory) and [Overprocessing](#overprocessing) are correlated with higher failure rates. Low performers suffer a failure rate of ~40%, whereas Elite performers maintain a rate of ~5%. Simply put, holding [Inventory](#inventory) and relying on manual [Motion](#motion) makes you **8 times more likely to fail**[^1].
+- **Failed Deployment Recovery Time**: When [Defects](#defects) do occur, the ability to recover is defined by how much waste is in the system. Low performers take between one week and one month to recover from a failed deployment, while Elite performers recover in less than one hour. This remarkable **2,293 times faster recovery time**[^1] highlights that waste doesn't just cause failures; it prevents recovery.
 
 #### The Multiplier
 
@@ -488,3 +488,5 @@ But make no mistake: you are just rearranging the deck chairs on the Titanic...
 [:fontawesome-brands-linkedin: Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{page.canonical_url}}){ .md-button .md-button--primary }
 
 [:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?text={{ page.title | urlencode }}&url={{ page.canonical_url }}&hashtags={% for tag in page.meta.tags %}{{ tag | replace(" ", "") }},{% endfor %}&via=MattShaw85){ .md-button .md-button--primary }
+
+[^1]: "Accelerate State of DevOps Report 2024". DORA, 2024, <https://dora.dev/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf>

@@ -25,6 +25,7 @@ theme:
   favicon: assets/images/favicon.svg
   features:
     - content.code.copy
+    - content.footnote.tooltips
     - content.tooltips
     - navigation.footer
     - navigation.indexes
@@ -121,6 +122,7 @@ markdown_extensions:
   - abbr
   - admonition
   - attr_list
+  - footnotes
   - md_in_html
   - pymdownx.caret
   - pymdownx.details
