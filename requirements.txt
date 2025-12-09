@@ -104,13 +104,13 @@ pillow==11.3.0
     # via
     #   cairosvg
     #   mkdocs-material
-platformdirs==4.5.0
+platformdirs==4.5.1
     # via mkdocs-get-deps
 pycparser==2.23
     # via cffi
 pygments==2.19.2
     # via mkdocs-material
-pymdown-extensions==10.17.2
+pymdown-extensions==10.18
     # via mkdocs-material
 python-dateutil==2.9.0.post0
     # via
@@ -131,7 +131,7 @@ requests==2.32.5
     #   mkdocs-macros-plugin
     #   mkdocs-material
     #   mkdocs-rss-plugin
-selectolax==0.4.4
+selectolax==0.4.6
     # via mkdocs-glightbox
 six==1.17.0
     # via python-dateutil
@@ -145,7 +145,7 @@ tinycss2==1.5.1
     # via
     #   cairosvg
     #   cssselect2
-urllib3==2.5.0
+urllib3==2.6.1
     # via requests
 watchdog==6.0.0
     # via mkdocs
