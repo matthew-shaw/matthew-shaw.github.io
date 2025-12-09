@@ -196,7 +196,7 @@ The **DORA** metrics are not performance scorecards; they are flow indicators. T
 
 A high average lead time is a problem, but a high variance (or standard deviation) is a warning signal.
 
-If your team delivers one feature in two days, but the next one takes forty, your system isn't just slow, it's chaotic. This variance makes forecasting impossible. It's the single best indicator that your process is unpredictable and riddled with hidden waste (such as [waiting](#waiting) for code reviews or environments, [transportation](#transportation) as work bounces between functions, or not utilising the talent closest to the work). A smooth flowing system has a tight, predictable Lead Time.
+If your team delivers one feature in two days, but the next one takes forty, your system isn't just slow, it's chaotic. This variance makes forecasting impossible. It's the single best indicator that your process is unpredictable and riddled with hidden waste (such as [waiting](#waiting) for code reviews or environments, [transportation](#transportation) as work bounces between functions, or not using the talent closest to the work). A smooth flowing system has a tight, predictable Lead Time.
 
 #### Deployment frequency
 
@@ -208,7 +208,7 @@ Deploying twenty changes on a Tuesday afternoon and then nothing for four days i
 
 A spiky Change Fail Percentage is a lagging consequence of rushed work.
 
-This often indicates a failure to engage with stakeholders, producing poorly refined work, without a clear scope and inflicting a deadline-driven "crunch" cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done". The resulting spike in [defects](#defects) is the unavoidable effect of that unevenness. This also indicates that builds lack determinism, relying on inconsistent or manual steps instead of a fully automated process
+This often indicates a failure to engage with stakeholders, producing poorly refined work, without a clear scope and inflicting a deadline-driven "crunch" cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done". The resulting spike in [defects](#defects) is the unavoidable effect of that unevenness. This also indicates that builds lack determinism, relying on inconsistent or manual steps instead of a fully automated process.
 
 ### The solutions
 
@@ -220,11 +220,11 @@ The solution is a fundamental cultural and technical shift to pull-based systems
 
 **Kanban** (not just a "JIRA board") is a management system for diagnosing and stabilising flow.
 
-The key to **Kanban** is the Work in Progress (WIP) limit. WIP limits are not intended as a productivity cap; they are a control that improves flow and throughput by reducing context switching and queues. It is a simple rule that forces the team to stop starting work and start finishing it.
+The key to **Kanban** is the Work in Progress (WIP) limit. WIP limits are not intended as a productivity cap; they are a control that improves flow and throughput by reducing context-switching and queues. It is a simple rule that forces the team to stop starting work and start finishing it.
 
 WIP limits relentlessly expose hidden bottlenecks, making the [waiting](#waiting), and the unevenness painfully visible. By forcing the team to pull new work only when capacity is available, WIP limits naturally smooth the flow.
 
-This is not philosophy; it is mathematics. [Queueing theory](https://en.wikipedia.org/wiki/Queueing_theory) shows that as a system approaches full utilisation; its cycle time increases non-linearly. In other words, when everyone is "100% busy", work does not finish faster, it finishes _much_ slower. High WIP means more context switching, more [waiting](#waiting), more [inventory](#inventory) and more unevenness. A WIP limit creates slack, and slack creates flow.
+This is not philosophy; it is mathematics. [Queueing theory](https://en.wikipedia.org/wiki/Queueing_theory) shows that as a system approaches full utilisation; its cycle time increases non-linearly. In other words, when everyone is "100% busy", work does not finish faster, it finishes _much_ slower. High WIP means more context-switching, more [waiting](#waiting), more [inventory](#inventory) and more unevenness. A WIP limit creates slack, and slack creates flow.
 
 #### The cultural system
 
@@ -247,7 +247,7 @@ The practices championed by **Extreme Programming** enable this:
 - **Continuous Integration** ensures the team is always working on the latest version of the software. The practice of **Trunk-Based Development** enables Continuous Integration by promoting regular merges of short-lived code branches multiple times a day.
 - **Simple design** advocates for designing only what is needed right now, preventing speculative, unnecessary abstraction, or over-engineering. This keeps the system light, adaptable, and easier for new team members to understand.
 
-**Extreme Programming** practices don't just improve quality; they make the pull-system more reliable and trustworthy, in turn reducing the variance in lead time.
+**Extreme Programming** practices don't just improve quality; they make the pull-system more dependable and trustworthy, in turn reducing the variance in lead time.
 
 #### The ideal system
 
@@ -297,7 +297,7 @@ This is the "brain overburden" of a system that is too complex, too coupled, or 
 - Constantly shatter their focus with cross-team dependencies and context-switching.
 - Understand the entire, complex system just to make one minor change.
 
-High cognitive load causes teams to create [overprocessing](#overprocessing) as they attempt to manage complexity, fuels [motion](#motion) waste through constant tool and context-switching, and ultimately increases [defects](#defects) because overloaded humans make mistakes.
+High cognitive load causes teams to create [overprocessing](#overprocessing) as they attempt to manage complexity, fuels [motion](#motion) waste through constant tool and context-switching and ultimately increases [defects](#defects) because overloaded humans make mistakes.
 
 It's a direct reflection of a fragmented organisation. As [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) observed decades ago:
 > _"Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure"._
@@ -399,7 +399,7 @@ We like to separate "the people stuff" from "the technical stuff" because it's t
 3. **Execute the Manoeuvre**: Now, execute the **Reverse Conway Manoeuvre**. This is the leadership act of re-organising your people to match the target blueprint. Use the **Team Topologies** patterns as your guide. Your _Bounded Contexts_ become the mission for new _Stream-aligned_ teams. Common, repetitive work that burdens them is extracted and given to _Platform_ teams. This isn't just moving boxes on an org chart; it's empowering teams with a clear mission, their own budget, and the authority to make decisions, resulting in sustainable cognitive load.
 4. **Defend the New Boundaries**: A new org chart is useless if you don't defend it. You must rigorously define and protect the interaction modes for your new teams. It is essential to define a "Team API" for each team; a description and specification that improves the team's clarity of purpose and helps other groups understand how that team fits into the broader organisation. This is how you make the change stick. It prevents the old, high-friction patterns of communication and dependency from creeping back in, ensuring your new, low-stress, high-flow state is sustainable.
 
-This plan is a fundamental, sociotechnical operation. It is intentionally radical, because the problems are systemic. It requires hard, expensive, and political work, but it's unavoidable.
+This plan is a fundamental, sociotechnical operation. It is intentionally radical because the problems are systemic. It requires hard, expensive, and political work, but it's unavoidable.
 
 ### Managing the transition
 
@@ -493,7 +493,7 @@ This is the most elaborate and costly form of institutionalised ceremony. The Ag
 
 SAFe attempts to manage the symptoms of unevenness, rather than eliminating the causes. It is a coping mechanism for organisations struggling with deep _Muri_ (dependencies, brittle systems, low trust) but unwilling or unable to reduce cognitive load or decouple teams.
 
-There is a growing body of critique and case studies suggesting that SAFe often reinforces the very flow problems it purports to solve. These arguments are well documented in works like [The SAFe Delusion](https://safedelusion.com/).
+There is a growing body of critique and case studies suggesting that SAFe often reinforces the very flow problems it purports to solve. These arguments are well documented in [The SAFe Delusion](https://safedelusion.com/).
 
 ---
 
