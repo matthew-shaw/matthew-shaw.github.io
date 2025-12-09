@@ -7,7 +7,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: Eliminating Waste, Unevenness, and Overburden to Build High-Performance Technology Organisations
+description: Eliminating waste, unevenness, and overburden to build sustainable high-performance technology organisations.
 tags:
   - Agile
   - Cognitive Load
@@ -29,7 +29,7 @@ links:
 
 # Lean Thinking in Modern Software Delivery
 
-Eliminating waste, unevenness, and overburden to build high-performance technology organisations.
+Eliminating waste, unevenness, and overburden to build sustainable high-performance technology organisations.
 
 <!-- more -->
 
