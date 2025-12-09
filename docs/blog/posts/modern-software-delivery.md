@@ -61,7 +61,7 @@ To apply this to software, we must consider the three systemic forces identified
 
 - _Muda_ (無駄), meaning "waste", "futility" or "uselessness", is any activity that consumes resources but creates no value.
 - _Mura_ (斑), meaning "unevenness" or "irregularity" is the inconsistency in how work flows.
-- _Muri_ (無理), meaning "overburden" or "unreasonable load", is the pressure that exceeds sustainable limits.
+- _Muri_ (無理), meaning "overburden" or "unreasonable load", is a pressure that exceeds sustainable limits.
 
 Ohno's core insight was that the visible symptoms of waste are fundamentally caused by unevenness of flow and unreasonable load, which must be eliminated first to create a stable process.
 
