@@ -230,7 +230,7 @@ This is not philosophy; it is mathematics. [Queueing theory](https://en.wikipedi
 
 A pull-system on its own can still be thwarted by organisational structures and silos. The largest and most damaging bottleneck in traditional IT is the "wall of confusion" between Development and Operations. This isn't just a handoff; it's a fundamental conflict of incentives.
 
-In this broken model, developers are incentivised to deliver change (go fast), while operations are incentivised to maintain stability (go slow). This conflict guarantees a stop-start [transportation](#transportation) process followed by extended [waiting](#waiting) periods. If a deployment fails, the work is thrown back, creating [defects](#defects) and halting all forward progress.
+In this broken model, developers are incentivised to deliver change (_go fast_), while operations are incentivised to maintain stability (_go slow_). This conflict guarantees a stop-start [transportation](#transportation) process followed by extended [waiting](#waiting) periods. If a deployment fails, the work is thrown back, creating [defects](#defects) and halting all forward progress.
 
 The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (_"you build it, you run it"_), it aligns these incentives and eliminates handoffs ([transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
 
