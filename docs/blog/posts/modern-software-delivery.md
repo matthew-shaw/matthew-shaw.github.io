@@ -210,7 +210,7 @@ Deploying twenty changes on a Tuesday afternoon and then nothing for four days i
 
 A spiky Change Fail Percentage is a lagging consequence of rushed work.
 
-This often indicates a failure to engage with stakeholders, producing poorly refined work, without a clear scope and inflicting a deadline-driven "crunch" cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done". The resulting spike in [defects](#defects) is the unavoidable effect of that unevenness. This also indicates that builds lack determinism, relying on inconsistent or manual steps instead of a fully automated process.
+This often indicates a failure to engage with stakeholders, producing poorly refined work, without a clear scope and inflicting a deadline-driven ["crunch"](https://en.wikipedia.org/wiki/Crunch_(video_games)) cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done". The resulting spike in [defects](#defects) is the unavoidable effect of that unevenness. This also indicates that builds lack determinism, relying on inconsistent or manual steps instead of a fully automated process.
 
 ### The solutions
 
@@ -232,9 +232,9 @@ This is not philosophy; it is mathematics. [Queueing theory](https://en.wikipedi
 
 A pull-system on its own can still be thwarted by organisational structures and silos. The largest and most damaging bottleneck in traditional IT is the "wall of confusion" between Development and Operations. This isn't just a handoff; it's a fundamental conflict of incentives.
 
-In this broken model, developers are incentivised to deliver change (_go fast_), while operations are incentivised to maintain stability (_go slow_). This conflict guarantees a stop-start [transportation](#transportation) process followed by extended [waiting](#waiting) periods. If a deployment fails, the work is thrown back, creating [defects](#defects) and halting all forward progress.
+In this broken model, developers are incentivised to deliver change (_go fast_), while operations are incentivised to maintain stability (_go slow_). This conflict guarantees a stop-start [transportation](#transportation) process followed by extended [waiting](#waiting) periods. If a deployment fails, the work is thrown back over the wall, creating [defects](#defects) and halting all forward progress.
 
-The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (_"you build it, you run it"_), it aligns these incentives and eliminates handoffs ([transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
+The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility ([_"you build it, you run it"_](https://www.thoughtworks.com/insights/decoder/y/you-build-it-you-run-it)), it aligns these incentives and eliminates handoffs ([transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
 
 This cultural shift is the prerequisite for true, continuous flow, as it replaces these two large silos with a single, empowered team.
 
