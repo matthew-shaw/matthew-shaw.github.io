@@ -97,7 +97,7 @@ Every delay in the feedback loop weakens flow and motivation. Engineers lose con
 
 ### Overproduction
 
-Overproduction is building more than what's needed - features without validation, designs without user input, or automation without purpose. Building more code also means maintaining more code.
+Overproduction is building more than what's needed - features without validation, designs without user input, or automation without purpose. Building more code also means _maintaining_ more code.
 
 It's seductive because it looks like progress. Teams deliver features, fill backlogs, and complete roadmaps - but if it doesn't meet a user need or improve service quality, it's waste disguised as delivery. Reducing overproduction means focusing relentlessly on outcomes, not output. The measure of success is user value, not feature count.
 
