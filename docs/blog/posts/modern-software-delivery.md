@@ -2,12 +2,12 @@
 draft: true
 pin: true
 date:
-  created: 2026-01-06
+  created: 2025-12-16
 authors:
   - mash
 categories:
   - Software Development
-description: Eliminating Waste, Unevenness, and Overburden to Build High-Performance Technology Organisations
+description: Eliminating waste, unevenness, and overburden to build sustainable high-performance technology organisations.
 tags:
   - Agile
   - Cognitive Load
@@ -29,7 +29,7 @@ links:
 
 # Lean Thinking in Modern Software Delivery
 
-Eliminating waste, unevenness, and overburden to build high-performance technology organisations.
+Eliminating waste, unevenness, and overburden to build sustainable high-performance technology organisations.
 
 <!-- more -->
 
@@ -41,15 +41,15 @@ Eliminating waste, unevenness, and overburden to build high-performance technolo
 
 ## Executive summary
 
-Software delivery often underperforms, not because teams lack skill, but because they work inside systems shaped by three **Lean** forces: waste, uneven flow, and overburden. Together they erode the **DORA** metrics that define high performance and steadily drain team capacity.
+Software delivery frequently underperforms not due to a lack of talent, but because teams operate inside systems constrained by three **Lean** forces: waste, uneven flow and overburden. Uneven flow and unreasonable load are the root causes; visible waste is the predictable outcome. Together, these forces steadily erode the return on technology investment.
 
-Waste (_Muda_) is the visible friction, long lead times, handoffs, queues, defects, and underused talent. Research from _Accelerate_ and the **DORA** programme links these wastes to slower delivery, higher change failure rates, and longer recovery.
+Drawing on empirical evidence from the **DORA** programme, this white paper explains how elite-performing organisations differentiate themselves. They do not rely on rigid frameworks or "Agile theatre"; instead, they systematically remove the frictions that delay value and destabilise delivery.
 
-Beneath the waste is unevenness (_Mura_): the variability created by batching, siloed approvals, and push-based processes. This start-stop flow undermines predictability. Practices like WIP limits, **Trunk-Based Development**, and **Continuous Delivery** reduce variability and restore smoother, more reliable flow.
+The analysis shows how overloaded people and systems create unpredictable flow, which in turn generates delays, rework, defects and burnout. Treating waste without addressing flow and load only entrenches the problem.
 
-At the root is overburden (_Muri_), excess cognitive load, fragile architectures, and unclear ownership. A sociotechnical approach (**Team Topologies** and **Domain-Driven Design**) reduces this load and enables small, safe, continuous changes.
+The paper presents a practical, sociotechnical approach to recovery. By combining **Team Topologies**, **Platform Engineering** and pull-based working, organisations can reduce cognitive load, stabilise flow and create a sustainable pace of delivery.
 
-This white paper also highlights common anti-patterns that intensify these forces while giving a false sense of control and agility. **The core message**: sustainable high performance comes from reducing overburden and stabilising flow, not adding more frameworks.
+This is a leadership guide to move beyond symptom management, offering a clear blueprint to redesign organisations for measurable, long-term performance.
 
 ---
 
@@ -57,7 +57,13 @@ This white paper also highlights common anti-patterns that intensify these force
 
 In manufacturing, **Lean** thinking revolutionised how products were built by relentlessly eliminating waste. Software is _not_ manufacturing, and the "software factory" analogy is deeply flawed. Yet, the core **Lean** principle of respecting resources and optimising flow remains the foundation of modern high-performance software delivery.
 
-To apply this to software, we must consider the three systemic forces identified in the Toyota Production System by engineer Taiichi Ohno. Ohno's core insight was that the visible symptoms of waste are fundamentally caused by unevenness of flow and unreasonable load, which must be eliminated first to create a stable process.
+To apply this to software, we must consider the three systemic forces identified in the Toyota Production System by engineer Taiichi Ohno:
+
+- _Muda_ (無駄), meaning "waste", "futility" or "uselessness", is any activity that consumes resources but creates no value.
+- _Mura_ (斑), meaning "unevenness" or "irregularity" is the inconsistency in how work flows.
+- _Muri_ (無理), meaning "overburden" or "unreasonable load", is a pressure that exceeds sustainable limits.
+
+Ohno's core insight was that the visible symptoms of waste are fundamentally caused by unevenness of flow and unreasonable load, which must be eliminated first to create a stable process.
 
 Decades later, research from the _Accelerate_ book and the **DORA** programme has validated these principles not just as philosophy, but as the empirical baseline for high-performing teams. I have seen first-hand how even the most well-intentioned teams can be affected by these forces.
 
@@ -67,9 +73,7 @@ This is a practical guide to diagnosing and resolving these issues. We will begi
 
 ## Muda: The eight wastes
 
-_Muda_ (無駄), meaning "waste", "futility" or "uselessness", is any activity that consumes resources but creates no value. Modern practitioners have adapted the original seven wastes identified by Ohno, adding a critical eighth form: [unused talent](#unused-talent).
-
-In software development, waste often hides in queues, backlogs, meetings, or handoffs.
+Modern practitioners have adapted the original seven wastes identified by Ohno, adding a critical eighth form: [unused talent](#unused-talent). In software development, waste often hides in queues, backlogs, meetings, or handoffs.
 
 ### Transportation
 
@@ -182,9 +186,7 @@ But waste is only a symptom. The real question is: why does waste appear in the 
 
 ## Mura: The source of uneven flow
 
-_Mura_ (斑), meaning "unevenness" or "irregularity" is the inconsistency in how work flows, the "hurry up and wait" cycle. It manifests as periods of low activity followed by frantic catch-up, rendering delivery unpredictable and unsustainable.
-
-This section examines in depth how to identify uneven flow, and how modern software delivery practices work together to reduce inconsistency and create predictability.
+_Mura_ manifests as periods of low activity followed by frantic catch-up, the "hurry up and wait" cycle, rendering delivery unpredictable and unsustainable. This section examines in depth how to identify uneven flow, and how modern software delivery practices work together to reduce inconsistency and create predictability.
 
 ### The detection kit
 
@@ -196,7 +198,7 @@ The **DORA** metrics are not performance scorecards; they are flow indicators. T
 
 A high average lead time is a problem, but a high variance (or standard deviation) is a warning signal.
 
-If your team delivers one feature in two days, but the next one takes forty, your system isn't just slow, it's chaotic. This variance makes forecasting impossible. It's the single best indicator that your process is unpredictable and riddled with hidden waste (such as [waiting](#waiting) for code reviews or environments, [transportation](#transportation) as work bounces between functions, or not using the talent closest to the work). A smooth flowing system has a tight, predictable Lead Time.
+If your team delivers one feature in two days, but the next one takes forty, your system isn't just slow, it's chaotic. This variance makes forecasting impossible. It's the single best indicator that your process is unpredictable and riddled with hidden waste (such as [waiting](#waiting) for code reviews or environments, [transportation](#transportation) as work bounces between functions, or not using the talent closest to the work). A smooth flowing system has a tight, predictable lead time.
 
 #### Deployment frequency
 
@@ -230,7 +232,7 @@ This is not philosophy; it is mathematics. [Queueing theory](https://en.wikipedi
 
 A pull-system on its own can still be thwarted by organisational structures and silos. The largest and most damaging bottleneck in traditional IT is the "wall of confusion" between Development and Operations. This isn't just a handoff; it's a fundamental conflict of incentives.
 
-In this broken model, developers are incentivised to deliver change (go fast), while operations are incentivised to maintain stability (go slow). This conflict guarantees a stop-start [transportation](#transportation) process followed by extended [waiting](#waiting) periods. If a deployment fails, the work is thrown back, creating [defects](#defects) and halting all forward progress.
+In this broken model, developers are incentivised to deliver change (_go fast_), while operations are incentivised to maintain stability (_go slow_). This conflict guarantees a stop-start [transportation](#transportation) process followed by extended [waiting](#waiting) periods. If a deployment fails, the work is thrown back, creating [defects](#defects) and halting all forward progress.
 
 The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility (_"you build it, you run it"_), it aligns these incentives and eliminates handoffs ([transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
 
@@ -277,7 +279,7 @@ These patterns aren't random; they are the system's response to overburden, or _
 
 ## Muri: The root cause of overburden
 
-_Muri_ (無理), meaning "overburden" or "unreasonable load", is the root cause. In manufacturing, _Muri_ was a physical strain. In software, it is the invisible pressure we place on the two load-bearing parts of any technology organisation: the people who change the system and the system they are forced to change.
+In manufacturing, _Muri_ was a physical strain. In software, it is the invisible pressure we place on the two load-bearing parts of any technology organisation: the people who change the system and the system they are forced to change.
 
 _Muri_ isn't dramatic, it's not loud and it doesn't announce itself with outages. _Muri_ accumulates slowly and becomes the norm. And because of that, it's the most dangerous of the three **Lean** forces.
 
