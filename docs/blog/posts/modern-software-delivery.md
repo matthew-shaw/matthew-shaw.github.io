@@ -222,7 +222,7 @@ The solution is a fundamental cultural and technical shift to pull-based systems
 
 **Kanban** (not just a "JIRA board") is a management system for diagnosing and stabilising flow.
 
-The key to **Kanban** is the Work in Progress (WIP) limit. WIP limits are not intended as a productivity cap; they are a control that improves flow and throughput by reducing context-switching and queues. It is a simple rule that forces the team to stop starting work and start finishing it.
+The key to **Kanban** is the visualisation of work and the Work in Progress (WIP) limit. WIP limits are not intended as a productivity cap; they are a control that improves flow and throughput by reducing context-switching and queues. It is a simple rule that forces the team to stop starting work and start finishing it.
 
 WIP limits relentlessly expose hidden bottlenecks, making the [waiting](#waiting), and the unevenness painfully visible. By forcing the team to pull new work only when capacity is available, WIP limits naturally smooth the flow.
 
