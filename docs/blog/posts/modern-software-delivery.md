@@ -524,6 +524,15 @@ They have been tested, refined, and over time, empirically proven to be the foun
 
 We have identified the full causal chain: overburden and unevenness create visible waste, and that waste immediately feeds back, reinforcing a relentless self-inflicting vicious cycle. This demands that we stop treating the symptoms and tackle all three forces at the root.
 
+```mermaid
+flowchart TB
+    muri("Overburden<br>(Muri)")
+    mura("Unevenness<br>(Mura)")
+    muda("Waste<br>(Muda)")
+
+  mura & muri -- Causes --> muda -- Reinforces --> mura & muri
+```
+
 This white paper is not just theory; this is a collection of recommended, evidence-based practices and principles. You can use it as a diagnostic toolkit to expose the waste, measure the flow, and identify the sources of overload that are slowly burning out your people and corroding your systems.
 
 And it presents every single person reading this with a fundamental choice…
