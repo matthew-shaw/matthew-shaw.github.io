@@ -7,7 +7,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: Eliminating waste, unevenness, and overburden to build sustainable high-performance technology organisations.
+description: How to eliminate waste, unevenness and overburden to build sustainable high-performance technology organisations.
 tags:
   - Agile
   - Cognitive Load
@@ -29,7 +29,7 @@ links:
 
 # Lean Thinking in Modern Software Delivery
 
-Eliminating waste, unevenness, and overburden to build sustainable high-performance technology organisations.
+How to eliminate waste, unevenness and overburden to build sustainable high-performance technology organisations.
 
 <!-- more -->
 
@@ -281,7 +281,7 @@ These patterns aren't random; they are the system's response to overburden, or _
 
 In manufacturing, _Muri_ was a physical strain. In software, it is the invisible pressure we place on the two load-bearing parts of any technology organisation: the people who change the system and the system they are forced to change.
 
-_Muri_ isn't dramatic, it's not loud and it doesn't announce itself with outages. _Muri_ accumulates slowly and becomes the norm. And because of that, it's the most dangerous of the three **Lean** forces.
+_Muri_ is not dramatic, it is not loud, and it does not announce itself with outages. _Muri_ accumulates slowly and becomes the norm. And because of that, it's the most dangerous of the three **Lean** forces.
 
 There's a well-known paper called [Boiling Frogs](https://github.com/gchq/BoilingFrogs/blob/master/GCHQ_Boiling_Frogs.pdf) by GCHQ that describes how organisations degrade not through a single catastrophic mistake, but through a gradual series of tiny concessions. A workaround here, an exception there, a deadline accepted "just this once". The water warms, degree by degree, and no one jumps out. They acclimatise, adapt and cope.
 
