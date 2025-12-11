@@ -55,7 +55,7 @@ This is a leadership guide to move beyond symptom management, offering a clear b
 
 ## Introduction
 
-In manufacturing, **Lean** thinking revolutionised how products were built by relentlessly eliminating waste. Software is _not_ manufacturing, and the "software factory" analogy is deeply flawed. Yet, the core **Lean** principle of respecting resources and optimising flow remains the foundation of modern high-performance software delivery.
+In manufacturing, **Lean** thinking revolutionised how products were built by relentlessly eliminating waste. Software is _not_ manufacturing, and the "software factory" analogy is deeply flawed. Yet, the core **Lean** principles of respecting resources and optimising flow remain the foundations of modern high-performance software delivery.
 
 To apply this to software, we must consider the three systemic forces identified in the Toyota Production System by engineer Taiichi Ohno:
 
@@ -220,7 +220,7 @@ The solution is a fundamental cultural and technical shift to pull-based systems
 
 #### The management system
 
-**Kanban** (not just a "JIRA board") is a management system for diagnosing and stabilising flow.
+[Kanban](https://en.wikipedia.org/wiki/Kanban) (not just a "JIRA board") is a management system for diagnosing and stabilising flow.
 
 The key to **Kanban** is the visualisation of work and the Work in Progress (WIP) limit. WIP limits are not intended as a productivity cap; they are a control that improves flow and throughput by reducing context-switching and queues. It is a simple rule that forces the team to stop starting work and start finishing it.
 
@@ -234,7 +234,7 @@ A pull-system on its own can still be thwarted by organisational structures and 
 
 In this broken model, developers are incentivised to deliver change (_go fast_), while operations are incentivised to maintain stability (_go slow_). This conflict guarantees a stop-start [transportation](#transportation) process followed by extended [waiting](#waiting) periods. If a deployment fails, the work is thrown back over the wall, creating [defects](#defects) and halting all forward progress.
 
-The **DevOps** movement is the cultural countermeasure. By unifying ownership and responsibility ([_"you build it, you run it"_](https://www.thoughtworks.com/insights/decoder/y/you-build-it-you-run-it)), it aligns these incentives and eliminates handoffs ([transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
+The [DevOps](https://en.wikipedia.org/wiki/DevOps) movement is the cultural countermeasure. By unifying ownership and responsibility ([_"you build it, you run it"_](https://www.thoughtworks.com/insights/decoder/y/you-build-it-you-run-it)), it aligns these incentives and eliminates handoffs ([transportation](#transportation) waste). The team is now incentivised to build operable and stable features from the start. Compliance and security controls are not removed; they are automated into the pipeline rather than enforced by manual gatekeepers.
 
 This cultural shift is the prerequisite for true, continuous flow, as it replaces these two large silos with a single, empowered team.
 
@@ -242,11 +242,11 @@ This cultural shift is the prerequisite for true, continuous flow, as it replace
 
 A high-trust, continuous flow doesn't happen by accident. It is a technical foundation of built-in quality. You cannot have continuous flow if you are constantly finding [defects](#defects).
 
-The practices championed by **Extreme Programming** enable this:
+The practices championed by [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) enable this:
 
 - **Test-Driven Development** builds a regression-proof suite of automated tests that reduce [defects](#defects) and gives teams the confidence to merge and deploy continuously. **Behaviour-Driven Development** extends this practice to create a shared understanding of the requirements, ensuring that the right code is built the first time, reducing the wasteful [transportation](#transportation) handoffs between "dev", "test", and "product".
 - **Pair Programming** is a continuous, real-time code review. Instead of work [waiting](#waiting) for an asynchronous review, quality is validated as the code is written.
-- **Continuous Integration** ensures the team is always working on the latest version of the software. The practice of **Trunk-Based Development** enables Continuous Integration by promoting regular merges of short-lived code branches multiple times a day.
+- **Continuous Integration** ensures the team is always working on the latest version of the software. The practice of [Trunk-Based Development](https://dora.dev/capabilities/trunk-based-development/) enables [Continuous Integration](https://dora.dev/capabilities/continuous-integration/) by promoting regular merges of short-lived code branches multiple times a day.
 - **Simple design** advocates for designing only what is needed right now, preventing speculative, unnecessary abstraction, or over-engineering. This keeps the system light, adaptable, and easier for new team members to understand.
 
 **Extreme Programming** practices don't just improve quality; they make the pull-system more dependable and trustworthy, in turn reducing the variance in lead time.
@@ -255,13 +255,13 @@ The practices championed by **Extreme Programming** enable this:
 
 In the Toyota Production System, the ultimate solution for _Mura_ was the ideal of "One-Piece Flow" - making one part at a time and moving it immediately to the next step, with zero [inventory](#inventory) in between.
 
-The modern software equivalent is **Continuous Delivery**, supported by **Trunk-Based Development**, automated testing, and fast deployment pipelines. **Continuous Delivery** approximates one-piece flow by reducing batch sizes, shortening feedback loops, and ensuring that each change can move smoothly into production without accumulating [inventory](#inventory).
+The modern software equivalent is [Continuous Delivery](https://dora.dev/capabilities/continuous-delivery/), supported by **Trunk-Based Development**, [test automation](https://dora.dev/capabilities/test-automation/), and fast deployment pipelines. **Continuous Delivery** approximates one-piece flow by reducing batch sizes, shortening feedback loops, and ensuring that each change can move smoothly into production without accumulating [inventory](#inventory).
 
 In a high-flow system, a single commit can be built, tested, and deployed within minutes. This is the closest practical expression of the same principle. Work should move continuously, without queuing, batching, or [waiting](#waiting).
 
 ### Tracing the root cause
 
-_Mura_ is not just a vague feeling of chaos. In modern software delivery teams, it is a problem you can detect and measure using **DORA** metrics. It is the "hurry up and wait" pattern that creates the waste (_Muda_) and symptoms of inefficiency.
+_Mura_ is not just a vague feeling of chaos. In modern software delivery teams, it is a problem you can detect and measure using **DORA** metrics. It is the "hurry up and wait" pattern that creates waste (_Muda_) and inefficiency.
 
 Unevenness is not "a system problem", it is often a result of:
 
@@ -289,7 +289,7 @@ Then one day, the system is brittle, the team is exhausted, and delivery feels l
 
 ### Overload on people
 
-Unlike manufacturing, our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we often describe as "burnout", as though it were a personal failing rather than an environmental response.
+Unlike manufacturing, our raw materials are ideas held in human working memory. In knowledge work, burden manifests as cognitive and emotional overload, which we often describe as ["burnout"](https://en.wikipedia.org/wiki/Occupational_burnout), as though it were a personal failing rather than an environmental response.
 
 #### Cognitive load
 
@@ -309,15 +309,15 @@ When you have siloed "Frontend", "Backend", and "Database" teams, you will creat
 We can fix this with a modern, sociotechnical toolkit:
 
 - **Wardley Mapping**: This is our strategic tool. It's how we visualise our business and technology components on a map of user value, showing their evolutionary stage from Genesis to Commodity.
-- **Domain-Driven Design**: This is our analytical tool. It's how we discover and map the business domains, capabilities and value-streams that matter, defining clear _Bounded Contexts_ that tame the "big ball of mud".
-- **Reverse Conway Manoeuvre**: This is our strategy. Instead of letting our bad org chart dictate our bad architecture, we consciously invert it and design good team structures to match the good architecture that we want.
-- **Team Topologies**: This is our operating model. It's the practical "how-to" for executing the manoeuvre, giving us patterns (_Stream-aligned, Platform, etc._) to build teams that own clearly defined domains and have a manageable cognitive load.
+- **Domain-Driven Design**: This is our analytical tool. It's how we discover and map the business domains, capabilities and value-streams that matter, defining clear [_Bounded Contexts_](https://martinfowler.com/bliki/BoundedContext.html) that tame the "big ball of mud".
+- **Reverse Conway Manoeuvre**: This is our strategy. Instead of letting our bad org chart dictate our bad architecture, we consciously flip it and design good team structures to match the good architecture that we want.
+- **Team Topologies**: This is our operating model. It's the practical "how-to" for executing the manoeuvre, [giving us patterns](https://teamtopologies.com/key-concepts) (_Stream-aligned, Platform, etc._) to build teams that own clearly defined domains and have a manageable cognitive load.
 
 #### Psychological safety
 
 Any approach to reducing cognitive overload is doomed to fail if you do not simultaneously address emotional overload. This is the pervasive anxiety generated by a culture of low [psychological safety](https://en.wikipedia.org/wiki/Psychological_safety). It is just as important as balancing cognitive load, if not more so. People that don't feel safe will not engage with profound organisational change, and change requires trust.
 
-The plan requires individuals to do things that would make them feel vulnerable in a low-trust environment:
+We will need individuals to do things that would make them feel vulnerable in a low-trust environment:
 
 - **Be honest** about how things really work.
 - **Challenge** existing boundaries, power structures, and "the way we've always done things".
@@ -334,7 +334,7 @@ This is the breeding ground for "hero culture", where individuals are praised fo
 
 ### Overload on systems
 
-The other half of _Muri_ is the overburden we place on our systems. The most common name for this is _Technical Debt_.
+The other half of _Muri_ is the overburden we place on our systems. The most common name for this is [_Technical Debt_](https://en.wikipedia.org/wiki/Technical_debt).
 
 Technical Debt is frequently misunderstood as "old code", or even just "someone else's code". _It isn't_. It's the accumulation of shortcuts, compromises, or outdated assumptions - sometimes made under pressure, sometimes simply made with limited information - that increase the cost or risk of future change.
 
@@ -361,19 +361,19 @@ In a high-load organisation, every _stream-aligned_ team is burdened with reinve
 
 This is the overburden of figuring out complex cloud-native tooling, navigating a security sign-off process, or manually building a monitoring dashboard just to get a new service live. It's the friction that grinds delivery to a halt.
 
-A good internal developer platform is treated as an internal product and served by a _Platform_ team (as defined in **Team Topologies**). Its purpose is to absorb this cross-cutting complexity and present it to _stream-aligned_ teams as a set of simple, self-service tools and APIs. A well-designed internal platform removes vast amounts of [motion](#motion) waste (manual setup, repetitive configuration) and [transportation](#transportation) waste (cross-team handoffs for infrastructure, compliance, and environments).
+A good [internal developer platform](https://internaldeveloperplatform.org/) is treated as an internal product and served by a _Platform_ team (as defined in **Team Topologies**). Its purpose is to absorb this cross-cutting complexity and present it to _stream-aligned_ teams as a set of simple, self-service tools and APIs. A well-designed internal platform removes vast amounts of [motion](#motion) waste (manual setup, repetitive configuration) and [transportation](#transportation) waste (cross-team handoffs for infrastructure, compliance, and environments).
 
 The goal is to pave a low-friction path to production and reduce extraneous cognitive load. A developer shouldn't have to become an expert in container orchestration, infrastructure-as-code, or observability just to ship a feature. They should be able to consume these as reliable services, allowing them to focus on solving problems and delivering user value.
 
 #### Continuous Refactoring
 
-**Continuous Refactoring** is the act of paying technical debt back, not in a single "big bang" project, or a "firebreak" or a "hardening" sprint. But as a small, daily, professional practice. This reduces [overprocessing](#overprocessing) by removing redundant abstractions, reduces [defects](#defects) by stabilising the codebase and reduces [inventory](#inventory) by preventing long-lived code branches that can't be merged due to rot.
+[Continuous Refactoring](https://en.wikipedia.org/wiki/Code_refactoring) is the act of paying technical debt back, not in a single "big bang" project, or a "firebreak" or a "hardening" sprint. But as a small, daily, professional practice. This reduces [overprocessing](#overprocessing) by removing redundant abstractions, reduces [defects](#defects) by stabilising the codebase and reduces [inventory](#inventory) by preventing long-lived code branches that can't be merged due to rot.
 
 This is a core discipline of **Extreme Programming**: leaving the code c**Lean**er than you found it. Kent Beck's recent work, _Tidy First?_, gives a modern name to this practice: it's the art of making small, safe, tidying changes before adding new features, to ensure development speed is sustainable. It requires an organisational commitment to making technical debt removal a constant and sustainable activity, by ensuring resource capacity isn't over-utilised.
 
 #### Evolutionary Architecture
 
-This is the strategic mindset that prevents future overburden. An **Evolutionary Architecture** is one _designed_ to change. Instead of a brittle plan (or [Big Design Up Front](https://en.wikipedia.org/wiki/Big_design_up_front)), it is a system protected by automated guardrails called _Fitness Functions_; a suite of tests that continuously verify critical architectural characteristics like performance, security, or module dependencies, to reduce [defects](#defects).
+This is the strategic mindset that prevents future overburden. An [Evolutionary Architecture](https://www.thoughtworks.com/insights/decoder/e/evolutionary-architecture) is one _designed_ to change. Instead of a brittle plan (or [Big Design Up Front](https://en.wikipedia.org/wiki/Big_design_up_front)), it is a system protected by automated guardrails called _Fitness Functions_; a suite of tests that continuously verify critical architectural characteristics like performance, security, or module dependencies, to reduce [defects](#defects).
 
 This is the modern, automated, and living implementation of what we used to call "Non-Functional Requirements". Instead of a requirement being a forgotten line in a document, it becomes an automated test that prevents systemic debt from accumulating. This allows the system to evolve safely and independently, creating an environment where small, safe changes are always possible.
 
@@ -396,7 +396,7 @@ We like to separate "the people stuff" from "the technical stuff" because it's t
 
 1. **Map Your Strategy and Domains**: First, stop guessing:
      1. **Strategic Mapping**: Begin with **Wardley Mapping** to visualise your entire ecosystem, from the customer's needs down to the underlying technical capabilities, then plot the evolutionary stage of each component. This high-level strategic analysis forces a crucial decision: what is a commodity we should consume and what is the capability we must build?
-     2. **Domain Mapping**: Next, use the analytical tools from **Domain-Driven Design** (like _Event Storming_ and _Context Mapping_) to create a granular map of your core domains and value streams. This process reveals the logical, inherent architectural seams and defines clear _Bounded Contexts_.
+     2. **Domain Mapping**: Next, use the analytical tools from **Domain-Driven Design** (like [_Event Storming_](https://en.wikipedia.org/wiki/Event_storming) and _Context Mapping_) to create a granular map of your core domains and value streams. This process reveals the logical, inherent architectural seams and defines clear _Bounded Contexts_.
 2. **Define the Target Architecture**: Once you have your map, you can make the strategic-level design decisions. You intentionally design the target architecture that aligns with those _Bounded Contexts_. This blueprint, where services and products have clear, single owners, becomes the model for your new organisation.
 3. **Execute the Manoeuvre**: Now, execute the **Reverse Conway Manoeuvre**. This is the leadership act of re-organising your people to match the target blueprint. Use the **Team Topologies** patterns as your guide. Your _Bounded Contexts_ become the mission for new _Stream-aligned_ teams. Common, repetitive work that burdens them is extracted and given to _Platform_ teams. This isn't just moving boxes on an org chart; it's empowering teams with a clear mission, their own budget, and the authority to make decisions, resulting in sustainable cognitive load.
 4. **Defend the New Boundaries**: A new org chart is useless if you don't defend it. You must rigorously define and protect the interaction modes for your new teams. It is essential to define a ["Team API"](https://github.com/TeamTopologies/Team-API-template) for each team; a description and specification that improves the team's clarity of purpose and helps other groups understand how that team fits into the broader organisation. This is how you make the change stick. It prevents the old, high-friction patterns of communication and dependency from creeping back in, ensuring your new, low-stress, high-flow state is sustainable.
