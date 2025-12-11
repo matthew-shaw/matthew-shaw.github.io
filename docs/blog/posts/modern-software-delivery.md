@@ -363,7 +363,7 @@ This is the overburden of figuring out complex cloud-native tooling, navigating 
 
 A good internal developer platform is treated as an internal product and served by a _Platform_ team (as defined in **Team Topologies**). Its purpose is to absorb this cross-cutting complexity and present it to _stream-aligned_ teams as a set of simple, self-service tools and APIs. A well-designed internal platform removes vast amounts of [motion](#motion) waste (manual setup, repetitive configuration) and [transportation](#transportation) waste (cross-team handoffs for infrastructure, compliance, and environments).
 
-The goal is to pave a low-friction path to production and reduce extraneous cognitive load. A developer shouldn't have to become an expert in container orchestration, infrastructure-as-code, or observability just to ship a feature. They should be able to consume these as reliable services, allowing them to focus all their cognitive load on solving problems and delivering user value.
+The goal is to pave a low-friction path to production and reduce extraneous cognitive load. A developer shouldn't have to become an expert in container orchestration, infrastructure-as-code, or observability just to ship a feature. They should be able to consume these as reliable services, allowing them to focus on solving problems and delivering user value.
 
 #### Continuous Refactoring
 
