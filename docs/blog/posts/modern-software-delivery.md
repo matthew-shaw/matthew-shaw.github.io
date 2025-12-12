@@ -36,7 +36,7 @@ How to eliminate waste, unevenness and overburden to build sustainable high-perf
 
 This paper lays out a practical, evidence-based way to improve delivery flow, cut organisational friction, and get better value out of technology work. It isn't a proposal for a reorg or a push toward yet another delivery methodology. Instead, it offers a systemic way to uncover and fix the real causes of delays, rising costs, unplanned work, and unpredictable outcomes. These problems rarely come from individuals or tooling; they show up when waste, uneven flow, and overburden accumulate across teams, governance processes, and legacy architectural boundaries.
 
-Decades of research shows that high-performing organisations get three parts of the system working together: team design, technical architecture, and product flow. When any of these drifts out of sync, the whole system becomes fragile. Operational load creeps up, lead times become erratic, and delivery costs rise. This paper outlines a sociotechnical way to bring these parts back into alignment—step by step, with low risk—so teams can move faster and more predictably without disrupting existing commitments.
+Decades of research shows that high-performing organisations get three parts of the system working together: team design, technical architecture, and product flow. When any of these drifts out of sync, the whole system becomes fragile. Operational load creeps up, lead times become erratic, and delivery costs rise. This paper outlines a sociotechnical way to bring these parts back into alignment (step by step, with low risk) so teams can move faster and more predictably without disrupting existing commitments.
 
 Taking this approach leads to real, observable benefits: faster and steadier delivery, lower cost of delay, fewer operational surprises, a better handle on risk, and a higher return on the time and money already being spent. It also reduces burnout and churn by tackling chronic overburden and clarifying who is responsible for what. These improvements don't depend on adding headcount or buying new tools; they come from simplifying boundaries, reducing handoffs, limiting work-in-progress, and making flow more visible.
 
@@ -254,7 +254,7 @@ In a high-flow system, a single commit can be built, tested, and deployed within
 
 _Mura_ is not just a vague feeling of chaos. In modern software delivery teams, it is a problem you can detect and measure using **DORA** metrics. It is the "hurry up and wait" pattern that creates waste (_Muda_) and inefficiency.
 
-Unevenness is not "a system problem", it is often a result of:
+Unevenness is often a result of:
 
 - capacity overcommitment without contingency
 - deadline-driven delivery
