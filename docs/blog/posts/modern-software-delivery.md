@@ -1,5 +1,4 @@
 ---
-draft: true
 pin: true
 date:
   created: 2025-12-12
