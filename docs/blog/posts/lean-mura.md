@@ -19,6 +19,7 @@ tags:
 links:
   - blog/posts/lean-muda.md
   - blog/posts/lean-muri.md
+  - blog/posts/modern-software-delivery.md
 ---
 
 # Mura: The Source of Uneven Flow

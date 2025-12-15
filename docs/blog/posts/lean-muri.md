@@ -18,6 +18,7 @@ tags:
 links:
   - blog/posts/lean-muda.md
   - blog/posts/lean-mura.md
+  - blog/posts/modern-software-delivery.md
 ---
 
 # Muri: The Root Cause of Overburden

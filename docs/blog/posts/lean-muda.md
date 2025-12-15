@@ -19,6 +19,7 @@ tags:
 links:
   - blog/posts/lean-mura.md
   - blog/posts/lean-muri.md
+  - blog/posts/modern-software-delivery.md
 ---
 
 # Muda: The Eight Wastes of Modern Software Delivery
