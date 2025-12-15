@@ -2,6 +2,7 @@
 pin: true
 date:
   created: 2025-12-12
+  updated: 2025-12-15
 authors:
   - mash
 categories:
@@ -34,13 +35,13 @@ How to eliminate waste, unevenness and overburden to build sustainable high-perf
 
 ## Executive summary
 
-This paper lays out a practical, evidence-based way to improve delivery flow, cut organisational friction, and get better value out of technology work. It isn't a proposal for a reorg or a push toward yet another delivery methodology. Instead, it offers a systemic way to uncover and fix the real causes of delays, rising costs, unplanned work, and unpredictable outcomes. These problems rarely come from individuals or tooling; they show up when waste, uneven flow, and overburden accumulate across teams, governance processes, and legacy architectural boundaries.
+This white paper lays out a practical, evidence-based way to improve delivery flow, cut organisational friction, and get better value out of technology work. It isn't a proposal for a reorg or a push toward yet another delivery methodology. Instead, it offers a systemic way to uncover and fix the real causes of delays, rising costs, unplanned work, and unpredictable outcomes. These problems rarely come from individuals or tooling; they show up when waste, uneven flow, and overburden accumulate across teams, governance processes, and legacy architectural boundaries.
 
-Decades of research shows that high-performing organisations get three parts of the system working together: team design, technical architecture, and product flow. When any of these drifts out of sync, the whole system becomes fragile. Operational load creeps up, lead times become erratic, and delivery costs rise. This paper outlines a sociotechnical way to bring these parts back into alignment (step by step, with low risk) so teams can move faster and more predictably without disrupting existing commitments.
+Decades of research shows that high-performing organisations get three parts of the system working together: team design, technical architecture, and product flow. When any of these drifts out of sync, the whole system becomes fragile. Operational load creeps up, lead times become erratic, and delivery costs rise. This white paper outlines a sociotechnical way to bring these parts back into alignment (step by step, with low risk) so teams can move faster and more predictably without disrupting existing commitments.
 
 Taking this approach leads to real, observable benefits: faster and steadier delivery, lower cost of delay, fewer operational surprises, a better handle on risk, and a higher return on the time and money already being spent. It also reduces burnout and churn by tackling chronic overburden and clarifying who is responsible for what. These improvements don't depend on adding headcount or buying new tools; they come from simplifying boundaries, reducing handoffs, limiting work-in-progress, and making flow more visible.
 
-The cost of doing nothing is equally clear. When systemic waste and uneven flow are left alone, technical debt piles up, systems get more fragile, governance gaps widen, adaptability slows, and the total cost of ownership climbs. This paper shows how to avoid that trap with a structured, incremental approach that starts by identifying where flow is breaking down, choosing a sensible pilot domain, and iterating using evidence instead of wishful thinking. By focusing on how the system fits together rather than optimising isolated parts, organisations can improve performance while becoming more adaptable and resilient.
+The cost of doing nothing is equally clear. When systemic waste and uneven flow are left alone, technical debt piles up, systems get more fragile, governance gaps widen, adaptability slows, and the total cost of ownership climbs. This white paper shows how to avoid that trap with a structured, incremental approach that starts by identifying where flow is breaking down, choosing a sensible pilot domain, and iterating using evidence instead of wishful thinking. By focusing on how the system fits together rather than optimising isolated parts, organisations can improve performance while becoming more adaptable and resilient.
 
 ---
 
