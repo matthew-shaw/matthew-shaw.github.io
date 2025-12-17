@@ -540,9 +540,11 @@ And it presents every single person reading this with a fundamental choice…
 
 **Fix the system.** Your choice is the deepest, because you are the only ones who have the leverage to repair the system itself. You can fund a platform. You can sponsor a sociotechnical action plan. You can build a culture of psychological safety that eliminates fear. You can choose to measure outcomes and sustainability, not just activity and output.
 
-The alternative is to keep adding more governance, processes, planning, coordination, ceremonies, frameworks, tooling, committees, dashboards, and transformation programmes.
+The alternative is to keep adding more governance, processes, planning, coordination, reporting, meetings, ceremonies, frameworks, tooling, committees, dashboards, and transformation programmes.
 
-But make no mistake: you are just rearranging the deck chairs on the Titanic...
+But make no mistake: these are expensive treatments for symptoms, not causes. The evidence is clear: if we want better outcomes, we must redesign the system.
+
+Otherwise, the water will continue to warm, and our opportunity to jump will quietly disappear...
 
 > The ideas, structure, and all final arguments and conclusions in this article are my own. As part of my research and revision workflow, I have used AI tools to accelerate drafting and language refinement.
 
