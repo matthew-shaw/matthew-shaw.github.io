@@ -4,9 +4,9 @@
 #
 #    pip-compile requirements.in
 #
-babel==2.17.0
+babel==2.18.0
     # via mkdocs-material
-backrefs==6.1
+backrefs==6.2
     # via mkdocs-material
 cachecontrol[filecache]==0.14.4
     # via
@@ -14,13 +14,13 @@ cachecontrol[filecache]==0.14.4
     #   mkdocs-rss-plugin
 cairocffi==1.7.1
     # via cairosvg
-cairosvg==2.8.2
+cairosvg==2.9.0
     # via mkdocs-material
-certifi==2025.11.12
+certifi==2026.2.25
     # via requests
 cffi==2.0.0
     # via cairocffi
-charset-normalizer==3.4.4
+charset-normalizer==3.4.6
     # via requests
 click==8.3.1
     # via mkdocs
@@ -28,17 +28,17 @@ colorama==0.4.6
     # via mkdocs-material
 csscompressor==0.9.5
     # via mkdocs-minify-plugin
-cssselect2==0.8.0
+cssselect2==0.9.0
     # via cairosvg
 defusedxml==0.7.1
     # via cairosvg
-filelock==3.20.0
+filelock==3.25.2
     # via cachecontrol
 ghp-import==2.1.0
     # via mkdocs
 gitdb==4.0.12
     # via gitpython
-gitpython==3.1.45
+gitpython==3.1.46
     # via mkdocs-rss-plugin
 hjson==3.1.0
     # via
@@ -55,7 +55,7 @@ jinja2==3.1.6
     #   mkdocs-material
 jsmin==3.0.1
     # via mkdocs-minify-plugin
-markdown==3.10
+markdown==3.10.2
     # via
     #   mkdocs
     #   mkdocs-material
@@ -74,43 +74,43 @@ mkdocs==1.6.1
     #   mkdocs-material
     #   mkdocs-minify-plugin
     #   mkdocs-rss-plugin
-mkdocs-get-deps==0.2.0
+mkdocs-get-deps==0.2.2
     # via mkdocs
 mkdocs-glightbox==0.5.2
     # via -r requirements.in
 mkdocs-macros-plugin==1.5.0
     # via -r requirements.in
-mkdocs-material[imaging]==9.7.0
+mkdocs-material[imaging]==9.7.6
     # via -r requirements.in
 mkdocs-material-extensions==1.3.1
     # via mkdocs-material
 mkdocs-minify-plugin==0.8.0
     # via -r requirements.in
-mkdocs-rss-plugin==1.17.7
+mkdocs-rss-plugin==1.17.9
     # via -r requirements.in
 msgpack==1.1.2
     # via cachecontrol
-packaging==25.0
+packaging==26.0
     # via
     #   mkdocs
     #   mkdocs-macros-plugin
 paginate==0.5.7
     # via mkdocs-material
-pathspec==0.12.1
+pathspec==1.0.4
     # via
     #   mkdocs
     #   mkdocs-macros-plugin
-pillow==11.3.0
+pillow==12.1.1
     # via
     #   cairosvg
     #   mkdocs-material
-platformdirs==4.5.1
+platformdirs==4.9.4
     # via mkdocs-get-deps
-pycparser==2.23
+pycparser==3.0
     # via cffi
 pygments==2.19.2
     # via mkdocs-material
-pymdown-extensions==10.18
+pymdown-extensions==10.21
     # via mkdocs-material
 python-dateutil==2.9.0.post0
     # via
@@ -131,21 +131,21 @@ requests==2.32.5
     #   mkdocs-macros-plugin
     #   mkdocs-material
     #   mkdocs-rss-plugin
-selectolax==0.4.6
+selectolax==0.4.7
     # via mkdocs-glightbox
 six==1.17.0
     # via python-dateutil
-smmap==5.0.2
+smmap==5.0.3
     # via gitdb
 super-collections==0.6.2
     # via mkdocs-macros-plugin
-termcolor==3.2.0
+termcolor==3.3.0
     # via mkdocs-macros-plugin
 tinycss2==1.5.1
     # via
     #   cairosvg
     #   cssselect2
-urllib3==2.6.1
+urllib3==2.6.3
     # via requests
 watchdog==6.0.0
     # via mkdocs
