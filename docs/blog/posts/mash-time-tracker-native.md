@@ -4,7 +4,6 @@ date:
 authors:
   - mash
 categories:
-  - Software Development
   - Mash Software
 description: Native controls, app icons & performance
 tags:

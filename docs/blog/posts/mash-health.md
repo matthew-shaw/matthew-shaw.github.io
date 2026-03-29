@@ -4,7 +4,6 @@ date:
 authors:
   - mash
 categories:
-  - Software Development
   - Mash Software
 description: A digital public service that enables users to find UK healthcare providers.
 tags:

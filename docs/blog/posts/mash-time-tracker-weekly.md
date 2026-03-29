@@ -4,7 +4,6 @@ date:
 authors:
   - mash
 categories:
-  - Software Development
   - Mash Software
 description: Weekly view, time schedules & begining beta
 tags:

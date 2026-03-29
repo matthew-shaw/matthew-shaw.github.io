@@ -4,7 +4,6 @@ date:
 authors:
   - mash
 categories:
-  - Software Development
   - Mash Software
 description: History retention, tag pages, in-progress duration & improved forms
 tags:
