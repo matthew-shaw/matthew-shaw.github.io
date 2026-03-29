@@ -16,37 +16,37 @@ links:
 
 # Spicy Autocomplete Won't Solve Your Problems
 
-When power tools first became widely available, did they suddenly turn everyone into a master carpenter? Of course not. Operating a circular saw still requires the skill, knowledge, and spatial awareness to use the tool competently and safely. Power tools simply sped up the process, reducing manual labour and the physical toil of the job.
+When power tools first became widely available, did everyone suddenly become a master carpenter? Of course not. Operating a circular saw still requires the skill, knowledge, and spatial awareness to use the tool competently and safely. Power tools simply sped up the process, reducing manual labour and the physical toil of the job.
 
 With a suite of modern power tools, I can cut up wood, sand it, and screw it together far more quickly than I ever could with a handsaw and a manual screwdriver. But do I know how to design and build a functional, structurally sound armchair? Nope!
 
 <!-- more -->
 
-If I attempt to build that chair relying solely on the speed of my tools rather than a fundamental understanding of carpentry, I am more likely to end up with an ugly, uncomfortable, and unsafe piece of furniture. It will inevitably collapse the moment someone actually tries to sit on it, and I might even lose a finger in the construction process.
+If I attempt to build that chair relying solely on the speed of my tools rather than a fundamental understanding of carpentry, I am more likely to end up with an ugly, uncomfortable, and unsafe piece of furniture. There's a good chance it collapses the moment someone actually tries to sit on it, and I might even lose a finger in the construction process.
 
-With AI-driven software development tooling, the coding process has become infinitely faster, and just as dangerous if left unsupervised.
+With AI-driven software development tooling, the coding process has become dramatically faster, and proportionally more dangerous if left unsupervised.
 
-The core problem in software engineering is, as it always has been, a matter of competence, skill, and domain knowledge. Writing the code was never the hard part. As [I’ve written previously](what-matters.md), AI tools can write your boilerplate and regurgitate common structural patterns all day long. But much like with any creative act, AI cannot have novel "thoughts". It is essentially a spicy autocomplete that does a fantastic impersonation of human-like cognition.
+The core problem in software engineering is, and always has been, competence and domain knowledge. Writing the code was never the hard part. As [I've written previously](what-matters.md), AI tools can write your boilerplate and regurgitate common structural patterns all day long. But much like with any creative act, AI cannot have novel "thoughts". It is essentially a spicy autocomplete that does a fantastic impersonation of human-like cognition.
 
 ## The Illusion of Competence
 
 When we hand developers the equivalent of a software power saw, we get faster cuts, but we also get faster amputations. We now have the ability to introduce subtle bugs at an unprecedented speed and scale. Recent empirical studies are beginning to highlight exactly what those "amputations" look like in a codebase:
 
-- **The Confidence Trap:** A landmark [study from Stanford University](https://arxiv.org/abs/2211.03622) found that developers using AI assistants actually produced code with more security vulnerabilities (such as SQL injections and encryption flaws) than those working without them. Worse, the AI-assisted developers were significantly more confident that their code was secure. It turns out that being confidently wrong is a feature, not a bug.
-- **The Death of Refactoring:** [GitClear recently analysed](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) over 150 million lines of code to measure AI's impact. They found that in 2024, the volume of "copy/pasted code" exceeded the number of "moved" (refactored) lines for the first time in history. Code churn has skyrocketed, and refactoring has plummeted by over 40%.
-- **The Speed Paradox:** A recent randomised [controlled trial by METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) evaluating experienced open-source developers found that those using AI tools actually took 19% longer to complete complex tasks, largely due to the time spent debugging the incredibly plausible, yet entirely fictitious, logic errors the AI introduced.
+- **The Confidence Trap:** A landmark [study from Stanford University](https://arxiv.org/abs/2211.03622) found that, in their tasks, developers using AI assistants produced code with more security vulnerabilities (such as SQL injections and encryption flaws) than those working without them. Worse, the AI-assisted developers were significantly more confident that their code was secure. It turns out that being confidently wrong is a feature, not a bug.
+- **The Death of Refactoring:** [GitClear recently analysed](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) over 150 million lines of code to measure AI's impact. They found that in 2024, the volume of "copy/pasted code" exceeded the number of "moved" (refactored) lines for the first time in history. Code churn has skyrocketed, and refactoring has plummeted.
+- **The Speed Paradox:** A recent randomised [controlled trial by METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) evaluating experienced open-source developers found that those using AI tools actually took 19% longer to complete complex tasks, largely due to the time spent debugging plausible but entirely fictitious logic errors the AI introduced.
 
 ## Systems Over Syntax
 
 Solving holistic problems will always require novel, human thinking. As software professionals, we need to understand the domain, the legacy environment we are operating within, and the actual people we are solving problems for.
 
-The real challenges we face in large-scale systems are deep-rooted, complex, and intertwined. They require architectural foresight and a deep understanding of how different services, databases, and user needs interact. An LLM does not inherently understand your legacy database, or the undocumented architectural decisions made by a contractor in 2014. Relying _blindly_ on AI to solutionise these systemic issues is a fast track to technical debt and architectural rot. It requires an experienced human to set the constraints.
+The real challenges we face in large-scale systems are deep-rooted, complex, and intertwined. They require architectural foresight and a deep understanding of how different services, databases, and user needs interact. An LLM does not inherently understand your legacy database, or the undocumented architectural decisions made by a contractor in 2014. Relying _blindly_ on AI to solve these systemic issues is a fast track to technical debt and architectural rot. It requires an experienced human to set the constraints.
 
 ## The Case for the Chisel
 
 To return to the workshop analogy, there are times when you absolutely must put down the power tools. If you are cutting a delicate dovetail joint or painstakingly restoring a fragile antique, you do not reach for the nail gun. You reach for a chisel. You need tactile feedback, patience, and absolute precision to ensure the highest quality.
 
-The exact same principle applies to software. There are critical areas of our codebases where an AI’s broad-brush, statistically-average approach lacks the necessary finesse. When implementing bespoke, high-stakes domain logic, such as the intricate, centuries-old legal rules governing property records, complex state machines, or cryptographic security, a predictive model left to its own devices is a liability. While an LLM might perfectly scaffold the API endpoint for you, it cannot be trusted to independently interpret the nuances of land law. It just knows which words usually sit next to each other.
+The exact same principle applies to software. There are critical areas of our codebases where an AI's broad-brush, statistically-average approach lacks the necessary finesse. When implementing bespoke, high-stakes domain logic, such as the intricate, centuries-old legal rules governing property records, complex state machines, or cryptographic security, a predictive model left to its own devices is a liability. While an LLM might perfectly scaffold the API endpoint for you, it should not be relied upon to interpret the nuances of land law. It just knows which words usually sit next to each other.
 
 ## The Feature Factory Fallacy
 
@@ -62,7 +62,7 @@ Having robust, deterministic, and comprehensive automated test suites to quickly
 
 ## Don't drink the Kool-Aid
 
-If you point out the realities of software engineering in the current era, you will inevitably be met with a chorus of "vibe coders" and AI evangelists rushing to defend their shiny new hammer. Let’s address some common rebuttals:
+If you point out the realities of software engineering in the current era, you will inevitably be met with a chorus of "vibe coders" and AI evangelists rushing to defend their shiny new hammer. Let's address some common rebuttals:
 
 - **"But I built a whole app in a weekend without knowing how to code!"** Yes, and with enough gaffer tape and enthusiasm, you can build a go-kart out of a shopping trolley. That does not mean anyone should trust you to drive it down the motorway in the pouring rain. There is a massive gap between bootstrapping a greenfield CRUD API and maintaining a complex, high-stakes enterprise system.
 - **"The _next_ model will be an agent that can reason!"** Ah yes, the tech equivalent of "jam tomorrow". Throwing another trillion parameters at a model makes it a better interpolator, but it does not magically grant it the ability to intuit the unwritten business rules of your domain. It will simply predict the syntax with even greater false confidence. The human is still required to verify if that syntax represents the _truth_.
