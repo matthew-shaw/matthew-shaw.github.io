@@ -8,8 +8,11 @@ categories:
 description: 18 Years of Life Lessons Beyond the Code
 tags:
   - Agile
+  - AI
   - Leadership
   - Technical Debt
+links:
+  - blog/posts/ai-power-tools.md
 ---
 
 # What Actually Matters in Software Engineering

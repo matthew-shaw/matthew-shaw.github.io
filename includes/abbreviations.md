@@ -1,3 +1,4 @@
+*[AI]: Artificial Intelligence
 *[API]: Application Programming Interface
 *[APIs]: Application Programming Interfaces
 *[ARIA]: Accessible Rich Internet Applications
@@ -12,6 +13,7 @@
 *[CDNs]: Content Delivery Networks
 *[CFR]: Change Failure Rate
 *[CI]: Continuous Integration
+*[CRUD]: Create, Read, Update, Delete
 *[CSP]: Content Security Policy
 *[CSRF]: Cross-Site Request Forgery
 *[CSS]: Cascading Style Sheets
@@ -32,6 +34,7 @@
 *[JS]: JavaScript
 *[JSON]: JavaScript Object Notation
 *[JWT]: JSON Web Token
+*[LLM]: Large Language Model
 *[MAF]: Maximum Aerobic Function
 *[MIT]: Massachusetts Institute of Technology
 *[MP]: Member of Parliament
