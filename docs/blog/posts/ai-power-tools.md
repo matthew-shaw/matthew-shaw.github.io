@@ -17,7 +17,7 @@ links:
   - blog/posts/modern-software-delivery.md
 ---
 
-# AI Won’t Save You From Bad Engineering
+# AI Won't Save You From Bad Engineering
 
 When power tools first became widely available, did everyone suddenly become a master carpenter? Of course not. Operating a circular saw still requires the skill, knowledge, and spatial awareness to use the tool competently and safely. Power tools simply sped up the process, reducing manual labour and the physical toil of the job.
 
@@ -29,14 +29,14 @@ If I attempt to build that chair relying solely on the speed of my tools rather 
 
 With AI-driven software development tooling, the coding process has become dramatically faster, and, in the wrong hands, significantly more dangerous.
 
-The core problem in software engineering is, and always has been, competence and domain knowledge. Writing the code was never the hard part. As [I've written previously](what-matters.md), AI tools can write your boilerplate and regurgitate common structural patterns all day long. But AI cannot have truely novel or creative "thoughts". It is essentially a spicy autocomplete that does a fantastic impersonation of human-like cognition.
+The core problem in software engineering is, and always has been, competence and domain knowledge. Writing the code was never the hard part. As [I've written previously](what-matters.md), AI tools can write your boilerplate and regurgitate common structural patterns all day long. But AI cannot have truly novel or creative "thoughts". It is essentially a spicy autocomplete that does a fantastic impersonation of human-like cognition.
 
 ## The Illusion of Competence
 
 When we give software developers the equivalent of a power saw, we get faster cuts, but we also get faster amputations. We now have the ability to introduce subtle bugs at an unprecedented speed and scale. Recent empirical studies are beginning to highlight exactly what those amputations look like in a codebase:
 
 - **The Confidence Trap:** A [study from Stanford University](https://arxiv.org/abs/2211.03622) found that, in their tasks, developers using AI assistants produced code with more security vulnerabilities (such as SQL injections and encryption flaws) than those working without them. Worse, the AI-assisted developers were significantly more confident that their code was secure. It turns out that being confidently wrong is a feature, not a bug.
-- **The Death of Refactoring:** [GitClear recently analysed](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) over 150 million lines of code to measure AI's impact. They found that in 2024, the volume of copy/pasted code exceeded the number of moved (refactored) lines for the first time in history. Code churn has skyrocketed, and refactoring has plummeted.
+- **The Death of Refactoring:** [GitClear recently analysed](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) over 150 million lines of code to measure AI's impact. They found that in 2024, the volume of "copy/pasted code" exceeded the number of moved (refactored) lines for the first time in history. Code churn has skyrocketed, and refactoring has plummeted.
 - **The Speed Paradox:** A recent randomised controlled [trial by METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) evaluating experienced open-source developers found that those using AI tools actually took 19% longer to complete complex tasks, largely due to the time spent debugging plausible but entirely fictitious logic errors the AI introduced.
 
 ## Systems Over Syntax
@@ -63,7 +63,7 @@ This is exactly why the foundational practices of eXtreme Programming (XP) are m
 
 Having robust, deterministic, and comprehensive [automated test suites](modern-software-delivery.md#the-technical-system) to quickly verify and validate changes is essential. An automated build process that executes these tests and performs continuous structural analysis, including security, performance, and accessibility testing, is what actually gives you the confidence to deploy small changes regularly. These guardrails were always important before AI entered the chat; they are absolutely critical now.
 
-## Don't drink the Kool-Aid
+## Don't Drink the Kool-Aid
 
 If you point out the realities of software engineering in the current era, you will inevitably be met with a chorus of _"vibe coders"_ and AI evangelists rushing to defend their shiny new hammer. Let's address some common rebuttals:
 
