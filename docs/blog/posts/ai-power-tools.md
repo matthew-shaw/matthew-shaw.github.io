@@ -8,7 +8,9 @@ categories:
 description: Why AI is a powerful tool for the competent, but a liability for the unguided.
 tags:
   - AI
+  - Code Quality
   - Extreme Programming
+  - Technical Debt
 draft: true
 links:
   - blog/posts/what-matters.md
