@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2026-03-28
+  created: 2026-03-31
 authors:
   - mash
 categories:
@@ -14,7 +14,7 @@ links:
   - blog/posts/what-matters.md
 ---
 
-# Spicy Autocomplete Won't Solve Your Problems
+# AI Won’t Save You From Bad Engineering
 
 When power tools first became widely available, did everyone suddenly become a master carpenter? Of course not. Operating a circular saw still requires the skill, knowledge, and spatial awareness to use the tool competently and safely. Power tools simply sped up the process, reducing manual labour and the physical toil of the job.
 
@@ -24,7 +24,7 @@ With a suite of modern power tools, I can cut up wood, sand it, and screw it tog
 
 If I attempt to build that chair relying solely on the speed of my tools rather than a fundamental understanding of carpentry, I am more likely to end up with an ugly, uncomfortable, and unsafe piece of furniture. There's a good chance it collapses the moment someone actually tries to sit on it, and I might even lose a finger in the construction process.
 
-With AI-driven software development tooling, the coding process has become dramatically faster, and proportionally more dangerous if left unsupervised.
+With AI-driven software development tooling, the coding process has become dramatically faster, and, in the wrong hands, significantly more dangerous.
 
 The core problem in software engineering is, and always has been, competence and domain knowledge. Writing the code was never the hard part. As [I've written previously](what-matters.md), AI tools can write your boilerplate and regurgitate common structural patterns all day long. But much like with any creative act, AI cannot have novel "thoughts". It is essentially a spicy autocomplete that does a fantastic impersonation of human-like cognition.
 
@@ -38,9 +38,9 @@ When we hand developers the equivalent of a software power saw, we get faster cu
 
 ## Systems Over Syntax
 
-Solving holistic problems will always require novel, human thinking. As software professionals, we need to understand the domain, the legacy environment we are operating within, and the actual people we are solving problems for.
+Real problems still require human judgement. As software professionals, we need to understand the domain, the legacy environment we are operating within, and the actual people we are solving problems for.
 
-The real challenges we face in large-scale systems are deep-rooted, complex, and intertwined. They require architectural foresight and a deep understanding of how different services, databases, and user needs interact. An LLM does not inherently understand your legacy database, or the undocumented architectural decisions made by a contractor in 2014. Relying _blindly_ on AI to solve these systemic issues is a fast track to technical debt and architectural rot. It requires an experienced human to set the constraints.
+The real challenges we face in large-scale systems are deep-rooted, complex, and intertwined. They require architectural foresight and a deep understanding of how different services, databases, and user needs interact. An LLM does not inherently understand your legacy database, or the undocumented architectural decisions made by a contractor in 2014. Relying _blindly_ on AI to solve these systemic issues is a fast track to technical debt and architectural rot. It still requires an experienced human to set the constraints.
 
 ## The Case for the Chisel
 
@@ -52,7 +52,7 @@ The exact same principle applies to software. There are critical areas of our co
 
 The worry is that those less informed are easily dazzled by the sheer speed at which AI generates "functional" code. They assume that is all there is to it, lacking the hard-won engineering experience to understand why we build so much infrastructure around the code itself.
 
-In feature-factory environments where developers are treated merely as ticket-clearing machines, it is incredibly tempting for management to believe that typing out the syntax was the primary bottleneck slowing down delivery. As if we were all just held back by our typing speed. In reality, the bottleneck is, and always has been, understanding what on earth the business actually wants, ensuring it scales, and proving that it works.
+In feature-factory environments where developers are treated merely as ticket-clearing machines, it is incredibly tempting for management to believe that typing out the syntax was the primary bottleneck slowing down delivery. As if the bottleneck was ever our typing speed. In reality, the bottleneck is, and always has been, understanding what on earth the business actually wants, ensuring it scales, and proving that it works.
 
 ## Safety Guards for the Power Saw
 
