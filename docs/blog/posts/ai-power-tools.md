@@ -36,7 +36,7 @@ The core problem in software engineering is, and always has been, competence and
 When we give software developers the equivalent of a power saw, we get faster cuts, but we also get faster amputations. We now have the ability to introduce subtle bugs at an unprecedented speed and scale. Recent empirical studies are beginning to highlight exactly what those amputations look like in a codebase:
 
 - **The Confidence Trap:** A [study from Stanford University](https://arxiv.org/abs/2211.03622) found that, in their tasks, developers using AI assistants produced code with more security vulnerabilities (such as SQL injections and encryption flaws) than those working without them. Worse, the AI-assisted developers were significantly more confident that their code was secure. It turns out that being confidently wrong is a feature, not a bug.
-- **The Death of Refactoring:** [GitClear recently analysed](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) over 150 million lines of code to measure AI's impact. They found that in 2024, the volume of "copy/pasted code" exceeded the number of moved (refactored) lines for the first time in history. Code churn has skyrocketed, and refactoring has plummeted.
+- **The Death of Refactoring:** [GitClear recently analysed](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) over 150 million lines of code to measure AI's impact. They found that in 2024, the volume of "copy/pasted code" exceeded the number of moved ([refactored](https://en.wikipedia.org/wiki/Code_refactoring)) lines for the first time in history. Code churn has skyrocketed, and refactoring has plummeted.
 - **The Speed Paradox:** A recent randomised controlled [trial by METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) evaluating experienced open-source developers found that those using AI tools actually took 19% longer to complete complex tasks, largely due to the time spent debugging plausible but entirely fictitious logic errors the AI introduced.
 
 ## Systems Over Syntax
@@ -68,7 +68,7 @@ Having robust, deterministic, and comprehensive [automated test suites](modern-s
 If you point out the realities of software engineering in the current era, you will inevitably be met with a chorus of _"vibe coders"_ and AI evangelists rushing to defend their shiny new hammer. Let's address some common rebuttals:
 
 - **"But I built a whole app in a weekend without knowing how to code!"** Yes, and with enough gaffer tape and enthusiasm, you can build a go-kart out of a shopping trolley too! That does not mean anyone should trust you to drive it on a motorway in the pouring rain. There is a massive gap between bootstrapping a greenfield CRUD API and maintaining a complex, high-stakes enterprise system.
-- **"The _next_ model will be an agent that can reason!"** Ah yes, the tech equivalent of _"jam tomorrow"_. Throwing another trillion parameters at a model makes it a better interpolator, but it does not magically grant it the ability to intuit the unwritten business rules of your domain. It will simply predict the syntax with even greater false confidence. The human is still required to verify if that syntax represents the _truth_.
+- **"The _next_ model will be an agent that can reason!"** Ah yes, the tech equivalent of [_"jam tomorrow"_](https://en.wikipedia.org/wiki/Jam_tomorrow). Throwing another trillion parameters at a model makes it a better interpolator, but it does not magically grant it the ability to intuit the unwritten business rules of your domain. It will simply predict the syntax with even greater false confidence. The human is still required to verify if that syntax represents the _truth_.
 - **"We will just have the AI write the automated tests!"** Using AI to generate the boilerplate for your test suite is a fantastic use of the tool. However, if you use an AI to write your complex business logic, and then ask that _exact same AI_ to define the behavioural tests to validate it, you have built an echo chamber. It will confidently award itself top marks for flawlessly executing its own hallucinations.
 
 ## Finding the Actual Value
@@ -77,7 +77,7 @@ That said, there is undeniable value to be found if you understand what the tool
 
 An AI's true strength lies in pattern matching, syntax translation, and summarisation. Turn that to your advantage. Treat the AI as a tireless pair programmer to rapidly parse through dense server logs, translate an old script from Bash to Python, write tedious unit test boilerplate, or act as a [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) when you are stuck on a difficult problem.
 
-Rather than believing AI will magically architect your systems and solve your problems for you, treat it exactly like what it is: a powerful tool in the belt. Just remember, when the only tool you have is a hammer, every problem starts to look like a nail.
+Rather than believing AI will magically architect your systems and solve your problems for you, treat it exactly like what it is: a powerful tool in the belt. Just remember, if all you have is a hammer, everything looks like a nail.
 
 ---
 
