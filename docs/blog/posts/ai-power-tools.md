@@ -40,7 +40,7 @@ When we hand developers the equivalent of a software power saw, we get faster cu
 
 Solving holistic problems will always require novel, human thinking. As software professionals, we need to understand the domain, the legacy environment we are operating within, and the actual people we are solving problems for.
 
-The real challenges we face in large-scale systems are deep-rooted, complex, and intertwined. They require architectural foresight and a deep understanding of how different services, databases, and user needs interact. The model does not inherently understand your legacy database, or the undocumented architectural decisions made by a contractor in 2014. Relying _blindly_ on AI to solutionise these systemic issues is a fast track to technical debt and architectural rot. It requires an experienced human to set the constraints.
+The real challenges we face in large-scale systems are deep-rooted, complex, and intertwined. They require architectural foresight and a deep understanding of how different services, databases, and user needs interact. An LLM does not inherently understand your legacy database, or the undocumented architectural decisions made by a contractor in 2014. Relying _blindly_ on AI to solutionise these systemic issues is a fast track to technical debt and architectural rot. It requires an experienced human to set the constraints.
 
 ## The Case for the Chisel
 
@@ -52,7 +52,7 @@ The exact same principle applies to software. There are critical areas of our co
 
 The worry is that those less informed are easily dazzled by the sheer speed at which AI generates "functional" code. They assume that is all there is to it, lacking the hard-won engineering experience to understand why we build so much infrastructure around the code itself.
 
-In feature-factory environments where developers are treated merely as ticket-clearing machines, it is incredibly tempting for management to believe that typing out the syntax was the primary bottleneck slowing down delivery. As if we were all just held back only by our typing speed. In reality, the bottleneck is, and always has been, understanding what on earth the business actually wants, ensuring it scales, and proving that it works.
+In feature-factory environments where developers are treated merely as ticket-clearing machines, it is incredibly tempting for management to believe that typing out the syntax was the primary bottleneck slowing down delivery. As if we were all just held back by our typing speed. In reality, the bottleneck is, and always has been, understanding what on earth the business actually wants, ensuring it scales, and proving that it works.
 
 ## Safety Guards for the Power Saw
 
@@ -72,7 +72,7 @@ If you point out the realities of software engineering in the current era, you w
 
 That said, there is undeniable value to be found if you understand what the tool is actually built for. We should not ignore power tools just because they are dangerous in the wrong hands.
 
-An AI's true strength lies in pattern matching, syntax translation, and summarisation. Use that to your advantage as a tireless pair programmer to rapidly parse through dense server logs, translate an old script from Bash to Python, write tedious unit test boilerplate, or act as a [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) when you are stuck on a difficult problem.
+An AI's true strength lies in pattern matching, syntax translation, and summarisation. Turn that to your advantage. Treat the AI as a tireless pair programmer to rapidly parse through dense server logs, translate an old script from Bash to Python, write tedious unit test boilerplate, or act as a [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) when you are stuck on a difficult problem.
 
 Rather than believing AI will magically architect your systems and solve your problems for you, treat it exactly like what it is: a powerful tool in the belt. Just remember, when the only tool you have is a hammer, every problem starts to look like a nail.
 
