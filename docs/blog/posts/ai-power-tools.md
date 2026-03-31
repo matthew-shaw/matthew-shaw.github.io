@@ -28,29 +28,29 @@ If I attempt to build that chair relying solely on the speed of my tools rather 
 
 With AI-driven software development tooling, the coding process has become dramatically faster, and, in the wrong hands, potentially more dangerous.
 
-One of the core problems in software engineering is, and always has been, competence and domain knowledge. Writing the code was never the hard part. As [I've written previously](what-matters.md), AI tools can write your boilerplate and regurgitate common structural patterns all day long. But it doesn't understand your system; it just predicts patterns that _look_ correct. It is essentially a spicy autocomplete that does a fantastic impersonation of human-like cognition.
+Two of the core problems in software engineering are, and always have been, competence and domain knowledge. Writing the code was never the hard part. As [I've written previously](what-matters.md), AI tools can write your boilerplate and regurgitate common structural patterns all day long. But it doesn't understand your system; it just predicts patterns that _look_ correct. It is essentially a spicy autocomplete that does a fantastic impersonation of human-like cognition.
 
 ## The Illusion of Competence
 
 When we give software developers the equivalent of a power tool, we amplify output, not understanding. We now have the ability to introduce subtle bugs at a much higher rate. Recent empirical studies are beginning to highlight the impact this has on code quality and security:
 
 - **The Confidence Trap:** A [study from Stanford University](https://arxiv.org/abs/2211.03622) found that, in their tasks, developers using AI assistants produced code with more security vulnerabilities (such as SQL injections and encryption flaws) than those working without them. Worse, the AI-assisted developers were significantly more confident that their code was secure. It turns out that being confidently wrong is a feature, not a bug.
-- **The Death of Refactoring:** [GitClear recently analysed](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) over 150 million lines of code to measure AI's impact. They found that in 2024, the volume of "copy/pasted code" exceeded the number of moved ([refactored](https://en.wikipedia.org/wiki/Code_refactoring)) lines, showing that code churn has increased significantly, while refactoring has decreased.
+- **The Death of Refactoring:** [GitClear recently analysed](https://www.gitclear.com/coding_on_copilot_data_shows_ais_downward_pressure_on_code_quality) over 150 million lines of code to measure AI's impact. They found that in 2024, the volume of "copy/pasted code" exceeded the number of moved lines, showing that code churn has increased significantly, while [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) has decreased.
 - **The Speed Paradox:** A recent randomised controlled [trial by METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) evaluating experienced open-source developers found that those using AI tools actually took 19% _longer_ to complete complex tasks, largely due to the time spent debugging plausible but entirely fictitious logic errors the AI introduced.
 
-There are also studies that show productivity gains for less experienced developers. However, the trade-off is that speed without understanding shifts the cost downstream into long-term maintenance and reliability issues.
+Of course there are also studies that show productivity gains. However, the trade-off is that speed without understanding shifts the cost downstream into long-term maintenance and reliability.
 
 ## Systems Over Syntax
 
 Real problems still require human judgement. As software professionals, we need to understand the domain, the legacy environment we are operating within, and the actual people we are solving problems for.
 
-The real challenges we face in large-scale systems are deep-rooted, complex, and intertwined. They require architectural foresight and a deep understanding of how different services, databases, and user needs interact. An LLM does not inherently understand your legacy database, or the undocumented architectural decisions. Relying too heavily on AI to solve these systemic issues is a fast track to technical debt and architectural rot. It still requires an experienced human to set the constraints.
+The real challenges we face in large-scale systems are deep-rooted, complex, and intertwined. They require architectural foresight and a deep understanding of how different services, databases, and user needs interact. An LLM does not inherently understand your legacy database, or undocumented architectural decisions. Relying too heavily on AI to solve these systemic issues is a fast track to [technical debt](modern-software-delivery.md#overload-on-systems) and architectural rot. It still requires an experienced human to set the constraints.
 
 None of this is new. Poor understanding has always produced poor software. Humans don't [perfectly understand systems](modern-software-delivery.md#cognitive-load) either, but they can investigate, validate assumptions, and be held accountable for the outcomes.
 
 ## The Cost of Imprecision
 
-To return to the workshop analogy, there are times when you absolutely must put down the power tools. If you are cutting a delicate dovetail joint you do not reach for a nail gun. You reach for a chisel. In the places where mistakes are expensive, speed is the wrong metric.
+To return to the workshop analogy, there are times when you absolutely must put down the power tools. If you are cutting a delicate dovetail joint you do not reach for a power saw. You reach for a chisel. In the places where mistakes are expensive, speed is the wrong metric.
 
 The exact same principle applies to software. There are critical areas of our codebases where an AI's broad-brush, statistically-average approach lacks the necessary finesse. When implementing bespoke, high-stakes domain logic, such as intricate legal rules, a predictive model left to its own devices is a liability. While an LLM might perfectly scaffold the API endpoint for you, it should not be relied upon to interpret the nuances of the law. It just knows which words usually sit next to each other.
 
@@ -60,7 +60,7 @@ The worry is that those with less engineering experience are easily impressed by
 
 In feature-factory environments where developers are [treated merely as ticket-clearing machines](modern-software-delivery.md#unused-talent), it is incredibly tempting for management to believe that typing out the syntax was the primary bottleneck slowing down delivery. In reality, the bottleneck is, and always has been, understanding what on earth the business actually wants, ensuring it scales, and proving that it works.
 
-AI doesn’t create these organisational problems. It amplifies them.
+AI doesn't create these organisational problems. It amplifies them.
 
 ## Safety Guards for the Power Saw
 
@@ -84,7 +84,7 @@ For experienced engineers, the upside is obvious if you understand what the tool
 
 An AI's true strength lies in pattern matching, syntax translation, and summarisation. Turn that to your advantage. Treat the AI as a tireless pair programmer to rapidly parse through dense server logs, translate an old script from Bash to Python, write tedious unit test boilerplate, or act as a [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) when you are stuck on a difficult problem.
 
-Rather than believing AI will magically architect your systems and solve your problems for you, treat it exactly like what it is: another powerful tool in the belt. Just remember, AI won't teach you how to design a chair. It just lets you build a bad one faster.
+Rather than believing AI will magically architect your systems and solve your problems for you, treat it exactly like what it is: another powerful tool in your belt. Just remember, AI won't teach you how to design a chair. It just lets you build a bad one faster.
 
 ---
 
