@@ -42,10 +42,13 @@ theme:
     repo: fontawesome/brands/github
     tag:
       accessibility: fontawesome/solid/universal-access
+      agile: fontawesome/solid/arrows-spin
+      ai: fontawesome/solid/robot
       bootstrap: fontawesome/brands/bootstrap
-      cicd: fontawesome/solid/code-pull-request
       database: fontawesome/solid/database
+      design: fontawesome/solid/diagram-project
       docker: fontawesome/brands/docker
+      engineering: fontawesome/solid/gear
       fitness: fontawesome/solid/heart-pulse
       govuk: fontawesome/solid/crown
       javascript: fontawesome/brands/js
@@ -53,11 +56,13 @@ theme:
       markdown: fontawesome/brands/markdown
       mental-health: fontawesome/solid/brain
       nodejs: fontawesome/brands/node-js
+      people: fontawesome/solid/users
       performance: fontawesome/solid/gauge-high
       python: fontawesome/brands/python
       running: fontawesome/solid/person-running
       security: fontawesome/solid/shield-halved
       server: fontawesome/solid/server
+      tools: fontawesome/solid/screwdriver-wrench
       ux: fontawesome/solid/face-grin
       weight-loss: fontawesome/solid/weight-scale
   language: en
@@ -169,28 +174,44 @@ extra:
       link: https://x.com/MattShaw85
   tags:
     Accessibility: accessibility
+    Agile: agile
     Anxiety: mental-health
+    API Design: design
+    Artificial Intelligence: ai
     Bootstrap: bootstrap
-    CI/CD: cicd
+    Collaboration: people
+    Continuous Delivery: agile
     Depression: mental-health
+    DevOps: tools
     Docker: docker
+    Domain-Driven Design: design
+    Engineering Culture: engineering
     Fitness: fitness
     Flask: python
     GOV.UK: govuk
     JavaScript: javascript
     Jinja: python
+    Kanban: agile
+    Leadership: people
+    Lean: agile
     Maps: location
     Mental Health: mental-health
+    Microservices: design
     MkDocs: markdown
     NGINX: server
     Node.js: nodejs
+    Open Data: database
     Performance: performance
+    Platform Engineering: engineering
     PostgreSQL: database
     Python: python
     Redis: database
+    REST: design
     Running: running
     Security: security
+    Software Architecture: design
     SQLAlchemy: python
+    Team: people
     UX: ux
     Weight Loss: weight-loss
     WTForms: python
