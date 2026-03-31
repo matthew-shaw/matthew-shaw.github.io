@@ -7,8 +7,9 @@ categories:
   - Software Development
 description: 18 Years of Life Lessons Beyond the Code
 tags:
-  - Agile
-  - AI
+  - Artificial Intelligence
+  - Code Quality
+  - Engineering Culture
   - Leadership
   - Technical Debt
 links:

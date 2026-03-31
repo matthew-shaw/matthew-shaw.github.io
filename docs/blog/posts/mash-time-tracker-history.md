@@ -9,7 +9,9 @@ description: History retention, tag pages, in-progress duration & improved forms
 tags:
   - Bootstrap
   - UX
-  - WTForms
+  - Web App
+  - Time Tracking
+  - Product Development
 ---
 
 # Mash Time Tracker: History retention, tag pages, in-progress duration & improved forms

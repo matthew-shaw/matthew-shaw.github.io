@@ -10,6 +10,9 @@ description: Tracking ongoing progress towards my health and fitness goals.
 tags:
   - Fitness
   - Weight Loss
+  - Lifestyle
+  - Wellbeing
+  - Personal Growth
 links:
   - blog/posts/fitness-journey-1.md
   - blog/posts/fitness-journey-3.md

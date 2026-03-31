@@ -8,7 +8,10 @@ categories:
 description: I have come to better appreciate what it means to be a truly agile team.
 tags:
   - Agile
+  - Engineering Culture
+  - Leadership
   - Team
+  - Collaboration
 ---
 
 # Top 10 features of truly agile teams

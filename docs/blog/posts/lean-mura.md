@@ -12,8 +12,6 @@ tags:
   - Agile
   - Continuous Delivery
   - DevOps
-  - DORA
-  - Extreme Programming
   - Kanban
   - Lean
 links:

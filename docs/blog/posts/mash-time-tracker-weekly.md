@@ -10,7 +10,8 @@ tags:
   - Accessibility
   - Bootstrap
   - UX
-  - WTForms
+  - Web App
+  - Time Tracking
 ---
 
 # Mash Time Tracker: Weekly view, time schedules & begining beta

@@ -10,7 +10,6 @@ tags:
   - Docker
   - MkDocs
   - NGINX
-  - Performance
   - Python
   - Security
 ---
@@ -26,7 +25,7 @@ A guide to building a highly customisable, lightweight, secure, and performant s
 You will need Python and Docker installed on your system before starting. I recommend using a version manager such as [pyenv](https://github.com/pyenv/pyenv) to install Python.
 
 !!! tip
-    If you run `pyenv local 3.13` it will create a `.python-version` file which pyenv reads to determine which Python version to use.
+If you run `pyenv local 3.13` it will create a `.python-version` file which pyenv reads to determine which Python version to use.
 
 ## Setup
 
@@ -290,7 +289,7 @@ To call out just a few:
 ### Content Security Policy
 
 !!! quote "Mozilla Developer Network"
-    CSP is a feature that helps to prevent or minimize the risk of certain types of security threats. It consists of a series of instructions from a website to a browser, which instruct the browser to place restrictions on the things that the code comprising the site is allowed to do.
+CSP is a feature that helps to prevent or minimize the risk of certain types of security threats. It consists of a series of instructions from a website to a browser, which instruct the browser to place restrictions on the things that the code comprising the site is allowed to do.
 
     <https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP>
 
@@ -299,7 +298,7 @@ Ideally, a strict CSP would include the hashes of any inline scripts. However, M
 ### Permissions Policy
 
 !!! quote "Mozilla Developer Network"
-    The HTTP Permissions-Policy header provides a mechanism to allow and deny the use of browser features.
+The HTTP Permissions-Policy header provides a mechanism to allow and deny the use of browser features.
 
     <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy>
 
@@ -308,7 +307,7 @@ I've used the policy generator at <https://www.permissionspolicy.com/> to disabl
 ### Strict-Transport-Security
 
 !!! quote "Mozilla Developer Network"
-    HSTS informs browsers that the site should only be accessed using HTTPS, and that any future attempts to access it using HTTP should automatically be converted to HTTPS.
+HSTS informs browsers that the site should only be accessed using HTTPS, and that any future attempts to access it using HTTP should automatically be converted to HTTPS.
 
     <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security>
 

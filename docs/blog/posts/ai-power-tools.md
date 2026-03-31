@@ -7,9 +7,10 @@ categories:
   - Software Development
 description: Why AI is a powerful tool for the competent, but a liability for the unguided.
 tags:
-  - AI
+  - Artificial Intelligence
   - Code Quality
-  - Extreme Programming
+  - Engineering Culture
+  - Software Architecture
   - Technical Debt
 links:
   - blog/posts/what-matters.md

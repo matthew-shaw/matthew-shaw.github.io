@@ -14,8 +14,6 @@ tags:
   - DevOps
   - DORA
   - Lean
-  - Platform Engineering
-  - Team Topologies
 links:
   - blog/posts/lean-mura.md
   - blog/posts/lean-muri.md

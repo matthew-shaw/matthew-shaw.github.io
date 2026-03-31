@@ -8,11 +8,10 @@ categories:
 description: Weekly summaries, comments & UI upgrade
 tags:
   - Bootstrap
-  - CI/CD
   - Python
   - Security
   - UX
-  - WTForms
+  - Web App
 ---
 
 # Mash Time Tracker:   Weekly summaries, comments & UI upgrade

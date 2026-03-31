@@ -11,6 +11,7 @@ tags:
   - Mental Health
   - Running
   - Weight Loss
+  - Lifestyle
 ---
 
 # Mind over matter

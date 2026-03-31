@@ -9,6 +9,9 @@ description: A deep dive into the science behind a year-long transformation.
 tags:
   - Fitness
   - Weight Loss
+  - Lifestyle
+  - Wellbeing
+  - Personal Growth
 links:
   - blog/posts/fitness-journey-1.md
   - blog/posts/fitness-journey-2.md
@@ -116,7 +119,7 @@ As a software developer, no project is complete without a retrospective. Reflect
 3. **The 5% Goals Were Critical (_Make it Satisfying_)**: A 25 kg weight loss goal is demoralising. A 5% goal (4.7 kg) is achievable. The plan in [Part 1](fitness-journey-1.md) to set these incremental goals was a lifeline. The "Goals" table in [Part 2](fitness-journey-2.md) shows I ticked one off every 2-3 months. This turned long-term delayed gratification into short-term reward. It was the perfect way to _"Make it Satisfying"_ and keep the _"dopamine reward train"_ on the tracks.
 
 !!! quote "Atomic Habits"
-    _"You do not rise to the level of your goals, you fall to the level of your systems."_
+_"You do not rise to the level of your goals, you fall to the level of your systems."_
 
 I've learned that self-discipline isn't about pure willpower — it's about environment design. By building a system of positive habits that are obvious, attractive, easy, and satisfying, the outcomes took care of themselves
 

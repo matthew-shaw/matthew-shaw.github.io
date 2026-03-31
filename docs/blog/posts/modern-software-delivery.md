@@ -10,16 +10,9 @@ categories:
 description: How to eliminate waste, unevenness and overburden to build sustainable high-performance technology organisations.
 tags:
   - Agile
-  - Cognitive Load
   - Continuous Delivery
   - DevOps
-  - Domain-Driven Design
-  - DORA
-  - Extreme Programming
-  - Kanban
   - Lean
-  - Platform Engineering
-  - Team Topologies
   - Technical Debt
 links:
   - blog/posts/lean-muda.md
@@ -202,7 +195,7 @@ Deploying twenty changes on a Tuesday afternoon and then nothing for four days i
 
 A spiky Change Fail Percentage is a lagging consequence of rushed work.
 
-This often indicates a failure to engage with stakeholders, producing poorly refined work, without a clear scope and inflicting a deadline-driven ["crunch"](https://en.wikipedia.org/wiki/Crunch_(video_games)) cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done". The resulting spike in [defects](#defects) is the unavoidable effect of that unevenness. This also indicates that builds lack determinism, relying on inconsistent or manual steps instead of a fully automated process.
+This often indicates a failure to engage with stakeholders, producing poorly refined work, without a clear scope and inflicting a deadline-driven ["crunch"](<https://en.wikipedia.org/wiki/Crunch_(video_games)>) cycle. The team was forced to rush to meet an arbitrary sprint boundary or release date. They cut corners, skipped tests, and force pushed their way to "done". The resulting spike in [defects](#defects) is the unavoidable effect of that unevenness. This also indicates that builds lack determinism, relying on inconsistent or manual steps instead of a fully automated process.
 
 ### The solutions
 
@@ -294,6 +287,7 @@ This is the "brain overburden" of a system that is too complex, too coupled, or 
 High cognitive load causes teams to create [overprocessing](#overprocessing) as they attempt to manage complexity, fuels [motion](#motion) waste through constant tool and context-switching and ultimately increases [defects](#defects) because overloaded humans make mistakes. This also increases staff turnover and recruitment costs.
 
 It's a direct reflection of a fragmented organisation. As [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law) observed decades ago:
+
 > _"Any organisation that designs a system will produce a design whose structure is a copy of the organisation's communication structure"._
 
 When you have siloed "Frontend", "Backend", and "Database" teams, you will create a system with high-friction handoffs and a coupled, high-burden architecture. You are, in effect, shipping your org chart.
@@ -342,7 +336,7 @@ We can fix this by absorbing, removing and preventing it:
 
 ```mermaid
 flowchart LR
-    TD(Technical Debt) -- Absorbed by --> PE(Platform Engineering) 
+    TD(Technical Debt) -- Absorbed by --> PE(Platform Engineering)
     TD -- Removed by --> CR(Continuous Refactoring)
     TD -- Prevented by --> EA(Evolutionary Architecture)
 ```
@@ -387,8 +381,8 @@ If you only try to fix the symptoms with superficial changes you will always fai
 We like to separate "the people stuff" from "the technical stuff" because it's tidier that way. But as Conway's Law proves, software architecture and team structure are two expressions of the same underlying system. Therefore, meaningful architectural improvement doesn't begin in diagrams. It begins with team design. This isn't just theory; it's an actionable and iterative strategy:
 
 1. **Map Your Strategy and Domains**: First, stop guessing:
-     1. **Strategic Mapping**: Begin with **Wardley Mapping** to visualise your entire ecosystem, from the customer's needs down to the underlying technical capabilities, then plot the evolutionary stage of each component. This high-level strategic analysis forces a crucial decision: what is a commodity we should consume and what is the capability we must build?
-     2. **Domain Mapping**: Next, use the analytical tools from **Domain-Driven Design** (like [_Event Storming_](https://en.wikipedia.org/wiki/Event_storming) and _Context Mapping_) to create a granular map of your core domains and value streams. This process reveals the logical, inherent architectural seams and defines clear _Bounded Contexts_.
+   1. **Strategic Mapping**: Begin with **Wardley Mapping** to visualise your entire ecosystem, from the customer's needs down to the underlying technical capabilities, then plot the evolutionary stage of each component. This high-level strategic analysis forces a crucial decision: what is a commodity we should consume and what is the capability we must build?
+   2. **Domain Mapping**: Next, use the analytical tools from **Domain-Driven Design** (like [_Event Storming_](https://en.wikipedia.org/wiki/Event_storming) and _Context Mapping_) to create a granular map of your core domains and value streams. This process reveals the logical, inherent architectural seams and defines clear _Bounded Contexts_.
 2. **Define the Target Architecture**: Once you have your map, you can make the strategic-level design decisions. You intentionally design the target architecture that aligns with those _Bounded Contexts_. This blueprint, where services and products have clear, single owners, becomes the model for your new organisation.
 3. **Execute the Manoeuvre**: Now, execute the **Reverse Conway Manoeuvre**. This is the leadership act of re-organising your people to match the target blueprint. Use the **Team Topologies** patterns as your guide. Your _Bounded Contexts_ become the mission for new _Stream-aligned_ teams. Common, repetitive work that burdens them is extracted and given to _Platform_ teams. This isn't just moving boxes on an org chart; it's empowering teams with a clear mission, their own budget, and the authority to make decisions, resulting in sustainable cognitive load.
 4. **Defend the New Boundaries**: A new org chart is useless if you don't defend it. You must rigorously define and protect the interaction modes for your new teams. It is essential to define a ["Team API"](https://github.com/TeamTopologies/Team-API-template) for each team; a description and specification that improves the team's clarity of purpose and helps other groups understand how that team fits into the broader organisation. This is how you make the change stick. It prevents the old, high-friction patterns of communication and dependency from creeping back in, ensuring your new, low-stress, high-flow state is sustainable.
@@ -452,6 +446,7 @@ These are behaviours that create a false sense of managerial predictability, cer
 This unintentionally generates mistrust. It's the desire to make sure developers are busy, often by measuring counter-productive metrics like "lines of code", "story points delivered", or "JIRA tickets closed".
 
 This practice is a perfect example of [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law):
+
 > _"When a measure becomes a target, it ceases to be a good measure"._
 
 This forces teams into performative work, looking busy to satisfy the metrics. It creates immense, unreasonable pressure to prioritise the visible and measurable over the important and sustainable. Teams stop doing the invisible, preventative work (like refactoring or documentation) because it doesn't "count", thus accumulating more systemic burden and technical debt.

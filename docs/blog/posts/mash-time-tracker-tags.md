@@ -9,6 +9,9 @@ description: Time tags
 tags:
   - Bootstrap
   - UX
+  - Time Tracking
+  - Product Development
+  - Feature Design
 ---
 
 # Mash Time Tracker: Time tags

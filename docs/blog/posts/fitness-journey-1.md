@@ -10,6 +10,9 @@ description: I am starting a new health and fitness journey and documenting my p
 tags:
   - Fitness
   - Weight Loss
+  - Lifestyle
+  - Wellbeing
+  - Personal Growth
 links:
   - blog/posts/fitness-journey-2.md
   - blog/posts/fitness-journey-3.md

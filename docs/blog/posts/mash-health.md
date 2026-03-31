@@ -7,11 +7,11 @@ categories:
   - Mash Software
 description: A digital public service that enables users to find UK healthcare providers.
 tags:
-  - Bootstrap
   - Flask
   - Maps
   - Open Data
   - Python
+  - Public Service
 ---
 
 # Mash Health

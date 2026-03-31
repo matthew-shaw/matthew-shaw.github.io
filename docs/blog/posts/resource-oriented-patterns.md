@@ -10,6 +10,9 @@ description: DRAFT
 tags:
   - Microservices
   - REST
+  - API Design
+  - Software Architecture
+  - Domain-Driven Design
 ---
 
 # Resource-oriented software architecture patterns

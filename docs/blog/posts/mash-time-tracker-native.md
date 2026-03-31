@@ -8,11 +8,10 @@ categories:
 description: Native controls, app icons & performance
 tags:
   - Accessibility
-  - Bootstrap
   - Performance
   - Security
   - UX
-  - WTForms
+  - Web App
 ---
 
 # Mash Time Tracker: Native controls, app icons & performance

@@ -8,16 +8,11 @@ categories:
   - Software Development
 description: Developing GOV.UK services with Python.
 tags:
-  - Docker
   - Flask
   - GOV.UK
   - Jinja
-  - NGINX
-  - Performance
   - Python
-  - Redis
-  - Security
-  - WTForms
+  - Web Development
 ---
 
 # Developing GOV.UK services with Python

@@ -9,8 +9,6 @@ categories:
 description: Uncovering the causes of failure and burnout.
 tags:
   - Cognitive Load
-  - DevOps
-  - Domain-Driven Design
   - Lean
   - Platform Engineering
   - Team Topologies
