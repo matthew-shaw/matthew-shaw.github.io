@@ -45,6 +45,7 @@ theme:
       agile: fontawesome/solid/arrows-spin
       ai: fontawesome/solid/robot
       bootstrap: fontawesome/brands/bootstrap
+      code: fontawesome/solid/code
       database: fontawesome/solid/database
       design: fontawesome/solid/diagram-project
       docker: fontawesome/brands/docker
@@ -179,6 +180,7 @@ extra:
     API Design: design
     Artificial Intelligence: ai
     Bootstrap: bootstrap
+    Code Quality: code
     Collaboration: people
     Continuous Delivery: agile
     Depression: mental-health
@@ -212,7 +214,10 @@ extra:
     Software Architecture: design
     SQLAlchemy: python
     Team: people
+    Technical Debt: code
     UX: ux
+    Web App: code
+    Web Development: code
     Weight Loss: weight-loss
     WTForms: python
 
