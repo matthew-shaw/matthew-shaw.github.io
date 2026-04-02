@@ -24,7 +24,9 @@ It is a bit like saying a manual and an automatic car are identical, apart from 
 
 <!-- more -->
 
-In our pursuit of safety, we have stopped engineering software and started _managing_ it. We have become victims of what I call the Predictability Paradox.
+What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to sound modern. The result is a deeply dysfunctional "Franken-Agile" environment; a system that operates as "Agile In Name Only" (AINO).
+
+In our pursuit of safety, we have stopped _engineering_ software and instead simply attempt to _manage_ it under the false pretense of predictability.
 
 ## The Predictability Paradox
 
@@ -32,17 +34,21 @@ As technology organisations scale, they naturally want more predictability and l
 
 This comes from a place of good intentions. Nobody adds administrative process maliciously; they add it because they are trying to prevent failure.
 
-However, software development is not a deterministic manufacturing process; it is a novel creative act and a process of continuous discovery. The paradox is that by over-indexing on coordination in an attempt to control the timeline, we accidentally destroy the one thing engineers actually need to build resilient systems: _context_.
+To make matters worse, because these roles are often viewed purely as "management", organisations frequently staff them with generalists. People are rotated from entirely unrelated administrative areas of the business and anointed as Delivery Managers or Product Owners. Without any foundational experience, they cannot rely on intuition, so their only survival mechanism is rigid adherence to the broken processes they inherited.
+
+Software development is not a deterministic manufacturing process; it is a novel creative act and a process of continuous discovery. The paradox is that by over-indexing on coordination in an attempt to control the timeline, we accidentally destroy the one thing engineers actually need to build resilient systems: _context_.
 
 ## The Translation Tax
 
-When you divide the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered.
+Here is the uncomfortable truth: none of these coordination layers can actually write a line of code, fix a production bug, or configure a deployment pipeline. They produce nothing tangible.
 
-This creates a massive, hidden economic burden on your senior technical staff, which we can think of as the Translation Tax.
+Instead, they act as an administrative vacuum, actively harming productivity by demanding the time and cognitive load of the actual producers, the software engineers.
 
-Because these coordination roles often lack deep software engineering experience, they are forced to manage the metrics rather than the work. To a heavy delivery framework, a ticket is just a unit of work moving from left to right. Instead of designing architecture or tackling systemic complexity, principal developers and tech leads spend their days acting as human translation layers. You are forced to constantly translate complex engineering reality into simplified, framework-friendly language just to justify why a deployment pipeline takes time to build safely.
+When you divide the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered. This creates a massive, hidden economic burden on your senior technical staff, which we can think of as the Translation Tax.
 
-Every layer you place between the user's problem and the engineer writing the code degrades the engineering context, forcing the engineer to spend their time translating reality back up the chain rather than engineering solutions.
+Because these coordination roles lack deep software engineering experience, they are forced to manage the metrics rather than the work. To a heavy delivery framework, a ticket is just a unit of work moving from left to right. Instead of designing architecture or tackling systemic complexity, principal developers and tech leads spend their days acting as human translation layers, translating complex engineering reality into simplified, framework-friendly language just to justify why a feature takes time to build safely.
+
+Every layer you place between the user's problem and the engineer writing the code degrades the engineering context, forcing the engineer to spend far less time solving complex technical problems and far more time solving political ones.
 
 ## The Myth of the Clean Handoff
 
