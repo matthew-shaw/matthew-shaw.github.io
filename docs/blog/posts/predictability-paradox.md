@@ -18,7 +18,9 @@ draft: true
 
 # The Predictability Paradox
 
-I recently overheard a conversation in the office that perfectly encapsulates the state of modern software delivery: _"Scrum and Kanban are basically the same, apart from the sprints."_
+I recently overheard a conversation in the office that perfectly encapsulates the state of modern software delivery:
+
+> _"Scrum and Kanban are basically the same, apart from the sprints."_
 
 It is a bit like saying a manual and an automatic car are identical, apart from the gear stick. It reveals a fundamental misunderstanding of the machinery underneath. More importantly, it highlights the exact trap that large, risk-averse organisations fall into when trying to scale their technology teams.
 
