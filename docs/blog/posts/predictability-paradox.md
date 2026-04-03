@@ -40,7 +40,7 @@ Software development is not a deterministic manufacturing process; it is a novel
 
 ## The Translation Tax
 
-Here is the uncomfortable truth: we have created coordination layers that are structurally decoupled from the actual creation of value. Because the organisation has not equipped them to write code, fix a production bug, or configure a deployment pipeline, their only available output is governance. In the organisation's quest for absolute risk aversion, this governance inadvertently acts as an administrative vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers.
+Here is the uncomfortable truth: we have created management layers that are structurally decoupled from the actual creation of value. Because the organisation has not equipped them to write code, fix a production bug, or configure a deployment pipeline, their only available output is governance. In the organisation's quest for absolute risk aversion, this governance inadvertently acts as an administrative vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers.
 
 When you divide the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered. This creates a massive, hidden economic burden on your senior technical staff, which we can think of as the Translation Tax.
 
@@ -50,7 +50,7 @@ Because these coordination roles lack deep software engineering experience, they
 
 This dynamic creates what is essentially a permission anti-pattern. A software engineer should never have to ask permission to write automated tests, refactor a brittle component, or secure a vulnerable endpoint. These are not discretionary features to be negotiated in a backlog; they are the non-negotiable baseline of our profession.
 
-Yet, when the physical reality of engineering a resilient system inevitably clashes with a predetermined delivery date on a magical Gantt chart, the burden of proof is immediately shifted to the developer. Having to constantly defend the fundamentals of good practice to a coordination layer that does not understand the domain isn't just exhausting. It signals a systemic lack of respect for engineering professionalism and a complete erosion of trust.
+Yet, when the physical reality of engineering a resilient system inevitably clashes with a predetermined delivery date on a magical Gantt chart, the burden of proof is immediately shifted to the developer. Having to constantly defend the fundamentals of good practice to a management layer that does not understand the domain isn't just exhausting. It signals a systemic lack of respect for engineering professionalism and a complete erosion of trust.
 
 Every layer you place between the user's problem and the engineer writing the code degrades the engineering context, forcing the engineer to spend far less time solving complex technical problems and far more time solving political ones.
 
