@@ -24,7 +24,7 @@ It is a bit like saying a manual and an automatic car are identical, apart from 
 
 <!-- more -->
 
-What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to sound modern. The result is a deeply dysfunctional "Franken-Agile" environment; a system that operates as "Agile In Name Only" (AINO).
+What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to sound modern. The result is a deeply dysfunctional "Franken-Agile" environment that operates as "Agile In Name Only" (AINO).
 
 In our pursuit of safety, we have stopped _engineering_ software and instead simply attempt to _manage_ it under the false pretense of predictability.
 
@@ -34,15 +34,13 @@ As technology organisations scale, they naturally want more predictability and l
 
 This comes from a place of good intentions. Nobody adds administrative process maliciously; they add it because they are trying to prevent failure.
 
-To make matters worse, because these roles are often viewed purely as "management", organisations frequently staff them with generalists. People are rotated from entirely unrelated administrative areas of the business and anointed as Delivery Managers or Product Owners. Without any foundational experience, they cannot rely on intuition, so their only survival mechanism is rigid adherence to the broken processes they inherited.
+To make matters worse, organisations frequently staff these management layers by taking capable, intelligent people from entirely unrelated areas of the business and put them into software delivery roles. We essentially set them up to fail. Without foundational experience to rely on for intuition, their only survival mechanism in a high-risk environment is rigid adherence to the inherited process.
 
 Software development is not a deterministic manufacturing process; it is a novel creative act and a process of continuous discovery. The paradox is that by over-indexing on coordination in an attempt to control the timeline, we accidentally destroy the one thing engineers actually need to build resilient systems: _context_.
 
 ## The Translation Tax
 
-Here is the uncomfortable truth: none of these coordination layers can actually write a line of code, fix a production bug, or configure a deployment pipeline. They produce nothing tangible.
-
-Instead, they act as an administrative vacuum, actively harming productivity by demanding the time and cognitive load of the actual producers, the software engineers.
+Here is the uncomfortable truth: we have created coordination layers that are structurally decoupled from the actual creation of value. Because the organisation has not equipped them to write code, fix a production bug, or configure a deployment pipeline, their only available output is governance. In the organisation's quest for absolute risk aversion, this governance inadvertently acts as an administrative vacuum, sucking up the time and cognitive load of the software engineers.
 
 When you divide the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered. This creates a massive, hidden economic burden on your senior technical staff, which we can think of as the Translation Tax.
 
