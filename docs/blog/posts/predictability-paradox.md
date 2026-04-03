@@ -26,7 +26,7 @@ It is a bit like saying a manual and an automatic car are identical, apart from 
 
 What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to sound modern. The result is a deeply dysfunctional "Franken-Agile" environment that operates as "Agile In Name Only" (AINO).
 
-In our pursuit of safety, we have stopped _engineering_ software and instead simply attempt to _manage_ it under the false pretense of predictability.
+In our pursuit of safety, we have stopped _engineering_ software and instead simply attempt to _manage_ it under the false pretence of predictability.
 
 ## The Predictability Paradox
 
@@ -55,6 +55,16 @@ Bureaucracies love cleanly defined management roles because they assume informat
 This is the myth of the clean handoff. A Jira ticket is a deeply lossy format for exchanging information. You simply cannot capture the nuance of legacy technical debt, brittle architectural boundaries, or complex domain logic within a user story's acceptance criteria.
 
 When we rely on cleanly separated management roles to hand information over to developers, we aren't creating efficiency. We are just paying a very expensive tax on the context. The release train might arrive exactly on schedule, but because the context was lost in the handoffs, it is usually just delivering technical debt on time.
+
+## The Estimation Theatre
+
+Nowhere is the Predictability Paradox more visible than in the industry's obsession with estimation and detailed planning. The management triad relies heavily on sizing, story points, velocity charts, and planning poker to manage risk. Again, they do this because the wider organisation demands a roadmap, not because they enjoy administrative overhead.
+
+But as proponents of the #NoEstimates movement, like Allen Holub, have long pointed out, estimating complex knowledge work is fundamentally flawed. We treat software engineering like bricklaying, assuming that if one brick takes a minute, ten thousand bricks take ten thousand minutes. But we are not laying bricks; we are discovering solutions to previously unsolved problems.
+
+This creates the "Estimation Theatre". We force engineers to sit in lengthy planning sessions, arguing whether a deeply lossy Jira ticket is a 5 or an 8. This ritual provides absolutely zero value to the end user. It does not make the software better, it does not ship it faster, and it certainly does not mitigate risk. What it does is create a false sense of security for the management layer.
+
+Worse still, when these collective guesses inevitably collide with reality, they are suddenly treated as commitments. The resulting pressure forces teams to cut corners, generating yet more technical debt. If we simply broke work down into the smallest possible understandable pieces and counted them, we would achieve the exact same statistical predictability without wasting hours on collective guessing.
 
 ## Context Over Coordination
 
