@@ -48,7 +48,7 @@ Because these coordination roles lack deep software engineering experience, they
 
 ## The Permission Anti-Pattern
 
-This dynamic creates what is essentially a permission anti-pattern. A software engineer should never have to ask permission to write automated tests, refactor a brittle component, or secure a vulnerable endpoint. These are not discretionary features to be negotiated in a backlog; they are the non-negotiable baseline of our profession.
+This dynamic creates what is essentially a permission anti-pattern. A software engineer should never have to ask permission to upgrade outdated dependencies, refactor a brittle component, or secure a vulnerable endpoint. These are not discretionary features to be negotiated in a backlog; they are the non-negotiable baseline of our profession.
 
 Yet, when the physical reality of engineering a resilient system inevitably clashes with a predetermined delivery date on a magical Gantt chart, the burden of proof is immediately shifted to the developer. Having to constantly defend the fundamentals of good practice to a management layer that does not understand the domain isn't just exhausting. It signals a systemic lack of respect for engineering professionalism and a complete erosion of trust.
 
