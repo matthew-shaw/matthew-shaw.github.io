@@ -28,7 +28,7 @@ It is a bit like saying a manual and an automatic car are identical, apart from 
 
 <!-- more -->
 
-What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to sound modern. The result is a deeply dysfunctional ["Franken-Agile" environment](modern-software-delivery.md#industry-anti-patterns) that operates as "Agile In Name Only" (AINO).
+What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to sound modern. Or worse, cherry picking parts from multiple methodologies while ignoring the underlying principles. The result is a deeply dysfunctional ["Franken-Agile" environment](modern-software-delivery.md#industry-anti-patterns) that operates as "Agile In Name Only" (AINO).
 
 In our pursuit of safety, we have stopped _engineering_ software and instead simply attempt to _manage_ it under the false pretence of predictability.
 
@@ -36,7 +36,7 @@ In our pursuit of safety, we have stopped _engineering_ software and instead sim
 
 As technology organisations scale, their default response to managing risk is to surround engineering teams with more coordinators: Product Managers, Project Managers, and Delivery Managers.
 
-This comes from a place of good intentions, nobody adds administrative process maliciously. However, by dividing the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered.
+This comes from a place of good intentions. Nobody adds administrative process maliciously. However, by dividing the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered.
 
 Software development is not a deterministic manufacturing process; it is a mix of engineering, design, and discovery. The paradox is that by over-investing in coordination in an attempt to control the timeline, we accidentally destroy the one thing engineers actually need to build resilient systems: _context_.
 
@@ -44,17 +44,17 @@ Software development is not a deterministic manufacturing process; it is a mix o
 
 This structural decoupling creates a massive, hidden economic burden on your senior technical staff.
 
-To make matters worse, organisations frequently staff these management layers by transferring capable, intelligent people from entirely unrelated administrative areas. We essentially set them up to fail. Because they lack the foundational software engineering experience to write code, fix production bugs, or configure deployment pipelines, their only available output is governance. Process becomes the safest thing to lean on.
+To make matters worse, organisations frequently staff these management layers by transferring capable, intelligent people from entirely unrelated administrative areas. We essentially set them up to fail. Because they often lack the foundational software engineering experience to write code, fix production bugs, or configure deployment pipelines, their only available output is governance. Process becomes the safest thing to lean on when they are decoupled from the creation of value.
 
-In the organisation's quest for absolute safety, this governance inadvertently acts as a vacuum, sucking up the [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers.
+In the organisation's quest for excessive safety, this governance inadvertently acts as a vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers.
 
 In a heavy delivery framework, a ticket is just a unit of work moving from left to right. Instead of designing architecture or tackling systemic complexity, tech leads are forced to act as human translation layers. They spend their days converting complex engineering reality into simplified, framework-friendly language just to justify why a feature takes time to build safely.
 
 ## The Permission Anti-Pattern
 
-This dynamic creates what is essentially a permission anti-pattern. A software engineer should never have to ask permission to upgrade outdated dependencies, refactor a brittle component, or secure a vulnerable endpoint. These are not discretionary features to be negotiated in a backlog; they are the non-negotiable baseline of our profession. Engineers must be trusted to make these changes as part of normal professional responsibility.
+This dynamic creates what is essentially a permission anti-pattern. A software engineer should never have to ask permission to upgrade outdated dependencies, refactor a brittle component, or secure a vulnerable endpoint. These are not discretionary features to be negotiated in a backlog; they are the non-negotiable baseline of our profession. Engineers must be trusted to make these changes as part of their normal professional responsibility.
 
-Yet, when the physical reality of engineering a resilient system inevitably clashes with a predetermined delivery date on a magical Gantt chart, the burden of proof is immediately shifted to the developer. Having to constantly defend the fundamentals of good practice to a management layer that does not understand the domain isn't just exhausting. It signals a system that does not fully trust engineering professionalism.
+Yet, when the reality of engineering a resilient system inevitably clashes with a predetermined delivery date on a magical Gantt chart, the burden of proof is immediately shifted to the developer. Having to constantly defend the fundamentals of good practice to a management layer that does not understand the domain isn't just exhausting. It signals a system that does not fully trust or respect engineering professionalism.
 
 Every layer you place between the user's problem and the engineer writing the code degrades the engineering context, forcing the engineer to spend far less time solving complex technical problems and far more time solving political ones.
 
@@ -80,7 +80,7 @@ Worse still, when these collective guesses inevitably collide with reality, they
 
 You cannot fix this by arguing about whether SAFe or Scrum is the superior methodology (it's neither!). As I have written previously, [process usually masks a lack of trust](what-matters.md), and adding a different process will not restore it.
 
-High-performing software development teams do not need more people managing the flow of work; they need the engineers to have higher context of the business problem. We have to collapse these communication layers so that the people building the system are directly aligned with the people using it.
+High-performing software development teams do not need more people managing the flow of work; they need the engineers to have greater context of the business problem. We have to collapse these communication layers so that the people building the system are directly aligned with the people using it.
 
 We must prioritise context over coordination.
 
