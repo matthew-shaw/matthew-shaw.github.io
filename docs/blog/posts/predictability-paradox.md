@@ -34,21 +34,21 @@ In our pursuit of safety, we have stopped _engineering_ software and instead sim
 
 ## The Coordination Trap
 
-As technology organisations scale, they naturally want more predictability and less risk. The industry's default response to this has been to add more management layers. We surround our engineering teams with Product Managers, Project Managers, and Delivery Managers.
+As technology organisations scale, their default response to managing risk is to surround engineering teams with more coordinators: Product Managers, Project Managers, and Delivery Managers.
 
-This comes from a place of good intentions. Nobody adds administrative process maliciously; they add it because they are trying to prevent failure.
-
-To make matters worse, organisations frequently staff these management layers by taking capable, intelligent people from entirely unrelated areas of the business and place them into software delivery roles without the necessary context. We essentially set them up to fail. Without foundational experience to rely on for intuition, process becomes the safest thing to lean on.
+This comes from a place of good intentions, nobody adds administrative process maliciously. However, by dividing the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered.
 
 Software development is not a deterministic manufacturing process; it is a mix of engineering, design, and discovery. The paradox is that by over-investing in coordination in an attempt to control the timeline, we accidentally destroy the one thing engineers actually need to build resilient systems: _context_.
 
 ## The Translation Tax
 
-Here is the uncomfortable truth: we have created management layers that are structurally decoupled from the actual creation of value. Because they are not equipped to write code, fix production bugs, or configure deployment pipelines, their only available output is governance. In the organisation's quest for excessive risk aversion, this governance inadvertently acts as an administrative vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers.
+This structural decoupling creates a massive, hidden economic burden on your senior technical staff.
 
-When you divide the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered. This creates a massive, hidden economic burden on your senior technical staff, which we can think of as the translation tax.
+To make matters worse, organisations frequently staff these management layers by transferring capable, intelligent people from entirely unrelated administrative areas. We essentially set them up to fail. Because they lack the foundational software engineering experience to write code, fix production bugs, or configure deployment pipelines, their only available output is governance. Process becomes the safest thing to lean on.
 
-Because these management roles lack deep software engineering experience, they are forced to manage the metrics rather than the work. To a heavy delivery framework, a ticket is just a unit of work moving from left to right. Instead of designing architecture or tackling systemic complexity, principal developers and tech leads spend their days acting as human translation layers, translating complex engineering reality into simplified, framework-friendly language just to justify why a feature takes time to build safely.
+In the organisation's quest for absolute safety, this governance inadvertently acts as a vacuum, sucking up the [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers.
+
+In a heavy delivery framework, a ticket is just a unit of work moving from left to right. Instead of designing architecture or tackling systemic complexity, tech leads are forced to act as human translation layers. They spend their days converting complex engineering reality into simplified, framework-friendly language just to justify why a feature takes time to build safely.
 
 ## The Permission Anti-Pattern
 
