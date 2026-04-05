@@ -28,7 +28,7 @@ It is a bit like saying a manual and an automatic car are identical, apart from 
 
 <!-- more -->
 
-What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to sound modern. Or worse, cherry picking parts from multiple methodologies while ignoring the underlying principles. The result is a deeply dysfunctional ["Franken-Agile" environment](modern-software-delivery.md#industry-anti-patterns) that operates as "Agile In Name Only" (AINO).
+What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to _sound_ modern. Or worse, cherry-picking parts from multiple methodologies while ignoring their underlying principles. The result is a deeply dysfunctional ["Franken-Agile" environment](modern-software-delivery.md#industry-anti-patterns) that operates as "Agile In Name Only" (AINO).
 
 In our pursuit of safety, we have stopped _engineering_ software and instead simply attempt to _manage_ it under the false pretence of predictability.
 
@@ -36,23 +36,21 @@ In our pursuit of safety, we have stopped _engineering_ software and instead sim
 
 As technology organisations scale, their default response to managing risk is to surround engineering teams with more coordinators: Product Managers, Project Managers, and Delivery Managers.
 
-This comes from a place of good intentions. Nobody adds administrative process maliciously. However, by dividing the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered.
+This comes from a place of good intentions. Nobody adds administrative process maliciously. Most people in these roles are doing their best within the system they've been given. The problem is the structure itself. By dividing the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered.
 
 Software development is not a deterministic manufacturing process; it is a mix of engineering, design, and discovery. The paradox is that by over-investing in coordination in an attempt to control the timeline, we accidentally destroy the one thing engineers actually need to build resilient systems: _context_.
 
 ## The Translation Tax
 
-This structural decoupling creates a massive, hidden economic burden on your senior technical staff.
+This structural decoupling creates a massive, hidden economic burden on senior technical staff.
 
-To make matters worse, organisations frequently staff these management layers by transferring capable, intelligent people from entirely unrelated administrative areas. We essentially set them up to fail. Because they often lack the foundational software engineering experience to write code, fix production bugs, or configure deployment pipelines, their only available output is governance. Process becomes the safest thing to lean on when they are decoupled from the creation of value.
+To make matters worse, organisations frequently staff these management layers by transferring capable, intelligent people from entirely unrelated administrative areas. We essentially set them up to fail. Because they may lack the foundational software engineering experience needed to write code, fix production bugs, or configure deployment pipelines, their primary output becomes governance. Process becomes the safest thing to lean on because they have been decoupled from the creation of value.
 
-In the organisation's quest for excessive safety, this governance inadvertently acts as a vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers.
-
-In a heavy delivery framework, a ticket is just a unit of work moving from left to right. Instead of designing architecture or tackling systemic complexity, tech leads are forced to act as human translation layers. They spend their days converting complex engineering reality into simplified, framework-friendly language just to justify why a feature takes time to build safely.
+In the organisation's quest for excessive safety, this governance layer inadvertently acts as a vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers. Instead of designing architecture or tackling systemic complexity, tech leads are forced to act as human translation layers. They spend their days converting complex engineering reality into simplified, framework-friendly language in order to justify why a feature takes time to build properly.
 
 ## The Permission Anti-Pattern
 
-This dynamic creates what is essentially a permission anti-pattern. A software engineer should never have to ask permission to upgrade outdated dependencies, refactor a brittle component, or secure a vulnerable endpoint. These are not discretionary features to be negotiated in a backlog; they are the non-negotiable baseline of our profession. Engineers must be trusted to make these changes as part of their normal professional responsibility.
+This dynamic creates what is essentially a permission anti-pattern. A software engineer should not have to ask permission to upgrade outdated dependencies, refactor a brittle component, or secure a vulnerable endpoint. These are not discretionary features to be negotiated in a backlog; they are the non-negotiable baseline of our profession. Engineers must be _trusted_ to make these changes as part of their normal professional responsibility.
 
 Yet, when the reality of engineering a resilient system inevitably clashes with a predetermined delivery date on a magical Gantt chart, the burden of proof is immediately shifted to the developer. Having to constantly defend the fundamentals of good practice to a management layer that does not understand the domain isn't just exhausting. It signals a system that does not fully trust or respect engineering professionalism.
 
@@ -64,15 +62,15 @@ Bureaucracies love cleanly defined management roles because they assume informat
 
 This is the myth of the clean handoff. A Jira ticket is a deeply lossy format for exchanging information. You simply cannot capture the nuance of legacy technical debt, brittle architectural boundaries, or complex domain logic within a user story's acceptance criteria.
 
-When we rely on cleanly separated management roles to hand information over to developers, we aren't creating efficiency. We are just paying a very expensive tax on the context. The release train might arrive exactly on schedule, but because the context was lost in the handoffs, it is usually just delivering [technical debt](modern-software-delivery.md#overload-on-systems) on time.
+When we rely on cleanly separated management roles to hand information over to developers, we aren't creating efficiency. We are just paying a very expensive tax on the context. The release train might arrive exactly on schedule, but because the context was lost in the handoffs, it is usually just delivering more [technical debt](modern-software-delivery.md#overload-on-systems) on time.
 
 ## The Estimation Theatre
 
-Nowhere is the predictability paradox more visible than in the industry's obsession with estimation and detailed planning. The management triad relies heavily on sizing, story points, velocity charts, and planning poker to manage risk. Again, they do this because the wider organisation demands a roadmap, not because they enjoy administrative overhead.
+Nowhere is the predictability paradox more visible than in the industry's obsession with estimation and detailed planning. The management triad relies heavily on sizing, story points, velocity charts, and planning poker to manage risk. They do this because the wider organisation demands a roadmap and timeboxed budgets, not because they enjoy administrative overhead.
 
-But as proponents of the #NoEstimates movement, like Allen Holub, have long pointed out, estimating complex knowledge work is fundamentally flawed. [Estimation is mostly waste](what-matters.md). We treat software engineering like bricklaying, assuming that if one brick takes a minute, ten thousand bricks take ten thousand minutes. But we are not laying bricks; we are discovering solutions to previously unsolved problems.
+But as proponents of [the #NoEstimates movement](https://youtu.be/QVBlnCTu9Ms) have long pointed out, estimating complex knowledge work is fundamentally flawed and [is mostly waste](what-matters.md). We treat software engineering like bricklaying, assuming that if one brick takes a minute, ten thousand bricks take ten thousand minutes. But we are not laying bricks; we are discovering solutions to previously unsolved problems.
 
-This creates the estimation theatre, where we force engineers to sit in lengthy planning sessions, arguing whether a deeply lossy Jira ticket is a 5 or an 8. This ritual provides zero value to the end user. It does not improve the software. It does not make delivery faster. It does not meaningfully reduce risk. What it does is create a false sense of security for the management layer.
+This creates the estimation theatre, where we force engineers to sit in lengthy planning sessions, arguing whether a deeply lossy Jira ticket is a 5 or an 8. This ritual provides zero value to the end user. It does not improve the software. It does not make delivery faster. It does not meaningfully reduce risk. All it really does is create a false sense of certainty for the management layer.
 
 Worse still, when these collective guesses inevitably collide with reality, they are suddenly treated as commitments. The resulting pressure forces teams to cut corners, generating yet more technical debt. If we simply broke work down into the smallest possible understandable pieces and counted them, we would achieve more reliable forecasting through smaller batch sizes and shorter feedback loops.
 
@@ -82,11 +80,11 @@ You cannot fix this by arguing about whether SAFe or Scrum is the superior metho
 
 High-performing software development teams do not need more people managing the flow of work; they need the engineers to have greater context of the business problem. We have to collapse these communication layers so that the people building the system are directly aligned with the people using it.
 
-We must prioritise context over coordination.
+In short, we must **prioritise context over coordination**.
 
-This means [refactoring the organisation itself](modern-software-delivery.md#a-practical-sociotechnical-plan). Carving out bounded contexts, building small, stream-aligned teams, and giving them direct access to the users without the heavy management triad in the middle.
+This means [refactoring the organisation itself](modern-software-delivery.md#a-practical-sociotechnical-plan). Carving out [bounded contexts](https://martinfowler.com/bliki/BoundedContext.html), building small, [stream-aligned teams](https://teamtopologies.com/key-concepts), and giving them direct access to the users without the heavy management triad in the middle.
 
-The future of senior engineering isn't just writing better code; it is designing the team structures that make good code possible.
+The future of engineering leadership isn't writing better code; it's designing the environment that makes good code possible.
 
 ---
 
