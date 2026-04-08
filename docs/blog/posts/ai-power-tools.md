@@ -1,6 +1,7 @@
 ---
 date:
   created: 2026-03-31
+  updated: 2026-04-08
 authors:
   - mash
 categories:
@@ -53,15 +54,15 @@ None of this is new. Poor understanding has always produced poor software. Human
 
 To return to the workshop analogy, there are times when you absolutely must put down the power tools. If you are cutting a delicate dovetail joint you do not reach for a power saw. You reach for a chisel. In the places where mistakes are expensive, speed is the wrong metric.
 
-The exact same principle applies to software. There are critical areas of our codebases where an AI's broad-brush, statistically-average approach lacks the necessary finesse. When implementing bespoke, high-stakes domain logic, such as intricate legal rules, a predictive model left to its own devices is a liability. While an LLM might perfectly scaffold the API endpoint for you, it should not be relied upon to interpret the nuances of the law. It just knows which words usually sit next to each other.
+The exact same principle applies to software. There are critical areas of our codebases where an AI's broad-brush, statistically-average approach lacks the necessary finesse. When implementing intricate, high-stakes domain logic, a predictive model left to its own devices is a liability. While an LLM might perfectly scaffold the API endpoint for you, it should not be relied upon to interpret the nuances of complex rules. It just knows which words usually sit next to each other.
 
 ## The Feature Factory Fallacy
 
 The worry is that those with less engineering experience are easily impressed by the sheer speed at which AI generates _"functional"_ code. They assume that is all there is to it, lacking the battle scars to understand why we build so much infrastructure around the code itself.
 
-In feature-factory environments where developers are [treated merely as ticket-clearing machines](modern-software-delivery.md#unused-talent), it is incredibly tempting for management to believe that typing out the syntax was the primary bottleneck slowing down delivery. In reality, the bottleneck is, and always has been, understanding what on earth the business actually wants, ensuring it scales, and proving that it works.
+In environments where delivery is heavily [focused on output metrics](modern-software-delivery.md#productivity-paranoia), it can sometimes seem as if typing out syntax is the main bottleneck slowing down delivery. In reality, the bottleneck is, and always has been, understanding the business domain, ensuring scalability, and proving resilience.
 
-AI doesn't create these organisational problems. It amplifies them.
+AI doesn't create these organisational challenges, but it can amplify them if they already exist.
 
 ## Safety Guards for the Power Saw
 
