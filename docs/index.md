@@ -2,6 +2,8 @@
 icon: fontawesome/solid/house
 ---
 
-# Hello, World!
+# Hello, World! :wave:
 
-:wave: I'm Matt Shaw, a full-stack Principal Software Developer with 18 years experience of software development in central government. I have a leading role on key projects in a multi-million pound digital transformation programme, delivering digital services that follow the government Service Manual and Design Principles.
+This blog is where I share my thoughts on software development, engineering culture, and leadership. I write about the lessons I've learned, the trade-offs I've had to make, and the things I wish I knew when I started out.
+
+---
