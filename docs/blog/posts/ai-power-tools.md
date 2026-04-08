@@ -87,10 +87,4 @@ An AI's true strength lies in pattern matching, syntax translation, and summaris
 
 Rather than believing AI will magically architect your systems and solve your problems for you, treat it exactly like what it is: another powerful tool in your belt. Just remember, AI won't teach you how to design a chair. It just lets you build a bad one faster.
 
----
-
-[:fontawesome-brands-bluesky: Share on Bluesky](https://bsky.app/intent/compose?text={{ page.title | urlencode }} by @mash85.bsky.social {{ page.canonical_url }} {% for tag in page.meta.tags %}%23{{ tag | replace(" ", "") }} {% endfor %}){ .md-button .md-button--primary }
-
-[:fontawesome-brands-linkedin: Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url={{page.canonical_url}}){ .md-button .md-button--primary }
-
-[:fontawesome-brands-x-twitter: Share on Twitter](https://twitter.com/intent/tweet?text={{ page.title | urlencode }}&url={{ page.canonical_url }}&hashtags={% for tag in page.meta.tags %}{{ tag | replace(" ", "") }},{% endfor %}&via=MattShaw85){ .md-button .md-button--primary }
+--8<-- "includes/disclaimer.md"
