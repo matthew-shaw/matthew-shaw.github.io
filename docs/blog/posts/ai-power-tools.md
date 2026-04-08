@@ -58,7 +58,7 @@ The exact same principle applies to software. There are critical areas of our co
 
 ## The Feature Factory Fallacy
 
-The worry is that those with less engineering experience are easily impressed by the sheer speed at which AI generates _"functional"_ code. They assume that is all there is to it, lacking the battle scars to understand why we build so much infrastructure around the code itself.
+The worry is that it is incredibly easy to be impressed by the sheer speed at which AI generates _"functional"_ code. This creates a dangerous illusion that syntax is all there is to it, masking the reality of why we must build so much infrastructure around the code itself.
 
 In environments where delivery is heavily [focused on output metrics](modern-software-delivery.md#productivity-paranoia), it can sometimes seem as if typing out syntax is the main bottleneck slowing down delivery. In reality, the bottleneck is, and always has been, understanding the business domain, ensuring scalability, and proving resilience.
 
