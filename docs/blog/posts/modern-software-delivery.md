@@ -14,10 +14,6 @@ tags:
   - DevOps
   - Lean
   - Technical Debt
-links:
-  - blog/posts/lean-muda.md
-  - blog/posts/lean-mura.md
-  - blog/posts/lean-muri.md
 ---
 
 # Lean Thinking in Modern Software Delivery

@@ -2,7 +2,7 @@
 slug: the-eight-wastes-of-modern-software-delivery
 date:
   created: 2025-10-25
-  updated: 2025-11-11
+  updated: 2025-12-12
 authors:
   - mash
 categories:
@@ -21,6 +21,10 @@ links:
 ---
 
 # Muda: The Eight Wastes of Modern Software Delivery
+
+!!! note
+
+    This post has been superceeded by the more comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
 
 In manufacturing, **Lean** thinking revolutionised how products were built by relentlessly eliminating waste. Whilst the "software factory" analogy isn't perfect, the core **Lean** principle of eliminating waste underpins modern software delivery, from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
