@@ -52,7 +52,7 @@ In an enterprise's quest for excessive safety, this governance layer inadvertent
 
 This dynamic creates what is essentially a permission anti-pattern. A software engineer should not have to ask permission to upgrade outdated dependencies, refactor a brittle component, or secure a vulnerable endpoint. These are not discretionary features to be negotiated in a backlog; they are the non-negotiable baseline of our profession. Engineers must be _trusted_ to make these changes as part of their normal professional responsibility.
 
-Yet, when the reality of engineering a resilient system inevitably clashes with a predetermined delivery date on a idealised Gantt chart, the burden of proof is immediately shifted to the developer. Having to constantly defend the fundamentals of good practice to a management layer that does not deeply understand the domain creates severe systemic friction. It signals an operating model that defaults to command-and-control rather than trusting engineering professionalism.
+Yet, when the reality of engineering a resilient system inevitably clashes with a predetermined delivery date on an idealised Gantt chart, the burden of proof is immediately shifted to the developer. Having to constantly defend the fundamentals of good practice to a management layer that does not deeply understand the domain creates severe systemic friction. It signals an operating model that defaults to command-and-control rather than trusting engineering professionalism.
 
 Every layer placed between the user's problem and the engineer writing the code degrades the engineering context, forcing the engineer to spend far less time solving complex technical problems and far more time navigating bureaucracy.
 
