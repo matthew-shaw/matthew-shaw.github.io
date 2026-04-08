@@ -1,3 +1,3 @@
 !!! note "Disclaimer"
 
-    _The views, opinions, and technical critiques expressed on this blog are entirely my own and are based on general industry experience. They do not reflect the views, policies, or endorsements of any past, present, or future organisation, client, or employer._
+    _The views, opinions, and technical critiques expressed on this blog are entirely my own. They are based on general industry knowledge and publicly available information, and do not draw on or disclose any confidential, privileged, or organisation-specific information. They do not reflect the views, policies, or endorsements of any past, present, or future employer or organisation._
