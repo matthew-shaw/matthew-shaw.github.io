@@ -30,7 +30,7 @@ It is a bit like saying a manual and an automatic car are identical, apart from 
 
 What usually follows is the adoption of heavy, bureaucratic frameworks sprinkled with just enough terminology to _sound_ modern. Or worse, cherry-picking parts from multiple methodologies while ignoring their underlying principles. The result is a deeply dysfunctional ["Franken-Agile" environment](modern-software-delivery.md#the-illusion-of-agility) that operates as "Agile In Name Only" (AINO).
 
-In our pursuit of safety, we have stopped _engineering_ software and instead simply attempt to _manage_ it under the false pretence of predictability.
+In our pursuit of safety, we have stopped _engineering_ software and instead simply try to _manage_ it under the false pretence of predictability.
 
 ## The Coordination Trap
 
@@ -44,9 +44,9 @@ Software development is not a deterministic manufacturing process; it is a mix o
 
 This structural decoupling creates a massive, hidden economic burden on senior technical staff.
 
-To make matters worse, the industry frequently staffs these management layers with individuals who, while highly capable, lack foundational software engineering experience. Because their roles do not write code, fix production bugs, or configure deployment pipelines, their primary lever for influence becomes governance. Process becomes the safest thing to lean on because they have been decoupled from the creation of value.
+To make matters worse, the industry often staffs these management layers with individuals who, while highly capable, lack foundational software engineering experience. Because their roles do not write code, fix production bugs, or configure deployment pipelines, their primary lever for influence becomes governance. Process becomes the safest thing to lean on because they have been decoupled from the creation of value.
 
-In an enterprise's quest for excessive safety, this governance layer inadvertently acts as a vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers. Instead of designing architecture or tackling systemic complexity, tech leads are forced to act as human translation layers. They spend their days converting complex engineering reality into simplified, framework-friendly language in order to justify why a feature takes time to build properly.
+In an enterprise's quest for excessive safety, this governance layer inadvertently acts as a vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers. Instead of designing architecture or tackling systemic complexity, tech leads are forced to act as human translation layers. They spend their days converting complex engineering reality into simplified, framework-friendly language to justify why a feature takes time to build properly.
 
 ## The Permission Anti-Pattern
 
@@ -62,7 +62,7 @@ Large enterprises love cleanly defined management roles because they assume info
 
 This is the myth of the clean handoff. A Jira ticket is a deeply lossy format for exchanging information. You simply cannot capture the nuance of legacy technical debt, brittle architectural boundaries, or complex domain logic within a user story's acceptance criteria.
 
-When we rely on cleanly separated management roles to hand information over to developers, we aren't creating efficiency. We are just paying a very expensive tax on the context. The release train might arrive exactly on schedule, but because the context was lost in the handoffs, it is usually just delivering more [technical debt](modern-software-delivery.md#overload-on-systems) on time.
+When we rely on cleanly separated management roles to hand information over to developers, we aren't creating efficiency. We are just paying an expensive tax on the context. The release train might arrive exactly on schedule, but because the context was lost in the handoffs, it is usually just delivering more [technical debt](modern-software-delivery.md#overload-on-systems) on time.
 
 ## The Estimation Theatre
 
@@ -78,7 +78,7 @@ Worse still, when these collective guesses inevitably collide with reality, they
 
 You cannot fix this by arguing about whether SAFe or Scrum is the superior methodology (it's neither!). As I have written previously, [process usually masks a lack of trust](what-matters.md), and adding a different process will not restore it.
 
-High-performing software development teams do not need more people managing the flow of work; they need the engineers to have greater context of the business problem. We have to collapse these communication layers so that the people building the system are directly aligned with the people using it.
+High-performing software development teams do not need more people managing the flow of work; they need the engineers to have greater context of the business problem. We must collapse these communication layers so that the people building the system are directly aligned with the people using it.
 
 In short, we must **prioritise context over coordination**.
 
