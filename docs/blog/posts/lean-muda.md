@@ -2,7 +2,7 @@
 slug: the-eight-wastes-of-modern-software-delivery
 date:
   created: 2025-10-25
-  updated: 2025-12-12
+  updated: 2026-04-10
 authors:
   - mash
 categories:
@@ -32,7 +32,7 @@ In Japanese, _Muda_ (無駄) means "waste" or "futility" - any activity that con
 
 <!-- more -->
 
-Decades later, research from _Accelerate_ and the **DORA** program has validated these same **Lean** principles as the foundation of high-performing software teams. I've seen first-hand how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience and evidence. Let's explore how each of these eight wastes shows up in software development, and how to spot them in your team.
+Decades later, research from _Accelerate_ and the **DORA** program has validated these same **Lean** principles as the foundation of high-performing software teams. Industry data consistently demonstrates how these wastes can slow down even the most well-intentioned teams. This post isn't a theoretical lecture; it's a practical guide based on experience and evidence. Let's explore how each of these eight wastes shows up in software development, and how to spot them in your team.
 
 ---
 

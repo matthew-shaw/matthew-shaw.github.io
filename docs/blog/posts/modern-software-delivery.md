@@ -2,7 +2,7 @@
 pin: true
 date:
   created: 2025-12-12
-  updated: 2025-12-17
+  updated: 2026-04-10
 authors:
   - mash
 categories:
@@ -46,7 +46,7 @@ To apply this to software, we must consider the three systemic forces identified
 
 Ohno's core insight was that the visible symptoms of waste are fundamentally caused by unevenness of flow and unreasonable load, which must be eliminated first to create a stable process.
 
-Decades later, research from the _Accelerate_ book and the **DORA** programme has validated these principles not just as philosophy, but as the empirical baseline for high-performing teams. I have seen first-hand how even the most well-intentioned teams can be affected by these forces.
+Decades later, research from the _Accelerate_ book and the **DORA** programme has validated these principles not just as philosophy, but as the empirical baseline for high-performing teams. Industry data consistently demonstrates how even the most well-intentioned teams can be affected by these forces.
 
 This is a practical guide to diagnosing and resolving these issues. We will begin by identifying the symptoms (Waste), trace them to the flow problems (Unevenness), and finally address the root cause (Overburden) using a sociotechnical approach.
 
@@ -274,7 +274,7 @@ Unlike manufacturing, our raw materials are ideas held in human working memory. 
 
 #### Cognitive load
 
-This is the "brain overburden" of a system that is too complex, too coupled, or too poorly documented for a single human to hold in their head. This high cognitive load is chronic stress. We inflict this on people when we force them to:
+This is the "brain overburden" of a system that is too complex, too coupled, or too poorly documented for a single human to hold in their head. This high cognitive load is chronic stress. Overload occurs when engineers are forced to:
 
 - Navigate sprawling ["big ball of mud"](https://en.wikipedia.org/wiki/Spaghetti_code#big-ball-o-mud) architectures.
 - Constantly shatter their focus with cross-team dependencies and context-switching.
@@ -320,7 +320,7 @@ The other half of _Muri_ is the overburden we place on our systems. The most com
 
 Technical Debt is frequently misunderstood as "old code", or even just "someone else's code". _It isn't_. It's the accumulation of shortcuts, compromises, or outdated assumptions - sometimes made under pressure, sometimes simply made with limited information - that increase the cost or risk of future change.
 
-It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time we said, _"We'll clean this up later"_. But later rarely comes. Over time, these choices form a fossil record of an organisation's priorities and stress patterns.
+It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time someone says, _"We'll clean this up later"_. But later rarely comes. Over time, these choices form a fossil record of an organisation's priorities and stress patterns.
 
 Technical debt manifests as:
 

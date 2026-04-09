@@ -2,7 +2,7 @@
 slug: the-root-cause-of-overburden
 date:
   created: 2025-11-25
-  updated: 2025-12-12
+  updated: 2026-04-10
 authors:
   - mash
 categories:
@@ -44,7 +44,7 @@ Software is not manufacturing. Our raw materials are ideas held in human working
 
 ### Cognitive Load
 
-This is the "brain overburden" of a system that is too complex, too coupled, or too poorly documented for a single human to hold in their head. This high cognitive load is chronic stress. We inflict this on people when we force them to:
+This is the "brain overburden" of a system that is too complex, too coupled, or too poorly documented for a single human to hold in their head. This high cognitive load is chronic stress. Overload occurs when engineers are forced to:
 
 - Navigate sprawling "big ball of mud" architectures.
 - Constantly shatter their focus with cross-team dependencies and context-switching.
@@ -100,7 +100,7 @@ The other half of Muri is the overburden we place on our systems. The most commo
 
 This is frequently misunderstood as "old code", or even just "someone else's code". It isn't. It's the accumulation of shortcuts, compromises, or outdated assumptions - sometimes made under pressure, sometimes simply made with limited information - that increase the cost or risk of future change.
 
-It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time we said, "We'll clean this up later". But later rarely comes. Over time, these choices form a fossil record of the organisation's priorities and stress patterns.
+It's what happens when we optimise for delivery speed in the short term, at the expense of resilience and maintainability in the long term. The codebase remembers every time someone says, "We'll clean this up later". But later rarely comes. Over time, these choices form a fossil record of the organisation's priorities and stress patterns.
 
 We can fix this by absorbing, removing and preventing it.
 
