@@ -282,5 +282,3 @@ Tracking my ongoing progress towards my health and fitness goals. See [part 1](f
 | 76.9             | 2025-04-13 |
 | 73.0             | 2025-06-09 |
 | 69.4             | 2025-08-27 |
-
---8<-- "includes/disclaimer.md"

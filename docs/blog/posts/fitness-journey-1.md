@@ -152,5 +152,3 @@ With no other data yet I can only make an informed guess at best (#NoEstimates :
 ## Let's go!
 
 I'll been keeping track of my progress week-by-week and sharing updates [in part 2](fitness-journey-2.md).
-
---8<-- "includes/disclaimer.md"

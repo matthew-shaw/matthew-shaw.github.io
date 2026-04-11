@@ -132,5 +132,3 @@ The data shows the physical change. But the real outcome is the one I can't plot
 By treating my body as a system to understand rather than a problem to fix, I turned an aspiration into a reproducible process. This wasn't luck, and it wasn't just hard work — it was science applied with persistence, guided by the principles of habit formation.
 
 I'm not just lighter or fitter now; I'm living proof that consistent evidence-based effort works. I didn't just run a 12-month project; I built a system for a healthier life. And in _this_ case, the system works.
-
---8<-- "includes/disclaimer.md"

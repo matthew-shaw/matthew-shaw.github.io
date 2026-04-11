@@ -122,5 +122,3 @@ If you have read this far and want to do something to help, then please consider
 Thank you to the people who have enabled me to write this. Thank you to my wife, family and friends. Thank you to anyone who gave me advice, support and encouragement along the way. And thank you for reading.
 
 \#KeepGoing
-
---8<-- "includes/disclaimer.md"
