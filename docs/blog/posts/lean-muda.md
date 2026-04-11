@@ -24,7 +24,7 @@ links:
 
 !!! note
 
-    This post has been superceeded by the more comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
+    This post has been superceeded by my comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
 
 In manufacturing, **Lean** thinking revolutionised how products were built by relentlessly eliminating waste. Whilst the "software factory" analogy isn't perfect, the core **Lean** principle of eliminating waste underpins modern software delivery, from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
