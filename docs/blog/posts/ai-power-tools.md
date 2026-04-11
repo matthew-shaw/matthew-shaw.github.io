@@ -6,7 +6,7 @@ authors:
   - mash
 categories:
   - Software Development
-description: Why AI is a powerful tool for the competent, but a liability for the unguided.
+description: Why AI is a powerful tool for the competent, but a liability for the unguided
 tags:
   - Artificial Intelligence
   - Code Quality
