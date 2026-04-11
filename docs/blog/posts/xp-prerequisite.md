@@ -18,7 +18,9 @@ links:
 draft: true
 ---
 
-## The XP Prerequisite
+# The XP Prerequisite
+
+<!-- more -->
 
 The industry has spent two decades arguing over Scrum versus SAFe, completely ignoring the fact that process frameworks only manage the flow of work; they do absolutely nothing to manage the quality of the code.
 
