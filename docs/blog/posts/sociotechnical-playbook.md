@@ -22,7 +22,7 @@ draft: true
 
 # The Sociotechnical Playbook
 
-In the technology industry, there is a habit of identifying deep, systemic architectural failures and believing they can be fixed by reorganising management frameworks. We adopt SAFe, we rename our Project Managers to Scrum Masters, and we buy [AI coding assistants](ai-power-tools.md), all while the underlying monolithic database silently strangles our ability to deliver.
+In the technology industry, there is a habit of identifying deep, systemic architectural failures and believing they can be fixed by reorganising management frameworks. Enterprises adopt SAFe, they rename their Project Managers to Scrum Masters, and they buy [AI coding assistants](ai-power-tools.md), all while the underlying monolithic database silently strangles their ability to deliver.
 
 <!-- more -->
 
@@ -34,11 +34,11 @@ But how do we actually execute that? It requires more than just dropping industr
 
 To demonstrate, I'll apply this playbook to a fictional public sector case study: the "Apply for a juggling licence" service. This service ensures citizens are qualified to safely juggle in public spaces. It is critical, high-volume, and completely gridlocked.
 
-The core system of record is backed by a monolithic 1980s mainframe. Over the last decade, the department spent millions on "digital transformations", but because they focused purely on the technology and ignored the organisational design, they simply built a modern web frontend and some bespoke APIs on top of the legacy core.
+The core system is comprised of a sprawling web of "microservices" built during a major cloud transformation initiative, to replace a legacy monolith. Because the department focused purely on the technology and ignored the organisational design, they simply built a distributed monolith on top of the legacy service.
 
-They kept their rigid, functional silos intact. The bottlenecks didn't disappear; they just moved from the mainframe database administrators to the "API Integration Team." Furthermore, during these unsuccessful transformations, they built their own bespoke identity management system and a custom payment integration, tightly coupling them all back into the mainframe.
+They kept their rigid, component-based teams intact. The bottlenecks didn't disappear; they just moved from the old on-premise servers to the "Cloud Infrastructure Guild" and the "Release Coordination Board". Furthermore, during this chaotic build phase, they decided to roll their own bespoke identity management system and a custom payment integration, tightly coupling them directly into the core juggling assessment services.
 
-Today, a simple policy update to the "Flaming Torches" assessment takes eight months to release. Adding more development teams, [coordination layers](predictability-paradox.md), or changing the sprint cadence will not fix this. Here is the four-step playbook that will.
+Today, a simple policy update to the "Flaming Torches" assessment requires coordinated releases across four different teams and takes eight months to deploy a dozen components. Adding more development teams, [coordination layers](predictability-paradox.md), or changing the sprint cadence will not fix this. Here is the four-step playbook that will.
 
 ## Step 1: See the Landscape
 
@@ -52,7 +52,7 @@ This map forces a crucial decision. It reveals we are wasting engineering talent
 
 ## Step 2: Find the Seams
 
-With the commodities offloaded, we must tackle the core business logic [trapped in the mainframe](https://martinfowler.com/articles/uncovering-mainframe-seams.html). To do this without causing catastrophic outages, we turn to [**Domain-Driven Design**](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
+With the commodities offloaded, we must tackle the core business logic trapped in the [legacy seam](https://martinfowler.com/bliki/LegacySeam.html). To do this without causing catastrophic outages, we turn to [**Domain-Driven Design**](https://en.wikipedia.org/wiki/Domain-driven_design) (DDD).
 
 DDD is a software engineering approach that models code directly after the real-world business domain, establishing a [**Ubiquitous Language**](https://martinfowler.com/bliki/UbiquitousLanguage.html) between technical and non-technical stakeholders. Monoliths are created when different business domains bleed into each other and share the same data. DDD provides the analytical tools to untangle this logic.
 
@@ -60,7 +60,7 @@ We start by stopping all talk of "database schemas" and instead run an [**Event 
 
 By looking at this chronological map, we can group related events into logical clusters. These clusters form our [**Bounded Contexts**](https://martinfowler.com/bliki/BoundedContext.html). This is the primary structural outcome of DDD: a clear boundary within which a specific business model and terminology apply. For example, the word "Licence" means something very different inside the Assessment context than it does in the Finance context.
 
-These contexts represent the natural, logical seams in our organisation. They are the exact boundary lines where we need to decouple our architecture safely. We can now use the [**Strangler Fig**](https://martinfowler.com/bliki/StranglerFigApplication.html) pattern to strangle the mainframe logic context by context, knowing that a change to the "Flaming Torches" assessment logic no longer carries the risk of breaking the payment processing.
+These contexts represent the natural, logical seams in our organisation. They are the exact boundary lines where we need to decouple our architecture safely. We can now use the [**Strangler Fig**](https://martinfowler.com/bliki/StranglerFigApplication.html) pattern to strangle the legacy logic context by context, knowing that a change to the "Flaming Torches" assessment logic no longer carries the risk of breaking the payment processing.
 
 ## Step 3: Align the Organisation
 
