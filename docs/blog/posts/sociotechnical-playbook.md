@@ -22,7 +22,6 @@ draft: true
 
 # The Sociotechnical Playbook
 
-A practical, tactical guide for technical leaders on how to design the environment that makes good engineering possible.
 In the technology industry, there is a habit of identifying deep, systemic architectural failures and believing they can be fixed by reorganising management frameworks. We adopt SAFe, we rename our Project Managers to Scrum Masters, and we buy [AI coding assistants](ai-power-tools.md), all while the underlying monolithic database silently strangles our ability to deliver.
 
 <!-- more -->
@@ -89,6 +88,6 @@ When we get this right, we finally solve [**Developer Experience**](https://en.w
 
 This sociotechnical operation is intentionally radical because [the problems we face are systemic](modern-software-delivery.md). It requires hard, expensive, and political work, but the alternative is continuing to pay the massive [translation tax](predictability-paradox.md) of a fragmented, legacy-strangled organisation.
 
-This environmental design is the real engineering. When you use **Wardley Mapping** to define commodities, **Domain-Driven Design** to find architectural seams, **Team Topologies** to align ownership, and **Platform Engineering** to automate the friction, you don't just get predictability. You get your engineering capability back.
+This environment design **is** the real engineering. When you use **Wardley Mapping** to define commodities, **Domain-Driven Design** to find architectural seams, **Team Topologies** to align ownership, and **Platform Engineering** to automate the friction, you don't just get predictability. You get your engineering capability back.
 
 --8<-- "includes/disclaimer.md"
