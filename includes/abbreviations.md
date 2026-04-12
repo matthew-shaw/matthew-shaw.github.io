@@ -17,10 +17,13 @@
 *[CSP]: Content Security Policy
 *[CSRF]: Cross-Site Request Forgery
 *[CSS]: Cascading Style Sheets
+*[DBAs]: Database Administrators
 *[DDD]: Domain-Driven Design
+*[DevEx]: Developer Experience
 *[DORA]: DevOps Research and Assessment
 *[DX]: Developer Experience
 *[EU]: European Union
+*[GaaP]: Government as a Platform
 *[GCHQ]: Government Communications Headquarters
 *[GDPR]: General Data Protection Regulation
 *[HM]: His Majesty's
@@ -31,6 +34,7 @@
 *[HTML5]: Hypertext Markup Language 5
 *[HTTP]: Hyper Text Transfer Protocol
 *[HTTPS]: Hyper Text Transfer Protocol Secure
+*[IT]: Information Technology
 *[JS]: JavaScript
 *[JSON]: JavaScript Object Notation
 *[JWT]: JSON Web Token
