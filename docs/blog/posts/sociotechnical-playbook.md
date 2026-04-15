@@ -34,7 +34,7 @@ But how do we actually execute that? It requires more than just dropping industr
 
 To demonstrate, I'll apply this playbook to a fictional public sector case study: the "Apply for a juggling licence" service. This service ensures citizens are qualified to safely juggle in public spaces. It is critical, high-volume, and completely gridlocked.
 
-The core system is comprised of a sprawling web of "microservices" built during a major cloud transformation initiative, to replace a legacy monolith. Because the department focused purely on the technology and ignored the organisational design, they simply built a distributed monolith on top of the legacy service.
+The core system consists of a sprawling web of "microservices" built during a major cloud transformation initiative, to replace a legacy monolith. Because the department focused purely on the technology and ignored the organisational design, they simply built a distributed monolith on top of the legacy service.
 
 They kept their rigid, component-based teams intact. The bottlenecks didn't disappear; they just moved from the old on-premise servers to the "Cloud Infrastructure Guild" and the "Release Coordination Board". Furthermore, during this chaotic build phase, they decided to roll their own bespoke identity management system and a custom payment integration, tightly coupling them directly into the core juggling assessment services.
 
@@ -84,7 +84,7 @@ We deliver this capability through a dedicated **Platform Team**. Crucially, we 
 
 When we get this right, we finally solve [**Developer Experience**](https://en.wikipedia.org/wiki/Developer_experience) (DevEx). The industry is currently obsessed with "DevEx Theatre"—buying AI coding assistants and hoping for 10x speed. But [typing code is rarely the bottleneck](ai-power-tools.md); systemic friction is. True DevEx is the lived, day-to-day experience of engineers navigating the sociotechnical environment. We measure it not by lines of code written, but by the reduction in wait times and cognitive load. If the Assessment Team can provision a secure, compliant database in five minutes without raising a single ticket to a Change Advisory Board, we have achieved excellent DevEx.
 
-## The Ultimate Metric
+## The Real Engineering
 
 This sociotechnical operation is intentionally radical because [the problems we face are systemic](modern-software-delivery.md). It requires hard, expensive, and political work, but the alternative is continuing to pay the massive [translation tax](predictability-paradox.md) of a fragmented, legacy-strangled organisation.
 
