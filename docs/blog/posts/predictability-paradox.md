@@ -36,17 +36,17 @@ In our pursuit of safety, we have stopped _engineering_ software and instead sim
 
 As technology organisations scale, their default response to managing risk is to surround engineering teams with more coordinators: Product Managers, Project Managers, and Delivery Managers.
 
-This comes from a place of good intentions. Nobody adds administrative process maliciously. Most people in these roles are doing their best within the system they've been given. The problem is the structure itself. By dividing the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered.
+This comes from a place of good intentions. Nobody adds to the administrative process maliciously. Most people in these roles are doing their best within the system they've been given. The problem is the structure itself. By dividing the "What" (Product), the "When" (Project), and the "How" (Delivery) across different disciplines, the holistic context of the system is shattered.
 
-Software development is not a deterministic manufacturing process; it is a mix of engineering, design, and discovery. The paradox is that by over-investing in coordination in an attempt to control the timeline, we accidentally destroy the one thing engineers actually need to build resilient systems: _context_.
+Software development is not a deterministic manufacturing process. It is a mix of engineering, design, and discovery. The paradox is that by over-investing in coordination in an attempt to control the timeline, we accidentally destroy the one thing engineers need to build resilient systems: _context_.
 
 ## The Translation Tax
 
 This structural decoupling creates a massive, hidden economic burden on senior technical staff.
 
-To make matters worse, the industry often staffs these management layers with individuals who, while highly capable, lack foundational software engineering experience. Because their roles do not write code, fix production bugs, or configure deployment pipelines, their primary lever for influence becomes governance. Process becomes the safest thing to lean on because they have been decoupled from the creation of value.
+To make matters worse, the industry often staffs these management layers with individuals who, while highly capable, lack foundational software engineering experience. Because their roles do not write code, fix production bugs, or configure deployment pipelines, their primary lever for influence becomes governance. Process becomes the safest thing to lean on because they have been decoupled from value creation.
 
-In an enterprise's quest for excessive safety, this governance layer inadvertently acts as a vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers. Instead of designing architecture or tackling systemic complexity, tech leads are forced to act as human translation layers. They spend their days converting complex engineering reality into simplified, framework-friendly language to justify why a feature takes time to build properly.
+In an enterprise's quest for excessive safety, this governance layer inadvertently acts as a vacuum, sucking up the time and [cognitive load](modern-software-delivery.md#cognitive-load) of the software engineers. Instead of designing architecture or tackling systemic complexity, tech leads are forced to function as human translation layers. They spend their days converting complex engineering reality into simplified, framework-friendly language to justify why a feature takes time to build properly.
 
 ## The Permission Anti-Pattern
 
@@ -56,11 +56,11 @@ Yet, when the reality of engineering a resilient system inevitably clashes with 
 
 Every layer placed between the user's problem and the engineer writing the code degrades the engineering context, forcing the engineer to spend far less time solving complex technical problems and far more time navigating bureaucracy.
 
-## The Myth of the Clean Handoff
+## The Clean Handoff Myth
 
 Large enterprises love cleanly defined management roles because they assume information can be handed off losslessly. The Product Manager gathers requirements, the Project Manager plans the timeline, and the Delivery Manager ensures it gets done on time. Each role is a neat box with clear responsibilities.
 
-This is the myth of the clean handoff. A Jira ticket is a deeply lossy format for exchanging information. You simply cannot capture the nuance of legacy technical debt, brittle architectural boundaries, or complex domain logic within a user story's acceptance criteria.
+This is the clean handoff myth. A Jira ticket is a deeply lossy format for exchanging information. You simply cannot capture the nuance of legacy technical debt, brittle architectural boundaries, or complex domain logic within a user story's acceptance criteria.
 
 When we rely on cleanly separated management roles to hand information over to developers, we aren't creating efficiency. We are just paying an expensive tax on the context. The release train might arrive exactly on schedule, but because the context was lost in the handoffs, it is usually just delivering more [technical debt](modern-software-delivery.md#overload-on-systems) on time.
 
@@ -72,7 +72,7 @@ But as proponents of [the #NoEstimates movement](https://youtu.be/QVBlnCTu9Ms) h
 
 This creates the estimation theatre, where we force engineers to sit in lengthy planning sessions, arguing whether a deeply lossy Jira ticket is a 5 or an 8. This ritual provides zero value to the end user. It does not improve the software. It does not make delivery faster. It does not meaningfully reduce risk. All it really does is create a false sense of certainty for the management layer.
 
-Worse still, when these collective guesses inevitably collide with reality, they are suddenly treated as commitments. The resulting pressure forces teams to cut corners, generating yet more technical debt. If we simply broke work down into the smallest possible understandable pieces and counted them, we would achieve more reliable forecasting through smaller batch sizes and shorter feedback loops.
+Worse, when these collective guesses inevitably collide with reality, they are suddenly treated as commitments. The resulting pressure forces teams to cut corners, generating yet more technical debt. If we simply broke work down into the smallest possible understandable pieces and counted them, we would achieve more reliable forecasting through smaller batch sizes and shorter feedback loops.
 
 ## Context Over Coordination
 

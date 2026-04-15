@@ -26,9 +26,9 @@ In the technology industry, there is a habit of identifying deep, systemic archi
 
 <!-- more -->
 
-In my white paper ["Lean Thinking in Modern Software Delivery"](modern-software-delivery.md), I argue that if you only try to fix the symptoms with superficial changes, you will always fail. You have to address the root cause: the deep, systemic mismatch between your software architecture and your team structures.
+In my white paper ["Lean Thinking in Modern Software Delivery"](modern-software-delivery.md), I argue that if you only try to fix the symptoms with superficial changes, you will always fail. You must address the root cause: the deep, systemic mismatch between your software architecture and your team structures.
 
-But how do we actually execute that? It requires more than just dropping industry terminology into a slide deck. This is the literal, step-by-step blueprint for executing **Sociotechnical Design**.
+But how do we execute that? It requires more than just dropping industry terminology into a slide deck. This is the literal, step-by-step blueprint for executing **Sociotechnical Design**.
 
 ## The Case Study
 
@@ -42,13 +42,13 @@ Today, a simple policy update to the "Flaming Torches" assessment requires coord
 
 ## Step 1: See the Landscape
 
-First, we have to stop guessing. You cannot fix an ecosystem you do not fully understand. To see this more clearly, we use [**Wardley Mapping**](https://en.wikipedia.org/wiki/Wardley_map).
+First, we stop guessing. You cannot fix an ecosystem you do not fully understand. To see this more clearly, we use [**Wardley Mapping**](https://en.wikipedia.org/wiki/Wardley_map).
 
 Created by Simon Wardley, this is a visual strategic tool that plots the components of your system on two axes: how visible they are to the end user (the Value Chain), and how mature they are (Evolution: from Genesis to Custom Built, Product, and finally Commodity). We use this because it forces us to stop treating all technology as equal. It exposes exactly where we are wasting expensive engineering time building things we should simply be renting or consuming.
 
-To do this, we put our citizen at the top and map the immediate things they need just below them, drilling down into the underlying systems and plotting them left-to-right based on maturity.
+To do this, we put our citizens at the top and map the immediate things they need just below them, drilling down into the underlying systems and plotting them left-to-right based on maturity.
 
-This map forces a crucial decision. It reveals we are wasting engineering talent maintaining bespoke identity, payment, and notification systems. The immediate strategic move is to sever those ties and consume standard Government-as-a-Platform (GaaP) commodities. By integrating with GOV.UK [One Login](https://www.sign-in.service.gov.uk/), [Pay](https://www.payments.service.gov.uk/), and [Notify](https://www.notifications.service.gov.uk/), we instantly shrink the footprint of the legacy core.
+This map forces a crucial decision. It reveals we are wasting engineering talent supporting bespoke identity, payment, and notification systems. The immediate strategic move is to sever those ties and consume standard Government-as-a-Platform (GaaP) commodities. By integrating with GOV.UK [One Login](https://www.sign-in.service.gov.uk/), [Pay](https://www.payments.service.gov.uk/), and [Notify](https://www.notifications.service.gov.uk/), we instantly shrink the footprint of the legacy core.
 
 ## Step 2: Find the Seams
 
@@ -58,7 +58,7 @@ DDD is a software engineering approach that models code directly after the real-
 
 We start by stopping all talk of "database schemas" and instead run an [**Event Storming**](https://en.wikipedia.org/wiki/Event_storming) workshop. This is a rapid, highly interactive format where engineers and domain experts gather around a massive whiteboard. Everyone writes down "Domain Events"-things that happen in the system, written in past tense (e.g., "Payment Taken", "Assessment Failed")-and maps them chronologically. It cuts through technical jargon and exposes exactly how a business process flows from end to end.
 
-By looking at this chronological map, we can group related events into logical clusters. These clusters form our [**Bounded Contexts**](https://martinfowler.com/bliki/BoundedContext.html). This is the primary structural outcome of DDD: a clear boundary within which a specific business model and terminology apply. For example, the word "Licence" means something very different inside the Assessment context than it does in the Finance context.
+Looking at this chronological map, we can group related events into logical clusters. These clusters form our [**Bounded Contexts**](https://martinfowler.com/bliki/BoundedContext.html). This is the primary structural outcome of DDD: a clear boundary within which a specific business model and terminology apply. For example, the word "Licence" means something quite different inside the Assessment context than it does in the Finance context.
 
 These contexts represent the natural, logical seams in our organisation. They are the exact boundary lines where we need to decouple our architecture safely. We can now use the [**Strangler Fig**](https://martinfowler.com/bliki/StranglerFigApplication.html) pattern to strangle the legacy logic context by context, knowing that a change to the "Flaming Torches" assessment logic no longer carries the risk of breaking the payment processing.
 
@@ -68,11 +68,11 @@ But finding the boundaries is only half the battle. [**Conway's Law**](https://m
 
 To beat **Conway's Law**, we must execute the **Inverse Conway Manoeuvre**. This is the deliberate leadership act of designing your team structure to force the desired software architecture to emerge.
 
-We execute this manoeuvre using [**Team Topologies**](https://teamtopologies.com/key-concepts), a framework for organisational design that optimises for fast flow and sustainable cognitive load. It provides the exact structural patterns required to scale this safely. Following this framework, we disband the functional silos entirely.
+We execute this manoeuvre using [**Team Topologies**](https://teamtopologies.com/key-concepts), a framework for organisational design that optimises for fast flow and sustainable cognitive load. It provides the exact structural patterns needed to scale this safely. Following this framework, we disband the functional silos entirely.
 
 In their place, we create **Stream-Aligned Teams**. This is the primary team type in **Team Topologies**: a cross-functional group empowered to deliver value continuously without handing work off to other departments. We assign one **Stream-Aligned Team** to own a single **Bounded Context** entirely end-to-end.
 
-Because these teams own the full stack of their domain, they do not hand off code to an Ops team; they build, test, and run it themselves. This eliminates the translation tax and the endless waiting caused by tossing Jira tickets back and forth. It empowers teams with the authority to actually make decisions.
+Because these teams own the full stack of their domain, they do not hand off code to an Ops team; they build, test, and run it themselves. This cuts the translation tax and the endless waiting caused by tossing Jira tickets back and forth. It empowers teams with the authority to make decisions.
 
 ## Step 4: Pave the Road
 
@@ -88,6 +88,6 @@ When we get this right, we finally solve [**Developer Experience**](https://en.w
 
 This sociotechnical operation is intentionally radical because [the problems we face are systemic](modern-software-delivery.md). It requires hard, expensive, and political work, but the alternative is continuing to pay the massive [translation tax](predictability-paradox.md) of a fragmented, legacy-strangled organisation.
 
-This environment design **is** the real engineering. When you use **Wardley Mapping** to define commodities, **Domain-Driven Design** to find architectural seams, **Team Topologies** to align ownership, and **Platform Engineering** to automate the friction, you don't just get predictability. You get your engineering capability back.
+This environmental design is real engineering. When you use **Wardley Mapping** to define commodities, **Domain-Driven Design** to find architectural seams, **Team Topologies** to align ownership, and **Platform Engineering** to automate the friction, you don't just get predictability. You get your engineering capability back.
 
 --8<-- "includes/disclaimer.md"

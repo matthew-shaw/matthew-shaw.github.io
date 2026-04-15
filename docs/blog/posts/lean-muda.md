@@ -2,7 +2,7 @@
 slug: the-eight-wastes-of-modern-software-delivery
 date:
   created: 2025-10-25
-  updated: 2026-04-10
+  updated: 2026-04-15
 authors:
   - mash
 categories:
@@ -24,7 +24,7 @@ links:
 
 !!! note
 
-    This post has been superceeded by my comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
+    This post has been superseded  by my comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
 
 In manufacturing, **Lean** thinking revolutionised how products were built by relentlessly eliminating waste. Whilst the "software factory" analogy isn't perfect, the core **Lean** principle of eliminating waste underpins modern software delivery, from **Agile** and **DevOps** to **Continuous Delivery** and **Platform Engineering**.
 
@@ -214,7 +214,7 @@ This waste is a direct measure of the **Change Failure Rate** and impacts **Time
 
 Often considered the most damaging waste of all, particularly in knowledge work: failing to use the creativity and insight of the people closest to the work.
 
-When teams are reduced to task-takers, innovation dies. The best engineers become disengaged, and the organisation loses its capacity to learn, adapt, and improve.
+In environments where teams are reduced to task-takers, innovation dies. The best engineers become disengaged, and the organisation loses its capacity to learn, adapt, and improve.
 
 Reducing this waste means treating developers as designers of systems - trusted to experiment, decide, and continuously shape how value flows to users.
 

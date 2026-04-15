@@ -2,7 +2,7 @@
 slug: the-source-of-uneven-flow
 date:
   created: 2025-11-11
-  updated: 2025-12-12
+  updated: 2026-04-15
 authors:
   - mash
 categories:
@@ -24,7 +24,7 @@ links:
 
 !!! note
 
-    This post has been superceeded by my comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
+    This post has been superseded  by my comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
 
 In [part 1](lean-muda.md), we explored the eight wastes (_Muda_) as the visible symptoms of inefficiency in software delivery. We saw how waste shows up in unfinished work, handoffs, long waits, rework, and lost talent. Those are the effects we can observe and feel.
 

@@ -2,7 +2,7 @@
 slug: the-root-cause-of-overburden
 date:
   created: 2025-11-25
-  updated: 2026-04-10
+  updated: 2026-04-15
 authors:
   - mash
 categories:
@@ -24,7 +24,7 @@ links:
 
 !!! note
 
-    This post has been superceeded by my comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
+    This post has been superseded  by my comprehensive [Lean Thinking in Modern Software Delivery](modern-software-delivery.md) white paper, which contains a more refined and expanded version of the ideas in this post. I have left it here for posterity, but I recommend reading the white paper instead.
 
 [Part 1](lean-muda.md) of this series was about recognising waste (_Muda_) and [Part 2](lean-mura.md) was about how uneven flow (_Mura_) creates that waste. This final part is about the force that gives rise to both. The Japanese term _Muri_ (無理) roughly translates to "overburden" or "unreasonable load". In the original Toyota Production System, Muri was physical: asking a worker to lift a box that was too heavy. In modern software delivery, it is the invisible pressure we put on the two load-bearing parts of any technology organisation: the people who change the system and the system they are forced to change.
 
