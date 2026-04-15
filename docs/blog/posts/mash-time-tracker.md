@@ -107,12 +107,12 @@ Create an automatic time entry. Edit and delete time entries. Create a manual ti
 
 I'm going to continue iterating on this project to further refine it. I'll also be adding more features in response to user needs and feedback over time. But, I'm very aware that [feature creep](https://en.wikipedia.org/wiki/Feature_creep) can start to undermine the original simplicity of a product. Some features that I am confident I can introduce without losing too much of that simplicity are:
 
-- **Tagging** — maintain a set of tags to organise and categorise your time entries.
-- **Tag targets** — Associate an amount of time with a particular tag and track progress towards this target.
+- **Tagging** - maintain a set of tags to organise and categorise your time entries.
+- **Tag targets** - Associate an amount of time with a particular tag and track progress towards this target.
 
 Some problems that are going to need more thought to simplify, but are worth doing:
 
-- **Time balance** — for people who work flexible hours and have a credit/debit system and want to track their current balance.
+- **Time balance** - for people who work flexible hours and have a credit/debit system and want to track their current balance.
 
 ## Thanks
 

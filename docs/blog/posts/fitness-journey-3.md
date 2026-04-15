@@ -19,9 +19,9 @@ links:
 
 # My health and fitness journey: Part 3
 
-Welcome to the third and final part of this blog series. In [Part 1](fitness-journey-1.md), I outlined a scientific and analytical plan to transform my health and fitness by my 40th birthday. No fads, no guesswork, no pseudo-science — just measurable data, evidence-based methods, and a willingness to test and iterate on myself as the subject. In [Part 2](fitness-journey-2.md), I obsessively tracked and shared 52 weeks of raw data as I executed that plan.
+Welcome to the third and final part of this blog series. In [Part 1](fitness-journey-1.md), I outlined a scientific and analytical plan to transform my health and fitness by my 40th birthday. No fads, no guesswork, no pseudo-science - just measurable data, evidence-based methods, and a willingness to test and iterate on myself as the subject. In [Part 2](fitness-journey-2.md), I obsessively tracked and shared 52 weeks of raw data as I executed that plan.
 
-Now it's time to connect the dots — to bring the theory and the data together, and understand not just _what_ worked, but _why_ it did.
+Now it's time to connect the dots - to bring the theory and the data together, and understand not just _what_ worked, but _why_ it did.
 
 <!-- more -->
 
@@ -45,7 +45,7 @@ In simple terms, I've gone from clinically obese to a healthy BMI, halved my bod
 
 ![Weight](../../assets/images/weight.svg){ width="600" }
 
-Looking at the chart of my actual progress, you can see the compounding effect of small, daily decisions. The overall weight trend is remarkably consistent. There were inevitable fluctuations, but across the full 52 weeks the line follows an exponential decay — rapid early change as glycogen and water stores depleted, followed by slower, more sustainable loss as fat reduction took over.
+Looking at the chart of my actual progress, you can see the compounding effect of small, daily decisions. The overall weight trend is remarkably consistent. There were inevitable fluctuations, but across the full 52 weeks the line follows an exponential decay - rapid early change as glycogen and water stores depleted, followed by slower, more sustainable loss as fat reduction took over.
 
 Each interim goal I set along the way was achieved almost exactly on schedule, confirming that the predictive models I built in [Part 1](fitness-journey-1.md) were not only reasonable but also accurate. This proves that a slow, steady, and predictable loss of ~0.47 kg (1 lb) per week is not only achievable but incredibly sustainable.
 
@@ -65,7 +65,7 @@ BMI isn't perfect, but it's consistent. Moving from 31.9 to 23.6 represents a sh
 
 ![RHR](../../assets/images/rhr.svg){ width="600" }
 
-Meanwhile, my resting heart rate fell from 61 bpm to 55 bpm (with a low of 53 bpm in Week 49). This 10% drop might not sound dramatic, but physiologically it's significant — a sign of improved stroke volume, parasympathetic tone, and overall cardiovascular efficiency. It's the direct outcome of spending a year training predominantly in my Zone 2 range (around 145 bpm), where aerobic adaptation occurs most effectively.
+Meanwhile, my resting heart rate fell from 61 bpm to 55 bpm (with a low of 53 bpm in Week 49). This 10% drop might not sound dramatic, but physiologically it's significant - a sign of improved stroke volume, parasympathetic tone, and overall cardiovascular efficiency. It's the direct outcome of spending a year training predominantly in my Zone 2 range (around 145 bpm), where aerobic adaptation occurs most effectively.
 
 My heart is stronger and more effective, having to do less work to pump blood around a body that is 24.7 kg lighter. This is a profound long-term health improvement.
 
@@ -114,21 +114,21 @@ Let's look at that as a ratio. Of all the weight I lost:
 
 As a software developer, no project is complete without a retrospective. Reflecting on the process, a few things stand out, many of which echo the principles in _Atomic Habits_, which was an inspirational resource for me.
 
-1. **Trust the Process (_Plateau of Latent Potential_)**: There were plateaus and rebounds. In weeks 45-48, my weight stalled completely at 71.6 kg. In the past, this would have caused me to panic, over-train, or crash diet. This time, I trusted the data. I was in what James Clear calls the _"Plateau of Latent Potential"_ —the work was being done, but the results were delayed. I knew my deficit was in place, and sure enough, the trend resumed. You must trust the system, not the noisy data of a single day.
+1. **Trust the Process (_Plateau of Latent Potential_)**: There were plateaus and rebounds. In weeks 45-48, my weight stalled completely at 71.6 kg. In the past, this would have caused me to panic, over-train, or crash diet. This time, I trusted the data. I was in what James Clear calls the _"Plateau of Latent Potential"_ -the work was being done, but the results were delayed. I knew my deficit was in place, and sure enough, the trend resumed. You must trust the system, not the noisy data of a single day.
 2. **Consistency Beats Intensity (_Systems > Goals_)**: This entire journey was not about _"beasting"_ myself in the gym, or starving myself. It was about the relentless, boring, and sustainable effect of consistency. A 500 kcal deficit is barely noticeable. A 30-minute run at 145 bpm is challenging but not destructive. Each time I did it, I was _"casting a vote"_ for the new identity I wanted to build. My goal might have been to reach a healthy weight, but the system was what got me there: daily calorie tracking, structured exercise, and weekly reviews. I didn't wake up every day trying to _"lose weight"_; I just followed my system. The outcome became inevitable.
 3. **The 5% Goals Were Critical (_Make it Satisfying_)**: A 25 kg weight loss goal is demoralising. A 5% goal (4.7 kg) is achievable. The plan in [Part 1](fitness-journey-1.md) to set these incremental goals was a lifeline. The "Goals" table in [Part 2](fitness-journey-2.md) shows I ticked one off every 2-3 months. This turned long-term delayed gratification into short-term reward. It was the perfect way to _"Make it Satisfying"_ and keep the _"dopamine reward train"_ on the tracks.
 
 !!! quote "Atomic Habits"
 _"You do not rise to the level of your goals, you fall to the level of your systems."_
 
-I've learned that self-discipline isn't about pure willpower — it's about environment design. By building a system of positive habits that are obvious, attractive, easy, and satisfying, the outcomes took care of themselves
+I've learned that self-discipline isn't about pure willpower - it's about environment design. By building a system of positive habits that are obvious, attractive, easy, and satisfying, the outcomes took care of themselves
 
 ## Final Thoughts
 
-A year ago, I called this _"a scientific, analytical, and evidence-based journey."_ Now I can say it was also a deeply human one — equal parts data and discipline, calculation and consistency. I wrote; _"I just don't want to let social anxiety keep me from enjoying life."_
+A year ago, I called this _"a scientific, analytical, and evidence-based journey."_ Now I can say it was also a deeply human one - equal parts data and discipline, calculation and consistency. I wrote; _"I just don't want to let social anxiety keep me from enjoying life."_
 
 The data shows the physical change. But the real outcome is the one I can't plot on a graph. It's the energy to do my job, commute, and still have time for my family. It's the confidence of knowing I can take my shirt off on a beach and the only thing on my mind will be enjoying the moment.
 
-By treating my body as a system to understand rather than a problem to fix, I turned an aspiration into a reproducible process. This wasn't luck, and it wasn't just hard work — it was science applied with persistence, guided by the principles of habit formation.
+By treating my body as a system to understand rather than a problem to fix, I turned an aspiration into a reproducible process. This wasn't luck, and it wasn't just hard work - it was science applied with persistence, guided by the principles of habit formation.
 
 I'm not just lighter or fitter now; I'm living proof that consistent evidence-based effort works. I didn't just run a 12-month project; I built a system for a healthier life. And in _this_ case, the system works.

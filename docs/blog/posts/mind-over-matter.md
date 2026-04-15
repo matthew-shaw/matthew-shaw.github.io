@@ -34,10 +34,10 @@ I stuck with it, through wind, rain, snow and injuries. A particular low point w
 
 During the Couch to 5K plan I:
 
-- Covered a total distance of 110.3 km — That's roughly the same as London to Dover.
-- Spent a total of 13 hours exercising — That's the same time as flying from London to Singapore.
-- Climbed a total of 1,511 m — That's 12.4% higher than Ben Nevis.
-- Burned a total of 11,310 calories — That's 22.3 McDonalds Big Mac burgers.
+- Covered a total distance of 110.3 km - That's roughly the same as London to Dover.
+- Spent a total of 13 hours exercising - That's the same time as flying from London to Singapore.
+- Climbed a total of 1,511 m - That's 12.4% higher than Ben Nevis.
+- Burned a total of 11,310 calories - That's 22.3 McDonalds Big Mac burgers.
 
 The benefits to my physical health have been huge. As of the time of publishing this:
 
